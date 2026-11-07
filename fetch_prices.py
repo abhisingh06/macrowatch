@@ -49,4 +49,4 @@ output = {"date": date.today().isoformat(), "board": board}
 
 (folder/"latest.json").write_text(json.dumps(output, indent=2))
 (folder/ f"{output['date']}.json").write_text(json.dumps(output, indent=2))
-print("Saved date/latest.json")
+print("Saved data/latest.json")
