@@ -31,29 +31,29 @@
     },
     {
       "label": "Dollar index",
-      "value": 102.15,
-      "change": -0.15,
+      "value": 102.11,
+      "change": -0.19,
       "unit": "%",
       "dir": "down"
     },
     {
       "label": "USD/JPY",
-      "value": 158.29,
-      "change": 0.51,
+      "value": 158.27,
+      "change": 0.49,
       "unit": "%",
       "dir": "up"
     },
     {
       "label": "WTI crude",
-      "value": 91.23,
-      "change": 0.44,
+      "value": 90.53,
+      "change": -0.33,
       "unit": "%",
-      "dir": "up"
+      "dir": "down"
     },
     {
       "label": "Gold",
-      "value": 4137.3,
-      "change": 1.53,
+      "value": 4133.3,
+      "change": 1.43,
       "unit": "%",
       "dir": "up"
     },

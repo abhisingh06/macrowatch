@@ -1,22 +1,22 @@
 {
-  "headline": "Tech rebounds, Dow slips, yields edge up, gold jumps after midterms",
+  "headline": "Tech rebounds, gold jumps, yields edge up, yen sinks again",
   "mood": "mixed",
-  "summary": "The S&P 500 rose 0.31% and the Nasdaq jumped 1.09%, while the Dow fell 0.46%, so this was a tech rebound rather than a broad rally. The VIX [the market's fear gauge] dropped 9.01% to 25.64, but it is still high, so nerves have not fully calmed. The 10-year yield rose 2 bp [basis points, 0.01 percentage point each] to 4.86%, and the dollar index slipped 0.15% while the yen weakened to 158.29 per dollar. Gold gained 1.53% and WTI crude rose 0.44% to 91.23. Headlines point to the US midterm results, a fresh round of central bank worries about energy-driven inflation (the Bank of England hiked), and an AI-stock wobble, but the headlines do not clearly explain every move. Several headlines also look like older stories (DeepSeek, jobless claims, Putin's nuclear doctrine), so I treat those cautiously.",
-  "one_thing": "Energy-driven inflation is forcing central banks to choose between hiking and waiting, and the Bank of England has already hiked. That keeps long yields near 5% and makes every oil headline a rates headline.",
+  "summary": "US stocks finished mixed: the S&P 500 rose 0.31% and the Nasdaq jumped 1.09% on a chip-led rebound, while the Dow slipped 0.46%. The VIX [the market's fear gauge, based on expected stock swings] fell 9.01% to 25.64, so nerves eased but stayed elevated. Headlines tie the tech bounce to Asian stocks roaring back and to the Nvidia probe into CEO Jensen Huang's relationship with an alleged Chinese spy, though the exact reason the Nasdaq rose today is not spelled out. The dollar index fell 0.19% while USD/JPY rose 0.49% to 158.27, so the dollar lost ground against most currencies but not the yen. Gold gained 1.43% to 4133.3, helped by the post-midterm story and by central banks struggling with energy-driven inflation. The 10-year yield rose 2 bp to 4.86% and WTI slipped 0.33% to 90.53. Note that the headline feed mixes in older items (DeepSeek, jobless claims, Q4 productivity), so some timing is unclear.",
+  "one_thing": "Markets are being pulled by two things at once: energy-driven inflation that keeps central banks cautious, and a political and AI story that keeps investors nervous. Gold and the weak yen are where that unease shows most clearly.",
   "cross_asset": {
-    "stocks": "The Nasdaq led and the Dow lagged, which fits headlines about chip stocks leading a tech rebound and housing stocks rallying after the midterms. The headlines are mixed on what rattled the AI trade (a probe into Nvidia's CEO, China's DeepSeek), so I treat those as background rather than proven drivers of today's move. The VIX falling 9% while it sits at 25.64 says traders are less scared but still hedged.",
-    "rates": "The 10-year yield rose 2 bp to 4.86% (the Treasury table shows 4.84%, likely a different snapshot time). The 2-year is 4.46%, so the curve [10Y minus 2Y] is +38 bp. Headlines say the 10-year recently fell below 5% and that bond traders are backing off Fed hike bets, though the Fed's rate is only 3.875%. The market is still debating whether the next move is a hike.",
-    "fx": "The dollar index fell 0.15% to 102.15, and a bank note (HSBC) says a strong Democratic midterm showing could pressure the dollar in the near term. USD/JPY rose 0.51% to 158.29, so the yen weakened even as the broad dollar eased. That level is close to where Japan has intervened before, so it is worth watching.",
-    "commodities": "Gold rose 1.53% and a headline says it is up 4% since the midterms. It rose while the VIX fell, so this was not a pure fear trade. Falling real yields, a softer dollar or inflation worries are possible reasons, but the cause is unclear. WTI rose 0.44% to 91.23 as Hormuz and Houthi tensions persisted, even though Brent has fallen 12.5% from an earlier level."
+    "stocks": "The S&P 500 rose 0.31% and the Nasdaq 1.09%, while the Dow fell 0.46%, so tech was doing the lifting. Headlines say chip stocks led a rebound and Asian markets bounced hard (Taiwan up 6%), which suggests buyers returned to AI names after last week's selloff. The VIX dropping 9% fits that, but the reason the Dow lagged is unclear from the headlines.",
+    "rates": "The 10-year Treasury yield rose 2 bp to 4.86% and the 2-year sits at 4.46%, so the curve [10Y minus 2Y] is roughly +38 to +40 bp (the two data lines show 4.84% and 4.86% for the 10Y). Headlines say the 10-year recently fell below 5% and that bond traders are backing off Fed hike bets, so the bigger picture is relief from the highs, with today's small rise a minor pause. The fed funds rate is 3.875%, well below the 10-year yield, which says the market still demands extra pay for inflation and heavy debt supply.",
+    "fx": "The dollar index fell 0.19% to 102.11, in line with HSBC's view that a strong Democratic midterm showing could pressure the dollar near term. But USD/JPY rose 0.49% to 158.27, so the yen stayed weak. The gap between the Fed at 3.875% and the Bank of Japan at 1.25% is the likely reason, since holding dollars still pays far more than holding yen. Japan has intervened before, so 158 is a level where traders get nervous.",
+    "commodities": "WTI crude slipped 0.33% to 90.53, with headlines saying oil pared losses as Hormuz and Houthi tensions persist. Gold jumped 1.43% to 4133.3 and is up about 4% since the midterms, according to a headline. The likely reason is demand for safe assets while politics, tariffs and inflation stay uncertain, but the headlines don't give one clear cause for today's jump."
   },
   "storylines": [
     {
       "name": "Iran war and oil",
       "status": "developing",
-      "backstory": "The Middle East conflict that began in early 2026 caused an unprecedented drop in global oil supply, with output down 12 mb/d [million barrels per day] in March. Prices jumped but not to record levels, because the world was oversupplied beforehand and inventories were drawn down. Tensions eased in June, then resumed.",
-      "today": "WTI is 91.23 (+0.44%). Headlines say oil pared losses as Hormuz [the key shipping chokepoint for Gulf oil] and Houthi tensions persist. Trump says renewed Iran strikes are 'highly unlikely' if talks progress but he could still strike, and a former Biden advisor warns the war could return. The NY Fed piece says US stockpiles stopped falling in July, so the rest of the world is now running down its own inventories.",
-      "market_link": "1) Talks progress, so risk premium fades and oil falls. 2) Talks stall or strikes resume, so supply fears return and oil rises. 3) Higher oil raises energy inflation. 4) Higher inflation keeps central banks hawkish and yields high. 5) High yields pressure stocks and housing.",
-      "next_chapter": "Progress or a breakdown in Iran talks, any change in Hormuz or Red Sea shipping, and whether global inventories keep falling at the roughly 3 mb/d rate the NY Fed describes for August and September.",
+      "backstory": "The Middle East conflict that began in early 2026 caused an unprecedented drop in global oil supply, with output down 12 mb/d [million barrels per day] in March. Prices jumped but not to record levels, because the world was oversupplied beforehand and inventories [stored oil] were drawn down. Tensions eased in June and then resumed.",
+      "today": "WTI closed at 90.53 (-0.33%) and headlines say oil pared losses as Hormuz [the key shipping chokepoint for Gulf oil] and Houthi tensions persist. Trump said renewed Iran strikes are 'highly unlikely' if talks progress, but he could still strike, and a former Biden advisor warned the war could return. The NY Fed piece adds that US stockpiles stopped falling in July, so the rest of the world is now running down its own inventories. Shippers also remain wary of Red Sea routes despite a Houthi pledge to stop targeting ships.",
+      "market_link": "Step 1: any threat to Hormuz or the Red Sea raises the chance that supply drops again. Step 2: a lower supply cushion means oil jumps faster on bad news. Step 3: higher oil feeds energy inflation. Step 4: that keeps central banks from cutting and pushes bond yields up. Step 5: oil-importing currencies like the yen weaken.",
+      "next_chapter": "Progress or a breakdown in the Iran talks, any new Houthi attack on ships, and whether the rest of the world's inventories keep shrinking.",
       "headlines": [
         {
           "title": "Trump says renewed Iran strikes \u2018highly unlikely\u2019 if talks progress but warns he could still strike",
@@ -37,11 +37,6 @@
           "title": "Shippers Wary of Red Sea Routes Despite Houthi Pledge to End Targeting",
           "source": "WSJ World",
           "url": "https://www.wsj.com/articles/shippers-wary-of-red-sea-routes-despite-houthi-pledge-to-end-targeting-4dde35c2"
-        },
-        {
-          "title": "Elevated oil prices, delicate housing market put more pressure on the Fed",
-          "source": "Yahoo (rates)",
-          "url": ""
         }
       ],
       "articles": [
@@ -56,10 +51,10 @@
     {
       "name": "Central banks vs energy inflation",
       "status": "developing",
-      "backstory": "The oil shock pushed headline inflation up and central banks have to decide whether it stays temporary. After 2021, officials admitted they were wrong to call a supply shock transitory, so they are more cautious now.",
-      "today": "The Bank of England raised Bank rate to 4%, its first hike since the Iran war began, and warned inflation will near 5%. ECB President Lagarde said euro-area October inflation was 4%, with energy inflation at 20.8% and core at 2.5%. She said the ECB decides meeting by meeting and cannot promise a December move. Headlines also say bond traders are backing off Fed hike bets.",
-      "market_link": "1) Energy pushes headline inflation up. 2) If wages and services follow, central banks hike. 3) Hike bets lift short-term yields and the currency. 4) Higher short rates raise borrowing costs for firms, housing and credit. 5) If a hike is priced out, yields and the currency fall.",
-      "next_chapter": "US CPI [consumer price index, the main inflation report] which is awaited. Also the ECB December meeting and its new projections, and whether services inflation shows broader second-round effects [energy costs spreading into wages and other prices].",
+      "backstory": "The oil shock pushed headline inflation up, and central banks must decide whether it will fade or spread into wages and services. After 2021, when officials admitted they wrongly called a supply shock transitory, they have been more cautious about waiting.",
+      "today": "The Bank of England raised Bank rate to 4%, its first hike since the Iran war began, and warned inflation will near 5%. Lagarde said euro-area October inflation was 4%, with energy at 20.8% and core at 2.5%, and that the ECB decides meeting by meeting, so a December move cannot be promised. She also said she sees no second-round effects [energy costs leaking into wages and other prices] beyond what the ECB projected. Headlines say bond traders are backing off Fed hike bets, and China's factory-gate inflation of 5.7% may complicate the Fed's path before US CPI. An ECB wage tracker suggests slightly higher wage growth in 2027 than in 2026.",
+      "market_link": "Step 1: energy prices lift headline inflation. Step 2: central banks that hike or hint at hikes push short-term yields up. Step 3: higher yields strengthen that country's currency and hurt rate-sensitive stocks like housing. Step 4: if traders think the Fed will not hike, US yields fall and the dollar loses support.",
+      "next_chapter": "US CPI, the ECB's December meeting, the detailed euro-area inflation breakdown Lagarde mentioned, and whether wage data confirms or weakens the second-round-effects story.",
       "headlines": [
         {
           "title": "Bank of England hikes interest rate for the first time since Iran war, warns inflation will near 5%",
@@ -70,6 +65,21 @@
           "title": "Bank rate increased to 4% - November 2026 Monetary Policy Summary and Minutes",
           "source": "Bank of England",
           "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+        },
+        {
+          "title": "Christine Lagarde: Interview with Yomiuri Shimbun",
+          "source": "ECB",
+          "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261107~e7b86fc4ce.en.html"
+        },
+        {
+          "title": "Isabel Schnabel: Navigating stormy waters: reflections on monetary policy",
+          "source": "ECB",
+          "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.en.html"
+        },
+        {
+          "title": "ECB wage tracker suggests slightly higher wage growth in first three quarters of 2027 compared with the full year of 2026",
+          "source": "ECB",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261104~caf181d7ac.en.html"
         },
         {
           "title": "Bond traders are backing off Fed rate hike bets \u2014 here's what it means for mortgage rates",
@@ -110,20 +120,10 @@
       "name": "AI trade jitters",
       "status": "developing",
       "backstory": "Markets have leaned heavily on AI-linked mega-cap tech, so any doubt about AI spending or China competition hits the whole index. Headlines describe an AI selloff, concerns about AI spending, and warnings that the S&P 500 is dangerously exposed to AI.",
-      "today": "The Nasdaq gained 1.09% and headlines say chip stocks led a tech rebound. A probe by Nvidia into its CEO's relationship with an alleged Chinese spy is in the news. DeepSeek headlines appear in the mix and may be older, so the timing is unclear.",
-      "market_link": "1) Doubt about AI leaders hits the biggest S&P weights. 2) The index falls and the VIX rises. 3) Money may rotate to defensive assets, gold or other regions. 4) A rebound in chips reverses this and helps risk appetite.",
-      "next_chapter": "How the Nvidia CEO probe develops, big-tech spending news, and whether the rebound spreads beyond the Nasdaq since the Dow fell today.",
+      "today": "The Nasdaq gained 1.09% and headlines say chip stocks led a tech rebound. Nvidia is investigating its CEO's relationship with an alleged Chinese spy, and one headline says this rattled the AI trade in Asia, though Taiwan still jumped 6%. DeepSeek headlines are in the mix and may be older, so the timing is unclear.",
+      "market_link": "Step 1: a handful of AI giants make up a big slice of the S&P 500. Step 2: when they fall, index funds and hedgers sell broadly and the VIX rises. Step 3: investors run to gold, Treasuries and the yen. When AI stocks bounce, the reverse happens, which fits today's lower VIX.",
+      "next_chapter": "How the Nvidia probe develops, whether AI spending worries return, and whether the market broadens beyond mega-cap tech.",
       "headlines": [
-        {
-          "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
-          "source": "WSJ Markets",
-          "url": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main"
-        },
-        {
-          "title": "DeepSeek Won't Sink U.S. AI Titans",
-          "source": "WSJ Markets",
-          "url": "https://www.wsj.com/articles/deepseek-us-ai-stocks-nvidia-broadcom-6cdfae81?mod=rss_markets_main"
-        },
         {
           "title": "Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy",
           "source": "CNBC Top News",
@@ -153,6 +153,21 @@
           "title": "The S&P 500 could be dangerously exposed to AI. Here are some simple alternatives.",
           "source": "MarketWatch",
           "url": "https://www.marketwatch.com/story/the-s-p-500-has-become-a-big-ai-bet-here-are-some-simple-alternatives-3c7574a4?mod=mw_rss_topstories"
+        },
+        {
+          "title": "Why S&P 500 investors may want to look beyond mega-cap tech",
+          "source": "Yahoo (stocks)",
+          "url": ""
+        },
+        {
+          "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+          "source": "WSJ Markets",
+          "url": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main"
+        },
+        {
+          "title": "DeepSeek Won't Sink U.S. AI Titans",
+          "source": "WSJ Markets",
+          "url": "https://www.wsj.com/articles/deepseek-us-ai-stocks-nvidia-broadcom-6cdfae81?mod=rss_markets_main"
         }
       ],
       "articles": [],
@@ -160,12 +175,22 @@
     },
     {
       "name": "US midterms and the dollar",
-      "status": "new",
+      "status": "developing",
       "backstory": "The midterm elections produced what headlines call a Democratic rout, with voters blaming Trump for economic pain. Markets are now asking how a divided government would change tariffs, spending and the dollar.",
-      "today": "Housing stocks rallied after the midterms and Treasury yields dipped, and gold is up 4% since the vote. HSBC says strong Democratic results could pressure the dollar near term, and the dollar index fell 0.15%. One analysis says Democrats have a chance to extract concessions from Trump and markets will dislike it. Another explains how Democrats might try to end Trump's tariffs.",
-      "market_link": "1) A weaker White House position raises odds of tariff changes or budget standoffs. 2) Policy uncertainty can weaken the dollar. 3) A weaker dollar helps gold and non-US assets. 4) Fewer tariffs could lower inflation and yields, while a standoff could rattle markets.",
-      "next_chapter": "Concrete steps Democrats take on tariffs or investigations, and any budget fight headlines.",
+      "today": "The dollar index fell 0.19% and gold is up about 4% since the vote. HSBC says strong Democratic results could pressure the dollar near term, and a headline says the NZ dollar rose after the election. One analysis says Democrats have one chance to extract concessions from Trump and markets will dislike it, while another explains how Democrats might try to end the tariffs. Headlines also mention Democrats threatening Trump investigations and the administration threatening to probe lawmakers.",
+      "market_link": "Step 1: a divided government could limit tariffs or force a fight over spending. Step 2: fewer tariffs could lower import prices and inflation, but a standoff could hurt confidence. Step 3: that mix lowers the case for holding dollars and lifts demand for gold. Step 4: lower yields help housing stocks, as one headline noted.",
+      "next_chapter": "Concrete Democratic moves on tariffs, any fights over spending, and whether the dollar keeps drifting lower.",
       "headlines": [
+        {
+          "title": "Democrats amp up Trump investigation threats, Blanche counters he may probe lawmakers",
+          "source": "CNBC Top News",
+          "url": "https://www.cnbc.com/2026/11/08/democrats-trump-oversight-blanche-doj-investigations.html"
+        },
+        {
+          "title": "How Democrats will try to end Trump's tariffs",
+          "source": "CNBC Top News",
+          "url": "https://www.cnbc.com/2026/11/08/trump-tariffs-democrats-congress-canada.html"
+        },
         {
           "title": "Here's what the Democratic election rout could mean for the U.S. economy",
           "source": "CNBC Economy",
@@ -187,6 +212,11 @@
           "url": ""
         },
         {
+          "title": "US dollar holds onto payrolls gains, NZ dollar rises after election",
+          "source": "Yahoo (dollar)",
+          "url": ""
+        },
+        {
           "title": "HSBC Says Strong Democratic Midterm Performance Could Pressure US Dollar in Near Term",
           "source": "Yahoo (dollar)",
           "url": ""
@@ -197,9 +227,9 @@
           "url": ""
         },
         {
-          "title": "How Democrats will try to end Trump's tariffs",
-          "source": "CNBC Top News",
-          "url": "https://www.cnbc.com/2026/11/08/trump-tariffs-democrats-congress-canada.html"
+          "title": "Gold Is Up 4% Since Midterms: Here\u2019s Where Markets Think The Precious Metal Prices Are Headed",
+          "source": "Yahoo (gold)",
+          "url": ""
         }
       ],
       "articles": [],
@@ -209,9 +239,9 @@
       "name": "Yen defense",
       "status": "developing",
       "backstory": "A weak yen has pushed Japan to intervene [sell dollars to buy yen] in the foreign exchange market. Headlines say Japan spent a record $50 billion in a single day, and that a three-day intervention lifted the yen in summer.",
-      "today": "USD/JPY rose 0.51% to 158.29. Japan's GPIF [the huge government pension fund] posted a $33.3 billion Q2 loss as a global bond selloff hit its foreign holdings. A shipper's profit was boosted by the weak yen.",
-      "market_link": "1) US yields stay high, so investors prefer dollars to yen. 2) USD/JPY climbs. 3) Japan risks intervening again. 4) A sudden yen jump can force traders to unwind yen-funded trades, which hits other assets.",
-      "next_chapter": "Any official warning on yen moves, further intervention, and US yield direction after CPI.",
+      "today": "USD/JPY rose 0.49% to 158.27, so the yen weakened even as the dollar fell against other currencies. Japan's GPIF [the huge government pension fund] posted a $33.3 billion Q2 loss as a global bond selloff hit its foreign holdings. A shipper's profit was boosted by the weak yen.",
+      "market_link": "Step 1: US rates are far above Japan's, so investors earn more by holding dollars. Step 2: that pushes USD/JPY up. Step 3: the higher it goes, the more likely Japan is to intervene, which can snap the pair back quickly. Step 4: if rising global yields keep hurting Japanese bond holdings, that adds pressure on the pension fund and on yen flows.",
+      "next_chapter": "A move toward or beyond recent intervention levels (not given in the headlines), any official warnings from Tokyo, and the direction of US yields.",
       "headlines": [
         {
           "title": "Japan Says Three-Day Yen Intervention Lifted Yen in Summer",
@@ -232,6 +262,16 @@
           "title": "Mitsui O.S.K Q2 profit flat as higher shipping rates, weak yen boost revenue",
           "source": "Yahoo (yen)",
           "url": ""
+        },
+        {
+          "title": "BC-US-Foreign Exchange",
+          "source": "Yahoo (yen)",
+          "url": ""
+        },
+        {
+          "title": "US Dollar Price Forecast: DXY Eyes 102.08 as EUR/USD, GBP/USD Await US NFP",
+          "source": "Yahoo (yen)",
+          "url": ""
         }
       ],
       "articles": [],
@@ -241,107 +281,107 @@
   "stories": [
     {
       "tag": "Oil -> inflation",
-      "title": "Energy is the inflation story in Europe and the UK",
-      "what": "Lagarde said euro-area headline inflation hit 4% in October with energy inflation at 20.8%. The Bank of England hiked to 4% and warned inflation will near 5%.",
-      "why": "It shows the oil shock is feeding straight into consumer prices. Core inflation at 2.5% in the euro area means it has not broadly spread yet.",
-      "watch": "ECB December decision and whether services inflation (3.3%) keeps rising."
+      "title": "Oil stays near $90 with the war risk still alive",
+      "what": "WTI closed at 90.53 (-0.33%). Headlines say oil pared losses as Hormuz and Houthi tensions persist, and Trump said renewed Iran strikes are 'highly unlikely' if talks progress but he could still strike.",
+      "why": "Oil is the starting point for the whole inflation chain. A Brent drop of 12.5% shows how fast prices fall on peace hopes (timing of that move is unclear), and how fast they could jump if talks fail.",
+      "watch": "Iran talk headlines, Hormuz and Red Sea shipping news, and whether WTI holds near 90."
     },
     {
-      "tag": "Central banks -> rates",
-      "title": "Bank of England hikes while Fed hike bets fade",
-      "what": "The BoE raised Bank rate to 4%, its first hike since the Iran war. Meanwhile bond traders are reportedly backing off Fed hike bets, and the 10-year closed at 4.86%.",
-      "why": "Central banks are moving differently, which creates currency and rate-spread trades. The Fed rate is 3.875% and the BoE rate is 4.0%.",
-      "watch": "US CPI and whether Fed speakers sound more hawkish or more patient."
+      "tag": "Central banks",
+      "title": "The Bank of England hikes, and the ECB will not promise anything",
+      "what": "The BoE lifted Bank rate to 4% and warned inflation will near 5%. Lagarde said October euro-area inflation was 4%, driven by energy, with core at 2.5%, and that December is not guaranteed.",
+      "why": "Central banks are choosing between looking through an energy shock and acting early. The 2021 mistake is why they are wary of the 'transitory' label.",
+      "watch": "The detailed ECB inflation breakdown, updated ECB projections, and further BoE signals."
     },
     {
-      "tag": "Jobs -> Fed",
-      "title": "A strong jobs report keeps the Fed cautious",
-      "what": "Headlines say the US added 165,000 jobs in October, well above expectations, and unemployment slipped to 4.1%. One piece warns of a 'disturbing' trend hiding under the strong numbers, though the details are not provided.",
-      "why": "Strong hiring makes it harder to cut rates and keeps yields elevated, especially while energy inflation is high.",
-      "watch": "US CPI, which headlines describe as awaited, and any Fed commentary on the labor market."
+      "tag": "Fed path",
+      "title": "Fed hike bets are fading while the Fed stays at 3.875%",
+      "what": "Headlines say bond traders are backing off Fed hike bets, and that elevated oil prices and a delicate housing market put more pressure on the Fed. The 10-year yield is 4.86%, down from levels near 5% that one headline described as a threshold.",
+      "why": "The Fed's path sets the price of mortgages, the dollar and equity valuations. Falling hike bets help housing stocks and ease the pressure on bond markets.",
+      "watch": "US CPI, since headlines say it is coming and that China's factory inflation could complicate the Fed's path."
+    },
+    {
+      "tag": "AI trade",
+      "title": "Chips lead a rebound, but the market is still touchy",
+      "what": "The Nasdaq rose 1.09% as chip stocks led a rebound. Nvidia is investigating its CEO's relationship with an alleged Chinese spy, and the VIX fell 9% to 25.64.",
+      "why": "A few giant AI stocks carry a big share of the S&P 500, so a single story can move the whole market. The probe mixes AI with US-China tension, which is a risk that can hit sentiment quickly.",
+      "watch": "Updates on the Nvidia probe, AI spending headlines, and whether the Dow and broader market join the rebound."
     },
     {
       "tag": "Politics -> dollar",
-      "title": "Midterm results nudge the dollar and gold",
-      "what": "The dollar index fell 0.15%, gold rose 1.53% and is up 4% since the midterms, and housing stocks rallied.",
-      "why": "Markets are repricing policy risk. A divided Washington may curb tariffs but could create fights over spending.",
-      "watch": "Democratic moves on tariffs and investigations."
+      "title": "Democratic midterm gains are pulling on the dollar and lifting gold",
+      "what": "The dollar index fell 0.19% to 102.11 and gold rose 1.43% to 4133.3, up about 4% since the vote. HSBC says the dollar could be pressured near term.",
+      "why": "Tariffs, spending and political fights now matter for inflation and for the dollar's appeal as the world's default currency.",
+      "watch": "Concrete steps on tariffs, and any sign that Democrats and Trump are heading for a standoff, which one analysis says markets will dislike."
     },
     {
-      "tag": "China -> global prices",
-      "title": "China's factory prices surge while consumer prices miss",
-      "what": "China's factory-gate inflation hit 5.7%, the highest in more than four years, while consumer inflation missed forecasts. A major property developer also reported a huge loss.",
-      "why": "Rising producer prices can be exported through goods prices, which complicates the Fed's path. Weak consumer demand and property stress point to a weak domestic economy.",
-      "watch": "US CPI for any pass-through, and further Chinese property developer news."
+      "tag": "Yen",
+      "title": "USD/JPY climbs to 158 even as the dollar weakens elsewhere",
+      "what": "USD/JPY rose 0.49% to 158.27 while the dollar index fell. Headlines recall that Japan spent a record $50 billion in a single day and that a three-day intervention helped in summer.",
+      "why": "The yen is weak for its own reasons: Japanese rates are low and global bond selling has hurt big Japanese investors like GPIF. That makes it a test of how far the Bank of Japan and Ministry of Finance will let it go.",
+      "watch": "Official comments from Japan and any sudden sharp drop in USD/JPY, which would signal intervention."
     },
     {
-      "tag": "Yen -> intervention",
-      "title": "USD/JPY near 158 raises intervention risk",
-      "what": "The yen weakened 0.51% against the dollar. Japan spent a record $50 billion in one day earlier to support the yen.",
-      "why": "The yen is a funding currency, so sharp moves can ripple through global markets.",
-      "watch": "Japanese official warnings and moves in the 10-year yield."
-    },
-    {
-      "tag": "Security -> Europe",
-      "title": "First NATO-led response to suspected cable sabotage",
-      "what": "Suspected sabotage of a deep-sea cable triggered the first NATO-led response, and another headline describes a wave of threats testing Europe's defenses.",
-      "why": "Attacks on infrastructure raise geopolitical risk and can hit data, finance and energy links.",
-      "watch": "Any further incidents or attribution to a state."
+      "tag": "China inflation",
+      "title": "China's factory prices are heating up while consumer prices cool",
+      "what": "Headlines say China's factory-gate inflation hit 5.7%, the highest in more than four years, while the consumer measure slowed and missed forecasts.",
+      "why": "Higher factory prices can feed into global goods prices, and one headline says it could complicate the Fed's path before US CPI. The split also shows weak Chinese consumers, who cannot absorb higher costs.",
+      "watch": "US CPI, and whether China's factory costs show up in prices of imported goods."
     }
   ],
   "under_the_radar": [
     {
-      "title": "Banks prepare to sell billions of X loans",
-      "what": "Wall Street banks are getting ready to sell billions of dollars of loans tied to X.",
-      "chain": "1) Banks want to offload risk. 2) A big supply of loans hits the market at once. 3) If buyers want a discount, loan prices fall. 4) A weak reception could spread to other leveraged-loan [loans to heavily indebted companies] and high-yield bond spreads, a sign of credit stress.",
-      "watch": "The price at which the loans clear and whether credit spreads widen."
+      "title": "China's factory inflation of 5.7% feeding into US CPI worries",
+      "what": "China's producer prices [what factories charge, before goods reach shops] rose 5.7%, the fastest in more than four years, while consumer inflation missed forecasts.",
+      "chain": "Step 1: Chinese factories pay more for inputs and charge more for exports. Step 2: importers pass some of that to US retailers. Step 3: US goods prices could rise just as energy is already lifting inflation. Step 4: traders who had backed off Fed hike bets may rethink, pushing Treasury yields and the dollar up.",
+      "watch": "A hot US CPI print, or traders putting Fed hike bets back on."
     },
     {
-      "title": "China property woes plus rising factory prices",
-      "what": "A leading Chinese developer reported a huge loss, while China's factory-gate inflation reached 5.7% and consumer inflation missed forecasts.",
-      "chain": "1) Property weakness hurts Chinese demand and bank balance sheets. 2) Rising producer prices raise goods costs globally. 3) That can add to US and European inflation worries. 4) Central banks stay hawkish and yields stay high.",
-      "watch": "US CPI goods prices and more developer losses."
+      "title": "ECB wage tracker and the Schnabel exit",
+      "what": "An ECB wage tracker suggests slightly higher wage growth in the first three quarters of 2027 than in all of 2026. Lagarde also said Isabel Schnabel is stepping down from the Executive Board at the start of January.",
+      "chain": "Step 1: wages are the main path by which a one-time energy shock turns into lasting inflation. Step 2: if wage growth rises, the ECB is more likely to see second-round effects, even though Lagarde says she sees none yet. Step 3: that raises the odds of a hike, lifting euro-area yields and the euro. A change in the Executive Board adds a small question about the ECB's future tone.",
+      "watch": "Euro-area wage and services inflation data, and who replaces Schnabel."
     },
     {
-      "title": "Suspected deep-sea cable sabotage",
-      "what": "NATO launched its first-ever led response to suspected cable sabotage.",
-      "chain": "1) Damage to cables threatens data and payments links. 2) Higher security risk can lift defense spending and risk premiums. 3) Energy and shipping insurance costs may rise. 4) That could feed European inflation and bond yields.",
-      "watch": "Further incidents or any link to energy infrastructure."
-    },
-    {
-      "title": "Japan's pension fund loses on global bonds",
+      "title": "Japan's pension fund loses $33.3 billion on foreign bonds",
       "what": "GPIF posted a $33.3 billion Q2 loss as a global bond selloff hit its foreign holdings.",
-      "chain": "1) Rising global yields cause losses on foreign bonds. 2) Large Japanese investors might rethink foreign bond buying. 3) Less Japanese demand for foreign bonds could push yields up further. 4) That adds pressure to the Treasury market.",
-      "watch": "Signs of Japanese investors pulling back from foreign bonds."
+      "chain": "Step 1: global yields rose, so bond prices fell. Step 2: giant Japanese investors lose money on foreign bonds. Step 3: if they cut those holdings and bring money home, that could add to selling pressure on Treasuries and other bonds. Step 4: the yen could also gain if repatriation [bringing money back home] rises, which would run against today's weak-yen trend.",
+      "watch": "More losses among Japanese institutions, or signs that they are selling foreign bonds."
+    },
+    {
+      "title": "European banks look healthy on the latest data",
+      "what": "The ECB's end-June data show EU bank assets up 5.18% to 34.99 trillion euros, a non-performing loan ratio of 1.99%, return on equity of 5.31% and a CET1 ratio [core capital cushion] of 16.43%.",
+      "chain": "Step 1: strong capital and low bad loans mean banks can absorb shocks. Step 2: that makes it less likely that high energy costs and higher rates cause a credit crunch [sharp pullback in lending]. Step 3: calmer bank credit keeps European credit spreads [extra yield over safe bonds] contained. The data are from June, so they predate recent rate moves.",
+      "watch": "Any rise in non-performing loans, or widening credit spreads."
     }
   ],
   "deep_dive": [
     {
-      "why_now": "Oil is the root of this week's inflation story, and this NY Fed piece shows how much of the shock has been cushioned and how that cushion is running out.",
+      "why_now": "Oil is still the main driver of inflation and central bank caution, and this NY Fed piece explains why prices did not spike higher and what could change that.",
       "key_points": [
-        "The conflict caused an unprecedented drop in global oil supply, but prices did not spike as high as feared.",
-        "The US oil sector helped because years of drilling had created a global oversupply before the war, with inventories rising 4 mb/d in early 2026.",
-        "In the second quarter, US government and commercial stockpiles were drawn down, covering about half the global supply-demand gap.",
-        "US inventories stopped falling in July, so the rest of the world is now running down its own stocks, with global drawdowns around 3 mb/d in August and September.",
-        "Inventories are a limited resource, so the shock is harder to absorb the longer it lasts."
+        "The Iran conflict caused an unprecedented drop in global oil supply, with output down 12 mb/d in March, yet prices did not reach record levels.",
+        "The world was oversupplied before the war, with inventories rising by about 2 mb/d in 2025 and 4 mb/d in early 2026, which softened the shock.",
+        "US stockpiles (commercial plus the Strategic Petroleum Reserve) were drawn down and covered about half of the global gap in Q2, and US net exports rose 2.5 mb/d.",
+        "US stockpiles stopped falling in July, so the rest of the world is now running down its own inventories, at about 3 mb/d in August and September.",
+        "The key point: inventories are a limited resource, so the cushion that kept prices in check is getting thinner."
       ],
-      "market_angle": "Crude and oil-linked inflation breakevens [market-implied inflation] could rise if supply stays tight, and a de-escalation would push them lower. Higher oil pushes yields up and weighs on rate-sensitive stocks like housing.",
-      "trade_idea": "A desk might buy WTI call spreads [bets on a limited rise in price] as a hedge against Iran talks failing. Main risk: a deal or easing tensions makes oil fall and the options expire worthless.",
+      "market_angle": "A thinner inventory cushion means future supply scares could hit oil harder, which would push crude and energy inflation up and lift short-term yields, while hurting oil-importing currencies like the yen. Peace progress would do the opposite.",
+      "trade_idea": "A desk might hold a long WTI call spread [buying upside with a capped cost] as a hedge against a renewed supply shock. The main risk is that talks succeed and oil keeps falling, so the options expire worthless.",
       "title": "The U.S. Oil Sector\u2019s Role in Restraining Prices",
       "source": "NY Fed Liberty Street",
       "url": "https://libertystreeteconomics.newyorkfed.org/2026/11/the-u-s-oil-sectors-role-in-restraining-prices/"
     },
     {
-      "why_now": "It is the clearest statement of how the ECB is thinking about a December move, just as the BoE hiked.",
+      "why_now": "Lagarde's interview gives a direct read on how the ECB is thinking about 4% inflation, a possible December move and the lessons of 2021.",
       "key_points": [
-        "Lagarde says October headline inflation was 4%, driven mainly by energy at 20.8%.",
-        "Core inflation was 2.5% and services was 3.3%, so underlying pressure looks stable but is being watched.",
-        "She sees no sign of second-round effects yet, and is watching multi-year wage deals and firms' wage expectations.",
-        "Energy futures curves and long-term interest rates are higher than in September, which will affect the new projections.",
-        "She admits central banks were wrong in 2021 to treat the supply shock as transitory, but says the ECB decides meeting by meeting and cannot promise December."
+        "Euro-area headline inflation was 4% in October, mostly from energy at 20.8% (up from 18.9% in September), while core stayed at 2.5% and services edged up to 3.3%.",
+        "Lagarde sees no second-round effects beyond what the ECB has built into its projections, and is watching multi-year wage agreements and company wage expectations.",
+        "Since September, energy futures are higher and long-term interest rates are higher, while oil has recently come down, so the next forecast could shift.",
+        "She said treating the 2021 shock as transitory was misguided, partly because a demand shock was happening at the same time.",
+        "She would not promise a December move: policy is set on data and meeting by meeting, given high uncertainty."
       ],
-      "market_angle": "Euro short-term yields and the euro could rise if December hike odds increase. Lower oil would reduce those odds and weaken the euro.",
-      "trade_idea": "A desk might sell short-dated euro-area government bond futures [betting yields rise] ahead of the December meeting. Main risk: oil falls or the data softens and the ECB stays on hold.",
+      "market_angle": "The message keeps euro rate-hike pricing alive but uncertain, so euro-area short-term yields and the euro are sensitive to every inflation print. If services inflation or wages surprise upward, expect a hawkish repricing.",
+      "trade_idea": "A desk might hold a 2-year euro-area yield steepener or a small long-euro position against the dollar if inflation data come in hot. The main risk is that energy fades quickly and the ECB stays on hold, which would reverse the trade.",
       "title": "Christine Lagarde: Interview with Yomiuri Shimbun",
       "source": "ECB",
       "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261107~e7b86fc4ce.en.html"
@@ -349,166 +389,166 @@
   ],
   "watch_next": [
     {
-      "when": "Upcoming (date not given in headlines)",
-      "event": "US CPI inflation data",
-      "why": "Headlines describe it as awaited, and it will shape Fed hike bets and the 10-year yield."
+      "when": "Date not given in headlines",
+      "event": "US CPI",
+      "why": "Headlines say inflation data are awaited and China's factory inflation could complicate the Fed path, so a hot print would lift yields and the dollar."
     },
     {
-      "when": "December",
-      "event": "ECB policy decision",
-      "why": "Lagarde said she cannot promise a move, so the data and new projections will matter."
+      "when": "December (exact date not given)",
+      "event": "ECB policy meeting",
+      "why": "Lagarde said she cannot promise a December move, so incoming inflation and wage data decide whether markets price a hike."
     },
     {
-      "when": "Ongoing",
+      "when": "Ongoing, no date given",
       "event": "US-Iran talks and Hormuz/Houthi shipping risks",
-      "why": "They drive oil, which drives inflation expectations."
+      "why": "Trump said strikes are 'highly unlikely' if talks progress, so a breakdown would send oil higher and a deal would push it lower."
     },
     {
-      "when": "Ongoing",
-      "event": "USD/JPY near 158 and possible Japanese intervention",
-      "why": "A sharp yen move can spill into other markets."
+      "when": "Ongoing, no date given",
+      "event": "Democratic moves on Trump's tariffs and investigations",
+      "why": "Tariff changes or a political standoff could move the dollar, gold and inflation expectations."
     },
     {
-      "when": "Beginning of January",
-      "event": "Isabel Schnabel steps down from the ECB Executive Board",
-      "why": "She is a prominent hawk-leaning voice (my characterization, not stated in the headlines), so the replacement could matter for policy tone."
+      "when": "Ongoing, no date given",
+      "event": "Possible new Japanese yen intervention",
+      "why": "USD/JPY is at 158.27, and Japan has intervened before, so a sudden sharp drop in the pair is possible."
     }
   ],
   "terms": [
     {
-      "term": "Basis point (bp)",
-      "def": "One hundredth of a percentage point, like measuring a tiny step on a ruler."
+      "term": "Second-round effects [inflation spreading beyond the first shock]",
+      "def": "When higher energy prices lead workers to demand higher wages and firms to raise prices, like a spilled drink soaking through a whole stack of papers."
     },
     {
-      "term": "Yield curve",
-      "def": "The line connecting yields on short and long bonds, like a price list by waiting time; today 10Y minus 2Y is +38 bp."
+      "term": "Transitory [temporary]",
+      "def": "A label for inflation expected to fade by itself, like a short rainstorm; in 2021 central banks used it and later admitted it was misguided."
     },
     {
-      "term": "VIX",
-      "def": "An index of expected stock volatility, like a market 'nervousness meter'; it is 25.64."
+      "term": "Inventories [stored oil]",
+      "def": "Oil sitting in tanks and government reserves that can be released when supply drops, like a savings account that cushions a shortfall until it runs low."
     },
     {
-      "term": "Second-round effects",
-      "def": "When an energy price spike spreads into wages and other prices, like a spill that soaks the whole table."
+      "term": "Producer prices [factory-gate prices]",
+      "def": "The prices factories charge before goods reach stores, like the wholesale price tag that eventually turns into the retail one."
     },
     {
-      "term": "Core inflation",
-      "def": "Inflation excluding volatile items like energy and food, like judging a car's pace without the bumps in the road."
+      "term": "Intervention [selling one currency to buy another]",
+      "def": "When a government trades in the foreign exchange market to push its currency up or down, like a big player stepping in to hold up one side of a seesaw."
     },
     {
-      "term": "FX intervention",
-      "def": "A government buying or selling its own currency to move its price, like a big buyer stepping in to prop up a falling stock."
+      "term": "Yield curve [10Y minus 2Y yield gap]",
+      "def": "The difference between long and short government bond yields, like comparing a 10-year and a 2-year loan quote; here it is about +38 to +40 bp."
     },
     {
-      "term": "Producer price inflation",
-      "def": "The rate of change of prices factories charge, like the cost of ingredients before the restaurant raises menu prices."
+      "term": "VIX [expected stock volatility index]",
+      "def": "A gauge of how much traders expect stocks to swing, like a nervousness meter; it fell 9.01% to 25.64 today."
     },
     {
-      "term": "Leveraged loan",
-      "def": "A loan to a company with a lot of debt, like lending to someone who already has a heavy mortgage."
+      "term": "CET1 ratio [core bank capital cushion]",
+      "def": "The share of a bank's risk-weighted assets funded by its highest-quality capital, like the down payment that protects the lender if the house price falls."
     }
   ],
   "quiz": [
     {
-      "q": "What does a 38 bp curve (10Y minus 2Y) mean?",
+      "q": "Which currency pair rose today even as the dollar index fell?",
       "options": [
-        "The 10-year yield is 0.38 points above the 2-year yield",
-        "The 2-year yield is 0.38 points above the 10-year yield",
-        "The 10-year yield rose 38 bp today",
-        "The Fed cut rates by 38 bp"
-      ],
-      "answer": 0,
-      "explain": "A +38 bp curve means the 10-year yield is 0.38 percentage points higher than the 2-year yield (4.84% vs 4.46%)."
-    },
-    {
-      "q": "According to Lagarde, what mainly drove euro-area headline inflation of 4% in October?",
-      "options": [
-        "Wage growth",
-        "Energy",
-        "Rent",
-        "Tariffs"
+        "EUR/USD",
+        "USD/JPY",
+        "GBP/USD",
+        "AUD/USD"
       ],
       "answer": 1,
-      "explain": "She said it was largely attributable to energy, where inflation was 20.8%, while core was 2.5%."
+      "explain": "USD/JPY rose 0.49% to 158.27 while the dollar index fell 0.19%, so the dollar lost ground against most currencies but not the yen."
     },
     {
-      "q": "Why did the NY Fed say the oil shock was less severe than it could have been?",
+      "q": "According to the NY Fed piece, what happened to US oil stockpiles in July?",
       "options": [
-        "Oil demand collapsed",
-        "OPEC raised output",
-        "A pre-war global oversupply and inventory drawdowns cushioned it",
-        "Iran exported more oil"
-      ],
-      "answer": 2,
-      "explain": "Rising US drilling had built up inventories before the war and stockpiles were then run down to cover the shortfall."
-    },
-    {
-      "q": "What happened to the Nasdaq and Dow today?",
-      "options": [
-        "Both rose over 1%",
-        "Nasdaq +1.09%, Dow -0.46%",
-        "Both fell",
-        "Nasdaq -1.09%, Dow +0.46%"
+        "They fell faster",
+        "They stopped falling",
+        "They were fully refilled",
+        "They were sold to Japan"
       ],
       "answer": 1,
-      "explain": "Tech led while the Dow slipped, so the rally was narrow."
+      "explain": "US stockpiles stopped falling in July, so the rest of the world has been running down its own inventories."
     },
     {
-      "q": "What did the Bank of England do?",
+      "q": "What did Lagarde say about the ECB's December decision?",
       "options": [
-        "Cut Bank rate to 3.5%",
-        "Held rates at 4%",
-        "Raised Bank rate to 4%, its first hike since the Iran war",
-        "Sold gold reserves"
+        "A hike is guaranteed",
+        "A cut is guaranteed",
+        "She cannot promise a move; policy is set meeting by meeting",
+        "The ECB will stop meeting"
       ],
       "answer": 2,
-      "explain": "The BoE hiked and warned inflation would near 5%."
+      "explain": "She said the ECB decides on data and meeting by meeting, so December cannot be promised."
+    },
+    {
+      "q": "Which asset gained 1.43% today and is up about 4% since the midterms?",
+      "options": [
+        "WTI crude",
+        "The VIX",
+        "Gold",
+        "The 10-year yield"
+      ],
+      "answer": 2,
+      "explain": "Gold closed at 4133.3 (+1.43%), and a headline says it is up 4% since the midterms."
+    },
+    {
+      "q": "Why was it significant that China's producer prices rose 5.7%?",
+      "options": [
+        "It means Chinese consumers are spending heavily",
+        "It could push up global goods prices and complicate the Fed's path",
+        "It guarantees the yen will rise",
+        "It ends the Iran war"
+      ],
+      "answer": 1,
+      "explain": "Higher factory-gate prices can flow into import prices, and one headline says this could complicate the Fed's path before US CPI."
     }
   ],
   "notes": {
     "numbers": [
       {
         "item": "10Y yield 4.86% (+2 bp)",
-        "why": "It is the market's benchmark long rate, near 5%, and the center of the hike-or-wait debate."
+        "why": "Still elevated after headlines said it fell below 5%; the 2Y is 4.46%, so the curve is about +38 to +40 bp."
       },
       {
-        "item": "Curve +38 bp (2Y 4.46%, 10Y 4.84%)",
-        "why": "A positive slope shows the market is not pricing imminent recession or aggressive cuts."
+        "item": "USD/JPY 158.27 (+0.49%)",
+        "why": "The yen is weakest against the dollar even as the dollar index falls, and Japan has intervened before."
+      },
+      {
+        "item": "Gold 4133.3 (+1.43%)",
+        "why": "Up about 4% since the midterms, a sign of demand for safe assets."
+      },
+      {
+        "item": "WTI 90.53 (-0.33%)",
+        "why": "Oil is the starting point for the inflation story and for central bank caution."
       },
       {
         "item": "VIX 25.64 (-9.01%)",
-        "why": "Fear eased but is still elevated."
-      },
-      {
-        "item": "USD/JPY 158.29 (+0.51%)",
-        "why": "Close to levels where Japan has intervened before."
-      },
-      {
-        "item": "Gold +1.53%, up 4% since the midterms",
-        "why": "It rose even as the VIX fell, hinting at inflation or dollar drivers rather than pure fear."
+        "why": "Fear eased as tech rebounded, but the level is still high."
       }
     ],
     "storyline_updates": [
-      "Iran war and oil: WTI 91.23 (+0.44%) while Trump says strikes are unlikely if talks progress.",
-      "Central banks vs energy inflation: BoE hiked to 4% and Lagarde says inflation is 4% with core stable.",
-      "AI trade jitters: Nasdaq +1.09% on a chip rebound, with the Nvidia CEO probe still in the news.",
-      "US midterms and the dollar: dollar index -0.15%, housing rallied, gold up 4% since the vote.",
-      "Yen defense: USD/JPY back up to 158.29 after Japan's record intervention earlier."
+      "Iran war and oil: WTI slipped 0.33% to 90.53, Trump said strikes are 'highly unlikely' if talks progress, and the NY Fed says US inventories stopped falling in July.",
+      "Central banks vs energy inflation: the BoE hiked to 4% and warned inflation will near 5%, Lagarde said she cannot promise a December ECB move, and Fed hike bets are fading.",
+      "AI trade jitters: the Nasdaq gained 1.09% on a chip rebound while Nvidia investigates its CEO's relationship with an alleged Chinese spy.",
+      "US midterms and the dollar: the dollar index fell 0.19% and gold rose 1.43%, with HSBC saying the dollar could be pressured near term.",
+      "Yen defense: USD/JPY rose to 158.27 and GPIF reported a $33.3 billion Q2 loss from the global bond selloff."
     ],
     "one_liners": [
-      "Energy is driving inflation to 4% in the euro area, but core is only 2.5%, so central banks are trying to decide whether this stays temporary.",
-      "The Bank of England hiked while traders are backing off Fed hike bets, so rate gaps and currencies are in play.",
-      "Today's rally was narrow, with the Nasdaq up over 1% and the Dow down, so the market is still leaning on AI."
+      "The Bank of England just hiked to 4% while Lagarde says the ECB won't promise December, so central banks are still stuck between energy-driven headline inflation and weak growth risks.",
+      "The yen is the weak link: USD/JPY is at 158 even as the dollar index falls, because the gap between Fed and Bank of Japan rates is so wide.",
+      "Gold is up about 4% since the midterms, which tells me markets are hedging political and inflation uncertainty, not just reacting to one data point."
     ],
     "terms_to_learn": [
       "Second-round effects",
-      "Core inflation",
-      "FX intervention",
-      "Leveraged loan"
+      "Producer prices",
+      "Intervention",
+      "Yield curve"
     ],
-    "open_question": "If oil stays near $91 and the BoE keeps hiking, does the Fed eventually have to follow, or does a softer labor market let it wait?"
+    "open_question": "If oil falls on Iran peace hopes but China's factory inflation keeps rising, which one matters more for the Fed's next move?"
   },
-  "take": "You are on a macro desk the morning after this close. Pick one trade (for example, pay or receive US 2-year yields, long or short USD/JPY, long gold, or long or short WTI) and defend it using today's moves and the headlines. Say what outcome of the CPI release or Iran talks would make you wrong.",
+  "take": "You are on a macro desk with USD/JPY at 158.27, the 10-year at 4.86%, gold at 4133.3 and the BoE just hiking. Pick one trade (for example long gold, short USD/JPY, or a Treasury position), explain which storyline supports it, and say what data would prove you wrong.",
   "reads": [
     {
       "title": "Bank of England hikes interest rate for the first time since Iran war, warns inflation will near 5%",
@@ -516,19 +556,19 @@
       "url": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html"
     },
     {
-      "title": "Why the 10-year Treasury yield finally fell below 5%",
+      "title": "China's 5.7% Factory Inflation Could Complicate the Fed Path Before US CPI",
+      "source": "Yahoo (oil)",
+      "url": ""
+    },
+    {
+      "title": "Bond traders are backing off Fed rate hike bets \u2014 here's what it means for mortgage rates",
       "source": "Yahoo (rates)",
       "url": ""
     },
     {
-      "title": "Japan Spent Record $50 Billion in Single Day to Bolster Yen",
-      "source": "Yahoo (yen)",
-      "url": ""
-    },
-    {
-      "title": "China's 5.7% Factory Inflation Could Complicate the Fed Path Before US CPI",
-      "source": "Yahoo (oil)",
-      "url": ""
+      "title": "Trump says renewed Iran strikes \u2018highly unlikely\u2019 if talks progress but warns he could still strike",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/08/trump-iran-strikes-unlikely-talks-hormuz.html"
     }
   ],
   "date": "2026-11-09",
@@ -563,29 +603,29 @@
     },
     {
       "label": "Dollar index",
-      "value": 102.15,
-      "change": -0.15,
+      "value": 102.11,
+      "change": -0.19,
       "unit": "%",
       "dir": "down"
     },
     {
       "label": "USD/JPY",
-      "value": 158.29,
-      "change": 0.51,
+      "value": 158.27,
+      "change": 0.49,
       "unit": "%",
       "dir": "up"
     },
     {
       "label": "WTI crude",
-      "value": 91.23,
-      "change": 0.44,
+      "value": 90.53,
+      "change": -0.33,
       "unit": "%",
-      "dir": "up"
+      "dir": "down"
     },
     {
       "label": "Gold",
-      "value": 4137.3,
-      "change": 1.53,
+      "value": 4133.3,
+      "change": 1.43,
       "unit": "%",
       "dir": "up"
     },
