@@ -25,7 +25,7 @@ t = rates["treasuries"]
 bank_lines = "\n".join(f"{b['code']} ({b['bank']}): {b['rate']}%" for b in rates["banks"])
 # Number each headline (with its summary) so Claude can point to one without retyping its link
 numbered = "\n".join(
-    f"[{i}] ({h['source']}, {h['category']}) {h['title']} | {h.get('summary', '')}"
+    f"[{i}] ({h['source']}, {h['category']}, {h.get('published', '')[:10] or 'no date'}) {h['title']} | {h.get('summary', '')}"
     for i, h in enumerate(headlines)
 )
 
@@ -48,6 +48,7 @@ Rules:
 - Treat headlines as chapters of bigger ongoing storylines (for example: a war pushing up oil, which pushes up inflation, which pushes central banks to hike). For every important headline, explain the story behind it: how we got here, what today added, and where it leads.
 - When an ongoing storyline from earlier debriefs continues, reuse its exact name.
 - Use the FULL ARTICLES for depth. Explain their ideas in your own words; quote at most a short phrase.
+- Use each headline's date. Build the debrief around the most recent news and ignore stale stories.
 - Use ONLY the numbers and headlines provided. Never invent figures, dates or quotes.
 - If the headlines don't explain a move, say the cause is unclear."""
 
@@ -57,15 +58,16 @@ FORMAT = """Return ONLY a JSON object (no other text) with exactly these keys:
 "summary": 4 to 5 sentences on what happened and why,
 "one_thing": the single most important takeaway, 1 to 2 sentences,
 "cross_asset": {"stocks": ..., "rates": ..., "fx": ..., "commodities": ...}, each 2 to 3 sentences on how that market reacted and why,
-"storylines": 3 to 5 objects, one per big ongoing narrative driving markets, each {"name": short and stable like "Iran war and oil", "status": "new", "developing" or "fading", "backstory": 2 to 3 sentences on how we got here, "today": what today's headlines and articles added, "headline_ids": numbers of the headlines that belong to this story, "doc_ids": D numbers of related full articles as plain integers, "market_link": step by step how this story moves markets, "next_chapter": what would push the story forward next},
+"storylines": 3 to 5 objects, one per big ongoing narrative driving markets, each {"name": short and stable like "Iran war and oil", "status": "new", "developing" or "fading", "backstory": 2 to 3 sentences on how we got here, "today": what today's headlines and articles added, "headline_ids": numbers of the headlines that belong to this story, "doc_ids": D numbers of related full articles as plain integers, "market_link": step by step how this story moves markets, "next_chapter": what would push the story forward next, "note": 1 to 3 short lines the reader should write in their notebook from this section (key numbers, the cause and effect, one sentence they could say in an interview)},
 "stories": 5 to 7 objects, each {"tag": short theme like "Oil -> inflation", "title": ..., "what": what happened, "why": why it matters for the bigger picture, "watch": what to watch next},
-"under_the_radar": 3 to 4 objects, each {"title": ..., "what": the smaller story, "chain": step by step how it could reach the big markets, "watch": the signal that would show it's becoming important},
-"deep_dive": 1 to 2 objects, each {"doc": the D number as a plain integer, "why_now": why this piece matters this week, "key_points": 3 to 5 plain sentences, "market_angle": which markets it could move and in which direction, "trade_idea": one trade a desk might consider and its main risk}. Use an empty list if no full articles were provided,
+"under_the_radar": 3 to 4 objects, each {"title": ..., "what": the smaller story, "chain": step by step how it could reach the big markets, "watch": the signal that would show it's becoming important, "note": 1 to 3 short lines the reader should write in their notebook from this section (key numbers, the cause and effect, one sentence they could say in an interview)},
+"deep_dive": 1 to 2 objects, each {"doc": the D number as a plain integer, "why_now": why this piece matters this week, "key_points": 3 to 5 plain sentences, "market_angle": which markets it could move and in which direction, "trade_idea": one trade a desk might consider and its main risk, "note": 1 to 3 short lines the reader should write in their notebook from this section (key numbers, the cause and effect, one sentence they could say in an interview)}. Use an empty list if no full articles were provided,
 "watch_next": 3 to 5 objects, each {"when": ..., "event": ..., "why": ...}, using only events named in the headlines,
 "terms": 5 to 8 objects, each {"term": ..., "def": one plain sentence with a simple analogy},
 "quiz": 5 objects, each {"q": question, "options": [4 answers], "answer": index 0-3 of the right one, "explain": 1 to 2 sentences},
-"notes": what the reader should write in their own market notebook today, kept short and bullet-ready: {"numbers": 3 to 5 objects, each {"item": a key level or move like "10Y yield 4.86%", "why": why it's worth remembering}, "storyline_updates": one line per storyline in the form "Name: what changed today", "one_liners": 2 to 3 sentences the reader could say out loud in an interview or networking call to sound current, "terms_to_learn": 2 to 4 terms from today worth adding to a glossary, "open_question": one question to keep thinking about until tomorrow},
-"take": one open question asking the reader to make and defend a trade call based on today,
+"market_map": a cause-and-effect map of today centered on the main storyline, {"nodes": 6 to 10 objects, each {"id": short lowercase id like "oil", "label": short name like "Oil", "kind": "market" for something that trades or "driver" for an idea like "Inflation expectations" or "Fed hike odds", "board_label": the exact label from THE TAPE if this node is on it, otherwise null}, "edges": 6 to 12 objects, each {"from": node id, "to": node id, "effect": "pushes up" or "pushes down", "why": one plain sentence explaining the link today}},
+"cross_asset_notes": 2 to 4 short lines to write down about the day's key levels and moves across markets, each with why it matters,
+"take": one open question asking the reader to make and defend a trade call on the single most important theme of the day (the same theme as "one_thing" and the top storyline). Pick whatever market best expresses that theme (stocks, Treasuries, the dollar, a currency pair, oil, gold or credit), never default to the same market every day, and ask what would prove them wrong,
 "read_ids": the numbers of the 4 headlines most worth reading in full."""
 
 prompt = f"""Closing data for {prices['date']}:
@@ -81,7 +83,7 @@ TREASURIES: 2Y {t['2Y']}%, 10Y {t['10Y']}%, curve (10Y minus 2Y) {t['curve_bp']:
 CENTRAL BANK RATES
 {bank_lines}
 
-HEADLINES (number, source, title | summary)
+HEADLINES (number, source, category, date, title | summary)
 {numbered}
 
 FULL ARTICLES (official sources, D number, source, title, text)
@@ -145,6 +147,13 @@ for p in past_stories:
     if p["name"] not in today_names and recent:
         memory.append(p)
 story_path.write_text(json.dumps(memory, indent=2))
+
+# Give each market-map bubble its real move from the tape (numbers never come from the AI)
+board_by_label = {row["label"]: row for row in prices["board"]}
+for node in (debrief.get("market_map") or {}).get("nodes", []):
+    row = board_by_label.get(node.get("board_label"))
+    if row:
+        node.update({"value": row["value"], "change": row["change"], "unit": row["unit"], "dir": row["dir"]})
 
 debrief["date"] = prices["date"]
 debrief["board"] = prices["board"]               # numbers straight from Yahoo, never from the AI
