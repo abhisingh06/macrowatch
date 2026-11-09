@@ -1,0 +1,68 @@
+name: Daily debrief
+
+on:
+  schedule:
+    # GitHub only uses UTC time. 20:30 and 21:30 UTC cover 4:30pm New York time
+    # in both summer and winter. The gate step below makes sure it only runs once.
+    - cron: "30 20,21 * * 1-5"   # weekdays only
+  workflow_dispatch:              # adds a "Run workflow" button for testing
+
+permissions:
+  contents: write                 # lets the job save the new debrief back to your repo
+
+jobs:
+  debrief:
+    runs-on: ubuntu-latest
+    env:
+      TZ: America/New_York        # so dates and times in the scripts are New York time
+
+    steps:
+      - name: Get the code
+        uses: actions/checkout@v4
+
+      - name: Decide whether to run
+        id: gate
+        run: |
+          HOUR=$(date +%H)
+          TODAY=$(date +%F)
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "Manual run"; echo "go=yes" >> "$GITHUB_OUTPUT"
+          elif [ "$HOUR" -lt 16 ]; then
+            echo "Before 4pm New York time, skipping"; echo "go=no" >> "$GITHUB_OUTPUT"
+          elif [ -f "data/debrief_$TODAY.json" ]; then
+            echo "Already ran today, skipping"; echo "go=no" >> "$GITHUB_OUTPUT"
+          else
+            echo "go=yes" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Set up Python
+        if: steps.gate.outputs.go == 'yes'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - name: Install libraries
+        if: steps.gate.outputs.go == 'yes'
+        run: pip install -r requirements.txt
+
+      - name: Build the debrief
+        if: steps.gate.outputs.go == 'yes'
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python fetch_prices.py
+          python fetch_rates.py
+          python fetch_headlines.py
+          python fetch_deep.py
+          python write_debrief.py
+
+      - name: Save the debrief to the repo
+        if: steps.gate.outputs.go == 'yes'
+        run: |
+          git config user.name "macrowatch-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git commit -m "Debrief for $(date +%F)" || echo "Nothing new to save"
+          git push

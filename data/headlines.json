@@ -1,0 +1,919 @@
+[
+  {
+    "source": "WSJ Markets",
+    "category": "news",
+    "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+    "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+    "published": "Mon, 27 Jan 2025 14:26:00 -0500"
+  },
+  {
+    "source": "WSJ Markets",
+    "category": "news",
+    "title": "Comex Gold, Silver Settle Lower",
+    "link": "https://www.wsj.com/articles/gold-edges-lower-feds-rate-decision-in-focus-09dbfceb?mod=rss_markets_main",
+    "published": "Mon, 27 Jan 2025 14:01:00 -0500"
+  },
+  {
+    "source": "WSJ Markets",
+    "category": "news",
+    "title": "DeepSeek Won't Sink U.S. AI Titans",
+    "link": "https://www.wsj.com/articles/deepseek-us-ai-stocks-nvidia-broadcom-6cdfae81?mod=rss_markets_main",
+    "published": "Mon, 27 Jan 2025 13:12:00 -0500"
+  },
+  {
+    "source": "WSJ Markets",
+    "category": "news",
+    "title": "Financial Services Roundup: Market Talk",
+    "link": "https://www.wsj.com/articles/financial-services-roundup-market-talk-94f52cba?mod=rss_markets_main",
+    "published": "Mon, 27 Jan 2025 12:27:00 -0500"
+  },
+  {
+    "source": "WSJ Markets",
+    "category": "news",
+    "title": "Arabica Coffee Prices Hit Record on U.S., Colombia Tariff Spat",
+    "link": "https://www.wsj.com/articles/arabica-coffee-prices-hit-new-high-on-u-s-colombia-tariff-spat-582446fe?mod=rss_markets_main",
+    "published": "Mon, 27 Jan 2025 12:20:00 -0500"
+  },
+  {
+    "source": "WSJ Markets",
+    "category": "news",
+    "title": "Swiss franc, Japanese yen Rise as DeepSeek News Boosts Safe Havens",
+    "link": "https://www.wsj.com/articles/safe-haven-currencies-strengthen-amid-fears-over-global-tariffs-9964e17a?mod=rss_markets_main",
+    "published": "Mon, 27 Jan 2025 09:55:00 -0500"
+  },
+  {
+    "source": "WSJ Markets",
+    "category": "news",
+    "title": "Natural Gas Falls on Shifting Weather Forecasts",
+    "link": "https://www.wsj.com/articles/u-s-natural-gas-futures-fall-on-shifting-weather-forecasts-1ef3e457?mod=rss_markets_main",
+    "published": "Mon, 27 Jan 2025 09:05:00 -0500"
+  },
+  {
+    "source": "WSJ Markets",
+    "category": "news",
+    "title": "Building-Products Distributor QXO Launches Hostile Bid for Beacon",
+    "link": "https://www.wsj.com/articles/building-products-distributor-qxo-launching-hostile-bid-for-beacon-de024410?mod=rss_markets_main",
+    "published": "Mon, 27 Jan 2025 08:28:00 -0500"
+  },
+  {
+    "source": "WSJ World",
+    "category": "news",
+    "title": "Palestinians Stream Back to Northern Gaza on Foot",
+    "link": "https://www.wsj.com/articles/palestinians-flock-back-to-northern-gaza-on-foot-after-hostage-release-breakthrough-3f60e2db",
+    "published": "Mon, 27 Jan 2025 14:23:00 -0500"
+  },
+  {
+    "source": "WSJ World",
+    "category": "news",
+    "title": "Leading China Property Developer Reports Huge loss, in Sign of Widening Real-Estate Woes",
+    "link": "https://www.wsj.com/articles/even-chinas-property-stalwart-isnt-immune-from-the-crisis-19799863",
+    "published": "Mon, 27 Jan 2025 12:32:00 -0500"
+  },
+  {
+    "source": "WSJ World",
+    "category": "news",
+    "title": "Freed Israeli Hostages Still Had Shrapnel in Their Bodies From Oct. 7 Attack",
+    "link": "https://www.wsj.com/articles/freed-israeli-hostages-still-had-shrapnel-in-their-bodies-from-oct-7-attack-3de8cd1e",
+    "published": "Mon, 27 Jan 2025 12:12:00 -0500"
+  },
+  {
+    "source": "WSJ World",
+    "category": "news",
+    "title": "Suspected Sabotage of Deep-Sea Cable Triggers First NATO-Led Response",
+    "link": "https://www.wsj.com/articles/suspected-sabotage-of-deep-sea-cable-triggers-first-nato-led-response-337119ba",
+    "published": "Mon, 27 Jan 2025 11:22:00 -0500"
+  },
+  {
+    "source": "WSJ World",
+    "category": "news",
+    "title": "Rwanda-Backed Rebels Enter Congo's Safe-Haven City",
+    "link": "https://www.wsj.com/articles/rwanda-backed-rebels-enter-congo-safe-haven-city-aid-hub-09fdccb8",
+    "published": "Mon, 27 Jan 2025 10:07:00 -0500"
+  },
+  {
+    "source": "WSJ World",
+    "category": "news",
+    "title": "Cocaine-Funded Gangs Shake Colombia Years After Peace Pact",
+    "link": "https://www.wsj.com/articles/cocaine-funded-gangs-shake-colombia-years-after-peace-pact-a45a28da",
+    "published": "Mon, 27 Jan 2025 07:00:00 -0500"
+  },
+  {
+    "source": "WSJ World",
+    "category": "news",
+    "title": "Italy Supports Saudi Arabia Joining Fighter-Jet Program, PM Meloni Says",
+    "link": "https://www.wsj.com/articles/italy-supports-saudi-arabia-joining-gcap-fighter-jet-program-pm-meloni-says-bbd9cec1",
+    "published": "Mon, 27 Jan 2025 05:34:00 -0500"
+  },
+  {
+    "source": "WSJ World",
+    "category": "news",
+    "title": "Shippers Wary of Red Sea Routes Despite Houthi Pledge to End Targeting",
+    "link": "https://www.wsj.com/articles/shippers-wary-of-red-sea-routes-despite-houthi-pledge-to-end-targeting-4dde35c2",
+    "published": "Mon, 27 Jan 2025 01:05:00 -0500"
+  },
+  {
+    "source": "WSJ US Business",
+    "category": "news",
+    "title": "Wall Street Banks Prepare to Sell Billions of Dollars of X Loans",
+    "link": "https://www.wsj.com/articles/wall-street-banks-prepare-to-sell-billions-of-dollars-of-x-loans-c609beb1?mod=pls_whats_news_us_business_f",
+    "published": "Fri, 24 Jan 2025 15:37:00 -0500"
+  },
+  {
+    "source": "WSJ US Business",
+    "category": "news",
+    "title": "Canada to Provide $720 Million to Canada Post to Avoid Insolvency at Mail Service",
+    "link": "https://www.wsj.com/articles/canada-to-provide-720-million-to-canada-post-to-avoid-insolvency-at-mail-service-fc09a6b9?mod=pls_whats_news_us_business_f",
+    "published": "Fri, 24 Jan 2025 15:13:00 -0500"
+  },
+  {
+    "source": "WSJ US Business",
+    "category": "news",
+    "title": "Amazon Willing to Discuss Quebec Shutdown With Canadian Officials",
+    "link": "https://www.wsj.com/articles/amazon-willing-to-discuss-quebec-shutdown-with-canadian-officials-610e5f59?mod=pls_whats_news_us_business_f",
+    "published": "Fri, 24 Jan 2025 14:15:00 -0500"
+  },
+  {
+    "source": "WSJ US Business",
+    "category": "news",
+    "title": "Target Drops DEI Goals and Ends Program to Boost Black Suppliers",
+    "link": "https://www.wsj.com/articles/target-drops-dei-goals-and-ends-program-to-boost-black-suppliers-77cb4c75?mod=pls_whats_news_us_business_f",
+    "published": "Fri, 24 Jan 2025 13:51:00 -0500"
+  },
+  {
+    "source": "WSJ US Business",
+    "category": "news",
+    "title": "Energy & Utilities Roundup: Market Talk",
+    "link": "https://www.wsj.com/articles/energy-utilities-roundup-market-talk-08708375?mod=pls_whats_news_us_business_f",
+    "published": "Fri, 24 Jan 2025 12:29:00 -0500"
+  },
+  {
+    "source": "WSJ US Business",
+    "category": "news",
+    "title": "Basic Materials Roundup: Market Talk",
+    "link": "https://www.wsj.com/articles/basic-materials-roundup-market-talk-f817645e?mod=pls_whats_news_us_business_f",
+    "published": "Fri, 24 Jan 2025 12:28:00 -0500"
+  },
+  {
+    "source": "WSJ US Business",
+    "category": "news",
+    "title": "Auto & Transport Roundup: Market Talk",
+    "link": "https://www.wsj.com/articles/auto-transport-roundup-market-talk-f1469058?mod=pls_whats_news_us_business_f",
+    "published": "Fri, 24 Jan 2025 12:28:00 -0500"
+  },
+  {
+    "source": "MarketWatch",
+    "category": "news",
+    "title": "\u2018My life could be cut short\u2019: I\u2019m 55, married and have a brain tumor. Should I splash out on a $210,000 Porsche?",
+    "link": "https://www.marketwatch.com/story/my-life-could-be-cut-short-im-55-married-with-4-3-million-and-have-a-brain-tumor-should-i-buy-a-210-000-custom-porsche-ed825ada?mod=mw_rss_topstories",
+    "published": "Mon, 09 Nov 2026 01:21:00 GMT"
+  },
+  {
+    "source": "MarketWatch",
+    "category": "news",
+    "title": "The S&P 500 could be dangerously exposed to AI. Here are some simple alternatives.",
+    "link": "https://www.marketwatch.com/story/the-s-p-500-has-become-a-big-ai-bet-here-are-some-simple-alternatives-3c7574a4?mod=mw_rss_topstories",
+    "published": "Mon, 09 Nov 2026 00:40:00 GMT"
+  },
+  {
+    "source": "MarketWatch",
+    "category": "news",
+    "title": "I\u2019m second-guessing my adviser: Is an annuity the right move in this market?",
+    "link": "https://www.marketwatch.com/story/my-adviser-recommended-an-annuity-is-it-the-right-move-in-this-market-environment-00edbbf6?mod=mw_rss_topstories",
+    "published": "Mon, 09 Nov 2026 00:30:00 GMT"
+  },
+  {
+    "source": "MarketWatch",
+    "category": "news",
+    "title": "\u2018It feels like he\u2019s quietly building a separate life\u2019: My husband inherited $500,000, but he refuses to spend it on our home",
+    "link": "https://www.marketwatch.com/story/it-feels-like-hes-quietly-building-a-separate-life-my-husband-inherited-500-000-but-he-refuses-to-spend-it-on-our-home-06535cff?mod=mw_rss_topstories",
+    "published": "Mon, 09 Nov 2026 00:02:00 GMT"
+  },
+  {
+    "source": "MarketWatch",
+    "category": "news",
+    "title": "Funeral homes are finding new life hosting weddings and golf outings, as the traditional burial business dies out",
+    "link": "https://www.marketwatch.com/story/funeral-homes-are-finding-new-life-hosting-weddings-and-golf-outings-as-the-traditional-burial-business-dies-out-15831d13?mod=mw_rss_topstories",
+    "published": "Mon, 09 Nov 2026 00:00:00 GMT"
+  },
+  {
+    "source": "MarketWatch",
+    "category": "news",
+    "title": "How much in Roth conversions can you do in 2027 with the new tax brackets?",
+    "link": "https://www.marketwatch.com/story/how-much-roth-conversion-can-you-do-in-2027-with-the-new-tax-brackets-a2f940c8?mod=mw_rss_topstories",
+    "published": "Sun, 08 Nov 2026 23:50:00 GMT"
+  },
+  {
+    "source": "MarketWatch",
+    "category": "news",
+    "title": "I\u2019m 65 and worth more than $5.6 million. Can I afford a $200,000 camper?",
+    "link": "https://www.marketwatch.com/story/im-65-and-worth-more-than-5-6-million-can-i-buy-a-200-000-camper-even-though-the-price-feels-crazy-high-55f668f8?mod=mw_rss_topstories",
+    "published": "Sun, 08 Nov 2026 23:49:00 GMT"
+  },
+  {
+    "source": "MarketWatch",
+    "category": "news",
+    "title": "This retired professor has reinvented himself \u2014 as a Taylor Swift scholar",
+    "link": "https://www.marketwatch.com/story/this-retired-professor-has-reinvented-himself-as-a-taylor-swift-scholar-88456c8d?mod=mw_rss_topstories",
+    "published": "Sun, 08 Nov 2026 23:35:00 GMT"
+  },
+  {
+    "source": "MarketWatch Pulse",
+    "category": "news",
+    "title": "Jobless claims fall to lowest level since mid-May",
+    "link": "https://www.marketwatch.com/story/jobless-claims-fall-to-lowest-level-since-mid-may-bda58e3b?mod=mw_rss_marketpulse",
+    "published": "Thu, 03 Jul 2025 12:36:00 GMT"
+  },
+  {
+    "source": "MarketWatch Pulse",
+    "category": "news",
+    "title": "Jobless claims stay low in latest week",
+    "link": "https://www.marketwatch.com/story/jobless-claims-stay-low-in-latest-week-27b4b50b?mod=mw_rss_marketpulse",
+    "published": "Thu, 13 Feb 2025 13:33:00 GMT"
+  },
+  {
+    "source": "MarketWatch Pulse",
+    "category": "news",
+    "title": "Consumer credit growth soars in December",
+    "link": "https://www.marketwatch.com/story/consumer-credit-growth-soars-in-december-d405d18e?mod=mw_rss_marketpulse",
+    "published": "Fri, 07 Feb 2025 20:26:00 GMT"
+  },
+  {
+    "source": "MarketWatch Pulse",
+    "category": "news",
+    "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
+    "link": "https://www.marketwatch.com/story/u-s-productivity-slows-down-in-fourth-quarter-while-unit-labor-costs-accelerate-3c2b9092?mod=mw_rss_marketpulse",
+    "published": "Thu, 06 Feb 2025 13:34:00 GMT"
+  },
+  {
+    "source": "MarketWatch Pulse",
+    "category": "news",
+    "title": "Beyond to buy rights to Buy Buy Baby brand and reunite it with Bed Bath & Beyond",
+    "link": "https://www.marketwatch.com/story/beyond-to-buy-rights-to-buy-buy-baby-brand-and-reunite-it-with-bed-bath-beyond-4383c6be?mod=mw_rss_marketpulse",
+    "published": "Mon, 03 Feb 2025 13:46:00 GMT"
+  },
+  {
+    "source": "MarketWatch Pulse",
+    "category": "news",
+    "title": "Trump asks Supreme Court to pause TikTok ban",
+    "link": "https://www.marketwatch.com/story/trump-asks-supreme-court-to-pause-tiktok-ban-2b724ae6?mod=mw_rss_marketpulse",
+    "published": "Sat, 28 Dec 2024 00:32:00 GMT"
+  },
+  {
+    "source": "MarketWatch Pulse",
+    "category": "news",
+    "title": "Amazon says it had best-ever Thanksgiving Holiday week with record sales and number of items sold",
+    "link": "https://www.marketwatch.com/story/amazon-says-it-had-best-ever-thanksgiving-holiday-week-with-record-sales-and-number-of-items-sold-786e0143?mod=mw_rss_marketpulse",
+    "published": "Tue, 03 Dec 2024 14:05:00 GMT"
+  },
+  {
+    "source": "MarketWatch Pulse",
+    "category": "news",
+    "title": "U.S. stock futures and bond yields drop on reports Putin has updated nuclear doctrine",
+    "link": "https://www.marketwatch.com/story/u-s-stock-futures-and-bond-yields-drop-on-reports-putin-has-updated-nuclear-doctrine-4b9792c4?mod=mw_rss_marketpulse",
+    "published": "Tue, 19 Nov 2024 08:55:00 GMT"
+  },
+  {
+    "source": "CNBC Top News",
+    "category": "news",
+    "title": "Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy",
+    "link": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html",
+    "published": "Sun, 08 Nov 2026 22:53:57 GMT"
+  },
+  {
+    "source": "CNBC Top News",
+    "category": "news",
+    "title": "From supermarket fridges to passenger flights, a wave of threats is testing Europe's defenses",
+    "link": "https://www.cnbc.com/2026/11/09/europe-fridge-hacks-bomb-threats-cyberattack.html",
+    "published": "Mon, 09 Nov 2026 05:00:01 GMT"
+  },
+  {
+    "source": "CNBC Top News",
+    "category": "news",
+    "title": "Trump says renewed Iran strikes \u2018highly unlikely\u2019 if talks progress but warns he could still strike",
+    "link": "https://www.cnbc.com/2026/11/08/trump-iran-strikes-unlikely-talks-hormuz.html",
+    "published": "Sun, 08 Nov 2026 21:53:02 GMT"
+  },
+  {
+    "source": "CNBC Top News",
+    "category": "news",
+    "title": "China wholesale inflation hits highest in more than four years as consumer measure slows",
+    "link": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html",
+    "published": "Mon, 09 Nov 2026 02:50:22 GMT"
+  },
+  {
+    "source": "CNBC Top News",
+    "category": "news",
+    "title": "Democrats amp up Trump investigation threats, Blanche counters he may probe lawmakers",
+    "link": "https://www.cnbc.com/2026/11/08/democrats-trump-oversight-blanche-doj-investigations.html",
+    "published": "Sun, 08 Nov 2026 18:57:56 GMT"
+  },
+  {
+    "source": "CNBC Top News",
+    "category": "news",
+    "title": "How Democrats will try to end Trump's tariffs",
+    "link": "https://www.cnbc.com/2026/11/08/trump-tariffs-democrats-congress-canada.html",
+    "published": "Sun, 08 Nov 2026 15:36:39 GMT"
+  },
+  {
+    "source": "CNBC Top News",
+    "category": "news",
+    "title": "Using miles to fly for Thanksgiving? These are the most expensive and cheapest routes",
+    "link": "https://www.cnbc.com/2026/11/08/frequent-flyer-miles-points-thanksgiving.html",
+    "published": "Sun, 08 Nov 2026 13:00:01 GMT"
+  },
+  {
+    "source": "CNBC Top News",
+    "category": "news",
+    "title": "Cathie Wood 'always feels better when the market is worried' \u2014 here's why",
+    "link": "https://www.cnbc.com/2026/11/08/cathie-wood-ai-selloff.html",
+    "published": "Sun, 08 Nov 2026 06:00:01 GMT"
+  },
+  {
+    "source": "CNBC Economy",
+    "category": "news",
+    "title": "A disturbing employment trend is hiding beneath the latest strong job numbers",
+    "link": "https://www.cnbc.com/2026/11/06/long-term-unemployment-october-jobs-report.html",
+    "published": "Fri, 06 Nov 2026 20:11:17 GMT"
+  },
+  {
+    "source": "CNBC Economy",
+    "category": "news",
+    "title": "U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate slips to 4.1%",
+    "link": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html",
+    "published": "Fri, 06 Nov 2026 16:06:59 GMT"
+  },
+  {
+    "source": "CNBC Economy",
+    "category": "news",
+    "title": "The October jobs report is out Friday. Here's everything to expect",
+    "link": "https://www.cnbc.com/2026/11/05/october-jobs-report-preview.html",
+    "published": "Thu, 05 Nov 2026 21:32:52 GMT"
+  },
+  {
+    "source": "CNBC Economy",
+    "category": "news",
+    "title": "Here's what the Democratic election rout could mean for the U.S. economy",
+    "link": "https://www.cnbc.com/2026/11/05/emocratic-midterm-economy.html",
+    "published": "Thu, 05 Nov 2026 14:33:32 GMT"
+  },
+  {
+    "source": "CNBC Economy",
+    "category": "news",
+    "title": "Bank of England hikes interest rate for the first time since Iran war, warns inflation will near 5%",
+    "link": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html",
+    "published": "Thu, 05 Nov 2026 16:01:47 GMT"
+  },
+  {
+    "source": "CNBC Economy",
+    "category": "news",
+    "title": "Voters say the economy drove them to the polls \u2014 and blame Trump for their troubles",
+    "link": "https://www.cnbc.com/2026/11/04/2026-midterms-trump-economy-iran-war.html",
+    "published": "Thu, 05 Nov 2026 16:07:59 GMT"
+  },
+  {
+    "source": "CNBC Economy",
+    "category": "news",
+    "title": "Analysis: The Democrats have one chance to extract concessions from Trump. Markets will hate it",
+    "link": "https://www.cnbc.com/2026/11/04/democrats-trump-debt-ceiling-fight.html",
+    "published": "Wed, 04 Nov 2026 22:46:43 GMT"
+  },
+  {
+    "source": "Federal Reserve",
+    "category": "central bank",
+    "title": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
+    "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm",
+    "published": "Thu, 5 Nov 2026 16:00:00 GMT"
+  },
+  {
+    "source": "Federal Reserve",
+    "category": "central bank",
+    "title": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
+    "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
+    "published": "Thu, 29 Oct 2026 20:30:00 GMT"
+  },
+  {
+    "source": "Federal Reserve",
+    "category": "central bank",
+    "title": "Federal Reserve issues FOMC statement",
+    "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+    "published": "Wed, 28 Oct 2026 18:00:00 GMT"
+  },
+  {
+    "source": "Federal Reserve",
+    "category": "central bank",
+    "title": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
+    "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261016a.htm",
+    "published": "Fri, 16 Oct 2026 15:00:00 GMT"
+  },
+  {
+    "source": "Federal Reserve",
+    "category": "central bank",
+    "title": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
+    "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
+    "published": "Tue, 13 Oct 2026 18:00:00 GMT"
+  },
+  {
+    "source": "Federal Reserve",
+    "category": "central bank",
+    "title": "Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families",
+    "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm",
+    "published": "Fri, 9 Oct 2026 14:00:00 GMT"
+  },
+  {
+    "source": "Federal Reserve",
+    "category": "central bank",
+    "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm\u2019s failure to sufficiently detect and report certain suspicious activity related to money laundering",
+    "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm",
+    "published": "Thu, 8 Oct 2026 20:30:00 GMT"
+  },
+  {
+    "source": "Federal Reserve",
+    "category": "central bank",
+    "title": "Minutes of the Federal Open Market Committee, September 15-16, 2026",
+    "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm",
+    "published": "Wed, 7 Oct 2026 18:00:00 GMT"
+  },
+  {
+    "source": "Fed speeches",
+    "category": "central bank",
+    "title": "Bowman, Supervisory Modernization After Silicon Valley Bank",
+    "link": "https://www.federalreserve.gov/newsevents/speech/bowman20261014a.htm",
+    "published": "Thu, 15 Oct 2026 02:55:00 GMT"
+  },
+  {
+    "source": "Fed speeches",
+    "category": "central bank",
+    "title": "Waller, The Signaling Value of the Summary of Economic Projections",
+    "link": "https://www.federalreserve.gov/newsevents/speech/waller20261008a.htm",
+    "published": "Thu, 8 Oct 2026 08:30:00 GMT"
+  },
+  {
+    "source": "Fed speeches",
+    "category": "central bank",
+    "title": "Bowman, Modernizing the Regulatory and Supervisory Landscape",
+    "link": "https://www.federalreserve.gov/newsevents/speech/bowman20261006a.htm",
+    "published": "Tue, 6 Oct 2026 14:45:00 GMT"
+  },
+  {
+    "source": "Fed speeches",
+    "category": "central bank",
+    "title": "Bowman, Modernizing Financial Regulation: Initial Observations from eSLR",
+    "link": "https://www.federalreserve.gov/newsevents/speech/bowman20261001a.htm",
+    "published": "Thu, 1 Oct 2026 19:00:00 GMT"
+  },
+  {
+    "source": "Fed speeches",
+    "category": "central bank",
+    "title": "Jefferson, The U.S. Economy and Monetary Policy",
+    "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+    "published": "Thu, 1 Oct 2026 17:30:00 GMT"
+  },
+  {
+    "source": "Fed speeches",
+    "category": "central bank",
+    "title": "Waller, The Data Version of Godzilla versus Kong: FRED Takes on AI",
+    "link": "https://www.federalreserve.gov/newsevents/speech/waller20261001a.htm",
+    "published": "Thu, 1 Oct 2026 14:00:00 GMT"
+  },
+  {
+    "source": "Fed speeches",
+    "category": "central bank",
+    "title": "Cook, The Dual Mandate in Rural America",
+    "link": "https://www.federalreserve.gov/newsevents/speech/cook20260930a.htm",
+    "published": "Wed, 30 Sep 2026 19:25:00 GMT"
+  },
+  {
+    "source": "Fed speeches",
+    "category": "central bank",
+    "title": "Waller, Payments in the Age of AI Agents",
+    "link": "https://www.federalreserve.gov/newsevents/speech/waller20260928a.htm",
+    "published": "Tue, 29 Sep 2026 19:00:00 GMT"
+  },
+  {
+    "source": "ECB",
+    "category": "central bank",
+    "title": "Christine Lagarde: Interview with Yomiuri Shimbun",
+    "link": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261107~e7b86fc4ce.en.html",
+    "published": "Sat, 07 Nov 2026 15:00:00 +0100"
+  },
+  {
+    "source": "ECB",
+    "category": "central bank",
+    "title": "ECB publishes consolidated banking data for end-June 2026",
+    "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261106~356f2fc73a.en.html",
+    "published": "Fri, 06 Nov 2026 10:00:00 +0100"
+  },
+  {
+    "source": "ECB",
+    "category": "central bank",
+    "title": "Isabel Schnabel: Navigating stormy waters: reflections on monetary policy",
+    "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.en.html",
+    "published": "Thu, 05 Nov 2026 09:00:00 +0100"
+  },
+  {
+    "source": "ECB",
+    "category": "central bank",
+    "title": "Piero Cipollone: Shaping the future of money",
+    "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261105~6495a0df6f.en.html",
+    "published": "Thu, 05 Nov 2026 08:30:00 +0100"
+  },
+  {
+    "source": "ECB",
+    "category": "central bank",
+    "title": "ECB wage tracker suggests slightly higher wage growth in first three quarters of 2027 compared with the full year of 2026",
+    "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261104~caf181d7ac.en.html",
+    "published": "Wed, 04 Nov 2026 01:00:00 +0100"
+  },
+  {
+    "source": "ECB",
+    "category": "central bank",
+    "title": "Boris Vuj\u010di\u0107: Integrated, open and resilient: Europe\u2019s strengths in a fragmenting world",
+    "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp.261102~70003226e9.en.html",
+    "published": "Mon, 02 Nov 2026 10:30:00 +0100"
+  },
+  {
+    "source": "ECB",
+    "category": "central bank",
+    "title": "Philip R. Lane: AI adoption in Europe",
+    "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261030~08d9d540f0.en.html",
+    "published": "Fri, 30 Oct 2026 17:10:00 +0100"
+  },
+  {
+    "source": "ECB",
+    "category": "central bank",
+    "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+    "link": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261030~e40f864093.en.html",
+    "published": "Fri, 30 Oct 2026 15:00:00 +0100"
+  },
+  {
+    "source": "Bank of England",
+    "category": "central bank",
+    "title": "Bank rate increased to 4% - November 2026 Monetary Policy Summary and Minutes",
+    "link": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026",
+    "published": "Thu, 05 Nov 2026 12:00:00 Z"
+  },
+  {
+    "source": "Bank of England",
+    "category": "central bank",
+    "title": "Summary of the RTGS CHAPS Industry Forum - 13 October 2026",
+    "link": "https://www.bankofengland.co.uk/minutes/2026/october/rtgs-chaps-industry-forum-13-october-2026",
+    "published": "Wed, 04 Nov 2026 14:51:45 Z"
+  },
+  {
+    "source": "Bank of England",
+    "category": "central bank",
+    "title": "Regulators explore credit union reforms to support growth, innovation and better outcomes for members",
+    "link": "https://www.bankofengland.co.uk/news/2026/november/regulators-explore-credit-union-reforms-to-support-growth-innovation-and-better-outcomes-for-members",
+    "published": "Tue, 03 Nov 2026 10:00:00 Z"
+  },
+  {
+    "source": "Bank of England",
+    "category": "central bank",
+    "title": "Minutes of the Meeting of the Court of Directors held on 17 September 2026",
+    "link": "https://www.bankofengland.co.uk/minutes/2026/september/court-minutes-17-september-2026",
+    "published": "Thu, 29 Oct 2026 14:00:00 Z"
+  },
+  {
+    "source": "Bank of England",
+    "category": "central bank",
+    "title": "Bank of England sets out approach to tokenised collateral in central clearing",
+    "link": "https://www.bankofengland.co.uk/news/2026/october/bank-of-england-sets-out-approach-to-tokenised-collateral-in-central-clearing",
+    "published": "Thu, 29 Oct 2026 10:00:00 Z"
+  },
+  {
+    "source": "Bank of England",
+    "category": "central bank",
+    "title": "Remit for the Monetary Policy Committee - October 2026",
+    "link": "https://www.bankofengland.co.uk/letter/2026/mpc-remit-2026",
+    "published": "Wed, 28 Oct 2026 14:16:49 Z"
+  },
+  {
+    "source": "Bank of England",
+    "category": "central bank",
+    "title": "Regulators unveil plans to simplify Senior Manager and Certification Regime",
+    "link": "https://www.bankofengland.co.uk/news/2026/october/regulators-unveil-plans-to-simplify-senior-manager-and-certification-regime",
+    "published": "Thu, 22 Oct 2026 21:00:00 +0100"
+  },
+  {
+    "source": "Bank of England",
+    "category": "central bank",
+    "title": "Minutes of the Securities Lending Committee meeting \u2013 September 2026",
+    "link": "https://www.bankofengland.co.uk/minutes/2026/september/securities-lending-committee-meeting-september-2026",
+    "published": "Thu, 22 Oct 2026 16:35:53 +0100"
+  },
+  {
+    "source": "Yahoo (stocks)",
+    "category": "news",
+    "title": "Asia stocks roar back as Taiwan jumps 6%, Nvidia probe rattles AI trade",
+    "link": "",
+    "published": "2026-11-09T04:25:52Z"
+  },
+  {
+    "source": "Yahoo (stocks)",
+    "category": "news",
+    "title": "Dow Jones Futures Rise As Nvidia Probes CEO Jensen Huang Spying Case",
+    "link": "",
+    "published": "2026-11-09T04:14:47Z"
+  },
+  {
+    "source": "Yahoo (stocks)",
+    "category": "news",
+    "title": "Dow, S&P 500, Nasdaq Futures Rebound After Sharp AI Selloff Last Week: NVDA, AMD, VIR, SNDK In Focus",
+    "link": "",
+    "published": "2026-11-09T03:48:14Z"
+  },
+  {
+    "source": "Yahoo (stocks)",
+    "category": "news",
+    "title": "3 Super Growth Stocks to Buy Hand Over Fist If the Stock Market Crashes",
+    "link": "",
+    "published": "2026-11-09T02:20:00Z"
+  },
+  {
+    "source": "Yahoo (stocks)",
+    "category": "news",
+    "title": "Asian stocks steady as AI, Mideast jitters recede; dollar firm on Fed bets",
+    "link": "",
+    "published": "2026-11-09T01:47:28Z"
+  },
+  {
+    "source": "Yahoo (stocks)",
+    "category": "news",
+    "title": "Why S&P 500 investors may want to look beyond mega-cap tech",
+    "link": "",
+    "published": "2026-11-09T01:45:00Z"
+  },
+  {
+    "source": "Yahoo (stocks)",
+    "category": "news",
+    "title": "Wall St futures mixed amid AI spending concerns; inflation data awaited",
+    "link": "",
+    "published": "2026-11-09T01:20:09Z"
+  },
+  {
+    "source": "Yahoo (stocks)",
+    "category": "news",
+    "title": "5 Stocks I am Retiring On",
+    "link": "",
+    "published": "2026-11-09T00:49:43Z"
+  },
+  {
+    "source": "Yahoo (rates)",
+    "category": "news",
+    "title": "Chip stocks lead tech rebound as SpaceX, Tesla jump: AlphaCheck",
+    "link": "",
+    "published": "2026-11-06T15:09:06Z"
+  },
+  {
+    "source": "Yahoo (rates)",
+    "category": "news",
+    "title": "Housing stocks rally following midterm elections, Treasury yields dip lower",
+    "link": "",
+    "published": "2026-11-04T17:19:37Z"
+  },
+  {
+    "source": "Yahoo (rates)",
+    "category": "news",
+    "title": "Google, Microsoft, Amazon, and the Fed step up to a skittish market: What to watch this week",
+    "link": "",
+    "published": "2026-10-26T10:00:00Z"
+  },
+  {
+    "source": "Yahoo (rates)",
+    "category": "news",
+    "title": "Stock market today: Dow sinks 600 points, S&P 500, Nasdaq drop to cap a volatile week, oil prices rise",
+    "link": "",
+    "published": "2026-10-23T09:30:00Z"
+  },
+  {
+    "source": "Yahoo (rates)",
+    "category": "news",
+    "title": "Stocks extend declines, 10-year Treasury holds below 5%: AlphaCheck",
+    "link": "",
+    "published": "2026-10-23T13:42:24Z"
+  },
+  {
+    "source": "Yahoo (rates)",
+    "category": "news",
+    "title": "Why the 10-year Treasury yield finally fell below 5%",
+    "link": "",
+    "published": "2026-10-23T13:11:55Z"
+  },
+  {
+    "source": "Yahoo (rates)",
+    "category": "news",
+    "title": "Bond traders are backing off Fed rate hike bets \u2014 here's what it means for mortgage rates",
+    "link": "",
+    "published": "2026-10-22T18:05:07Z"
+  },
+  {
+    "source": "Yahoo (rates)",
+    "category": "news",
+    "title": "Elevated oil prices, delicate housing market put more pressure on the Fed",
+    "link": "",
+    "published": "2026-10-21T14:09:21Z"
+  },
+  {
+    "source": "Yahoo (dollar)",
+    "category": "news",
+    "title": "India Stocks Could Gain From AI Rotation After U.S. Midterms",
+    "link": "",
+    "published": "2026-11-09T04:35:00Z"
+  },
+  {
+    "source": "Yahoo (dollar)",
+    "category": "news",
+    "title": "Gold rebounds above $4,100 as traders await U.S. inflation data after jobs beat",
+    "link": "",
+    "published": "2026-11-09T01:46:44Z"
+  },
+  {
+    "source": "Yahoo (dollar)",
+    "category": "news",
+    "title": "US dollar holds onto payrolls gains, NZ dollar rises after election",
+    "link": "",
+    "published": "2026-11-09T01:16:08Z"
+  },
+  {
+    "source": "Yahoo (dollar)",
+    "category": "news",
+    "title": "Japan Says Three-Day Yen Intervention Lifted Yen in Summer",
+    "link": "",
+    "published": "2026-11-09T00:04:46Z"
+  },
+  {
+    "source": "Yahoo (dollar)",
+    "category": "news",
+    "title": "HSBC Says Strong Democratic Midterm Performance Could Pressure US Dollar in Near Term",
+    "link": "",
+    "published": "2026-11-08T14:59:56Z"
+  },
+  {
+    "source": "Yahoo (dollar)",
+    "category": "news",
+    "title": "3 Stocks Investors Watch When Demand For U.S. Dollar Safety Rises",
+    "link": "",
+    "published": "2026-11-08T13:09:04Z"
+  },
+  {
+    "source": "Yahoo (dollar)",
+    "category": "news",
+    "title": "Why is the US Dollar Falling? Midterms, Yields, and a Critical Economic Test",
+    "link": "",
+    "published": "2026-11-08T01:50:49Z"
+  },
+  {
+    "source": "Yahoo (dollar)",
+    "category": "news",
+    "title": "What Suzano (SUZ) Said on Its Q3 Earnings Call",
+    "link": "",
+    "published": "2026-11-08T00:14:10Z"
+  },
+  {
+    "source": "Yahoo (oil)",
+    "category": "news",
+    "title": "China's 5.7% Factory Inflation Could Complicate the Fed Path Before US CPI",
+    "link": "",
+    "published": "2026-11-09T03:26:00Z"
+  },
+  {
+    "source": "Yahoo (oil)",
+    "category": "news",
+    "title": "APA Corporation\u2019s Q3 2026 earnings call: our top 5 analyst questions",
+    "link": "",
+    "published": "2026-11-09T02:45:36Z"
+  },
+  {
+    "source": "Yahoo (oil)",
+    "category": "news",
+    "title": "China CPI inflation misses forecasts in Oct; factory-gate prices accelerate",
+    "link": "",
+    "published": "2026-11-09T02:15:15Z"
+  },
+  {
+    "source": "Yahoo (oil)",
+    "category": "news",
+    "title": "Brent Crude Fell 12.5% But Former Biden Advisor Warns Iran War Could Return",
+    "link": "",
+    "published": "2026-11-09T02:07:52Z"
+  },
+  {
+    "source": "Yahoo (oil)",
+    "category": "news",
+    "title": "5 revealing analyst questions from Magnolia Oil & Gas\u2019s Q3 2026 earnings call",
+    "link": "",
+    "published": "2026-11-09T01:17:36Z"
+  },
+  {
+    "source": "Yahoo (oil)",
+    "category": "news",
+    "title": "Oil prices pare losses as Hormuz, Houthi tensions persist",
+    "link": "",
+    "published": "2026-11-09T00:55:21Z"
+  },
+  {
+    "source": "Yahoo (oil)",
+    "category": "news",
+    "title": "The top 5 analyst questions from Permian Resources\u2019s Q3 2026 earnings call",
+    "link": "",
+    "published": "2026-11-08T22:05:36Z"
+  },
+  {
+    "source": "Yahoo (oil)",
+    "category": "news",
+    "title": "What Parex Resources (PXT) Said on Its Q3 Earnings Call",
+    "link": "",
+    "published": "2026-11-08T21:14:06Z"
+  },
+  {
+    "source": "Yahoo (gold)",
+    "category": "news",
+    "title": "Small Cap Snapshot: Firefly, Krakatoa, Dalaroo, Beetaloo and more...",
+    "link": "",
+    "published": "2026-11-09T04:04:21Z"
+  },
+  {
+    "source": "Yahoo (gold)",
+    "category": "news",
+    "title": "Gold Is Up 4% Since Midterms: Here\u2019s Where Markets Think The Precious Metal Prices Are Headed",
+    "link": "",
+    "published": "2026-11-09T02:18:37Z"
+  },
+  {
+    "source": "Yahoo (gold)",
+    "category": "news",
+    "title": "What Wesdome Gold Mines (WDO) Said on Its Q3 Earnings Call",
+    "link": "",
+    "published": "2026-11-09T02:14:16Z"
+  },
+  {
+    "source": "Yahoo (gold)",
+    "category": "news",
+    "title": "What Torex Gold Resources (TXG) Said on Its Q3 Earnings Call",
+    "link": "",
+    "published": "2026-11-09T02:14:15Z"
+  },
+  {
+    "source": "Yahoo (gold)",
+    "category": "news",
+    "title": "Gold Edges Higher Amid Mixed Signals",
+    "link": "",
+    "published": "2026-11-09T00:25:00Z"
+  },
+  {
+    "source": "Yahoo (gold)",
+    "category": "news",
+    "title": "Top 3 Australian Undervalued Stocks To Watch In November 2026",
+    "link": "",
+    "published": "2026-11-09T00:19:11Z"
+  },
+  {
+    "source": "Yahoo (gold)",
+    "category": "news",
+    "title": "3 Australian Penny Stocks With Revenue Growth Up To 13%",
+    "link": "",
+    "published": "2026-11-09T00:18:41Z"
+  },
+  {
+    "source": "Yahoo (yen)",
+    "category": "news",
+    "title": "Mitsui O.S.K Q2 profit flat as higher shipping rates, weak yen boost revenue",
+    "link": "",
+    "published": "2026-11-09T04:06:42Z"
+  },
+  {
+    "source": "Yahoo (yen)",
+    "category": "news",
+    "title": "Japan Spent Record $50 Billion in Single Day to Bolster Yen",
+    "link": "",
+    "published": "2026-11-09T02:58:00Z"
+  },
+  {
+    "source": "Yahoo (yen)",
+    "category": "news",
+    "title": "BC-Nikkei 225 Futures",
+    "link": "",
+    "published": "2026-11-08T21:01:18Z"
+  },
+  {
+    "source": "Yahoo (yen)",
+    "category": "news",
+    "title": "BC-US-Foreign Exchange",
+    "link": "",
+    "published": "2026-11-06T15:00:24Z"
+  },
+  {
+    "source": "Yahoo (yen)",
+    "category": "news",
+    "title": "Japan\u2019s GPIF posts $33.3 bln Q2 loss as global bond selloff hits foreign holdings",
+    "link": "",
+    "published": "2026-11-06T07:18:28Z"
+  },
+  {
+    "source": "Yahoo (yen)",
+    "category": "news",
+    "title": "US Dollar Price Forecast: DXY Eyes 102.08 as EUR/USD, GBP/USD Await US NFP",
+    "link": "",
+    "published": "2026-11-06T06:58:35Z"
+  }
+]

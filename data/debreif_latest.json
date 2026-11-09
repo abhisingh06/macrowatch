@@ -1,0 +1,190 @@
+{
+  "headline": "AI wobble and strong jobs keep markets torn, yields stay high",
+  "mood": "mixed",
+  "summary": "The price table came through blank today, so I have no index, dollar or commodity levels and am working from the Treasury yields, central bank rates and headlines only. The AI trade cracked after a big post-election rally, but stocks looked mixed after a strong October jobs report (165,000 jobs added, unemployment 4.1%). Meanwhile oil, Iran tensions and sticky inflation are keeping central banks cautious, and the 10-year Treasury yield sits at 4.84%.",
+  "one_thing": "Strong jobs plus high oil and inflation worries mean rates probably stay high, and that is hard on pricey AI stocks. Watch whether yields or the AI trade gives way first.",
+  "stories": [
+    {
+      "tag": "AI trade -> equities",
+      "title": "The AI trade cracks right after an election rally",
+      "what": "One Yahoo headline says stocks soared on the Democratic sweep, then less than 24 hours later the AI trade cracked. Another says U.S. stocks were mixed after the jobs data with only a muted AI rebound. Berkshire shares surged while the broader market swooned.",
+      "why": "When one theme (AI) drives much of the market, a crack in it can drag the whole index even if the economy looks fine. Money tends to rotate into steadier names like Berkshire. Some headlines mention the DeepSeek scare, but I can't tell from the feed whether that is today's driver or older news, so the exact cause of the AI selling is unclear."
+    },
+    {
+      "tag": "Jobs -> rates",
+      "title": "A strong labor market keeps the Fed on hold at best",
+      "what": "The economy added 165,000 jobs in October, way more than expected, and unemployment slipped to 4.1%. The 2Y Treasury yield is 4.46% and the 10Y is 4.84%, so the curve (10Y minus 2Y) is +38 bp [basis points, 1/100 of a percent]. The Fed's rate is 3.875%, so the 2Y trades roughly 0.6 percentage points above it.",
+      "why": "A 2Y yield above the policy rate suggests markets are not betting on cuts and may be weighing hikes. One headline says bond traders are backing off Fed hike bets, and another says the 10Y fell below 5%. So the hike fear is easing but has not gone away. Strong jobs make it harder for the Fed to cut."
+    },
+    {
+      "tag": "Oil -> inflation -> central banks",
+      "title": "Oil and Iran tensions push inflation worries up",
+      "what": "Trump said the U.S. carried out 'minor strikes' on Iran as missiles hit Qeshm Island, and one headline says oil prices rose. The Bank of England hiked to 4.0% and warned inflation will near 5%. Lagarde said inflation will stay high and sees little reason to change the ECB's 2.5% rate. Bank of America warned oil could force a Fed rethink.",
+      "why": "Oil feeds into prices everywhere, so central banks can't relax. The BoE is hiking while the ECB is holding, which shows policy paths splitting. That can move currencies and rate spreads, a key area for a rates or FX desk."
+    },
+    {
+      "tag": "Safe havens / FX",
+      "title": "Franc and yen bid in risk-off, gold sold off",
+      "what": "One headline says the Swiss franc and Japanese yen rose as safe havens. Gold and silver settled lower on Comex, and Goldman wrote about gold's recent sell-off. Central bank rates are 0.0% in Switzerland and 1.25% in Japan, versus 3.875% in the U.S.",
+      "why": "The franc and yen are popular havens partly because they carry low interest rates, so investors fund trades in them and buy them back when nervous. Gold falling in a shaky tape is a bit odd, and the headlines don't give a clear reason beyond Goldman's note. Some of these items may be older than today, so treat the timing with caution."
+    },
+    {
+      "tag": "Politics -> markets",
+      "title": "Democratic midterm sweep shapes the mood and sectors",
+      "what": "Democrats had a big election win. Housing stocks rallied and Treasury yields dipped after the midterms. CNBC analysis says Democrats have one chance to extract concessions from Trump, and that markets will hate it.",
+      "why": "Elections matter to markets through fiscal policy [government taxing and spending], tariffs and political gridlock. Housing is very sensitive to yields, so a small yield drop helps it quickly. The long-term impact is still speculation."
+    }
+  ],
+  "terms": [
+    {
+      "term": "Basis point (bp)",
+      "def": "One hundredth of a percentage point, like a single cent when the whole dollar is a full percent."
+    },
+    {
+      "term": "Yield curve",
+      "def": "A line showing yields on short to long Treasuries, like a price list showing what lenders charge for 2-year versus 10-year loans."
+    },
+    {
+      "term": "Safe haven",
+      "def": "An asset people buy when nervous, like running to a storm shelter when the weather turns."
+    },
+    {
+      "term": "Policy rate",
+      "def": "The short-term rate a central bank sets, like the thermostat that the rest of the economy's borrowing costs follow."
+    },
+    {
+      "term": "Rate hike bets",
+      "def": "Market wagers that a central bank will raise rates, like betting on a team to win, with the odds showing up in bond yields."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "The 2Y yield is 4.46% and the 10Y is 4.84%. What is the curve (10Y minus 2Y)?",
+      "options": [
+        "+24 bp",
+        "+38 bp",
+        "+46 bp",
+        "-38 bp"
+      ],
+      "answer": 1,
+      "explain": "4.84 minus 4.46 is 0.38 percentage points, which is 38 basis points. The positive sign means the curve is upward sloping."
+    },
+    {
+      "q": "The Fed's rate is 3.875% and the 2Y Treasury yield is 4.46%. What does the 2Y being higher suggest?",
+      "options": [
+        "Markets are betting on aggressive cuts",
+        "Markets are not pricing cuts and may weigh hikes",
+        "The Fed has already hiked today",
+        "Treasuries are about to default"
+      ],
+      "answer": 1,
+      "explain": "The 2Y yield reflects the expected path of policy rates. Sitting above the current rate means the market expects rates to stay high or rise."
+    },
+    {
+      "q": "Why might the Swiss franc and yen rise in a risk-off move?",
+      "options": [
+        "They carry the highest interest rates",
+        "They are seen as safe havens and are often used as funding currencies",
+        "Their central banks just hiked",
+        "They are pegged to gold"
+      ],
+      "answer": 1,
+      "explain": "Both currencies come from low-rate economies (0.0% in Switzerland, 1.25% in Japan), so investors borrow in them and buy them back when nervous. That is part of why they are seen as havens."
+    },
+    {
+      "q": "What did the Bank of England do, and how does that compare with the ECB?",
+      "options": [
+        "BoE hiked to 4.0%, while Lagarde sees little reason to change the ECB's 2.5%",
+        "BoE cut to 4.0%, ECB hiked to 2.5%",
+        "Both hiked by 1 point",
+        "Both left rates unchanged and said nothing on inflation"
+      ],
+      "answer": 0,
+      "explain": "The BoE raised Bank Rate to 4.0% and warned inflation will near 5%. Lagarde said inflation stays high but sees little reason to change course, so the ECB is on hold."
+    }
+  ],
+  "take": "With strong jobs, oil pressure on inflation, a 10-year yield of 4.84% and a shaky AI trade, would you rather be long or short U.S. tech, or express the view through rates or FX instead? Make the call and say what would prove you wrong.",
+  "reads": [
+    {
+      "title": "Stocks soared on the Democratic sweep. Less than 24 hours later, the AI trade cracked.",
+      "source": "Yahoo (stocks)",
+      "url": ""
+    },
+    {
+      "title": "U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate slips to 4.1%",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html"
+    },
+    {
+      "title": "Bank of America warns oil could force a Fed interest-rate rethink",
+      "source": "Yahoo (oil)",
+      "url": ""
+    }
+  ],
+  "date": "2026-11-07",
+  "board": [
+    {
+      "label": "S&P 500",
+      "value": 7376.86,
+      "change": 0.31,
+      "unit": "%",
+      "dir": "up"
+    },
+    {
+      "label": "Dow",
+      "value": 51285.73,
+      "change": -0.46,
+      "unit": "%",
+      "dir": "down"
+    },
+    {
+      "label": "Nasdaq",
+      "value": 24579.43,
+      "change": 1.09,
+      "unit": "%",
+      "dir": "up"
+    },
+    {
+      "label": "10Y yield",
+      "value": 4.86,
+      "change": 2,
+      "unit": "bp",
+      "dir": "up"
+    },
+    {
+      "label": "Dollar index",
+      "value": 102.3,
+      "change": 0.74,
+      "unit": "%",
+      "dir": "up"
+    },
+    {
+      "label": "USD/JPY",
+      "value": 158.43,
+      "change": 0.59,
+      "unit": "%",
+      "dir": "up"
+    },
+    {
+      "label": "WTI crude",
+      "value": 90.83,
+      "change": 0.34,
+      "unit": "%",
+      "dir": "up"
+    },
+    {
+      "label": "Gold",
+      "value": 4074.9,
+      "change": -0.94,
+      "unit": "%",
+      "dir": "down"
+    },
+    {
+      "label": "VIX",
+      "value": 25.64,
+      "change": -9.01,
+      "unit": "%",
+      "dir": "down"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+    "banks": [
+        {"code": "USD", "name": "US dollar",           "bank": "Federal Reserve",     "rate": 3.875, "next": "Dec 9"},
+        {"code": "EUR", "name": "Euro",                "bank": "ECB",                 "rate": 2.50,  "next": "Dec 17"},
+        {"code": "JPY", "name": "Japanese yen",        "bank": "Bank of Japan",       "rate": 1.25,  "next": "Dec 18"},
+        {"code": "GBP", "name": "British pound",       "bank": "Bank of England",     "rate": 4.00,  "next": "December"},
+        {"code": "CHF", "name": "Swiss franc",         "bank": "Swiss National Bank", "rate": 0.00,  "next": "Dec 10"},
+        {"code": "CAD", "name": "Canadian dollar",     "bank": "Bank of Canada",      "rate": 2.50,  "next": "Dec 9"},
+        {"code": "AUD", "name": "Australian dollar",   "bank": "RBA",                 "rate": 2.75,  "next": "Dec 8"},
+        {"code": "NZD", "name": "NZ Dollar",           "bank": "RBNZ",                "rate": 1.25,  "next": "Dec 9"},
+        {"code": "NDK", "name": "Norwegian krone",     "bank": "Norges Bank",         "rate": 4.50,  "next": "December"}
+    ]
+}
