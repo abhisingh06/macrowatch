@@ -1,35 +1,35 @@
 [
   {
-    "name": "Iran war and oil",
-    "backstory": "The conflict that began in early 2026 cut global oil output by 12 mb/d [million barrels per day] in March. Prices jumped but not to record levels, because the world was oversupplied beforehand and stored oil filled the hole. Tensions eased in June, then resumed.",
-    "today": "WTI closed at 90.53 (-0.33%) as oil pared losses on Hormuz [the key shipping chokepoint for Gulf oil] and Houthi tensions. Trump said renewed strikes are 'highly unlikely' if talks progress, but he could still strike. A former Biden advisor warned the war could return after Brent fell 12.5% (the headline does not say over what period). Shippers remain wary of Red Sea routes despite a Houthi pledge to stop targeting ships. The NY Fed piece says US stockpiles stopped falling in July, so the rest of the world is now draining its own inventories.",
+    "name": "Central banks vs energy inflation",
+    "backstory": "The Iran war cut oil supply and pushed up headline inflation. Central banks must decide if that fades or leaks into wages and services. After 2021, when officials wrongly called a supply shock temporary, they are less willing to wait.",
+    "today": "Lagarde's interview (published Nov 7) said euro-area inflation was 4% in October. Energy inflation was 20.8% (up from 18.9%), core inflation was 2.5% (unchanged), and services inflation was 3.3%. She said she sees no second-round effects yet and cannot promise a December move. The ECB wage tracker points to slightly higher wage growth in the first three quarters of 2027 than in all of 2026. Separately, China's factory-gate inflation of 5.7% is the highest in over four years, while its consumer inflation missed forecasts. The Bank of England hiked to 4% last week and warned inflation will near 5%.",
     "first_seen": "2026-11-09",
     "last_seen": "2026-11-09"
   },
   {
-    "name": "Central banks vs energy inflation",
-    "backstory": "The oil shock pushed headline inflation up, and central banks must decide whether it fades or spreads into wages and services. After 2021, when officials admitted they wrongly treated a supply shock as transitory [temporary], they are more cautious about waiting.",
-    "today": "The Bank of England raised Bank rate to 4%, its first hike since the war began, and warned inflation will near 5%. Lagarde said euro-area October inflation was 4%, with energy inflation at 20.8% (18.9% in September) and core [inflation excluding energy, food, alcohol and tobacco] at 2.5%. She said the ECB decides meeting by meeting, so a December move cannot be promised, and she sees no second-round effects [energy costs leaking into wages and other prices] beyond projections. The ECB wage tracker points to slightly higher wage growth in 2027 than 2026. In the US, bond traders have been backing off Fed hike bets, while China's 5.7% factory-gate inflation could complicate the Fed's path before US CPI.",
+    "name": "Iran war and oil",
+    "backstory": "The conflict that began in early 2026 cut global oil output by 12 mb/d [million barrels per day] in March. Prices jumped but not to records, because the world was oversupplied before and stored oil filled the gap. Tensions eased in June and then returned.",
+    "today": "WTI fell 0.33% to 90.53 as oil pared losses on Hormuz [the key shipping chokepoint for Gulf oil] and Houthi tensions. Trump said renewed strikes are 'highly unlikely' if talks progress but he could still strike. A former Biden advisor warned the war could return after Brent fell 12.5% (no time period given). Shippers remain wary of Red Sea routes despite a Houthi pledge. The NY Fed notes US stockpiles stopped falling in July, so the rest of the world is draining its own.",
     "first_seen": "2026-11-09",
     "last_seen": "2026-11-09"
   },
   {
     "name": "AI trade jitters",
-    "backstory": "Markets have leaned heavily on AI-linked mega-cap tech, so any doubt about AI spending or China competition hits the whole index. Recent headlines describe a sharp AI selloff last week and warnings that the S&P 500 is dangerously exposed to AI.",
-    "today": "The Nasdaq gained 1.09% and headlines say chip stocks led a tech rebound, with futures rebounding after last week's selloff. Nvidia is investigating its CEO's relationship with an alleged Chinese spy, and one headline says it rattled the AI trade in Asia, yet Taiwan still jumped 6%. Other headlines mention AI spending concerns and look-beyond-mega-cap advice. The DeepSeek headlines are from January and the timing relative to now is unclear, so I treat them as old.",
+    "backstory": "Markets have leaned heavily on AI-linked mega-cap tech, so doubts about AI spending or China competition hit the whole index. Last week brought a sharp AI selloff and warnings that the S&P 500 is dangerously exposed to AI.",
+    "today": "The Nasdaq rose 1.09%, futures rebounded after last week's selloff, and chip stocks led. Nvidia is investigating its CEO's relationship with an alleged Chinese spy, and one headline says that rattled the AI trade in Asia, yet Taiwan jumped 6%. Other headlines mention AI spending concerns and advice to look beyond mega-cap tech. The DeepSeek headlines are dated January, so they are old and ignored here.",
     "first_seen": "2026-11-09",
     "last_seen": "2026-11-09"
   },
   {
     "name": "US midterms and the dollar",
-    "backstory": "The midterm elections produced what headlines call a Democratic rout, with voters blaming Trump for economic pain. Markets are asking how a divided government would change tariffs, spending and the dollar.",
-    "today": "The dollar index fell 0.19% and gold is up about 4% since the vote. HSBC says strong Democratic results could pressure the dollar near term, and the NZ dollar rose after the election. One analysis says Democrats have one chance to extract concessions from Trump and markets will dislike it. Another explains how Democrats might try to end the tariffs, and both sides are trading threats of investigations.",
+    "backstory": "The midterms produced what headlines call a Democratic rout, with voters blaming Trump for economic pain. Markets are asking how divided government would change tariffs, spending and the dollar.",
+    "today": "The dollar index fell 0.19% and gold is up about 4% since the vote. HSBC says strong Democratic results could pressure the dollar near term, and the NZ dollar rose after the election. One analysis says Democrats have one chance to extract concessions from Trump and markets will dislike it, another explains how they might try to end tariffs, and both sides are trading threats of investigations.",
     "first_seen": "2026-11-09",
     "last_seen": "2026-11-09"
   },
   {
     "name": "Yen defense",
-    "backstory": "A weak yen has pushed Japan to intervene [sell dollars to buy yen] in the foreign exchange market. Headlines say Japan spent a record $50 billion in a single day, and that a three-day intervention lifted the yen in summer.",
+    "backstory": "A weak yen has pushed Japan to intervene [sell dollars to buy yen] in the foreign exchange market. Headlines say Japan spent a record $50 billion in a single day, and that a three-day intervention lifted the yen in the summer.",
     "today": "USD/JPY rose 0.49% to 158.27, so the yen weakened even as the dollar fell against other currencies. Japan's GPIF [the huge government pension fund] posted a $33.3 billion Q2 loss as a global bond selloff hit its foreign holdings. A shipper's profit was helped by the weak yen, which shows who benefits from it.",
     "first_seen": "2026-11-09",
     "last_seen": "2026-11-09"
