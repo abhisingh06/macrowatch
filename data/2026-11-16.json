@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-16",
+  "board": [
+    {
+      "label": "S&P 500",
+      "value": 7416.59,
+      "change": -1.92,
+      "unit": "%",
+      "dir": "down"
+    },
+    {
+      "label": "Dow",
+      "value": 51608.17,
+      "change": -1.41,
+      "unit": "%",
+      "dir": "down"
+    },
+    {
+      "label": "Nasdaq",
+      "value": 24509.76,
+      "change": -2.49,
+      "unit": "%",
+      "dir": "down"
+    },
+    {
+      "label": "10Y yield",
+      "value": 5.12,
+      "change": -3,
+      "unit": "bp",
+      "dir": "down"
+    },
+    {
+      "label": "Dollar index",
+      "value": 103.59,
+      "change": 0.17,
+      "unit": "%",
+      "dir": "up"
+    },
+    {
+      "label": "USD/JPY",
+      "value": 159.43,
+      "change": -0.28,
+      "unit": "%",
+      "dir": "down"
+    },
+    {
+      "label": "WTI crude",
+      "value": 85.06,
+      "change": -3.95,
+      "unit": "%",
+      "dir": "down"
+    },
+    {
+      "label": "Gold",
+      "value": 3859.3,
+      "change": -0.69,
+      "unit": "%",
+      "dir": "down"
+    },
+    {
+      "label": "VIX",
+      "value": 22.91,
+      "change": 18.7,
+      "unit": "%",
+      "dir": "up"
+    }
+  ],
+  "missing": []
+}
