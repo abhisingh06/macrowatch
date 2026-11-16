@@ -39,10 +39,15 @@ past_text = "\n".join(
 ) or "None yet. This is the first debrief."
 
 # The "system" prompt sets the rules Claude follows every time
-STYLE = """You write MacroWatch, an in-depth end-of-day macro debrief for a college sophomore preparing for sales and trading.
+STYLE = """You write MacroWatch, an in-depth end-of-day macro debrief for a college student who is new to markets and preparing for sales and trading.
 Rules:
-- Plain, college-student language. No em dashes.
-- Define any jargon in a few words in [brackets] right after it.
+- Write for a smart beginner: someone who knows nothing about markets yet but wants the same depth a pro would get. Keep the analysis deep; make the words simple.
+- Short sentences, everyday words, one idea per sentence. No em dashes.
+- Define EVERY market term the first time it appears, in a few plain words in [brackets], even common ones like yield, basis point, the dollar index or risk-off. Never assume the reader already knows a term.
+- Explain why each move matters to a normal person or business when you can (mortgages, gas prices, jobs, savings), then connect it to the bigger picture.
+- Use a quick everyday analogy for any idea that is hard to picture (for example: a bond yield is like the interest rate on a loan to the government).
+- Spell out every cause-and-effect chain one step at a time with arrows or "which means", never skipping a step a beginner would need.
+- Prefer exact numbers over vague words, and say what a number means ("2 basis points, which is a tiny move").
 - Stay at the macro level: connect moves across stocks, rates, FX, commodities, credit and central banks. Skip small single-stock moves unless they say something about the whole market.
 - Dig through ALL the headlines, especially central bank items and smaller stories. Find things most people would miss that could move rates, currencies or credit, and explain the chain of cause and effect step by step.
 - Treat headlines as chapters of bigger ongoing storylines (for example: a war pushing up oil, which pushes up inflation, which pushes central banks to hike). For every important headline, explain the story behind it: how we got here, what today added, and where it leads.
@@ -58,12 +63,12 @@ FORMAT = """Return ONLY a JSON object (no other text) with exactly these keys:
 "summary": 4 to 5 sentences on what happened and why,
 "one_thing": the single most important takeaway, 1 to 2 sentences,
 "cross_asset": {"stocks": ..., "rates": ..., "fx": ..., "commodities": ...}, each 2 to 3 sentences on how that market reacted and why,
-"storylines": 3 to 5 objects, one per big ongoing narrative driving markets, each {"name": short and stable like "Iran war and oil", "status": "new", "developing" or "fading", "backstory": 2 to 3 sentences on how we got here, "today": what today's headlines and articles added, "headline_ids": numbers of the headlines that belong to this story, "doc_ids": D numbers of related full articles as plain integers, "market_link": step by step how this story moves markets, "next_chapter": what would push the story forward next, "note": 1 to 3 short lines the reader should write in their notebook from this section (key numbers, the cause and effect, one sentence they could say in an interview)},
-"stories": 5 to 7 objects, each {"tag": short theme like "Oil -> inflation", "title": ..., "what": what happened, "why": why it matters for the bigger picture, "watch": what to watch next},
-"under_the_radar": 3 to 4 objects, each {"title": ..., "what": the smaller story, "chain": step by step how it could reach the big markets, "watch": the signal that would show it's becoming important, "note": 1 to 3 short lines the reader should write in their notebook from this section (key numbers, the cause and effect, one sentence they could say in an interview)},
+"storylines": 3 to 4 objects, one per big ongoing narrative driving markets, each {"name": short and stable like "Iran war and oil", "status": "new", "developing" or "fading", "backstory": 2 to 3 sentences on how we got here, "today": what today's headlines and articles added, "headline_ids": numbers of the headlines that belong to this story, "doc_ids": D numbers of related full articles as plain integers, "market_link": step by step how this story moves markets, "next_chapter": what would push the story forward next, "note": 1 to 3 short lines the reader should write in their notebook from this section (key numbers, the cause and effect, one sentence they could say in an interview)},
+"stories": 4 to 5 objects, each {"tag": short theme like "Oil -> inflation", "title": ..., "what": what happened, "why": why it matters for the bigger picture, "watch": what to watch next},
+"under_the_radar": 2 to 3 objects, each {"title": ..., "what": the smaller story, "chain": step by step how it could reach the big markets, "watch": the signal that would show it's becoming important, "note": 1 to 3 short lines the reader should write in their notebook from this section (key numbers, the cause and effect, one sentence they could say in an interview)},
 "deep_dive": 1 to 2 objects, each {"doc": the D number as a plain integer, "why_now": why this piece matters this week, "key_points": 3 to 5 plain sentences, "market_angle": which markets it could move and in which direction, "trade_idea": one trade a desk might consider and its main risk, "note": 1 to 3 short lines the reader should write in their notebook from this section (key numbers, the cause and effect, one sentence they could say in an interview)}. Use an empty list if no full articles were provided,
 "watch_next": 3 to 5 objects, each {"when": ..., "event": ..., "why": ...}, using only events named in the headlines,
-"terms": 5 to 8 objects, each {"term": ..., "def": one plain sentence with a simple analogy},
+"terms": 4 to 6 objects, each {"term": ..., "def": one plain sentence with a simple analogy},
 "quiz": 5 objects, each {"q": question, "options": [4 answers], "answer": index 0-3 of the right one, "explain": 1 to 2 sentences},
 "market_map": a cause-and-effect map of today centered on the main storyline, {"nodes": 6 to 10 objects, each {"id": short lowercase id like "oil", "label": short name like "Oil", "kind": "market" for something that trades or "driver" for an idea like "Inflation expectations" or "Fed hike odds", "board_label": the exact label from THE TAPE if this node is on it, otherwise null}, "edges": 6 to 12 objects, each {"from": node id, "to": node id, "effect": "pushes up" or "pushes down", "why": one plain sentence explaining the link today}},
 "cross_asset_notes": 2 to 4 short lines to write down about the day's key levels and moves across markets, each with why it matters,
@@ -92,12 +97,14 @@ FULL ARTICLES (official sources, D number, source, title, text)
 {FORMAT}"""
 
 client = anthropic.Anthropic()
-response = client.messages.create(
+# Stream the answer: long debriefs take a while, and streaming keeps the connection alive
+with client.messages.stream(
     model="claude-sonnet-5-5",
-    max_tokens=16000,
+    max_tokens=32000,
     system=STYLE,
     messages=[{"role": "user", "content": prompt}],
-)
+) as stream:
+    response = stream.get_final_message()
 
 # Claude may send a "thinking" block first, so find the block that holds the actual answer
 text = next((b.text for b in response.content if b.type == "text"), "")

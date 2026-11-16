@@ -25,7 +25,7 @@ SOURCES = {
 
 DAYS_BACK = 4        # 4 days so a Monday run still catches Friday's items
 PER_SOURCE = 2       # at most 2 full articles from each source
-MAX_CHARS = 6000     # cap each article (about 1,000 words) to keep costs down
+MAX_CHARS = 4000     # cap each article (about 650 words) to keep costs down
 MIN_CHARS = 500      # skip pages where we couldn't get real article text
 SKIP_WORDS = ["enforcement", "termination", "application", "board meeting"]  # routine Fed notices
 
