@@ -1,31 +1,31 @@
 [
   {
     "name": "AI trade jitters",
-    "backstory": "Markets have leaned heavily on AI-linked mega-cap tech [the very largest companies by value], so doubts about AI spending or China competition hit the whole index. Last week brought a sharp AI selloff and warnings that the S&P 500 is dangerously exposed to AI. Nvidia's CEO exit then knocked its stock on Nov 12.",
-    "today": "The earlier rebound reversed: the Nasdaq fell 2.49%. Chip stocks dropped on planned Commerce Department restrictions, Micron and AMD fell, rare-earth stocks sank, and the Nvidia board is reportedly not considering bringing Huang back. Fed Chairman Warsh said AI is important to the economy but could 'disappoint'. A Fed survey named AI risks the biggest threat to the financial system, and Governor Barr gave a speech on AI and financial stability. ECB Vice-President Vuj\u010di\u0107 said the risk of an AI market repricing has 'further increased'.",
+    "backstory": "Markets have leaned heavily on AI-linked mega-cap tech [the very largest companies by value], so doubts about AI spending hit the whole index. Last week brought a sharp AI selloff, warnings that the S&P 500 is dangerously exposed to AI, and the exit of Nvidia's CEO on Nov 12.",
+    "today": "The S&P 500 fell for a fourth day as investors 'lightened up' before Nvidia's fiscal Q3 results. Salesforce led the S&P's decliners amid tech jitters, and consumer staples gained in a rotation. Anthropic [an AI company] is likely to price its IPO [first sale of shares to the public] above its $70 to $78 range, so appetite for AI is not gone. ECB Vice-President Vuj\u010di\u0107 said the risk of an AI market repricing has 'further increased', and that AI funding is shifting from stock markets toward debt markets. A St. Louis Fed study found the ten big 'hyperscalers' [big firms that build AI data centers and chips] spent nearly 13% of assets on capital spending in early 2026, versus about 3% for other firms. Fed Chair Warsh called this era transformational.",
     "first_seen": "2026-11-09",
-    "last_seen": "2026-11-16"
+    "last_seen": "2026-11-17"
   },
   {
     "name": "Central banks vs energy inflation",
-    "backstory": "The Iran war cut oil supply and lifted headline inflation. Central banks must judge whether it fades or leaks into wages and services, and after 2021 they are less willing to wait. Lagarde said euro-area inflation hit 4% in October, and the Bank of England hiked to 4% last week.",
-    "today": "US numbers are hot: October consumer prices rose 0.4%, more than expected, and wholesale prices rose 0.3% in the month for an annual 6.5%, the highest in nearly four years. A 'jumbo' hike debate is brewing for the December Fed meeting, and the dollar hit its highest since April 2025 on hike bets. Vuj\u010di\u0107 said euro-area inflation rose to 4% from 3.8%, wages are not responding materially yet, and rising borrowing costs should partly contain inflation. A French central bank speech noted yields have risen across advanced economies since summer on the war, hike expectations and heavy bond issuance. Japan's economy shrank in Q3 as energy costs bit.",
+    "backstory": "The Iran war cut oil supply and lifted headline inflation. Central banks must judge whether it fades or leaks into wages and services, and after 2021 they are less willing to wait. The euro area hit 4% inflation and the Bank of England hiked to 4% last week.",
+    "today": "St. Louis Fed's Musalem said four more rate hikes may be needed in coming months. If each hike were a quarter point, that would take the Fed from 3.875% to 4.875%, though the size of the hikes was not given. Vuj\u010di\u0107 said euro-area inflation rose to 4% from 3.8%, mainly on energy, with wages not responding materially yet. October US wholesale prices rose 0.3%, a 6.5% annual rate, the highest in nearly four years. Treasury yields still dipped 2 bp on a weak housing indicator, and the dollar stayed near its April 2025 high.",
     "first_seen": "2026-11-09",
-    "last_seen": "2026-11-16"
+    "last_seen": "2026-11-17"
   },
   {
     "name": "Iran war and oil",
-    "backstory": "The conflict that began in early 2026 cut global oil output by 12 mb/d [million barrels per day] in March. Prices jumped but not to records, because the world was oversupplied before and stored oil filled the gap. Tensions eased in June and then returned.",
-    "today": "WTI fell 3.95% to 85.06 as recovering Middle East exports strengthened the surplus outlook. Energy stocks retreated, and Canada's TSX dropped 380 points as metal and energy stocks slid. Yet Vuj\u010di\u0107 says the ongoing war is still pushing energy prices up in Europe, so the inflation effect has not vanished.",
+    "backstory": "The conflict that began in early 2026 cut global oil output by 12 mb/d [million barrels per day] in March. Prices jumped but not to records, because the world was oversupplied and stored oil filled the gap. Tensions eased in June and then returned.",
+    "today": "WTI was nearly flat at 85.67, down 0.06%. One headline says oil edged up on tanker attacks and an expected US crude drop (who attacked and where is not in the headlines). Trump said he takes a reported Iranian plan for a 'dirty bomb' [a bomb that spreads radioactive material] in Washington 'very seriously'. Energy stocks were softer, and Alberta cut royalty rates [the share of revenue paid to the government] for new oilsands projects, which could add supply later. Vuj\u010di\u0107 says the war still pushes up European energy prices.",
     "first_seen": "2026-11-09",
-    "last_seen": "2026-11-16"
+    "last_seen": "2026-11-17"
   },
   {
     "name": "Yen defense",
-    "backstory": "A weak yen pushed Japan to intervene [sell dollars to buy yen] in the foreign exchange market, including a record $50 billion in one day. The Bank of Japan's 1.25% rate is far below the Fed's 3.875%, a gap of 2.625 percentage points, which encourages selling yen to hold dollars.",
-    "today": "Japan's Q3 economy unexpectedly contracted as elevated energy costs bit. A headline says the dollar rally and Japan's slump leave the yen under pressure, though USD/JPY slipped 0.28% to 159.43 today. A hawkish [favoring higher rates] BOJ policymaker, Takata, called for a swift hike.",
+    "backstory": "A weak yen pushed Japan to intervene [sell dollars to buy yen] in the currency market, including a record $50 billion in one day. The Bank of Japan's 1.25% rate is 2.625 percentage points below the Fed's 3.875%, which encourages selling yen to hold dollars.",
+    "today": "USD/JPY fell 0.25% to 159.38, a small yen gain. Japan's economy unexpectedly shrank in Q3 as energy costs bit, and headlines say the dollar rally and Japan's slump leave the yen under pressure. A hawkish BOJ policymaker, Takata, called for a swift hike.",
     "first_seen": "2026-11-09",
-    "last_seen": "2026-11-16"
+    "last_seen": "2026-11-17"
   },
   {
     "name": "US midterms and the dollar",
