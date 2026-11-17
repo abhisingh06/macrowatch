@@ -277,7 +277,14 @@
     "category": "news",
     "title": "Widespread outages hit banks, air travel, the NSA and Apple, disrupting seemingly everything",
     "link": "https://www.cnbc.com/2026/11/17/apple-microsoft-faa-jpmorgan-outages.html",
-    "published": "Tue, 17 Nov 2026 21:24:20 GMT"
+    "published": "Tue, 17 Nov 2026 21:56:19 GMT"
+  },
+  {
+    "source": "CNBC Top News",
+    "category": "news",
+    "title": "Jensen Huang scandal fuels bipartisan push to block AI chip sales to China",
+    "link": "https://www.cnbc.com/2026/11/17/congress-ai-china-jensen-huang-chips.html",
+    "published": "Tue, 17 Nov 2026 21:31:21 GMT"
   },
   {
     "source": "CNBC Top News",
@@ -310,23 +317,16 @@
   {
     "source": "CNBC Top News",
     "category": "news",
-    "title": "Trump on Iran's reported DC dirty bomb plan: 'We take it very seriously'",
-    "link": "https://www.cnbc.com/2026/11/17/trump-iran-dirty-bomb-washington.html",
-    "published": "Tue, 17 Nov 2026 17:49:45 GMT"
-  },
-  {
-    "source": "CNBC Top News",
-    "category": "news",
-    "title": "FAA pauses installation of new routers after ground stop",
-    "link": "https://www.cnbc.com/2026/11/17/faa-ground-stop-routers.html",
-    "published": "Tue, 17 Nov 2026 20:53:24 GMT"
-  },
-  {
-    "source": "CNBC Top News",
-    "category": "news",
     "title": "Trump\u2019s accounts traded up to $97.5 million in Nvidia as Huang gained White House access",
     "link": "https://www.cnbc.com/2026/11/16/trump-nvidia-stock-trades-jensen-huang.html",
     "published": "Tue, 17 Nov 2026 10:08:32 GMT"
+  },
+  {
+    "source": "CNBC Top News",
+    "category": "news",
+    "title": "Aschenbrenner\u2019s Situational Awareness made AI bets again before October rout",
+    "link": "https://www.cnbc.com/2026/11/16/situational-awareness-aschenbrenner-new-ai-bets.html",
+    "published": "Mon, 16 Nov 2026 23:05:12 GMT"
   },
   {
     "source": "CNBC Economy",
@@ -625,6 +625,20 @@
   {
     "source": "Yahoo (stocks)",
     "category": "news",
+    "title": "Jensen Huang\u2019s Last Quarter Beats Estimates: Can Nvidia Stock Recover Without Him?",
+    "link": "",
+    "published": "2026-11-17T21:41:26Z"
+  },
+  {
+    "source": "Yahoo (stocks)",
+    "category": "news",
+    "title": "How major US stock indexes fared Tuesday 11/17/2026",
+    "link": "",
+    "published": "2026-11-17T21:40:25Z"
+  },
+  {
+    "source": "Yahoo (stocks)",
+    "category": "news",
     "title": "Wall Street ends lower ahead of Nvidia results, focus turns to Anthropic debut",
     "link": "",
     "published": "2026-11-17T21:29:42Z"
@@ -649,20 +663,6 @@
     "title": "Stocks Are Tanking at a Terrible Time",
     "link": "",
     "published": "2026-11-17T21:04:33Z"
-  },
-  {
-    "source": "Yahoo (stocks)",
-    "category": "news",
-    "title": "Update: US Equity Indexes Slump as Investors Lighten Up Ahead of Nvidia's Fiscal Q3 Results",
-    "link": "",
-    "published": "2026-11-17T20:51:01Z"
-  },
-  {
-    "source": "Yahoo (stocks)",
-    "category": "news",
-    "title": "Morgan Stanley sends strong signal on where stocks are headed",
-    "link": "",
-    "published": "2026-11-17T20:47:00Z"
   },
   {
     "source": "Yahoo (rates)",
@@ -730,6 +730,20 @@
   {
     "source": "Yahoo (dollar)",
     "category": "news",
+    "title": "Eltek Ltd. Q3 2026 Earnings Call Summary",
+    "link": "",
+    "published": "2026-11-17T21:42:04Z"
+  },
+  {
+    "source": "Yahoo (dollar)",
+    "category": "news",
+    "title": "Treasury Yields Fall as Wall Street Waits for Nvidia",
+    "link": "",
+    "published": "2026-11-17T20:54:00Z"
+  },
+  {
+    "source": "Yahoo (dollar)",
+    "category": "news",
     "title": "Stocks fall with Nvidia in focus, dollar dips",
     "link": "",
     "published": "2026-11-17T20:22:20Z"
@@ -756,20 +770,6 @@
     "published": "2026-11-17T18:26:44Z"
   },
   {
-    "source": "Yahoo (dollar)",
-    "category": "news",
-    "title": "SD Bullion Publishes Long-Term Gold Price Analysis Examining Gold\u2019s 50-Year Record Against Inflation",
-    "link": "",
-    "published": "2026-11-17T16:51:49Z"
-  },
-  {
-    "source": "Yahoo (dollar)",
-    "category": "news",
-    "title": "Treasury Yields Reverse Course and Fall Amid Weak Housing Indicator",
-    "link": "",
-    "published": "2026-11-17T16:22:00Z"
-  },
-  {
     "source": "Yahoo (oil)",
     "category": "news",
     "title": "TSX Closer: Index Tumbles to Six-Week Low As All Sectors Decline; Investors Assess Canadian Housing Data",
@@ -782,6 +782,13 @@
     "title": "Sector Update: Energy Stocks Softer Late Afternoon",
     "link": "",
     "published": "2026-11-17T20:46:57Z"
+  },
+  {
+    "source": "Yahoo (oil)",
+    "category": "news",
+    "title": "Oil Futures Rise as Middle East Shipping Risks Persist",
+    "link": "",
+    "published": "2026-11-17T20:44:00Z"
   },
   {
     "source": "Yahoo (oil)",
@@ -803,13 +810,6 @@
     "title": "Sector Update: Energy Stocks Lower in Afternoon Trading",
     "link": "",
     "published": "2026-11-17T19:00:33Z"
-  },
-  {
-    "source": "Yahoo (oil)",
-    "category": "news",
-    "title": "Alberta cuts royalty rates for new oilsands projects",
-    "link": "",
-    "published": "2026-11-17T18:34:01Z"
   },
   {
     "source": "Yahoo (gold)",

@@ -31,31 +31,31 @@
     },
     {
       "label": "Dollar index",
-      "value": 103.53,
-      "change": -0.02,
+      "value": 103.54,
+      "change": -0.01,
       "unit": "%",
       "dir": "down"
     },
     {
       "label": "USD/JPY",
-      "value": 159.38,
-      "change": -0.25,
+      "value": 159.37,
+      "change": -0.26,
       "unit": "%",
       "dir": "down"
     },
     {
       "label": "WTI crude",
-      "value": 85.67,
-      "change": -0.06,
+      "value": 85.51,
+      "change": -0.24,
       "unit": "%",
       "dir": "down"
     },
     {
       "label": "Gold",
-      "value": 3855.6,
-      "change": 0.07,
+      "value": 3852.8,
+      "change": -0.01,
       "unit": "%",
-      "dir": "up"
+      "dir": "down"
     },
     {
       "label": "VIX",

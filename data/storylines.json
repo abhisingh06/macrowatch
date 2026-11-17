@@ -1,22 +1,29 @@
 [
   {
     "name": "AI trade jitters",
-    "backstory": "Markets have leaned heavily on AI-linked mega-cap tech [the very largest companies by value], so doubts about AI spending hit the whole index. Last week brought a sharp AI selloff, warnings that the S&P 500 is dangerously exposed to AI, and the exit of Nvidia's CEO on Nov 12.",
-    "today": "The S&P 500 fell for a fourth day as investors 'lightened up' before Nvidia's fiscal Q3 results. Salesforce led the S&P's decliners amid tech jitters, and consumer staples gained in a rotation. Anthropic [an AI company] is likely to price its IPO [first sale of shares to the public] above its $70 to $78 range, so appetite for AI is not gone. ECB Vice-President Vuj\u010di\u0107 said the risk of an AI market repricing has 'further increased', and that AI funding is shifting from stock markets toward debt markets. A St. Louis Fed study found the ten big 'hyperscalers' [big firms that build AI data centers and chips] spent nearly 13% of assets on capital spending in early 2026, versus about 3% for other firms. Fed Chair Warsh called this era transformational.",
+    "backstory": "Markets have leaned on AI-linked mega-cap tech [the very largest companies by value], so doubts about AI spending hit the whole index. Last week brought a sharp AI selloff and the exit of Nvidia's CEO on Nov 12. This story has run since Nov 9.",
+    "today": "The S&P 500 fell a fourth day as investors 'lightened up' before Nvidia's results. One headline says Nvidia's last quarter under Huang beat estimates, but no numbers or market reaction are given. Salesforce led the S&P's decliners, and staples gained. Anthropic [an AI company] is likely to price its IPO [first sale of shares to the public] above its $70 to $78 range, so AI appetite is not gone. Washington is pushing to block AI chip sales to China, and a Fed survey calls AI risks the biggest threat to the financial system. A St. Louis Fed study says the ten 'hyperscalers' [big firms that build AI data centers and chips] spent nearly 13% of assets on capital spending in early 2026, against about 3% for other firms.",
     "first_seen": "2026-11-09",
     "last_seen": "2026-11-17"
   },
   {
     "name": "Central banks vs energy inflation",
-    "backstory": "The Iran war cut oil supply and lifted headline inflation. Central banks must judge whether it fades or leaks into wages and services, and after 2021 they are less willing to wait. The euro area hit 4% inflation and the Bank of England hiked to 4% last week.",
-    "today": "St. Louis Fed's Musalem said four more rate hikes may be needed in coming months. If each hike were a quarter point, that would take the Fed from 3.875% to 4.875%, though the size of the hikes was not given. Vuj\u010di\u0107 said euro-area inflation rose to 4% from 3.8%, mainly on energy, with wages not responding materially yet. October US wholesale prices rose 0.3%, a 6.5% annual rate, the highest in nearly four years. Treasury yields still dipped 2 bp on a weak housing indicator, and the dollar stayed near its April 2025 high.",
+    "backstory": "The Iran war cut oil supply and lifted headline inflation [the total price rise, including food and energy]. Central banks must decide if it fades or leaks into wages and services, and after 2021 they are less willing to wait. The euro area hit 4% inflation and the Bank of England hiked to 4% last week.",
+    "today": "St. Louis Fed's Musalem said four more rate hikes may be needed in coming months. If each is a quarter point, the Fed would go from 3.875% to 4.875%, but the hike size was not given. Vuj\u010di\u0107 of the ECB said euro-area inflation rose to 4% from 3.8%, mainly on energy, with wages not responding materially yet. October US wholesale prices rose 0.3%, a 6.5% annual rate, the highest in nearly four years. Headlines also mention a debate over a 'jumbo' hike [bigger than the usual quarter point] and an expected December Fed hike. Even so, the 10-year yield fell 2 basis points on a weak housing signal.",
     "first_seen": "2026-11-09",
     "last_seen": "2026-11-17"
   },
   {
     "name": "Iran war and oil",
     "backstory": "The conflict that began in early 2026 cut global oil output by 12 mb/d [million barrels per day] in March. Prices jumped but not to records, because the world was oversupplied and stored oil filled the gap. Tensions eased in June and then returned.",
-    "today": "WTI was nearly flat at 85.67, down 0.06%. One headline says oil edged up on tanker attacks and an expected US crude drop (who attacked and where is not in the headlines). Trump said he takes a reported Iranian plan for a 'dirty bomb' [a bomb that spreads radioactive material] in Washington 'very seriously'. Energy stocks were softer, and Alberta cut royalty rates [the share of revenue paid to the government] for new oilsands projects, which could add supply later. Vuj\u010di\u0107 says the war still pushes up European energy prices.",
+    "today": "WTI closed at 85.51, down 0.24%. Headlines say oil edged up on tanker attacks and an expected US crude drop, and that Middle East shipping risks persist, but who attacked and where is not stated. Energy stocks were softer in the afternoon. Vuj\u010di\u0107 says the war still pushes up European energy prices.",
+    "first_seen": "2026-11-09",
+    "last_seen": "2026-11-17"
+  },
+  {
+    "name": "US midterms and the dollar",
+    "backstory": "The midterms produced what headlines call a Democratic rout, with voters blaming Trump for economic pain. Markets ask how divided government would change tariffs, spending and the dollar.",
+    "today": "The dollar index was flat at 103.54 and stays near its April 2025 high. One headline says the dollar 'wrecking ball' has already flattened the 'debasement trade' [a bet that currencies lose value, so buy gold or other hard assets]. Only the title is given. Gold is about 4% higher since the vote per earlier reporting, but it was flat today at 3852.8. HSBC has said strong Democratic results could pressure the dollar near term.",
     "first_seen": "2026-11-09",
     "last_seen": "2026-11-17"
   },
@@ -26,12 +33,5 @@
     "today": "USD/JPY fell 0.25% to 159.38, a small yen gain. Japan's economy unexpectedly shrank in Q3 as energy costs bit, and headlines say the dollar rally and Japan's slump leave the yen under pressure. A hawkish BOJ policymaker, Takata, called for a swift hike.",
     "first_seen": "2026-11-09",
     "last_seen": "2026-11-17"
-  },
-  {
-    "name": "US midterms and the dollar",
-    "backstory": "The midterms produced what headlines call a Democratic rout, with voters blaming Trump for economic pain. Markets are asking how divided government would change tariffs, spending and the dollar.",
-    "today": "The dollar index fell 0.19% and gold is up about 4% since the vote. HSBC says strong Democratic results could pressure the dollar near term, and the NZ dollar rose after the election. One analysis says Democrats have one chance to extract concessions from Trump and markets will dislike it, another explains how they might try to end tariffs, and both sides are trading threats of investigations.",
-    "first_seen": "2026-11-09",
-    "last_seen": "2026-11-09"
   }
 ]
