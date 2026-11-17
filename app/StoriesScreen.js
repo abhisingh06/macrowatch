@@ -1,10 +1,10 @@
 import { Text, View } from "react-native";
-import { C, Field, Notes, Section, SourceLink, s } from "./theme";
+import { C, Field, Notes, Rich, Section, SourceLink, plain, s } from "./theme";
 
 const STATUS = {
   new: { color: C.accent, bg: C.accentBg },
   developing: { color: C.up, bg: C.upBg },
-  fading: { color: C.muted, bg: C.rule },
+  fading: { color: C.muted, bg: C.card },
 };
 
 function Storyline({ st, notesOn }) {
@@ -13,12 +13,12 @@ function Storyline({ st, notesOn }) {
   return (
     <View style={s.card}>
       <View style={{ flexDirection: "row", justifyContent: "space-between", alignItems: "center" }}>
-        <Text style={s.tag}>Running since {st.first_seen}</Text>
-        <View style={[s.pill, { backgroundColor: status.bg }]}>
-          <Text style={[s.pillText, { color: status.color }]}>{st.status}</Text>
-        </View>
+        <Text style={s.label}>Running since {st.first_seen}</Text>
+        <Text style={[s.pillText, { color: status.color }]}>
+          {st.status ? st.status.charAt(0).toUpperCase() + st.status.slice(1) : ""}
+        </Text>
       </View>
-      <Text style={s.cardTitle}>{st.name}</Text>
+      <Text style={s.cardTitle}>{plain(st.name)}</Text>
       <Field name="Backstory">{st.backstory}</Field>
       <Field name="Today">{st.today}</Field>
       <Field name="How it moves markets">{st.market_link}</Field>
@@ -33,8 +33,8 @@ function RadarStory({ r, notesOn }) {
   return (
     <View style={s.card}>
       <Text style={[s.tag, { color: C.note }]}>Under the radar</Text>
-      <Text style={s.cardTitle}>{r.title}</Text>
-      <Text style={[s.body, { marginBottom: 6 }]}>{r.what}</Text>
+      <Text style={s.cardTitle}>{plain(r.title)}</Text>
+      <Rich style={[s.body, { marginBottom: 6 }]} text={r.what} />
       <Field name="Chain">{r.chain}</Field>
       <Field name="Watch for">{r.watch}</Field>
       <Notes lines={r.note} on={notesOn} />
@@ -46,10 +46,10 @@ function DeepDive({ dd, notesOn }) {
   return (
     <View style={s.card}>
       <Text style={s.tag}>Deep dive · {dd.source}</Text>
-      <Text style={s.cardTitle}>{dd.title}</Text>
+      <Text style={s.cardTitle}>{plain(dd.title)}</Text>
       <Field name="Why now">{dd.why_now}</Field>
       {(dd.key_points || []).map((p, i) => (
-        <Text key={i} style={[s.body, { marginLeft: 6, marginBottom: 4 }]}>• {p}</Text>
+        <Rich key={i} style={[s.body, { marginLeft: 6, marginBottom: 4 }]} prefix="• " text={p} />
       ))}
       <Field name="Market angle">{dd.market_angle}</Field>
       <Field name="Trade idea">{dd.trade_idea}</Field>

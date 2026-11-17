@@ -13,6 +13,7 @@ WIDTH = 90
 
 
 def say(text, indent="  "):
+    text = str(text).replace("[[", "").replace("]]", "")
     print(textwrap.fill(str(text), WIDTH, initial_indent=indent, subsequent_indent=indent))
 
 
@@ -41,12 +42,14 @@ def run_quiz():
         return
     heading("Quiz")
     score = 0
+    quiz = [q for q in quiz if q.get("type", "mc") != "order"]   # order questions need the app
     for i, q in enumerate(quiz, 1):
         print()
         say(f"{i}. {q['q']}")
+        letters = "abcd"[:len(q["options"])]
         for j, opt in enumerate(q["options"]):
-            say(f"{'abcd'[j]}) {opt}", "     ")
-        pick = input("  Your answer (a/b/c/d): ").strip().lower()
+            say(f"{letters[j]}) {opt}", "     ")
+        pick = input(f"  Your answer ({'/'.join(letters)}): ").strip().lower()
         right = "abcd"[q["answer"]]
         if pick == right:
             score += 1

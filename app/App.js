@@ -1,19 +1,25 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { StatusBar } from "expo-status-bar";
 import {
-  ActivityIndicator, Pressable, RefreshControl, ScrollView, StyleSheet, Switch, Text, View,
+  ActivityIndicator, Modal, Pressable, RefreshControl, ScrollView, StyleSheet, Switch, Text, View,
 } from "react-native";
-import { C, s } from "./theme";
+import { Ionicons } from "@expo/vector-icons";
+import { C, DATA_URL, TermContext, s } from "./theme";
 import DebriefScreen from "./DebriefScreen";
 import StoriesScreen from "./StoriesScreen";
 import QuizScreen from "./QuizScreen";
 import MapScreen from "./MapScreen";
 
 // Where the app downloads each day's debrief (your public GitHub repo)
-const DEBRIEF_URL =
-  "https://raw.githubusercontent.com/abhisingh06/macrowatch/main/data/debrief_latest.json";
+const DEBRIEF_URL = `${DATA_URL}debrief_latest.json`;
 
-const TABS = ["Debrief", "Stories", "Quiz", "Map"];
+// Tab name shown on screen, and its icon
+const TABS = [
+  ["Debrief", "Today", "newspaper"],
+  ["Stories", "Stories", "book"],
+  ["Quiz", "Quiz", "school"],
+  ["Map", "Map", "git-network"],
+];
 
 export default function App() {
   const [debrief, setDebrief] = useState(null);
@@ -21,7 +27,13 @@ export default function App() {
   const [loading, setLoading] = useState(false);
   const [notesOn, setNotesOn] = useState(false);
   const [tab, setTab] = useState("Debrief");
+  const [term, setTerm] = useState(null);       // the key term whose sheet is open
   const scrollRef = useRef(null);
+
+  // Find a term's definition in today's glossary (ignoring capital letters)
+  const glossary = debrief?.glossary || {};
+  const termKey = term && Object.keys(glossary).find((k) => k.toLowerCase() === term.toLowerCase());
+  const entry = termKey ? glossary[termKey] : null;
 
   // Download the newest debrief from GitHub
   const load = useCallback(async () => {
@@ -47,17 +59,18 @@ export default function App() {
   }
 
   return (
+    <TermContext.Provider value={{ open: setTerm }}>
     <View style={a.screen}>
       <StatusBar style="light" />
 
       {/* Header: tab name + notes mode switch */}
       <View style={a.header}>
         {tab === "Debrief"
-          ? <Text style={a.brand}>MACRO<Text style={{ color: C.accent }}>WATCH</Text></Text>
-          : <Text style={a.brand}>{tab.toUpperCase()}</Text>}
+          ? <Text style={a.brand}>Macro<Text style={{ color: C.accent }}>Watch</Text></Text>
+          : <Text style={a.title}>{TABS.find((t) => t[0] === tab)[1]}</Text>}
         <View style={a.toggle}>
-          <Text style={[a.toggleText, notesOn && { color: C.note }]}>Notes</Text>
-          <Switch value={notesOn} onValueChange={setNotesOn} trackColor={{ false: C.rule, true: C.note }} thumbColor={C.ink} />
+          <Text style={a.toggleText}>Notes</Text>
+          <Switch value={notesOn} onValueChange={setNotesOn} trackColor={{ false: C.raised, true: C.accent }} thumbColor="#ffffff" />
         </View>
       </View>
 
@@ -87,30 +100,73 @@ export default function App() {
 
       {/* Bottom tab bar */}
       <View style={a.tabBar}>
-        {TABS.map((name) => (
-          <Pressable key={name} onPress={() => openTab(name)} style={a.tabButton}>
-            <View style={[a.tabIcon, tab === name && { borderColor: C.accent, backgroundColor: C.accentBg }]} />
-            <Text style={[a.tabText, tab === name && { color: C.accent }]}>{name}</Text>
-          </Pressable>
-        ))}
+        {TABS.map(([name, label, icon]) => {
+          const on = tab === name;
+          return (
+            <Pressable key={name} onPress={() => openTab(name)} style={a.tabButton}>
+              <Ionicons name={on ? icon : `${icon}-outline`} size={23} color={on ? C.accent : C.muted} />
+              <Text style={[a.tabText, on && { color: C.accent }]}>{label}</Text>
+            </Pressable>
+          );
+        })}
       </View>
+
+      {/* Key term sheet: slides up when you tap a highlighted word */}
+      <Modal visible={!!term} transparent animationType="slide" onRequestClose={() => setTerm(null)}>
+        <Pressable style={a.backdrop} onPress={() => setTerm(null)} />
+        <View style={a.sheet}>
+          <View style={a.grab} />
+          <Text style={a.sheetTitle}>{termKey || term}</Text>
+          <Text style={s.body}>{entry?.def || "No definition saved for this term yet."}</Text>
+          {entry?.analogy ? (
+            <View style={a.extra}>
+              <Ionicons name="bulb-outline" size={20} color={C.accent} />
+              <View style={{ flex: 1 }}>
+                <Text style={a.extraTitle}>Think of it like</Text>
+                <Text style={s.body}>{entry.analogy}</Text>
+              </View>
+            </View>
+          ) : null}
+          {entry?.today ? (
+            <View style={a.extra}>
+              <Ionicons name="pulse-outline" size={20} color={C.up} />
+              <View style={{ flex: 1 }}>
+                <Text style={a.extraTitle}>Today</Text>
+                <Text style={s.body}>{entry.today}</Text>
+              </View>
+            </View>
+          ) : null}
+          <Pressable style={a.close} onPress={() => setTerm(null)}>
+            <Text style={a.closeText}>Got it</Text>
+          </Pressable>
+        </View>
+      </Modal>
     </View>
+    </TermContext.Provider>
   );
 }
 
 const a = StyleSheet.create({
   screen: { flex: 1, backgroundColor: C.bg, paddingTop: 60 },
-  header: { flexDirection: "row", justifyContent: "space-between", alignItems: "center", paddingHorizontal: 16, paddingBottom: 10 },
-  brand: { color: C.ink, fontSize: 22, fontWeight: "900", letterSpacing: 1 },
+  header: { flexDirection: "row", justifyContent: "space-between", alignItems: "center", paddingHorizontal: 20, paddingBottom: 14 },
+  brand: { color: C.ink, fontSize: 20, fontWeight: "800", letterSpacing: -0.4 },
+  title: { color: C.ink, fontSize: 30, fontWeight: "800", letterSpacing: -0.7 },
   toggle: { flexDirection: "row", alignItems: "center", gap: 8 },
-  toggleText: { color: C.muted, fontWeight: "700" },
-  content: { paddingHorizontal: 16, paddingBottom: 40 },
-  footer: { color: C.muted, textAlign: "center", marginTop: 24, fontSize: 12 },
+  toggleText: { color: C.muted, fontSize: 14 },
+  content: { paddingHorizontal: 20, paddingBottom: 40 },
+  footer: { color: C.muted, textAlign: "center", marginTop: 28, fontSize: 12 },
   tabBar: {
     flexDirection: "row", justifyContent: "space-around", borderTopWidth: 1, borderTopColor: C.rule,
-    backgroundColor: "#0b1118", paddingTop: 10, paddingBottom: 30,
+    backgroundColor: C.bg, paddingTop: 10, paddingBottom: 30,
   },
-  tabButton: { alignItems: "center", gap: 4, minWidth: 64 },
-  tabIcon: { width: 22, height: 22, borderRadius: 6, borderWidth: 2, borderColor: C.muted },
+  tabButton: { alignItems: "center", gap: 3, minWidth: 64 },
   tabText: { color: C.muted, fontSize: 11, fontWeight: "600" },
+  backdrop: { flex: 1, backgroundColor: "rgba(0,0,0,0.55)" },
+  sheet: { backgroundColor: C.sheet, borderTopLeftRadius: 24, borderTopRightRadius: 24, padding: 22, paddingBottom: 40 },
+  grab: { width: 38, height: 5, borderRadius: 3, backgroundColor: "#3a4246", alignSelf: "center", marginBottom: 18 },
+  sheetTitle: { color: C.ink, fontSize: 24, fontWeight: "800", letterSpacing: -0.4, marginBottom: 8 },
+  extra: { flexDirection: "row", gap: 12, marginTop: 16 },
+  extraTitle: { color: C.ink, fontSize: 13, fontWeight: "700", marginBottom: 2 },
+  close: { backgroundColor: C.accent, borderRadius: 14, paddingVertical: 15, alignItems: "center", marginTop: 24 },
+  closeText: { color: C.accentInk, fontWeight: "700", fontSize: 16 },
 });

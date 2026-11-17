@@ -1,27 +1,29 @@
 import { StyleSheet, Text, View } from "react-native";
-import { C, Notes, Section, s } from "./theme";
+import { C, Notes, Rich, Section, plain, s } from "./theme";
 
 const MOOD = {
-  "risk-on": { text: "Risk-on day", color: C.up, bg: C.upBg },
-  "risk-off": { text: "Risk-off day", color: C.down, bg: C.downBg },
-  mixed: { text: "Mixed day", color: C.accent, bg: C.accentBg },
+  "risk-on": { text: "Risk-on day", color: C.up },
+  "risk-off": { text: "Risk-off day", color: C.down },
+  mixed: { text: "Mixed day", color: C.note },
 };
 
 function formatNumber(n) {
   return typeof n === "number" ? n.toLocaleString("en-US", { maximumFractionDigits: 2 }) : String(n ?? "");
 }
 
-// One box in the tape grid
-function Print({ row }) {
-  const arrow = row.dir === "up" ? "▲ " : row.dir === "down" ? "▼ " : "";
+function formatChange(row) {
+  const sign = row.change > 0 ? "+" : row.change < 0 ? "−" : "";
+  return `${sign}${Math.abs(row.change)}${row.unit === "bp" ? " bp" : "%"}`;
+}
+
+// One market in the tape: name, level, and the move in green or red
+function Print({ row, index }) {
   const color = row.dir === "up" ? C.up : row.dir === "down" ? C.down : C.muted;
-  const sign = row.change > 0 ? "+" : "";
-  const unit = row.unit === "bp" ? " bp" : "%";
   return (
-    <View style={d.print}>
-      <Text style={s.label}>{row.label}</Text>
+    <View style={[d.print, index % 3 !== 0 && d.printDivider]}>
+      <Text style={d.printLabel}>{row.label}</Text>
       <Text style={d.printValue}>{formatNumber(row.value)}</Text>
-      <Text style={[d.printChange, { color }]}>{arrow}{sign}{row.change}{unit}</Text>
+      <Text style={[d.printChange, { color }]}>{formatChange(row)}</Text>
     </View>
   );
 }
@@ -30,30 +32,30 @@ export default function DebriefScreen({ debrief, notesOn }) {
   const mood = MOOD[debrief.mood] || MOOD.mixed;
   return (
     <>
-      <Text style={s.label}>Market close · {debrief.date}</Text>
-      <Text style={d.headline}>{debrief.headline}</Text>
-      <View style={[s.pill, { alignSelf: "flex-start", backgroundColor: mood.bg, paddingHorizontal: 10, paddingVertical: 5 }]}>
-        <Text style={[s.pillText, { color: mood.color }]}>{mood.text}</Text>
+      <View style={d.moodRow}>
+        <View style={[d.dot, { backgroundColor: mood.color }]} />
+        <Text style={s.label}>{mood.text} · {debrief.date}</Text>
       </View>
-      <Text style={d.summary}>{debrief.summary}</Text>
+      <Text style={d.headline}>{plain(debrief.headline)}</Text>
+      <Rich style={d.summary} text={debrief.summary} />
 
       {debrief.one_thing ? (
-        <View style={d.oneThing}>
-          <Text style={s.label}>If you remember one thing</Text>
-          <Text style={s.body}>{debrief.one_thing}</Text>
+        <View style={[s.card, { marginTop: 18 }]}>
+          <Text style={[s.label, { color: C.accent, marginBottom: 4 }]}>If you remember one thing</Text>
+          <Rich text={debrief.one_thing} />
         </View>
       ) : null}
 
       <Section>The tape</Section>
       <View style={d.tape}>
-        {(debrief.board || []).map((row) => <Print key={row.label} row={row} />)}
+        {(debrief.board || []).map((row, i) => <Print key={row.label} row={row} index={i} />)}
       </View>
 
       <Section>How each market reacted</Section>
       {Object.entries(debrief.cross_asset || {}).map(([name, text]) => (
-        <View key={name} style={s.card}>
-          <Text style={[s.tag, { marginBottom: 6 }]}>{name}</Text>
-          <Text style={s.body}>{text}</Text>
+        <View key={name} style={d.market}>
+          <Text style={d.marketName}>{name === "fx" ? "Currencies" : name.charAt(0).toUpperCase() + name.slice(1)}</Text>
+          <Rich text={text} />
         </View>
       ))}
       <Notes lines={debrief.cross_asset_notes} on={notesOn} />
@@ -62,11 +64,16 @@ export default function DebriefScreen({ debrief, notesOn }) {
 }
 
 const d = StyleSheet.create({
-  headline: { color: C.ink, fontSize: 28, fontWeight: "800", lineHeight: 32, marginTop: 6, marginBottom: 10 },
-  summary: { color: C.body, fontSize: 15, lineHeight: 22, marginTop: 12 },
-  oneThing: { borderLeftWidth: 3, borderLeftColor: C.accent, paddingLeft: 12, marginTop: 14, gap: 4 },
-  tape: { flexDirection: "row", flexWrap: "wrap", borderRadius: 12, overflow: "hidden", borderWidth: 1, borderColor: C.rule },
-  print: { width: "33.33%", backgroundColor: C.card, padding: 10, borderRightWidth: 1, borderBottomWidth: 1, borderColor: C.rule },
-  printValue: { color: C.ink, fontSize: 16, fontWeight: "700", marginTop: 4, fontVariant: ["tabular-nums"] },
-  printChange: { fontSize: 12, fontWeight: "700", marginTop: 2, fontVariant: ["tabular-nums"] },
+  moodRow: { flexDirection: "row", alignItems: "center", gap: 8 },
+  dot: { width: 8, height: 8, borderRadius: 4 },
+  headline: { color: C.ink, fontSize: 28, fontWeight: "800", lineHeight: 32, letterSpacing: -0.6, marginTop: 6, marginBottom: 10 },
+  summary: { color: C.body, fontSize: 16, lineHeight: 24 },
+  tape: { flexDirection: "row", flexWrap: "wrap", borderTopWidth: 1, borderColor: C.rule },
+  print: { width: "33.33%", paddingVertical: 12, borderBottomWidth: 1, borderColor: C.rule },
+  printDivider: { borderLeftWidth: 1, paddingLeft: 12 },
+  printLabel: { color: C.muted, fontSize: 12 },
+  printValue: { color: C.ink, fontSize: 17, fontWeight: "700", marginTop: 2, fontVariant: ["tabular-nums"] },
+  printChange: { fontSize: 13, fontWeight: "600", marginTop: 1, fontVariant: ["tabular-nums"] },
+  market: { paddingVertical: 14, borderTopWidth: 1, borderColor: C.rule },
+  marketName: { color: C.ink, fontSize: 16, fontWeight: "700", marginBottom: 4 },
 });
