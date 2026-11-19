@@ -1,0 +1,690 @@
+{
+  "headline": "Fed minutes signal more hikes; dollar jumps, gold and oil slide",
+  "mood": "mixed",
+  "summary": "US stocks ended mixed. The S&P 500 [an index of 500 big US companies] fell 0.23% to 7323.63, the Dow [an index of 30 large US companies] fell 1.11%, and the Nasdaq [an index heavy in tech companies] rose 0.42%. The Fed [the US central bank] released minutes [a written record of its last policy meeting] showing officials expect more rate hikes [raises to the interest rate it controls] and worry that AI could push up inflation [the general rise in prices]. That lifted the dollar index [a score for the dollar against a basket of other big currencies] 0.31% to 103.81 and hit gold, which fell 2.91% to 3751.8 dollars. WTI [the main US oil price benchmark] fell 3.85% to 82.7 dollars a barrel on expectations of a supply surplus [more oil than buyers need]. The 10-year yield [the interest rate the US government pays to borrow for 10 years] fell 4 basis points [one basis point is 0.01 percentage point, so this is a small move] to 5.07%, which does not fit a hawkish Fed story, so the cause of that drop is unclear.",
+  "one_thing": "The Fed minutes say more rate hikes are coming, and that lifted the dollar and crushed gold, yet the 10-year yield still fell 4 basis points. The market believes the Fed, but it also seems to be betting that falling oil will cool inflation.",
+  "cross_asset": {
+    "stocks": "The S&P 500 fell 0.23%, and one headline says it broke a key support level [a price zone where buyers stepped in before, so losing it worries chart watchers]. The Dow fell 1.11% while the Nasdaq rose 0.42%, so money rotated inside the market rather than leaving it. Metals and energy shares were weak (Canada's TSX fell 2.1% to a five-month low, and European stocks hit a two-week low on weak miners), but no headline directly explains the Dow's drop, so that cause is unclear. The VIX [a gauge of how big a swing traders expect in the S&P 500 over the next month, often called the fear index] slipped 3.53% to 24.56, so fear eased a little even as the S&P slipped.",
+    "rates": "The 10-year yield fell 4 basis points to 5.07%, and the 2-year yield [the rate on a 2-year government loan] sits near 4.8%. The yield curve [the 10-year yield minus the 2-year yield] is about +30 basis points. The 2-year is well above the Fed's own rate of 3.875%, which suggests traders expect several more hikes. A high 10-year yield matters at home because mortgage rates tend to follow it, so home loans stay expensive. The headlines call yields 'mixed' amid hawkish [favoring higher rates] Fed talk. Falling oil and weaker stocks may explain the dip, but no headline confirms that.",
+    "fx": "The dollar index rose 0.31% to 103.81, and one headline calls this the dollar's biggest rally since 2024. A separate gauge, the WSJ Dollar Index, rose 0.22% to 98.64. It uses a different basket, which is why its level differs. Higher expected US rates make dollars more rewarding to hold, so buyers come in. The Canadian dollar hit a 19-month low after hawkish comments from a Fed governor, whom the headline does not name. USD/JPY [how many yen one dollar buys] was 159.42, down 0.05%, so the yen barely moved and stays weak against a 1.25% Japanese rate versus the Fed's 3.875%.",
+    "commodities": "WTI fell 3.85% to 82.7 dollars on supply-surplus expectations. Gold fell 2.91% to 3751.8, and Comex gold [the main gold futures contract] settled 3.16% lower at 3736.80. Gold pays no interest, so higher expected rates and a stronger dollar make it less attractive. Copper fell to its lowest since April, with headlines blaming AI market turmoil and worries about Chinese demand. One headline says metals were 'pounded' after a 'shock', but it does not say what the shock was."
+  },
+  "storylines": [
+    {
+      "name": "Central banks vs energy inflation",
+      "status": "developing",
+      "backstory": "The Iran war cut oil supply and pushed up headline inflation [the total price rise, including food and energy]. Central banks must decide whether that fades or leaks into wages and services, and after 2021 they are less willing to wait. The euro area hit 4% inflation, the Bank of England hiked to 4% last week, and the Fed sits at 3.875%.",
+      "today": "The Fed minutes say officials expect more rate hikes and worry about AI's effect on inflation. The headlines do not give the full minutes text, so the details are unknown. Governor Barr said in a speech that inflation is too high and he expects it will be appropriate to raise rates further. Yesterday St. Louis Fed's Musalem said four more hikes may be needed. In the UK, inflation rose to 3.6% in October on record diesel prices. Bailey said it should reach about 5% by mid-next year, but he sees limited sign so far of knock-on effects on wages and other prices. He also said the rate path is not pre-set.",
+      "market_link": "Fed officials expect hikes, which means traders expect higher US rates. Higher US rates make dollars more rewarding to hold, so the dollar rises. They also raise the cost of borrowing for firms, which pressures stocks. And they make gold, which pays nothing, less attractive, so gold falls.",
+      "next_chapter": "The next steps are the expected December Fed hike and the debate over a 'jumbo' hike [bigger than the usual quarter point]. Wage and services data would show whether energy costs are leaking into the wider economy. Oil staying lower would give the Fed a reason to slow down.",
+      "note": "Fed funds 3.875%. Musalem: four more hikes possible. If each is a quarter point, that is 4.875%, but the size was not given.\nCause and effect: more expected hikes -> stronger dollar -> weaker gold and stocks.\nInterview line: Central banks are hiking into an energy shock because they fear a repeat of 2021.",
+      "headlines": [
+        {
+          "title": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
+          "source": "CNBC Top News",
+          "url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html"
+        },
+        {
+          "title": "St. Louis Fed's Musalem says four more rate hikes may be needed in coming months",
+          "source": "CNBC Economy",
+          "url": "https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html"
+        },
+        {
+          "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
+          "source": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm"
+        },
+        {
+          "title": "Stock Market Today, Nov. 18: S&P 500 Breaks Key Support as Fed Minutes Signal More Rate Hikes Ahead",
+          "source": "Yahoo (gold)",
+          "url": ""
+        },
+        {
+          "title": "Treasury Yields Mixed Amid Hawkish Fedspeak",
+          "source": "Yahoo (oil)",
+          "url": ""
+        },
+        {
+          "title": "Canadian dollar hits 19-month low after hawkish Fed governor comments",
+          "source": "Yahoo (dollar)",
+          "url": ""
+        },
+        {
+          "title": "Record diesel prices drive UK inflation to 1-year high of 3.6%",
+          "source": "CNBC Economy",
+          "url": "https://www.cnbc.com/2026/11/18/uk-inflation-cpi-fuel-prices.html"
+        },
+        {
+          "title": "Bank rate increased to 4% - November 2026 Monetary Policy Summary and Minutes",
+          "source": "Bank of England",
+          "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+        }
+      ],
+      "articles": [
+        {
+          "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
+          "source": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm"
+        },
+        {
+          "title": "Barr, Investing in America\u2019s Underserved Communities",
+          "source": "Fed speeches",
+          "url": "https://www.federalreserve.gov/newsevents/speech/barr20261118a.htm"
+        },
+        {
+          "title": "The UK\u2019s regional growth: unlocking the economy\u2019s full potential - speech by Andrew Bailey",
+          "source": "Bank of England speeches",
+          "url": "https://www.bankofengland.co.uk/speech/2026/november/andrew-bailey-speech-at-the-annual-institute-of-economic-development-conference-london"
+        }
+      ],
+      "first_seen": "2026-11-09"
+    },
+    {
+      "name": "AI trade jitters",
+      "status": "developing",
+      "backstory": "Markets have leaned on AI-linked mega-cap tech [the very largest companies by value], so doubts about AI spending hit the whole index. Nvidia's CEO left on Nov 12 and an AI selloff followed. The story has run since Nov 9.",
+      "today": "The Nasdaq rose 0.42% while the S&P 500 and Dow fell, so AI was not a one-way selloff. Headlines say Nvidia's demand is 'hard to ignore' but four questions loom over the stock. Interim CEO Kress told staff 'let's move forward'. Palo Alto rose after earnings and a $4.5 billion deal for an AI startup. A Nov 19 headline says Anthropic's IPO raised over $81 billion, the largest offering on record, and one says it priced high. That was published after Tuesday's close, so it is not in today's closing data. The ECB warned that AI infrastructure is increasingly funded with debt, so a mood change could spread losses from stocks to bonds. A St. Louis Fed study says the ten hyperscalers spent nearly 13% of assets on capital spending [money for buildings and equipment] versus about 3% for other firms. A San Francisco Fed letter puts the CAPE ratio [a stock price divided by 10 years of average earnings, adjusted for inflation] at 40.5, below only the 43.1 peak of early 2000.",
+      "market_link": "Big AI spending props up stock prices and demand for materials like copper. If investors doubt that the spending will pay off, tech stocks fall and the whole index feels it. Because more of the spending is debt-funded, losses could reach credit markets [markets for company borrowing] too.",
+      "next_chapter": "Watch the market's reaction to Nvidia's results and Anthropic's trading debut. Watch for new US limits on AI chip sales to China. Watch for any trouble in AI-linked debt.",
+      "note": "CAPE 40.5 vs 43.1 in Q1 2000. Hyperscaler capex about 13% of assets vs about 3% for others.\nCause and effect: AI doubts -> tech down -> index down, but a hot IPO shows appetite remains.\nInterview line: The AI trade is now partly a credit story because the buildout is increasingly funded with debt.",
+      "headlines": [
+        {
+          "title": "Nvidia\u2019s booming demand is \u2018hard to ignore,\u2019 but these four questions loom over the stock",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/what-wall-street-analysts-are-now-saying-after-nvidias-beat-and-raise-quarter-9311c85d?mod=mw_rss_topstories"
+        },
+        {
+          "title": "Nvidia interim CEO Kress tells employees \u2018let\u2019s move forward\u2019 at first all-hands meeting since Jensen Huang exit",
+          "source": "CNBC Top News",
+          "url": "https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-kress-addresses-staff-after-jensen-huang-exit-.html"
+        },
+        {
+          "title": "Anthropic IPO raises over $81 billion in largest offering on record, topping SpaceX",
+          "source": "CNBC Top News",
+          "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html"
+        },
+        {
+          "title": "Palo Alto inks $4.5 billion deal for AI startup Applied Compute, shares pop 7% on earnings",
+          "source": "CNBC Top News",
+          "url": "https://www.cnbc.com/2026/11/18/palo-alto-networks-panw-q1-2027-earnings-.html"
+        },
+        {
+          "title": "Palo Alto Networks\u2019 stock gets a fresh AI-fueled boost from earnings",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/palo-alto-networks-stock-soars-as-earnings-show-ai-has-upped-the-stakes-for-cybersecurity-308e34b8?mod=mw_rss_topstories"
+        },
+        {
+          "title": "Dow Jones Futures Rise; Anthropic IPO Prices High, Palo Alto And Everpure Rally On Earnings",
+          "source": "Yahoo (stocks)",
+          "url": ""
+        },
+        {
+          "title": "Review & Preview: Anthropic\u2019s Moment",
+          "source": "Yahoo (stocks)",
+          "url": ""
+        },
+        {
+          "title": "Big bets against AI debt, from CoreWeave to Oracle and the Mag 7, could soon hit the ETF market",
+          "source": "CNBC Top News",
+          "url": "https://www.cnbc.com/2026/11/18/ai-credit-default-swaps-coreweave-debt.html"
+        },
+        {
+          "title": "How copper\u2019s plunge could hurt the AI buildout",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/coppers-plunge-could-make-the-ai-data-center-buildout-more-painful-7057f41c?mod=mw_rss_topstories"
+        },
+        {
+          "title": "Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook",
+          "source": "ECB",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html"
+        },
+        {
+          "title": "Generac Jolted After Nvidia Earnings. Why It\u2019s a Top S&P 500 Stock Today.",
+          "source": "Yahoo (stocks)",
+          "url": ""
+        },
+        {
+          "title": "GE Vernova Down 24%: What Would Its CEO Say?",
+          "source": "Yahoo (stocks)",
+          "url": ""
+        },
+        {
+          "title": "European stocks hit two-week low on weak miners, caution ahead of Anthropic IPO",
+          "source": "Yahoo (oil)",
+          "url": ""
+        }
+      ],
+      "articles": [
+        {
+          "title": "Connecting Stock Market to Labor Market During the AI Boom",
+          "source": "SF Fed Economic Letter",
+          "url": "https://www.frbsf.org/research-and-insights/publications/economic-letter/2026/11/connecting-stock-market-to-labor-market-during-ai-boom/"
+        },
+        {
+          "title": "Hyperscalers\u2019 Cash and Investment during the AI Boom",
+          "source": "St. Louis Fed On the Economy",
+          "url": "https://www.stlouisfed.org/on-the-economy/2026/nov/hyperscaler-cash-investment-ai-boom"
+        },
+        {
+          "title": "Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook",
+          "source": "ECB",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html"
+        }
+      ],
+      "first_seen": "2026-11-09"
+    },
+    {
+      "name": "Iran war and oil",
+      "status": "fading",
+      "backstory": "The conflict that began in early 2026 cut global oil output by 12 mb/d [million barrels per day] in March. Prices jumped but not to records, because the world was oversupplied and stored oil filled the gap. Tensions eased in June and then returned.",
+      "today": "WTI fell 3.85% to 82.7 dollars as headlines pointed to supply-surplus expectations. Energy stocks slid, and Canada's TSX fell 2.1% on weak metals and energy. Yet the war still pushes energy costs up elsewhere. The ECB's Vuj\u010di\u0107 says it lifts European energy prices, the UK has record diesel prices, and Bailey says the conflict is in its ninth month.",
+      "market_link": "Lower crude means lower petrol and diesel costs later, which eases headline inflation. That reduces the pressure on central banks to hike. It may be one reason the 10-year yield fell, but no headline confirms this.",
+      "next_chapter": "A new supply scare or shipping disruption could reverse the drop. More data on a surplus would extend it. Pump prices lag crude, so consumers feel relief only later.",
+      "note": "WTI 82.7, -3.85%.\nCause and effect: surplus expected -> oil down -> less inflation pressure.\nInterview line: Oil can fall on surplus even while the war keeps regional fuel prices high.",
+      "headlines": [
+        {
+          "title": "Oil Futures Extend Decline on Supply Surplus Expectations",
+          "source": "Yahoo (oil)",
+          "url": ""
+        },
+        {
+          "title": "TSX Closer: Index Plunges 2.1% to Five-Month Low as Metals And Energy Stocks Slide",
+          "source": "Yahoo (oil)",
+          "url": ""
+        },
+        {
+          "title": "Record diesel prices drive UK inflation to 1-year high of 3.6%",
+          "source": "CNBC Economy",
+          "url": "https://www.cnbc.com/2026/11/18/uk-inflation-cpi-fuel-prices.html"
+        },
+        {
+          "title": "Boris Vuj\u010di\u0107: Financial Stability Review - November 2026",
+          "source": "ECB",
+          "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261118~86f1e8147e.en.pdf"
+        },
+        {
+          "title": "Copper at Lowest Since April Amid AI Market Turmoil, Chinese Demand Concerns",
+          "source": "Yahoo (dollar)",
+          "url": ""
+        }
+      ],
+      "articles": [
+        {
+          "title": "Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook",
+          "source": "ECB",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html"
+        },
+        {
+          "title": "The UK\u2019s regional growth: unlocking the economy\u2019s full potential - speech by Andrew Bailey",
+          "source": "Bank of England speeches",
+          "url": "https://www.bankofengland.co.uk/speech/2026/november/andrew-bailey-speech-at-the-annual-institute-of-economic-development-conference-london"
+        }
+      ],
+      "first_seen": "2026-11-09"
+    },
+    {
+      "name": "US midterms and the dollar",
+      "status": "developing",
+      "backstory": "The midterms produced what headlines call a Democratic rout. Markets ask how divided government would change tariffs, spending and the dollar. HSBC has said strong Democratic results could pressure the dollar near term.",
+      "today": "The dollar index rose 0.31% to 103.81, and a headline calls it the biggest rally since 2024. Barclays and Deutsche Bank say the AI boom could extend dollar strength, and Jamie Dimon said the US will keep its reserve currency status. Today's move looks driven by Fed hike talk rather than the election, though no headline says so directly. The Canadian dollar fell to a 19-month low. Gold's 2.91% drop fits an earlier headline saying the dollar has flattened the 'debasement trade' [a bet that currencies lose value, so buy gold].",
+      "market_link": "Higher expected US rates -> more demand for dollars -> stronger dollar. A stronger dollar makes gold and copper pricier for foreign buyers, so their prices fall. It also drags down currencies of countries with lower rates, like Canada at 2.5% and Japan at 1.25%.",
+      "next_chapter": "Watch whether the election story returns and pushes the dollar down, or whether rate hikes keep it up. Also watch Japanese intervention near 159 to 160 yen per dollar.",
+      "note": "Dollar index 103.81, +0.31%. USD/JPY 159.42.\nCause and effect: hike talk -> dollar up -> gold and CAD down.\nInterview line: Rate gaps drive currencies more than politics when central banks are moving.",
+      "headlines": [
+        {
+          "title": "WSJ Dollar Index Rises 0.22% to 98.64",
+          "source": "Yahoo (dollar)",
+          "url": ""
+        },
+        {
+          "title": "Barclays, Deutsche Bank See AI Boom Extending Dollar Strength",
+          "source": "Yahoo (dollar)",
+          "url": ""
+        },
+        {
+          "title": "What\u2019s Driving the Dollar\u2019s Biggest Rally Since 2024",
+          "source": "Yahoo (dollar)",
+          "url": ""
+        },
+        {
+          "title": "Canadian dollar hits 19-month low after hawkish Fed governor comments",
+          "source": "Yahoo (dollar)",
+          "url": ""
+        },
+        {
+          "title": "Jamie Dimon Declared the U.S. Will Hang On to Its Status as the World's Top Reserve Currency. Here's Why That Confidence Matters for Dollar-Denominated Assets JPMorgan Clients Hold.",
+          "source": "Yahoo (yen)",
+          "url": ""
+        }
+      ],
+      "articles": [],
+      "first_seen": "2026-11-09"
+    }
+  ],
+  "stories": [
+    {
+      "tag": "Fed -> rates",
+      "title": "Fed minutes point to more hikes",
+      "what": "Minutes from the Oct 27-28 meeting show officials expect more rate hikes and worry about AI's effect on inflation. The S&P 500 broke a key support level, and Canada's dollar hit a 19-month low after a hawkish Fed governor spoke. The Fed funds rate is 3.875%.",
+      "why": "A higher Fed rate raises costs for loans, credit cards and business borrowing. It is also why the dollar rallied and gold fell. The 2-year yield near 4.8% shows traders already expect several hikes.",
+      "watch": "Watch the December meeting and the debate over a 'jumbo' hike."
+    },
+    {
+      "tag": "Dollar -> metals",
+      "title": "Gold and copper get hit",
+      "what": "Gold fell 2.91% to 3751.8 and Comex gold settled 3.16% lower at 3736.80. Copper hit its lowest since April on AI turmoil and worries about Chinese demand. One headline blames a 'shock' but does not name it.",
+      "why": "Gold normally rises when investors are nervous, but today it fell as rate hopes and the dollar dominated. Copper is a gauge of factory and construction demand, so its drop hints at weak growth.",
+      "watch": "Watch whether gold finds a floor if the dollar stops rising."
+    },
+    {
+      "tag": "Oil -> inflation",
+      "title": "Oil drops on surplus expectations",
+      "what": "WTI fell 3.85% to 82.7 dollars. Energy and metals shares fell, and the TSX dropped 2.1% to a five-month low.",
+      "why": "Cheaper oil lowers petrol and diesel costs over time, which eases inflation. That could soften the Fed's hiking path. Energy-heavy markets like Canada's lose out.",
+      "watch": "Watch for shipping or tanker disruptions that could flip oil higher again."
+    },
+    {
+      "tag": "AI -> stocks",
+      "title": "Nasdaq rises as Anthropic IPO looms",
+      "what": "The Nasdaq rose 0.42% while the S&P 500 and Dow fell. After the close, a headline said Anthropic's IPO raised over $81 billion, a record. Nvidia and Palo Alto results were also in focus.",
+      "why": "A huge, well-received IPO shows investors still want AI exposure. Yet officials from the Fed and ECB both flagged AI as a risk to financial stability and to inflation.",
+      "watch": "Watch how Nvidia and Anthropic shares trade next."
+    },
+    {
+      "tag": "Energy -> UK",
+      "title": "UK inflation hits 3.6% on record diesel",
+      "what": "UK inflation rose to a one-year high of 3.6% in October on record diesel prices. Bailey expects it near 5% by mid-next year. The Bank of England rate is already 4%.",
+      "why": "It shows energy costs reaching households even as crude falls. It also means more hikes are possible if wages and other prices start to follow.",
+      "watch": "Watch UK wage data and the Bank of England's next meeting."
+    }
+  ],
+  "under_the_radar": [
+    {
+      "title": "Copper's slide and the AI buildout",
+      "what": "Copper hit its lowest since April, and MarketWatch asks how its plunge could hurt the AI buildout. Headlines blame AI market turmoil and Chinese demand worries.",
+      "chain": "Copper falls -> miners earn less -> mining stocks drop, as European stocks and the TSX showed. Copper is also a cost for data centers, so cheaper copper helps builders. But if the fall signals weak demand, it hints that growth is slowing.",
+      "watch": "A further drop in copper alongside falling tech stocks would suggest the AI spending doubts are turning into real economic worry.",
+      "note": "Copper at its lowest since April.\nCause and effect: AI doubts + weak China demand -> copper down -> miners down.\nInterview line: Copper is a read on global growth and on the AI buildout."
+    },
+    {
+      "title": "AI debt bets heading to ETFs",
+      "what": "CNBC says big bets against AI debt, from CoreWeave to Oracle and the Mag 7, could soon reach the ETF market [funds that trade like stocks]. The ECB also says AI infrastructure is increasingly funded by debt.",
+      "chain": "AI firms borrow to build data centers -> investors worry about repayment -> bond prices of those firms fall and borrowing costs rise. ETFs would make betting against that debt easy for ordinary investors, which could speed up any selloff.",
+      "watch": "Wider yield gaps between AI-firm bonds and Treasuries would show that stress is building.",
+      "note": "ECB: debt-funded AI could spread losses from stocks to bonds.\nCause and effect: AI doubts -> debt harder to refinance -> credit stress.\nInterview line: The AI trade is a credit story as well as an equity story."
+    },
+    {
+      "title": "Canadian dollar and TSX both slide",
+      "what": "The Canadian dollar hit a 19-month low after a Fed governor's hawkish comments, and the TSX fell 2.1% to a five-month low as metals and energy stocks dropped.",
+      "chain": "Fed hike talk -> dollar rises against the Canadian dollar. Canada also exports oil and metals, so lower prices cut its income -> its currency and stocks fall. The Bank of Canada rate of 2.5% is well below the Fed's 3.875%, which adds to the pressure.",
+      "watch": "A Canadian dollar low that holds while oil rebounds would suggest the Fed gap is the main driver.",
+      "note": "BoC 2.5% vs Fed 3.875%.\nCause and effect: lower oil and metals plus Fed hikes -> CAD and TSX down.\nInterview line: Commodity currencies suffer when commodities fall and US rates rise."
+    }
+  ],
+  "deep_dive": [
+    {
+      "why_now": "Barr's speech gives a rare direct statement from a Fed governor, on the same day the minutes pointed to more hikes. It helps explain why the dollar jumped.",
+      "key_points": [
+        "Barr says the economy is strong, with low unemployment, solid consumer spending and robust business investment.",
+        "He also says inflation is too high and makes it hard for families to make ends meet.",
+        "If the economy evolves as he forecasts, he expects it will be appropriate to raise rates further.",
+        "He says wealthier households are doing well but middle- and lower-income households struggle.",
+        "He will keep watching incoming data and the balance of risks."
+      ],
+      "market_angle": "It supports a higher dollar and higher short-term yields. It is a headwind for stocks and gold, because both are hurt by higher rates.",
+      "trade_idea": "A desk might sell 2-year Treasuries [bet that their yield rises] on the view that more hikes will be priced in. The main risk is falling oil, which could lower inflation fears and cut hike expectations.",
+      "note": "Barr: inflation too high, further hikes likely appropriate.\nCause and effect: strong economy + high inflation -> Fed hikes.\nInterview line: The Fed sees a strong economy and high inflation, so the bias is toward tightening.",
+      "title": "Barr, Investing in America\u2019s Underserved Communities",
+      "source": "Fed speeches",
+      "url": "https://www.federalreserve.gov/newsevents/speech/barr20261118a.htm"
+    },
+    {
+      "why_now": "The ECB's review came out the same day AI stocks were swinging and the Anthropic IPO was about to price. It shows how an AI selloff could spread beyond stocks.",
+      "key_points": [
+        "The ECB says AI valuations rely on ambitious earnings expectations that could be challenged by financing worries or cheaper AI models.",
+        "AI infrastructure is increasingly funded through debt, so losses could spread from equity to bond markets.",
+        "Fiscal imbalances in major economies could trigger a global repricing of sovereign risk [how risky government debt looks].",
+        "Euro area banks look resilient thanks to strong profits, capital and liquidity.",
+        "Vulnerabilities are larger in certain non-banks, where safeguards are less developed."
+      ],
+      "market_angle": "A sudden AI shock could push stocks and credit down together while lifting safe-haven government bonds. Higher government borrowing worries could push yields up and hurt bonds.",
+      "trade_idea": "A desk might buy credit protection [insurance that pays out if a borrower fails to repay] on AI-linked debt. The main risk is that AI demand stays strong, as the record Anthropic IPO suggests, so spreads stay tight and the insurance costs money.",
+      "note": "ECB: AI debt could pass losses from stocks to bonds.\nCause and effect: more borrowing for AI -> a sentiment shift hits credit.\nInterview line: The risk is less that AI fails than that borrowed money chasing it gets repriced.",
+      "title": "Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook",
+      "source": "ECB",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html"
+    }
+  ],
+  "watch_next": [
+    {
+      "when": "Nov 19 session",
+      "event": "Market reaction to Nvidia, Palo Alto and the Anthropic IPO",
+      "why": "Dow futures rose on those headlines, so this will show whether AI appetite is holding."
+    },
+    {
+      "when": "December",
+      "event": "Expected Fed rate hike and the 'jumbo' hike debate",
+      "why": "The hike size sets the path for the dollar, yields and gold."
+    },
+    {
+      "when": "Coming weeks",
+      "event": "More Fed speakers after Musalem's call for four more hikes",
+      "why": "Each speech reshapes how many hikes traders price."
+    },
+    {
+      "when": "Ongoing",
+      "event": "Oil supply-surplus data and Middle East shipping risk",
+      "why": "They decide whether crude keeps falling and eases inflation."
+    },
+    {
+      "when": "Ongoing",
+      "event": "BOJ's Takata calling for a swift hike and USD/JPY near 159",
+      "why": "A BOJ hike or Japanese intervention could shift the yen sharply."
+    }
+  ],
+  "terms": [
+    {
+      "term": "FOMC minutes",
+      "def": "A written record of what Fed officials said at their last meeting, like reading the notes of a team huddle after the decision."
+    },
+    {
+      "term": "Hawkish",
+      "def": "Favoring higher interest rates to fight inflation, like a strict coach who wants tougher training."
+    },
+    {
+      "term": "Yield curve",
+      "def": "The gap between the 10-year and 2-year yields, like comparing a long loan's rate with a short loan's rate."
+    },
+    {
+      "term": "Support level",
+      "def": "A price zone where buyers have stepped in before, like a floor that has caught a falling ball."
+    },
+    {
+      "term": "Safe haven",
+      "def": "An asset people buy when scared, like running to a storm shelter, though it can fail when rates and the dollar rise."
+    },
+    {
+      "term": "Supply surplus",
+      "def": "More of a good than buyers need, like a store with too much stock that must cut prices."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "The Fed funds rate is 3.875%. If four quarter-point hikes happen, where does it end up?",
+      "options": [
+        "4.375%",
+        "4.875%",
+        "5.875%",
+        "4.125%"
+      ],
+      "answer": 1,
+      "explain": "Four hikes of 0.25 points add 1.0 point. That takes 3.875% to 4.875%."
+    },
+    {
+      "q": "Why did gold fall 2.91% even though stocks slipped?",
+      "options": [
+        "Oil rose sharply",
+        "The dollar and expected rate hikes rose",
+        "The VIX spiked",
+        "Japan cut rates"
+      ],
+      "answer": 1,
+      "explain": "Gold pays no interest and is priced in dollars. Higher expected rates and a stronger dollar make it less attractive."
+    },
+    {
+      "q": "The 10-year yield fell 4 basis points. How big is that?",
+      "options": [
+        "0.04 percentage points",
+        "0.4 percentage points",
+        "4 percentage points",
+        "0.004 percentage points"
+      ],
+      "answer": 0,
+      "explain": "One basis point is 0.01 percentage point, so 4 basis points is 0.04. It is a small move."
+    },
+    {
+      "q": "The Dow fell 1.11% while the Nasdaq rose 0.42%. What does this show?",
+      "options": [
+        "Everything fell together",
+        "Money rotated inside the market",
+        "The VIX doubled",
+        "The Fed cut rates"
+      ],
+      "answer": 1,
+      "explain": "Indexes moved in opposite directions, so winners and losers were separated by sector rather than a market-wide panic."
+    },
+    {
+      "q": "The 10-year yield is 5.1% and the 2-year is 4.8%. What is the curve?",
+      "options": [
+        "About +30 basis points",
+        "About -30 basis points",
+        "About +3 basis points",
+        "Zero"
+      ],
+      "answer": 0,
+      "explain": "10-year minus 2-year is about 0.3 percentage points, or 30 basis points."
+    }
+  ],
+  "market_map": {
+    "nodes": [
+      {
+        "id": "fedhikes",
+        "label": "Fed hike odds",
+        "kind": "driver",
+        "board_label": null
+      },
+      {
+        "id": "dollar",
+        "label": "Dollar",
+        "kind": "market",
+        "board_label": "Dollar index",
+        "value": 103.81,
+        "change": 0.31,
+        "unit": "%",
+        "dir": "up"
+      },
+      {
+        "id": "gold",
+        "label": "Gold",
+        "kind": "market",
+        "board_label": "Gold",
+        "value": 3751.8,
+        "change": -2.91,
+        "unit": "%",
+        "dir": "down"
+      },
+      {
+        "id": "stocks",
+        "label": "S&P 500",
+        "kind": "market",
+        "board_label": "S&P 500",
+        "value": 7323.63,
+        "change": -0.23,
+        "unit": "%",
+        "dir": "down"
+      },
+      {
+        "id": "surplus",
+        "label": "Oil surplus view",
+        "kind": "driver",
+        "board_label": null
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "kind": "market",
+        "board_label": "WTI crude",
+        "value": 82.7,
+        "change": -3.85,
+        "unit": "%",
+        "dir": "down"
+      },
+      {
+        "id": "yield10",
+        "label": "10Y yield",
+        "kind": "market",
+        "board_label": "10Y yield",
+        "value": 5.07,
+        "change": -4,
+        "unit": "bp",
+        "dir": "down"
+      },
+      {
+        "id": "aidoubts",
+        "label": "AI doubts",
+        "kind": "driver",
+        "board_label": null
+      },
+      {
+        "id": "copper",
+        "label": "Copper",
+        "kind": "market",
+        "board_label": null
+      }
+    ],
+    "edges": [
+      {
+        "from": "fedhikes",
+        "to": "dollar",
+        "effect": "pushes up",
+        "why": "Higher expected US rates make dollars more rewarding to hold."
+      },
+      {
+        "from": "dollar",
+        "to": "gold",
+        "effect": "pushes down",
+        "why": "A stronger dollar makes gold pricier for foreign buyers."
+      },
+      {
+        "from": "fedhikes",
+        "to": "gold",
+        "effect": "pushes down",
+        "why": "Gold pays no interest, so higher rates make it less attractive."
+      },
+      {
+        "from": "fedhikes",
+        "to": "stocks",
+        "effect": "pushes down",
+        "why": "Higher borrowing costs weigh on stocks, and the S&P 500 broke a key support level."
+      },
+      {
+        "from": "surplus",
+        "to": "oil",
+        "effect": "pushes down",
+        "why": "More supply than buyers need cut WTI 3.85%."
+      },
+      {
+        "from": "oil",
+        "to": "yield10",
+        "effect": "pushes down",
+        "why": "Cheaper oil eases inflation worries, a likely but unconfirmed reason the 10-year fell."
+      },
+      {
+        "from": "dollar",
+        "to": "copper",
+        "effect": "pushes down",
+        "why": "A stronger dollar makes copper pricier for buyers using other currencies."
+      },
+      {
+        "from": "aidoubts",
+        "to": "copper",
+        "effect": "pushes down",
+        "why": "Headlines link copper's drop to AI turmoil and weak Chinese demand."
+      }
+    ]
+  },
+  "cross_asset_notes": [
+    "10Y yield 5.07% (-4 bp) with the 2Y near 4.8%: the 2Y sits about 0.9 points above the 3.875% Fed rate, so markets expect more hikes.",
+    "Dollar index 103.81 (+0.31%) and gold 3751.8 (-2.91%): they moved opposite because a strong dollar and hike talk hurt gold.",
+    "WTI 82.7 (-3.85%) and TSX -2.1%: weaker oil and metals hit commodity-heavy markets and the Canadian dollar."
+  ],
+  "take": "The Fed minutes point to more hikes, yet the 10-year yield fell 4 basis points to 5.07% and the 2-year sits near 4.8%. Would you bet the 2-year yield goes higher or lower over the next month? Defend your call, and say what data or oil move would prove you wrong.",
+  "reads": [
+    {
+      "title": "Stock Market Today, Nov. 18: S&P 500 Breaks Key Support as Fed Minutes Signal More Rate Hikes Ahead",
+      "source": "Yahoo (gold)",
+      "url": ""
+    },
+    {
+      "title": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html"
+    },
+    {
+      "title": "Gold Stocks, Silver, Copper, Platinum Pounded After This 'Shock'",
+      "source": "Yahoo (dollar)",
+      "url": ""
+    },
+    {
+      "title": "Anthropic IPO raises over $81 billion in largest offering on record, topping SpaceX",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html"
+    }
+  ],
+  "date": "2026-11-18",
+  "board": [
+    {
+      "label": "S&P 500",
+      "value": 7323.63,
+      "change": -0.23,
+      "unit": "%",
+      "dir": "down"
+    },
+    {
+      "label": "Dow",
+      "value": 50198.17,
+      "change": -1.11,
+      "unit": "%",
+      "dir": "down"
+    },
+    {
+      "label": "Nasdaq",
+      "value": 24429.88,
+      "change": 0.42,
+      "unit": "%",
+      "dir": "up"
+    },
+    {
+      "label": "10Y yield",
+      "value": 5.07,
+      "change": -4,
+      "unit": "bp",
+      "dir": "down"
+    },
+    {
+      "label": "Dollar index",
+      "value": 103.81,
+      "change": 0.31,
+      "unit": "%",
+      "dir": "up"
+    },
+    {
+      "label": "USD/JPY",
+      "value": 159.42,
+      "change": -0.05,
+      "unit": "%",
+      "dir": "down"
+    },
+    {
+      "label": "WTI crude",
+      "value": 82.7,
+      "change": -3.85,
+      "unit": "%",
+      "dir": "down"
+    },
+    {
+      "label": "Gold",
+      "value": 3751.8,
+      "change": -2.91,
+      "unit": "%",
+      "dir": "down"
+    },
+    {
+      "label": "VIX",
+      "value": 24.56,
+      "change": -3.53,
+      "unit": "%",
+      "dir": "down"
+    }
+  ]
+}

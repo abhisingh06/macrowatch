@@ -1,31 +1,31 @@
 [
   {
-    "name": "AI trade jitters",
-    "backstory": "Markets have leaned on AI-linked mega-cap tech [the very largest companies by value], so doubts about AI spending hit the whole index. Last week brought a sharp AI selloff and the exit of Nvidia's CEO on Nov 12. This story has run since Nov 9.",
-    "today": "The S&P 500 fell a fourth day as investors 'lightened up' before Nvidia's results. One headline says Nvidia's last quarter under Huang beat estimates, but no numbers or market reaction are given. Salesforce led the S&P's decliners, and staples gained. Anthropic [an AI company] is likely to price its IPO [first sale of shares to the public] above its $70 to $78 range, so AI appetite is not gone. Washington is pushing to block AI chip sales to China, and a Fed survey calls AI risks the biggest threat to the financial system. A St. Louis Fed study says the ten 'hyperscalers' [big firms that build AI data centers and chips] spent nearly 13% of assets on capital spending in early 2026, against about 3% for other firms.",
+    "name": "Central banks vs energy inflation",
+    "backstory": "The Iran war cut oil supply and pushed up headline inflation [the total price rise, including food and energy]. Central banks must decide whether that fades or leaks into wages and services, and after 2021 they are less willing to wait. The euro area hit 4% inflation, the Bank of England hiked to 4% last week, and the Fed sits at 3.875%.",
+    "today": "The Fed minutes say officials expect more rate hikes and worry about AI's effect on inflation. The headlines do not give the full minutes text, so the details are unknown. Governor Barr said in a speech that inflation is too high and he expects it will be appropriate to raise rates further. Yesterday St. Louis Fed's Musalem said four more hikes may be needed. In the UK, inflation rose to 3.6% in October on record diesel prices. Bailey said it should reach about 5% by mid-next year, but he sees limited sign so far of knock-on effects on wages and other prices. He also said the rate path is not pre-set.",
     "first_seen": "2026-11-09",
-    "last_seen": "2026-11-17"
+    "last_seen": "2026-11-18"
   },
   {
-    "name": "Central banks vs energy inflation",
-    "backstory": "The Iran war cut oil supply and lifted headline inflation [the total price rise, including food and energy]. Central banks must decide if it fades or leaks into wages and services, and after 2021 they are less willing to wait. The euro area hit 4% inflation and the Bank of England hiked to 4% last week.",
-    "today": "St. Louis Fed's Musalem said four more rate hikes may be needed in coming months. If each is a quarter point, the Fed would go from 3.875% to 4.875%, but the hike size was not given. Vuj\u010di\u0107 of the ECB said euro-area inflation rose to 4% from 3.8%, mainly on energy, with wages not responding materially yet. October US wholesale prices rose 0.3%, a 6.5% annual rate, the highest in nearly four years. Headlines also mention a debate over a 'jumbo' hike [bigger than the usual quarter point] and an expected December Fed hike. Even so, the 10-year yield fell 2 basis points on a weak housing signal.",
+    "name": "AI trade jitters",
+    "backstory": "Markets have leaned on AI-linked mega-cap tech [the very largest companies by value], so doubts about AI spending hit the whole index. Nvidia's CEO left on Nov 12 and an AI selloff followed. The story has run since Nov 9.",
+    "today": "The Nasdaq rose 0.42% while the S&P 500 and Dow fell, so AI was not a one-way selloff. Headlines say Nvidia's demand is 'hard to ignore' but four questions loom over the stock. Interim CEO Kress told staff 'let's move forward'. Palo Alto rose after earnings and a $4.5 billion deal for an AI startup. A Nov 19 headline says Anthropic's IPO raised over $81 billion, the largest offering on record, and one says it priced high. That was published after Tuesday's close, so it is not in today's closing data. The ECB warned that AI infrastructure is increasingly funded with debt, so a mood change could spread losses from stocks to bonds. A St. Louis Fed study says the ten hyperscalers spent nearly 13% of assets on capital spending [money for buildings and equipment] versus about 3% for other firms. A San Francisco Fed letter puts the CAPE ratio [a stock price divided by 10 years of average earnings, adjusted for inflation] at 40.5, below only the 43.1 peak of early 2000.",
     "first_seen": "2026-11-09",
-    "last_seen": "2026-11-17"
+    "last_seen": "2026-11-18"
   },
   {
     "name": "Iran war and oil",
     "backstory": "The conflict that began in early 2026 cut global oil output by 12 mb/d [million barrels per day] in March. Prices jumped but not to records, because the world was oversupplied and stored oil filled the gap. Tensions eased in June and then returned.",
-    "today": "WTI closed at 85.51, down 0.24%. Headlines say oil edged up on tanker attacks and an expected US crude drop, and that Middle East shipping risks persist, but who attacked and where is not stated. Energy stocks were softer in the afternoon. Vuj\u010di\u0107 says the war still pushes up European energy prices.",
+    "today": "WTI fell 3.85% to 82.7 dollars as headlines pointed to supply-surplus expectations. Energy stocks slid, and Canada's TSX fell 2.1% on weak metals and energy. Yet the war still pushes energy costs up elsewhere. The ECB's Vuj\u010di\u0107 says it lifts European energy prices, the UK has record diesel prices, and Bailey says the conflict is in its ninth month.",
     "first_seen": "2026-11-09",
-    "last_seen": "2026-11-17"
+    "last_seen": "2026-11-18"
   },
   {
     "name": "US midterms and the dollar",
-    "backstory": "The midterms produced what headlines call a Democratic rout, with voters blaming Trump for economic pain. Markets ask how divided government would change tariffs, spending and the dollar.",
-    "today": "The dollar index was flat at 103.54 and stays near its April 2025 high. One headline says the dollar 'wrecking ball' has already flattened the 'debasement trade' [a bet that currencies lose value, so buy gold or other hard assets]. Only the title is given. Gold is about 4% higher since the vote per earlier reporting, but it was flat today at 3852.8. HSBC has said strong Democratic results could pressure the dollar near term.",
+    "backstory": "The midterms produced what headlines call a Democratic rout. Markets ask how divided government would change tariffs, spending and the dollar. HSBC has said strong Democratic results could pressure the dollar near term.",
+    "today": "The dollar index rose 0.31% to 103.81, and a headline calls it the biggest rally since 2024. Barclays and Deutsche Bank say the AI boom could extend dollar strength, and Jamie Dimon said the US will keep its reserve currency status. Today's move looks driven by Fed hike talk rather than the election, though no headline says so directly. The Canadian dollar fell to a 19-month low. Gold's 2.91% drop fits an earlier headline saying the dollar has flattened the 'debasement trade' [a bet that currencies lose value, so buy gold].",
     "first_seen": "2026-11-09",
-    "last_seen": "2026-11-17"
+    "last_seen": "2026-11-18"
   },
   {
     "name": "Yen defense",
