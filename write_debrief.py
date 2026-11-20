@@ -1,4 +1,5 @@
 import json
+import random
 from datetime import date
 from pathlib import Path
 import anthropic
@@ -43,7 +44,8 @@ STYLE = """You write MacroWatch, an in-depth end-of-day macro debrief for a coll
 Rules:
 - Write for a smart beginner: someone who knows nothing about markets yet but wants the same depth a pro would get. Keep the analysis deep; make the words simple.
 - Short sentences, everyday words, one idea per sentence. No em dashes.
-- Define EVERY market term the first time it appears, in a few plain words in [brackets], even common ones like yield, basis point, the dollar index or risk-off. Never assume the reader already knows a term.
+- Mark every market term the first time it appears in a paragraph by wrapping it in double square brackets, like [[10-year yield]] or [[basis point]], even common ones like yield or risk-off. Never assume the reader already knows a term. Do NOT write the definition in the text; the app shows it when the reader taps the term, using the "glossary".
+- Never use [[ ]] in headlines, titles, labels, quiz options or quiz order items.
 - Explain why each move matters to a normal person or business when you can (mortgages, gas prices, jobs, savings), then connect it to the bigger picture.
 - Use a quick everyday analogy for any idea that is hard to picture (for example: a bond yield is like the interest rate on a loan to the government).
 - Spell out every cause-and-effect chain one step at a time with arrows or "which means", never skipping a step a beginner would need.
@@ -68,12 +70,24 @@ FORMAT = """Return ONLY a JSON object (no other text) with exactly these keys:
 "under_the_radar": 2 to 3 objects, each {"title": ..., "what": the smaller story, "chain": step by step how it could reach the big markets, "watch": the signal that would show it's becoming important, "note": 1 to 3 short lines the reader should write in their notebook from this section (key numbers, the cause and effect, one sentence they could say in an interview)},
 "deep_dive": 1 to 2 objects, each {"doc": the D number as a plain integer, "why_now": why this piece matters this week, "key_points": 3 to 5 plain sentences, "market_angle": which markets it could move and in which direction, "trade_idea": one trade a desk might consider and its main risk, "note": 1 to 3 short lines the reader should write in their notebook from this section (key numbers, the cause and effect, one sentence they could say in an interview)}. Use an empty list if no full articles were provided,
 "watch_next": 3 to 5 objects, each {"when": ..., "event": ..., "why": ...}, using only events named in the headlines,
+"glossary": an object whose keys are EXACTLY the terms you wrapped in [[double brackets]] (same spelling), each value {"def": one or two plain sentences a beginner understands, "analogy": a short everyday comparison, "today": one sentence on what this term did or meant in today's market},
 "terms": 4 to 6 objects, each {"term": ..., "def": one plain sentence with a simple analogy},
-"quiz": 5 objects, each {"q": question, "options": [4 answers], "answer": index 0-3 of the right one, "explain": 1 to 2 sentences},
-"market_map": a cause-and-effect map of today centered on the main storyline, {"nodes": 6 to 10 objects, each {"id": short lowercase id like "oil", "label": short name like "Oil", "kind": "market" for something that trades or "driver" for an idea like "Inflation expectations" or "Fed hike odds", "board_label": the exact label from THE TAPE if this node is on it, otherwise null}, "edges": 6 to 12 objects, each {"from": node id, "to": node id, "effect": "pushes up" or "pushes down", "why": one plain sentence explaining the link today}},
+"quiz": 16 objects mixing question types and topics, each {"type": "mc", "tf", "updown" or "order", "topic": one of "stocks", "rates", "fx", "commodities", "central_banks", "terms", "storylines", "map", "q": the question, "options": for "mc" exactly 4 answers, for "tf" ["True", "False"], for "updown" ["Up", "Down"], for "order" an empty list, "answer": index of the right option (use 0 for "order"), "items": for "order" only, 3 to 4 short steps listed in the CORRECT cause-to-effect order (otherwise an empty list), "explain": 1 to 2 plain sentences on why}. Include at least 3 "updown", 2 "order" and 3 "tf" questions, and cover at least 6 different topics. "updown" questions ask what a market would probably do if something happened. Follow the QUIZ RULES below,
+"market_chains": 2 to 3 objects, one per cause-and-effect chain behind today's biggest moves, each {"title": one or two words like "Rates" or "Oil", "steps": 3 to 5 objects in cause-to-effect order, each {"label": short name like "Fed hike odds rise", "explain": one plain sentence a beginner understands, "detail": 2 to 3 sentences going deeper, "icon": one of "news", "bank", "oil", "chart_up", "chart_down", "dollar", "gold", "jobs", "inflation", "globe", "chip", "house", "direction": "up", "down" or null, "board_label": the exact label from THE TAPE if this step is a market on it, otherwise null}, "links": the short connecting phrase between each pair of steps, like "which means", "so" or "and then" (one fewer than the number of steps)},
 "cross_asset_notes": 2 to 4 short lines to write down about the day's key levels and moves across markets, each with why it matters,
 "take": one open question asking the reader to make and defend a trade call on the single most important theme of the day (the same theme as "one_thing" and the top storyline). Pick whatever market best expresses that theme (stocks, Treasuries, the dollar, a currency pair, oil, gold or credit), never default to the same market every day, and ask what would prove them wrong,
 "read_ids": the numbers of the 4 headlines most worth reading in full."""
+
+QUIZ_RULES = """QUIZ RULES (the quiz should feel like a sharp interviewer testing whether you understood TODAY, not a vocabulary test):
+- Every question must be about today's actual moves, numbers, causes or storylines. Use the real figures from THE TAPE and the headlines (for example: "The 10-year yield rose 6 bp while the Nasdaq fell 2.5%. What best explains why tech fell more than the Dow?").
+- Test reasoning, not memory: ask why something moved, what it means for another market, what would happen next, or which explanation fits the numbers. At most 2 questions may be pure definitions.
+- Make it challenging: a beginner who skimmed the debrief should get about half right; one who read it carefully should get most right.
+- Wrong answers must be believable. Each one should be a real mistake a beginner would make (mixing up cause and effect, getting the direction backwards, blaming the wrong event from today's headlines, confusing rates with prices).
+- All four answers must be the SAME length (within a few words), the same grammar and the same level of detail. The right answer must never be the longest, the most specific, or the only one with a number or a hedge word like "usually" or "likely".
+- Never use "all of the above", "none of the above", jokes or obviously silly answers.
+- "tf" statements should be tricky: about half should be false, and a false one should be wrong in one specific detail (the direction, the number, or the cause), not wildly wrong.
+- "updown" questions should include cases where the obvious guess is wrong, and the explanation should say why.
+- "order" chains should come from today's actual cause-and-effect, with steps a beginner could plausibly mix up."""
 
 prompt = f"""Closing data for {prices['date']}:
 
@@ -94,7 +108,9 @@ HEADLINES (number, source, category, date, title | summary)
 FULL ARTICLES (official sources, D number, source, title, text)
 {deep_text}
 
-{FORMAT}"""
+{FORMAT}
+
+{QUIZ_RULES}"""
 
 client = anthropic.Anthropic()
 # Stream the answer: long debriefs take a while, and streaming keeps the connection alive
@@ -157,10 +173,30 @@ story_path.write_text(json.dumps(memory, indent=2))
 
 # Give each market-map bubble its real move from the tape (numbers never come from the AI)
 board_by_label = {row["label"]: row for row in prices["board"]}
-for node in (debrief.get("market_map") or {}).get("nodes", []):
-    row = board_by_label.get(node.get("board_label"))
-    if row:
-        node.update({"value": row["value"], "change": row["change"], "unit": row["unit"], "dir": row["dir"]})
+for chain in debrief.get("market_chains", []):
+    for step in chain.get("steps", []):
+        row = board_by_label.get(step.get("board_label"))
+        if row:
+            step.update({"value": row["value"], "change": row["change"], "unit": row["unit"], "dir": row["dir"]})
+
+# Keep only quiz questions the app can show, and fix their answer choices
+clean_quiz = []
+for q in debrief.get("quiz", []):
+    kind = q.get("type", "mc")
+    if kind == "tf":
+        q["options"] = ["True", "False"]
+    elif kind == "updown":
+        q["options"] = ["Up", "Down"]
+    if kind == "order":
+        if len(q.get("items", [])) >= 3:
+            clean_quiz.append(q)
+    elif isinstance(q.get("answer"), int) and 0 <= q["answer"] < len(q.get("options", [])):
+        if kind == "mc":
+            right = q["options"][q["answer"]]
+            random.shuffle(q["options"])             # put the right answer in a random spot
+            q["answer"] = q["options"].index(right)
+        clean_quiz.append(q)
+debrief["quiz"] = clean_quiz
 
 debrief["date"] = prices["date"]
 debrief["board"] = prices["board"]               # numbers straight from Yahoo, never from the AI
@@ -168,6 +204,14 @@ debrief["board"] = prices["board"]               # numbers straight from Yahoo, 
 output = json.dumps(debrief, indent=2)
 (DATA / "debrief_latest.json").write_text(output)
 (DATA / f"debrief_{prices['date']}.json").write_text(output)
+
+# Add today's questions to a rolling bank of the last 10 debriefs for "This week" practice
+bank_path = DATA / "quiz_bank.json"
+bank = json.loads(bank_path.read_text()) if bank_path.exists() else []
+bank = [q for q in bank if q.get("date") != prices["date"]] + [dict(q, date=prices["date"]) for q in clean_quiz]
+keep_dates = sorted({q["date"] for q in bank})[-10:]
+bank = [q for q in bank if q["date"] in keep_dates]
+bank_path.write_text(json.dumps(bank, indent=2))
 
 print(debrief["headline"])
 print(debrief["summary"])
