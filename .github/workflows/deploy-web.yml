@@ -1,0 +1,55 @@
+name: Deploy desktop app
+
+on:
+  push:
+    branches: [main]
+    paths: ["app/**"]        # rebuild only when the app code changes
+  workflow_dispatch:          # adds a "Run workflow" button
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - name: Get the code
+        uses: actions/checkout@v5
+
+      - name: Set up Node
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+
+      - name: Install app libraries
+        run: npm ci
+
+      - name: Build the web version
+        run: npx expo export --platform web
+
+      - name: Package it for GitHub Pages
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: app/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: Publish
+        id: deploy
+        uses: actions/deploy-pages@v4

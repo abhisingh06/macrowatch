@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "app",
+    "name": "MacroWatch",
     "slug": "app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,7 +18,14 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "name": "MacroWatch",
+      "shortName": "MacroWatch",
+      "themeColor": "#0a0c0e",
+      "backgroundColor": "#0a0c0e"
+    },
+    "experiments": {
+      "baseUrl": "/macrowatch"
     }
   }
 }
