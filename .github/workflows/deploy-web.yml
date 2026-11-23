@@ -38,6 +38,9 @@ jobs:
       - name: Build the web version
         run: npx expo export --platform web
 
+      - name: Add app icon and install support
+        run: node scripts/add-pwa.js
+
       - name: Package it for GitHub Pages
         uses: actions/upload-pages-artifact@v4
         with:

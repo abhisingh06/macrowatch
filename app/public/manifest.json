@@ -1,0 +1,15 @@
+{
+  "name": "MacroWatch",
+  "short_name": "MacroWatch",
+  "description": "End-of-day macro debrief, quiz and market map",
+  "start_url": "/macrowatch/",
+  "scope": "/macrowatch/",
+  "display": "standalone",
+  "background_color": "#0a0c0e",
+  "theme_color": "#0a0c0e",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
