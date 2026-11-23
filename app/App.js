@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { StatusBar } from "expo-status-bar";
 import {
-  ActivityIndicator, Modal, Pressable, RefreshControl, ScrollView, StyleSheet, Switch, Text, View,
+  ActivityIndicator, AppState, Modal, Pressable, RefreshControl, ScrollView, StyleSheet, Switch, Text, View,
 } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import { C, DATA_URL, TermContext, s } from "./theme";
@@ -36,21 +36,34 @@ export default function App() {
   const entry = termKey ? glossary[termKey] : null;
 
   // Download the newest debrief from GitHub
-  const load = useCallback(async () => {
-    setLoading(true);
-    setError(null);
+  const [checkedAt, setCheckedAt] = useState(null);
+
+  // silent = refresh in the background without the spinner
+  const load = useCallback(async (silent = false) => {
+    if (!silent) setLoading(true);
     try {
       const res = await fetch(`${DEBRIEF_URL}?t=${Date.now()}`);
       if (!res.ok) throw new Error(`GitHub answered ${res.status}`);
-      setDebrief(await res.json());
+      const fresh = await res.json();
+      // only swap in the new debrief if it changed, so you don't lose your place
+      setDebrief((old) => (old && old.date === fresh.date && old.headline === fresh.headline ? old : fresh));
+      setError(null);
+      setCheckedAt(new Date());
     } catch (e) {
-      setError(e.message);
+      if (!silent) setError(e.message);
     } finally {
-      setLoading(false);
+      if (!silent) setLoading(false);
     }
   }, []);
 
   useEffect(() => { load(); }, [load]);
+
+  // Check for a new debrief whenever you come back to the app, and every 10 minutes while it's open
+  useEffect(() => {
+    const sub = AppState.addEventListener("change", (state) => { if (state === "active") load(true); });
+    const timer = setInterval(() => load(true), 10 * 60 * 1000);
+    return () => { sub.remove(); clearInterval(timer); };
+  }, [load]);
 
   // Switch tabs and jump back to the top
   function openTab(name) {
@@ -79,7 +92,7 @@ export default function App() {
         contentContainerStyle={a.content}
         keyboardShouldPersistTaps="handled"
         keyboardDismissMode="on-drag"
-        refreshControl={<RefreshControl refreshing={loading} onRefresh={load} tintColor={C.accent} />}
+        refreshControl={<RefreshControl refreshing={loading} onRefresh={() => load()} tintColor={C.accent} />}
       >
         {!debrief && loading && <ActivityIndicator color={C.accent} style={{ marginTop: 40 }} />}
 
@@ -95,7 +108,11 @@ export default function App() {
         {debrief && tab === "Quiz" && <QuizScreen debrief={debrief} />}
         {debrief && tab === "Map" && <MapScreen debrief={debrief} notesOn={notesOn} />}
 
-        {debrief && <Text style={a.footer}>Pull down to refresh</Text>}
+        {debrief && (
+          <Text style={a.footer}>
+            Updates on its own{checkedAt ? ` · last checked ${checkedAt.toLocaleTimeString([], { hour: "numeric", minute: "2-digit" })}` : ""}
+          </Text>
+        )}
       </ScrollView>
 
       {/* Bottom tab bar */}
@@ -148,12 +165,12 @@ export default function App() {
 
 const a = StyleSheet.create({
   screen: { flex: 1, backgroundColor: C.bg, paddingTop: 60 },
-  header: { flexDirection: "row", justifyContent: "space-between", alignItems: "center", paddingHorizontal: 20, paddingBottom: 14 },
+  header: { width: "100%", maxWidth: 760, alignSelf: "center", flexDirection: "row", justifyContent: "space-between", alignItems: "center", paddingHorizontal: 20, paddingBottom: 14 },
   brand: { color: C.ink, fontSize: 20, fontWeight: "800", letterSpacing: -0.4 },
   title: { color: C.ink, fontSize: 30, fontWeight: "800", letterSpacing: -0.7 },
   toggle: { flexDirection: "row", alignItems: "center", gap: 8 },
   toggleText: { color: C.muted, fontSize: 14 },
-  content: { paddingHorizontal: 20, paddingBottom: 40 },
+  content: { paddingHorizontal: 20, paddingBottom: 40, width: "100%", maxWidth: 760, alignSelf: "center" },
   footer: { color: C.muted, textAlign: "center", marginTop: 28, fontSize: 12 },
   tabBar: {
     flexDirection: "row", justifyContent: "space-around", borderTopWidth: 1, borderTopColor: C.rule,

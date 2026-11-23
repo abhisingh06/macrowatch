@@ -89,7 +89,10 @@ QUIZ_RULES = """QUIZ RULES (the quiz should feel like a sharp interviewer testin
 - Never use "all of the above", "none of the above", jokes or obviously silly answers.
 - "tf" statements should be tricky: about half should be false, and a false one should be wrong in one specific detail (the direction, the number, or the cause), not wildly wrong.
 - "updown" questions should include cases where the obvious guess is wrong, and the explanation should say why.
-- "order" chains should come from today's actual cause-and-effect, with steps a beginner could plausibly mix up."""
+- "order" chains should come from today's actual cause-and-effect, with steps a beginner could plausibly mix up.
+- The reading test: every question must need TODAY'S DEBRIEF to answer. Tie it to a specific detail the debrief gave (a named storyline, a number from the tape, a cause, a deep dive point, an under-the-radar story). If a finance student could answer it from general knowledge or common sense alone, rewrite it.
+- No giveaways: the question must not repeat or hint at words from the right answer, and the right answer must not be the only one that "sounds smart", sounds balanced, or matches the question's tone.
+- Before finishing, check every multiple-choice question: if one answer stands out by length, detail, numbers or wording, rewrite the other three to match it. If the right answer could be guessed without reading, replace the question."""
 
 DATA_BLOCK = f"""Closing data for {prices['date']}:
 

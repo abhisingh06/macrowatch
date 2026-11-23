@@ -1,4 +1,5 @@
-import { Text, View } from "react-native";
+import { useState } from "react";
+import { Pressable, Text, View } from "react-native";
 import { C, Field, Notes, Rich, Section, SourceLink, plain, s } from "./theme";
 
 const STATUS = {
@@ -6,6 +7,20 @@ const STATUS = {
   developing: { color: C.up, bg: C.upBg },
   fading: { color: C.muted, bg: C.card },
 };
+
+// "Show sources" button that opens the list of articles behind a story
+function Sources({ items }) {
+  const [open, setOpen] = useState(false);
+  if (!items || items.length === 0) return null;
+  return (
+    <View style={{ marginTop: 4 }}>
+      <Pressable onPress={() => setOpen(!open)} hitSlop={8}>
+        <Text style={s.link}>{open ? "Hide sources" : `Show sources (${items.length})`}</Text>
+      </Pressable>
+      {open && items.map((item, i) => <SourceLink key={i} item={item} />)}
+    </View>
+  );
+}
 
 function Storyline({ st, notesOn }) {
   const status = STATUS[st.status] || STATUS.new;
@@ -23,7 +38,7 @@ function Storyline({ st, notesOn }) {
       <Field name="Today">{st.today}</Field>
       <Field name="How it moves markets">{st.market_link}</Field>
       <Field name="Next chapter">{st.next_chapter}</Field>
-      {sources.map((item, i) => <SourceLink key={i} item={item} />)}
+      <Sources items={sources} />
       <Notes lines={st.note} on={notesOn} />
     </View>
   );
@@ -79,7 +94,7 @@ export default function StoriesScreen({ debrief, notesOn }) {
       {deep.map((dd, i) => <DeepDive key={i} dd={dd} notesOn={notesOn} />)}
 
       {reads.length > 0 && <Section>Worth reading in full</Section>}
-      {reads.map((r, i) => <SourceLink key={i} item={r} />)}
+      <Sources items={reads} />
     </>
   );
 }
