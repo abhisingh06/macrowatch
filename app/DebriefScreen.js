@@ -7,6 +7,16 @@ const MOOD = {
   mixed: { text: "Mixed day", color: C.note },
 };
 
+// "2026-11-20" -> "Friday's close, Nov 20"
+function closeLabel(iso) {
+  const [y, m, d] = String(iso).split("-").map(Number);
+  if (!y || !m || !d) return iso;
+  const day = new Date(y, m - 1, d);
+  const weekday = day.toLocaleDateString("en-US", { weekday: "long" });
+  const short = day.toLocaleDateString("en-US", { month: "short", day: "numeric" });
+  return `${weekday}'s close, ${short}`;
+}
+
 function formatNumber(n) {
   return typeof n === "number" ? n.toLocaleString("en-US", { maximumFractionDigits: 2 }) : String(n ?? "");
 }
@@ -34,7 +44,7 @@ export default function DebriefScreen({ debrief, notesOn }) {
     <>
       <View style={d.moodRow}>
         <View style={[d.dot, { backgroundColor: mood.color }]} />
-        <Text style={s.label}>{mood.text} · {debrief.date}</Text>
+        <Text style={s.label}>{mood.text} · {closeLabel(debrief.date)}</Text>
       </View>
       <Text style={d.headline}>{plain(debrief.headline)}</Text>
       <Rich style={d.summary} text={debrief.summary} />

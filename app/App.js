@@ -2,6 +2,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { StatusBar } from "expo-status-bar";
 import {
   ActivityIndicator, AppState, Modal, Pressable, RefreshControl, ScrollView, StyleSheet, Switch, Text, View,
+  useWindowDimensions,
 } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import { C, DATA_URL, TermContext, s } from "./theme";
@@ -9,6 +10,7 @@ import DebriefScreen from "./DebriefScreen";
 import StoriesScreen from "./StoriesScreen";
 import QuizScreen from "./QuizScreen";
 import MapScreen from "./MapScreen";
+import ChartsPanel from "./ChartsPanel";
 
 // Where the app downloads each day's debrief (your public GitHub repo)
 const DEBRIEF_URL = `${DATA_URL}debrief_latest.json`;
@@ -27,7 +29,10 @@ export default function App() {
   const [loading, setLoading] = useState(false);
   const [notesOn, setNotesOn] = useState(false);
   const [tab, setTab] = useState("Debrief");
-  const [term, setTerm] = useState(null);       // the key term whose sheet is open
+  const [term, setTerm] = useState(null);
+  const [focus, setFocus] = useState(null);     // market highlighted in the charts panel
+  const { width } = useWindowDimensions();
+  const wide = width >= 1100;                    // laptop-sized screen: show the charts panel       // the key term whose sheet is open
   const scrollRef = useRef(null);
 
   // Find a term's definition in today's glossary (ignoring capital letters)
@@ -87,6 +92,7 @@ export default function App() {
         </View>
       </View>
 
+      <View style={{ flex: 1, flexDirection: "row" }}>
       <ScrollView
         ref={scrollRef}
         contentContainerStyle={a.content}
@@ -106,7 +112,7 @@ export default function App() {
         {debrief && tab === "Debrief" && <DebriefScreen debrief={debrief} notesOn={notesOn} />}
         {debrief && tab === "Stories" && <StoriesScreen debrief={debrief} notesOn={notesOn} />}
         {debrief && tab === "Quiz" && <QuizScreen debrief={debrief} />}
-        {debrief && tab === "Map" && <MapScreen debrief={debrief} notesOn={notesOn} />}
+        {debrief && tab === "Map" && <MapScreen debrief={debrief} notesOn={notesOn} onFocus={setFocus} />}
 
         {debrief && (
           <Text style={a.footer}>
@@ -114,6 +120,12 @@ export default function App() {
           </Text>
         )}
       </ScrollView>
+      {wide && debrief && (
+        <View style={{ width: 380 }}>
+          <ChartsPanel date={debrief.date} focus={focus} onFocus={setFocus} />
+        </View>
+      )}
+      </View>
 
       {/* Bottom tab bar */}
       <View style={a.tabBar}>

@@ -16,7 +16,7 @@ function Move({ step }) {
   return null;
 }
 
-function Step({ step, number, last, link }) {
+function Step({ step, number, last, link, onFocus }) {
   const [open, setOpen] = useState(false);
   return (
     <View style={m.stepRow}>
@@ -27,7 +27,7 @@ function Step({ step, number, last, link }) {
       </View>
 
       <View style={{ flex: 1 }}>
-        <Pressable onPress={() => setOpen(!open)} style={[m.body, open && m.bodyOpen]}>
+        <Pressable onPress={() => { setOpen(!open); if (step.board_label && onFocus) onFocus(step.board_label); }} style={[m.body, open && m.bodyOpen]}>
           <View style={m.head}>
             <Text style={m.label}>{plain(step.label)}</Text>
             <Move step={step} />
@@ -43,7 +43,7 @@ function Step({ step, number, last, link }) {
   );
 }
 
-export default function MapScreen({ debrief, notesOn }) {
+export default function MapScreen({ debrief, notesOn, onFocus }) {
   const chains = debrief.market_chains || [];
   const [pick, setPick] = useState(0);
 
@@ -80,6 +80,7 @@ export default function MapScreen({ debrief, notesOn }) {
           number={i + 1}
           last={i === steps.length - 1}
           link={(chain.links || [])[i] || DEFAULT_LINKS[i]}
+          onFocus={onFocus}
         />
       ))}
 
