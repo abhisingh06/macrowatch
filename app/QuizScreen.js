@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { Pressable, StyleSheet, Switch, Text, TextInput, View } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
-import { C, DATA_URL, Rich, Section, plain, s } from "./theme";
+import { C, DATA_URL, Rich, Section, niceDate, plain, s } from "./theme";
 
 const TOPICS = [
   ["stocks", "Stocks"], ["rates", "Rates & bonds"], ["fx", "Currencies"], ["commodities", "Oil & gold"],
@@ -317,7 +317,7 @@ export default function QuizScreen({ debrief }) {
 
   return (
     <>
-      <Text style={s.label}>Check yourself · {debrief.date}</Text>
+      <Text style={s.label}>Questions from {niceDate(debrief.date)}</Text>
       {mode === "setup" && (
         <>
           <Section>Build your quiz</Section>

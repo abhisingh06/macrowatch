@@ -9,6 +9,13 @@ export const DATA_URL = "https://raw.githubusercontent.com/abhisingh06/macrowatc
 // Lets any screen open the "key term" sheet
 export const TermContext = createContext({ open: () => {} });
 
+// "2026-11-09" -> "Nov 9"
+export function niceDate(iso) {
+  const [y, m, d] = String(iso ?? "").split("-").map(Number);
+  if (!y || !m || !d) return iso ?? "";
+  return new Date(y, m - 1, d).toLocaleDateString("en-US", { month: "short", day: "numeric" });
+}
+
 // Remove [[ ]] markers for places that show plain text (titles, labels)
 export function plain(text) {
   return String(text ?? "").replace(/\[\[|\]\]/g, "");

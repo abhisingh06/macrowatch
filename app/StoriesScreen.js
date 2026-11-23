@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Pressable, Text, View } from "react-native";
-import { C, Field, Notes, Rich, Section, SourceLink, plain, s } from "./theme";
+import { C, Field, Notes, Rich, Section, SourceLink, niceDate, plain, s } from "./theme";
 
 const STATUS = {
   new: { color: C.accent, bg: C.accentBg },
@@ -28,7 +28,7 @@ function Storyline({ st, notesOn }) {
   return (
     <View style={s.card}>
       <View style={{ flexDirection: "row", justifyContent: "space-between", alignItems: "center" }}>
-        <Text style={s.label}>Running since {st.first_seen}</Text>
+        <Text style={s.label}>Running since {niceDate(st.first_seen)}</Text>
         <Text style={[s.pillText, { color: status.color }]}>
           {st.status ? st.status.charAt(0).toUpperCase() + st.status.slice(1) : ""}
         </Text>
@@ -81,7 +81,6 @@ export default function StoriesScreen({ debrief, notesOn }) {
   const reads = debrief.reads || [];
   return (
     <>
-      <Text style={s.label}>The stories behind the moves</Text>
 
       <Section>Storylines</Section>
       {storylines.length === 0 && <Text style={s.body}>No storylines in this debrief yet.</Text>}

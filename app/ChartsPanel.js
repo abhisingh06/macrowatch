@@ -112,9 +112,15 @@ export default function ChartsPanel({ date, focus, onFocus }) {
   const order = focus && series[focus] ? [focus, ...MARKETS.filter((m) => m !== focus)] : MARKETS;
 
   return (
-    <ScrollView style={c.panel} contentContainerStyle={{ padding: 16, paddingBottom: 40 }}>
-      <Text style={s.section}>Charts</Text>
-      {!history && <Text style={s.body}>Charts appear after the next debrief runs.</Text>}
+    <ScrollView style={c.panel} contentContainerStyle={{ paddingBottom: 40 }} showsVerticalScrollIndicator={false}>
+      <Text style={c.heading}>Markets</Text>
+      <Text style={[c.explain, { marginBottom: 12 }]}>Last 3 months. Tap a step on the Map to bring its chart to the top.</Text>
+      {!history && (
+        <View style={c.card}>
+          <Text style={c.title}>Price charts are on the way</Text>
+          <Text style={c.explain}>They appear after the next evening debrief runs.</Text>
+        </View>
+      )}
       {order.map((name) => (
         <MiniChart
           key={name}
@@ -131,7 +137,8 @@ export default function ChartsPanel({ date, focus, onFocus }) {
 }
 
 const c = StyleSheet.create({
-  panel: { flex: 1, borderLeftWidth: 1, borderColor: C.rule },
+  panel: { flex: 1 },
+  heading: { color: C.ink, fontSize: 18, fontWeight: "800", letterSpacing: -0.3 },
   mini: { backgroundColor: C.card, borderRadius: 14, padding: 12, marginBottom: 10, borderWidth: 1, borderColor: "transparent" },
   focused: { borderColor: C.accent },
   miniHead: { flexDirection: "row", justifyContent: "space-between", marginBottom: 6 },
