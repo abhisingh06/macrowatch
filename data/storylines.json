@@ -1,24 +1,31 @@
 [
   {
     "name": "AI trade jitters",
-    "backstory": "Markets have leaned on AI-linked mega-cap tech [the very largest companies by value], so doubts about AI spending hit the whole index. Nvidia's CEO left on Nov 12 and an AI selloff followed. Since then, official papers have warned that AI valuations are stretched and increasingly debt-funded.",
-    "today": "Headlines say Anthropic's stock surged in its Thursday debut, yet the market dove anyway. One says investors sold other AI stocks to buy into it. Another says Alphabet fell as the debut put a fresh value on Google's stake. Earlier debriefs said the Nasdaq rose 0.42% on an earlier day, so AI was not a one-way selloff then. Today it clearly was, with the Nasdaq down 2.25%. Asia's Friday reaction, outside today's close, was ugly: SoftBank fell over 16% and the Nikkei [Japan's main stock index] fell 2.9%. Chip names also faced China headlines, which are covered below. A headline says the S&P 500 has now fallen four straight weeks from a record high.",
+    "backstory": "Markets leaned on the very largest AI-linked tech companies, so doubts about AI hit the whole [[index]]. Nvidia's CEO left on Nov 12 and an AI selloff followed. Since then, official papers have warned that AI [[valuation]]s look stretched, and the S&P 500 fell four straight weeks.",
+    "today": "Nvidia's board approved Huang's return and the stock rose 30% or more. Trump told CNBC 'I made the deal'. Tech rallied, and the Nasdaq was up nearly 7% at midday. A headline calls Nvidia the 'central bank of AI', meaning one firm now steers the market's mood. Analysts split on whether this is a bottom or a short rebound.",
     "first_seen": "2026-11-09",
-    "last_seen": "2026-11-19"
+    "last_seen": "2026-11-23"
   },
   {
     "name": "Central banks vs energy inflation",
-    "backstory": "The Iran war cut oil supply and pushed up headline inflation [the total price rise, including food and energy]. Central banks must decide whether that fades or leaks into wages and services, and after 2021 they are less willing to wait. The euro area hit 4% inflation, the Bank of England hiked to 4%, and the Fed sits at 3.875%.",
-    "today": "Fed Vice Chair Jefferson spoke on how to handle shocks. He said an energy price shock raises inflation while hurting incomes, so there is a tradeoff. He said a stronger response is warranted if inflation expectations risk becoming unanchored. Governor Barr said yesterday that inflation is too high and further hikes will likely be appropriate. The Fed minutes were released Wednesday, but only a notice was provided, so their details are unknown. Bailey said UK inflation, at 3.6% in October, should reach about 5% by mid-next year, but he sees limited knock-on effects so far. The BOJ chief signaled a near-term hike, and Japan's core inflation hit its highest this year as an energy subsidy expired.",
+    "backstory": "The Iran war cut oil supply and pushed up [[headline inflation]]. Central banks must decide whether it fades or leaks into wages and services. The euro area hit 4% inflation, the Bank of England hiked to 4%, and the Fed sits at 3.875%.",
+    "today": "A headline says Fed rate-hike odds jumped as Nvidia saved the day. Earlier, St. Louis Fed's Musalem said four more hikes may be needed. UK inflation hit 3.6% on record diesel prices, and Japan's core inflation hit its highest this year. Waller said the Fed meets Dec 8 and 9. Treasury yields and the dollar both rose today.",
     "first_seen": "2026-11-09",
-    "last_seen": "2026-11-19"
+    "last_seen": "2026-11-23"
+  },
+  {
+    "name": "Iran war and oil",
+    "backstory": "The conflict that began in early 2026 cut global oil output by 12 mb/d in March. Prices jumped but not to records, because stored oil filled the gap. Tensions eased in June and then returned.",
+    "today": "WTI fell 3.64% to 80.92 on more Middle East flows and a Libyan pipeline restart. Tanker attacks continue, so the war is not over. The IEA says the Hormuz shock lifted the world's oil and gas import bill 25% to $1.6 trillion. Fed Governor Cook said damaged infrastructure and low inventories could keep oil prices high for a long time.",
+    "first_seen": "2026-11-09",
+    "last_seen": "2026-11-23"
   },
   {
     "name": "US midterms and the dollar",
-    "backstory": "The midterms produced what headlines call a Democratic rout. Markets ask how divided government would change tariffs, spending and the dollar. Earlier debriefs said the dollar had its biggest rally since 2024, and that Barclays and Deutsche Bank think the AI boom could extend dollar strength.",
-    "today": "The dollar index rose 0.05% to 103.91, and a WSJ headline says it hit a new 52-week high. Another headline says the dollar extended its rally as risk appetite fades. No headline ties today's move to the election. It looks tied to fear and Fed hike talk, though that is an inference. Gold fell 4.48%, and a headline blames elevated yields and a strong dollar.",
+    "backstory": "The midterms produced what headlines call a Democratic rout. Markets ask how divided government would change tariffs, spending and the dollar. The dollar has had its biggest rally since 2024.",
+    "today": "The dollar index rose 0.64% to 104.47. Headlines tie the move to hawkish Fed bets and the AI rally, not the election. Friday's headline said the Fed-fueled rally stalled and lower US yields helped the yen. Gold rebounded 3.99% after its sharpest weekly drop since March. Trump also suggested gas price drops are linked to the election.",
     "first_seen": "2026-11-09",
-    "last_seen": "2026-11-19"
+    "last_seen": "2026-11-23"
   },
   {
     "name": "Yen defense",
@@ -26,12 +33,5 @@
     "today": "USD/JPY was 159.32, down 0.04%, so the yen was little changed. The BOJ chief played down soft consumption data and signaled a near-term rate hike. Japan's inflation accelerated, and the country posted a sixth straight monthly trade deficit. A Reuters-style analysis says BOJ ambiguity on the path of hikes could tempt yen bears. In Friday's Asian session, the Nikkei fell 2.9% on chip and metals stocks.",
     "first_seen": "2026-11-09",
     "last_seen": "2026-11-19"
-  },
-  {
-    "name": "Iran war and oil",
-    "backstory": "The conflict that began in early 2026 cut global oil output by 12 mb/d [million barrels per day] in March. Prices jumped but not to records, because the world was oversupplied and stored oil filled the gap. Tensions eased in June and then returned.",
-    "today": "WTI fell 3.85% to 82.7 dollars as headlines pointed to supply-surplus expectations. Energy stocks slid, and Canada's TSX fell 2.1% on weak metals and energy. Yet the war still pushes energy costs up elsewhere. The ECB's Vuj\u010di\u0107 says it lifts European energy prices, the UK has record diesel prices, and Bailey says the conflict is in its ninth month.",
-    "first_seen": "2026-11-09",
-    "last_seen": "2026-11-18"
   }
 ]
