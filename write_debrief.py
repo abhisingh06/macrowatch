@@ -59,7 +59,7 @@ Rules:
 - Use ONLY the numbers and headlines provided. Never invent figures, dates or quotes.
 - If the headlines don't explain a move, say the cause is unclear."""
 
-FORMAT = """Return ONLY a JSON object (no other text) with exactly these keys:
+FORMAT_MAIN = """Return ONLY a JSON object (no other text) with exactly these keys:
 "headline": the day in under 12 words,
 "mood": "risk-on", "risk-off" or "mixed",
 "summary": 4 to 5 sentences on what happened and why,
@@ -70,13 +70,15 @@ FORMAT = """Return ONLY a JSON object (no other text) with exactly these keys:
 "under_the_radar": 2 to 3 objects, each {"title": ..., "what": the smaller story, "chain": step by step how it could reach the big markets, "watch": the signal that would show it's becoming important, "note": 1 to 3 short lines the reader should write in their notebook from this section (key numbers, the cause and effect, one sentence they could say in an interview)},
 "deep_dive": 1 to 2 objects, each {"doc": the D number as a plain integer, "why_now": why this piece matters this week, "key_points": 3 to 5 plain sentences, "market_angle": which markets it could move and in which direction, "trade_idea": one trade a desk might consider and its main risk, "note": 1 to 3 short lines the reader should write in their notebook from this section (key numbers, the cause and effect, one sentence they could say in an interview)}. Use an empty list if no full articles were provided,
 "watch_next": 3 to 5 objects, each {"when": ..., "event": ..., "why": ...}, using only events named in the headlines,
-"glossary": an object whose keys are EXACTLY the terms you wrapped in [[double brackets]] (same spelling), each value {"def": one or two plain sentences a beginner understands, "analogy": a short everyday comparison, "today": one sentence on what this term did or meant in today's market},
 "terms": 4 to 6 objects, each {"term": ..., "def": one plain sentence with a simple analogy},
-"quiz": 16 objects mixing question types and topics, each {"type": "mc", "tf", "updown" or "order", "topic": one of "stocks", "rates", "fx", "commodities", "central_banks", "terms", "storylines", "map", "q": the question, "options": for "mc" exactly 4 answers, for "tf" ["True", "False"], for "updown" ["Up", "Down"], for "order" an empty list, "answer": index of the right option (use 0 for "order"), "items": for "order" only, 3 to 4 short steps listed in the CORRECT cause-to-effect order (otherwise an empty list), "explain": 1 to 2 plain sentences on why}. Include at least 3 "updown", 2 "order" and 3 "tf" questions, and cover at least 6 different topics. "updown" questions ask what a market would probably do if something happened. Follow the QUIZ RULES below,
-"market_chains": 2 to 3 objects, one per cause-and-effect chain behind today's biggest moves, each {"title": one or two words like "Rates" or "Oil", "steps": 3 to 5 objects in cause-to-effect order, each {"label": short name like "Fed hike odds rise", "explain": one plain sentence a beginner understands, "detail": 2 to 3 sentences going deeper, "icon": one of "news", "bank", "oil", "chart_up", "chart_down", "dollar", "gold", "jobs", "inflation", "globe", "chip", "house", "direction": "up", "down" or null, "board_label": the exact label from THE TAPE if this step is a market on it, otherwise null}, "links": the short connecting phrase between each pair of steps, like "which means", "so" or "and then" (one fewer than the number of steps)},
 "cross_asset_notes": 2 to 4 short lines to write down about the day's key levels and moves across markets, each with why it matters,
 "take": one open question asking the reader to make and defend a trade call on the single most important theme of the day (the same theme as "one_thing" and the top storyline). Pick whatever market best expresses that theme (stocks, Treasuries, the dollar, a currency pair, oil, gold or credit), never default to the same market every day, and ask what would prove them wrong,
 "read_ids": the numbers of the 4 headlines most worth reading in full."""
+
+FORMAT_STUDY = """Return ONLY a JSON object (no other text) with exactly these keys:
+"glossary": an object whose keys are EXACTLY the terms listed under TERMS TO DEFINE (same spelling), each value {"def": one or two plain sentences a beginner understands, "analogy": a short everyday comparison, "today": one sentence on what this term did or meant in today's market},
+"market_chains": 2 to 3 objects, one per cause-and-effect chain behind today's biggest moves, each {"title": one or two words like "Rates" or "Oil", "steps": 3 to 5 objects in cause-to-effect order, each {"label": short name like "Fed hike odds rise", "explain": one plain sentence a beginner understands, "detail": 2 to 3 sentences going deeper, "icon": one of "news", "bank", "oil", "chart_up", "chart_down", "dollar", "gold", "jobs", "inflation", "globe", "chip", "house", "direction": "up", "down" or null, "board_label": the exact label from THE TAPE if this step is a market on it, otherwise null}, "links": the short connecting phrase between each pair of steps, like "which means", "so" or "and then" (one fewer than the number of steps)},
+"quiz": 16 objects mixing question types and topics, each {"type": "mc", "tf", "updown" or "order", "topic": one of "stocks", "rates", "fx", "commodities", "central_banks", "terms", "storylines", "map", "q": the question, "options": for "mc" exactly 4 answers, for "tf" ["True", "False"], for "updown" ["Up", "Down"], for "order" an empty list, "answer": index of the right option (use 0 for "order"), "items": for "order" only, 3 to 4 short steps listed in the CORRECT cause-to-effect order (otherwise an empty list), "explain": 1 to 2 plain sentences on why}. Include at least 3 "updown", 2 "order" and 3 "tf" questions, and cover at least 6 different topics. "updown" questions ask what a market would probably do if something happened. Follow the QUIZ RULES below."""
 
 QUIZ_RULES = """QUIZ RULES (the quiz should feel like a sharp interviewer testing whether you understood TODAY, not a vocabulary test):
 - Every question must be about today's actual moves, numbers, causes or storylines. Use the real figures from THE TAPE and the headlines (for example: "The 10-year yield rose 6 bp while the Nasdaq fell 2.5%. What best explains why tech fell more than the Dow?").
@@ -89,7 +91,7 @@ QUIZ_RULES = """QUIZ RULES (the quiz should feel like a sharp interviewer testin
 - "updown" questions should include cases where the obvious guess is wrong, and the explanation should say why.
 - "order" chains should come from today's actual cause-and-effect, with steps a beginner could plausibly mix up."""
 
-prompt = f"""Closing data for {prices['date']}:
+DATA_BLOCK = f"""Closing data for {prices['date']}:
 
 THE TAPE
 {tape}
@@ -106,33 +108,50 @@ HEADLINES (number, source, category, date, title | summary)
 {numbered}
 
 FULL ARTICLES (official sources, D number, source, title, text)
-{deep_text}
-
-{FORMAT}
-
-{QUIZ_RULES}"""
+{deep_text}"""
 
 client = anthropic.Anthropic()
-# Stream the answer: long debriefs take a while, and streaming keeps the connection alive
-with client.messages.stream(
-    model="claude-sonnet-5-5",
-    max_tokens=32000,
-    system=STYLE,
-    messages=[{"role": "user", "content": prompt}],
-) as stream:
-    response = stream.get_final_message()
+used = {"in": 0, "out": 0}
 
-# Claude may send a "thinking" block first, so find the block that holds the actual answer
-text = next((b.text for b in response.content if b.type == "text"), "")
-(DATA / "debrief_raw.txt").write_text(text)      # keep the raw answer for troubleshooting
 
-if response.stop_reason == "max_tokens":
-    raise SystemExit("Claude ran out of room before finishing. Raise max_tokens.")
+def ask(task, name):
+    """Send one request to Claude and return its JSON answer as a dictionary."""
+    # Stream the answer: long answers take a while, and streaming keeps the connection alive
+    with client.messages.stream(
+        model="claude-sonnet-5-5",
+        max_tokens=32000,
+        system=STYLE,
+        messages=[{"role": "user", "content": f"{DATA_BLOCK}\n\n{task}"}],
+    ) as stream:
+        response = stream.get_final_message()
+    used["in"] += response.usage.input_tokens
+    used["out"] += response.usage.output_tokens
 
-start, end = text.find("{"), text.rfind("}")    # find where the JSON begins and ends
-if start == -1 or end == -1:
-    raise SystemExit("No JSON in Claude's answer. Open data/debrief_raw.txt to see what it wrote.")
-debrief = json.loads(text[start:end + 1])
+    # Claude may send a "thinking" block first, so find the block that holds the actual answer
+    text = next((b.text for b in response.content if b.type == "text"), "")
+    (DATA / f"debrief_raw_{name}.txt").write_text(text)     # keep the raw answer for troubleshooting
+    if response.stop_reason == "max_tokens":
+        raise SystemExit(f"Claude ran out of room in the {name} part. Raise max_tokens.")
+    start, end = text.find("{"), text.rfind("}")           # find where the JSON begins and ends
+    if start == -1 or end == -1:
+        raise SystemExit(f"No JSON in the {name} part. Open data/debrief_raw_{name}.txt to see what it wrote.")
+    return json.loads(text[start:end + 1])
+
+
+# Part 1: the debrief itself
+debrief = ask(FORMAT_MAIN, "main")
+
+# Part 2: glossary, Market Map chains and quiz, built on top of part 1
+import re
+marked = sorted({m for m in re.findall(r"\[\[([^\]]+)\]\]", json.dumps(debrief))})
+study = ask(
+    "TODAY'S DEBRIEF (already written, build on it and stay consistent with it)\n"
+    + json.dumps({k: v for k, v in debrief.items() if k != "read_ids"})
+    + "\n\nTERMS TO DEFINE\n" + ("\n".join(marked) or "(none)")
+    + f"\n\n{FORMAT_STUDY}\n\n{QUIZ_RULES}",
+    "study",
+)
+debrief.update({k: study.get(k) for k in ("glossary", "market_chains", "quiz") if study.get(k) is not None})
 
 # Swap the headline numbers for the real titles and links from YOUR data
 debrief["reads"] = [
@@ -215,5 +234,5 @@ bank_path.write_text(json.dumps(bank, indent=2))
 
 print(debrief["headline"])
 print(debrief["summary"])
-print("Tokens:", response.usage.input_tokens, "in,", response.usage.output_tokens, "out")
+print("Tokens:", used["in"], "in,", used["out"], "out")
 print("Saved data/debrief_latest.json")
