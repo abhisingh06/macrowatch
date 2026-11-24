@@ -3,64 +3,64 @@
   "board": [
     {
       "label": "S&P 500",
-      "value": 7231.63,
-      "change": 4.65,
+      "value": 7237.17,
+      "change": 4.73,
       "unit": "%",
       "dir": "up"
     },
     {
       "label": "Dow",
-      "value": 49565.54,
-      "change": 2.95,
+      "value": 49595.31,
+      "change": 3.01,
       "unit": "%",
       "dir": "up"
     },
     {
       "label": "Nasdaq",
-      "value": 24083.81,
-      "change": 6.48,
+      "value": 24089.56,
+      "change": 6.51,
       "unit": "%",
       "dir": "up"
     },
     {
       "label": "10Y yield",
-      "value": 4.95,
-      "change": 3,
+      "value": 4.92,
+      "change": 1,
       "unit": "bp",
       "dir": "up"
     },
     {
       "label": "Dollar index",
-      "value": 104.47,
-      "change": 0.64,
+      "value": 104.32,
+      "change": 0.49,
       "unit": "%",
       "dir": "up"
     },
     {
       "label": "USD/JPY",
-      "value": 159.3,
-      "change": -0.26,
+      "value": 158.96,
+      "change": -0.47,
       "unit": "%",
       "dir": "down"
     },
     {
       "label": "WTI crude",
-      "value": 80.92,
-      "change": -3.64,
+      "value": 80.38,
+      "change": -4.29,
       "unit": "%",
       "dir": "down"
     },
     {
       "label": "Gold",
-      "value": 3655.6,
-      "change": 3.99,
+      "value": 3629.9,
+      "change": 3.26,
       "unit": "%",
       "dir": "up"
     },
     {
       "label": "VIX",
-      "value": 27.12,
-      "change": -24.44,
+      "value": 26.62,
+      "change": -25.83,
       "unit": "%",
       "dir": "down"
     }
