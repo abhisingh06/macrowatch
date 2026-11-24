@@ -62,7 +62,12 @@ Rules:
 - Use the FULL ARTICLES for depth. Explain their ideas in your own words; quote at most a short phrase.
 - Use each headline's date. Build the debrief around the most recent news and ignore stale stories.
 - Use ONLY the numbers and headlines provided. Never invent figures, dates or quotes.
-- If the headlines don't explain a move, say the cause isn't clear, in plain words."""
+- If the headlines don't explain a move, say the cause isn't clear, in plain words.
+NOTES RULES (the notes are a study sheet, not a list of numbers):
+- Each note should leave the reader able to explain what happened to someone else. Write them like a smart classmate's notes: complete, plain sentences in the same smooth voice.
+- Cover the big idea (what really happened, in one sentence), the why (the cause and effect), and the so-what (what it means for other markets or what to watch next).
+- Use a number only when it supports the point, and say what it means ("the S&P's 4.7% jump was its best day since April 2025, which shows how much one stock now moves the index"). Never write a bare line of numbers.
+- Where it helps, include one line the reader could say out loud in an interview or networking call to show they understand the day."""
 
 FORMAT_MAIN = """Return ONLY a JSON object (no other text) with exactly these keys:
 "headline": the day in under 12 words,
@@ -70,13 +75,13 @@ FORMAT_MAIN = """Return ONLY a JSON object (no other text) with exactly these ke
 "summary": 4 to 5 sentences on what happened and why,
 "one_thing": the single most important takeaway, 1 to 2 sentences,
 "cross_asset": {"stocks": ..., "rates": ..., "fx": ..., "commodities": ...}, each 2 to 3 sentences on how that market reacted and why,
-"storylines": 3 to 4 objects, one per big ongoing narrative driving markets, each {"name": short and stable like "Iran war and oil", "status": "new", "developing" or "fading", "backstory": 2 to 3 sentences on how we got here, "today": what today's headlines and articles added, "headline_ids": numbers of the headlines that belong to this story, "doc_ids": D numbers of related full articles as plain integers, "market_link": step by step how this story moves markets, "next_chapter": what would push the story forward next, "note": 1 to 3 short lines the reader should write in their notebook from this section (key numbers, the cause and effect, one sentence they could say in an interview)},
+"storylines": 3 to 4 objects, one per big ongoing narrative driving markets, each {"name": short and stable like "Iran war and oil", "status": "new", "developing" or "fading", "backstory": 2 to 3 sentences on how we got here, "today": what today's headlines and articles added, "headline_ids": numbers of the headlines that belong to this story, "doc_ids": D numbers of related full articles as plain integers, "market_link": step by step how this story moves markets, "next_chapter": what would push the story forward next, "note": 3 to 4 notebook lines that help the reader UNDERSTAND this section, following the NOTES RULES},
 "stories": 4 to 5 objects, each {"tag": short theme like "Oil -> inflation", "title": ..., "what": what happened, "why": why it matters for the bigger picture, "watch": what to watch next},
-"under_the_radar": 2 to 3 objects, each {"title": ..., "what": the smaller story, "chain": step by step how it could reach the big markets, "watch": the signal that would show it's becoming important, "note": 1 to 3 short lines the reader should write in their notebook from this section (key numbers, the cause and effect, one sentence they could say in an interview)},
-"deep_dive": 1 to 2 objects, each {"doc": the D number as a plain integer, "why_now": why this piece matters this week, "key_points": 3 to 5 plain sentences, "market_angle": which markets it could move and in which direction, "trade_idea": one trade a desk might consider and its main risk, "note": 1 to 3 short lines the reader should write in their notebook from this section (key numbers, the cause and effect, one sentence they could say in an interview)}. Use an empty list if no full articles were provided,
+"under_the_radar": 2 to 3 objects, each {"title": ..., "what": the smaller story, "chain": step by step how it could reach the big markets, "watch": the signal that would show it's becoming important, "note": 3 to 4 notebook lines that help the reader UNDERSTAND this section, following the NOTES RULES},
+"deep_dive": 1 to 2 objects, each {"doc": the D number as a plain integer, "why_now": why this piece matters this week, "key_points": 3 to 5 plain sentences, "market_angle": which markets it could move and in which direction, "trade_idea": one trade a desk might consider and its main risk, "note": 3 to 4 notebook lines that help the reader UNDERSTAND this section, following the NOTES RULES}. Use an empty list if no full articles were provided,
 "watch_next": 3 to 5 objects, each {"when": ..., "event": ..., "why": ...}, using only events named in the headlines,
 "terms": 4 to 6 objects, each {"term": ..., "def": one plain sentence with a simple analogy},
-"cross_asset_notes": 2 to 4 short lines to write down about the day's key levels and moves across markets, each with why it matters,
+"cross_asset_notes": 4 to 5 notebook lines that explain the whole day across markets, following the NOTES RULES,
 "take": one open question asking the reader to make and defend a trade call on the single most important theme of the day (the same theme as "one_thing" and the top storyline). Pick whatever market best expresses that theme (stocks, Treasuries, the dollar, a currency pair, oil, gold or credit), never default to the same market every day, and ask what would prove them wrong,
 "read_ids": the numbers of the 4 headlines most worth reading in full."""
 
