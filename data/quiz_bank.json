@@ -224,5 +224,233 @@
     "items": [],
     "explain": "That's right, which is why the decision is slow plumbing news rather than something that moves rates or the euro today.",
     "date": "2026-11-23"
+  },
+  {
+    "type": "mc",
+    "topic": "stocks",
+    "q": "The Dow rose 0.85% while the Nasdaq fell 1.48%. Which explanation fits best?",
+    "options": [
+      "Investors left stocks and moved the cash into Treasuries",
+      "Dell's strong report lifted every stock except Nvidia's",
+      "Investors sold expensive AI names and bought other sectors",
+      "Higher oil prices hurt tech companies more than industrials"
+    ],
+    "answer": 2,
+    "items": [],
+    "explain": "Money rotated away from AI-linked names into other parts of the market, so the Dow rose. Treasuries barely moved, since the 10-year yield changed only 1 basis point.",
+    "date": "2026-11-24"
+  },
+  {
+    "type": "mc",
+    "topic": "rates",
+    "q": "The 10-year yield barely moved even though the Nasdaq fell 1.48%. What best explains the lack of a bond rally?",
+    "options": [
+      "Traders still expect Fed hikes, so inflation worries offset safety buying",
+      "Foreign governments sold Treasuries to support the weak yen",
+      "Gold's drop pulled money out of bonds at the same time",
+      "The Fed's discount rate minutes showed a surprise policy change"
+    ],
+    "answer": 0,
+    "items": [],
+    "explain": "The 2-year yield at 4.63% sits well above the Fed's 3.875%, which means hikes are expected. That inflation worry cancels the usual rush into bonds when stocks fall.",
+    "date": "2026-11-24"
+  },
+  {
+    "type": "tf",
+    "topic": "stocks",
+    "q": "Anthropic closed Tuesday above its $83 IPO price after sliding from its $111.50 open on Nov 19.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "items": [],
+    "explain": "Anthropic fell 6.5% to $81.91, which is below the $83 IPO price.",
+    "date": "2026-11-24"
+  },
+  {
+    "type": "updown",
+    "topic": "commodities",
+    "q": "Suppose traders become more sure that the Fed will raise rates in December. What would gold probably do?",
+    "options": [
+      "Up",
+      "Down"
+    ],
+    "answer": 1,
+    "items": [],
+    "explain": "Many beginners expect gold to rise as a safe haven, but gold pays no interest. Higher expected rates make it less attractive, which is why it fell 2.72% today.",
+    "date": "2026-11-24"
+  },
+  {
+    "type": "order",
+    "topic": "storylines",
+    "q": "Put the AI trade story from Monday to Tuesday in the right order.",
+    "options": [],
+    "answer": 0,
+    "items": [
+      "Huang's return as Nvidia CEO is approved",
+      "The Nasdaq jumps 6.51% on Monday",
+      "Regulatory questions and the investigation stay unresolved",
+      "Nvidia and Anthropic fall sharply on Tuesday"
+    ],
+    "explain": "The comeback sparked a big rally, but the unresolved questions and high prices let buyers sell the bounce quickly.",
+    "date": "2026-11-24"
+  },
+  {
+    "type": "mc",
+    "topic": "storylines",
+    "q": "Dell's sales more than doubled and it announced a $25 billion buyback, yet AI stocks still fell. What does that suggest?",
+    "options": [
+      "Good news was already priced in, so it could not lift the group",
+      "Dell's results were weaker than analysts had feared",
+      "Dell is too small to matter to the broader AI group",
+      "Buybacks tell investors that a company's stock will fall"
+    ],
+    "answer": 0,
+    "items": [],
+    "explain": "When expectations are already high, even strong results may not push prices higher. That fits the worry that AI valuations are stretched.",
+    "date": "2026-11-24"
+  },
+  {
+    "type": "updown",
+    "topic": "fx",
+    "q": "The Bank of Japan's chief has signaled a near-term rate hike. If Japan raises rates toward the Fed's level, what would USD/JPY probably do?",
+    "options": [
+      "Up",
+      "Down"
+    ],
+    "answer": 1,
+    "items": [],
+    "explain": "With USD/JPY at 159.23, it might seem due to keep rising. A smaller gap between the BOJ's 1.25% and the Fed's 3.875% gives people less reason to sell yen, so USD/JPY would likely fall.",
+    "date": "2026-11-24"
+  },
+  {
+    "type": "tf",
+    "topic": "central_banks",
+    "q": "The Fed will discuss the economic outlook on Dec 9 and make its policy decision on Dec 8.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "items": [],
+    "explain": "It is the other way around: the outlook is discussed on Dec 8 and the policy decision comes on Dec 9.",
+    "date": "2026-11-24"
+  },
+  {
+    "type": "mc",
+    "topic": "central_banks",
+    "q": "The San Francisco Fed says oil-driven inflation is mostly supply-driven. What does that imply for Fed surprises?",
+    "options": [
+      "They make short-term and long-term yields move exactly together",
+      "They move long-term yields more than in demand-driven episodes",
+      "They make the Fed act faster than it would on demand inflation",
+      "They move long-term yields less than in demand-driven episodes"
+    ],
+    "answer": 3,
+    "items": [],
+    "explain": "Policy surprises mostly pass through to longer-term rates when inflation is demand-driven. With supply-driven inflation, the long end should react less, so the 2-year may move more than the 10-year.",
+    "date": "2026-11-24"
+  },
+  {
+    "type": "mc",
+    "topic": "central_banks",
+    "q": "Why did CIBC say the Bank of Canada could hike again in December?",
+    "options": [
+      "Canada's growth is booming after the US midterm result",
+      "Macklem keeps stressing persistent inflation despite signs of easing",
+      "The Fed asked other central banks to hike alongside it",
+      "The Canadian dollar hit a 19-month low and needs support"
+    ],
+    "answer": 1,
+    "items": [],
+    "explain": "CIBC pointed to Governor Macklem's continued concern about persistent inflation. The Canadian dollar's weakness was a market move, not the stated reason.",
+    "date": "2026-11-24"
+  },
+  {
+    "type": "mc",
+    "topic": "fx",
+    "q": "The dollar index fell 0.47%, yet USD/JPY rose 0.19% to 159.23. What best explains the yen's weakness?",
+    "options": [
+      "Japan's 1.25% rate is far below the Fed's 3.875%",
+      "Japan resumed record intervention, which pushes the yen lower",
+      "The Bank of Japan cut rates at its latest meeting",
+      "Japan's trade surplus grew, so exporters sold yen"
+    ],
+    "answer": 0,
+    "items": [],
+    "explain": "The big rate gap encourages selling yen to hold higher-paying dollars. Intervention means buying yen, and Japan actually posted a sixth straight trade deficit.",
+    "date": "2026-11-24"
+  },
+  {
+    "type": "order",
+    "topic": "map",
+    "q": "Put this oil to Fed chain in the right order.",
+    "options": [],
+    "answer": 0,
+    "items": [
+      "Oil prices fall from their highs",
+      "Pump prices drop to the lowest since March",
+      "Headline inflation cools",
+      "The Fed has more room to wait on hikes"
+    ],
+    "explain": "Cheaper oil lowers gasoline prices, which cools headline inflation and gives the Fed more patience. Cook's warning about low inventories means the relief might not last.",
+    "date": "2026-11-24"
+  },
+  {
+    "type": "updown",
+    "topic": "terms",
+    "q": "If AI sentiment keeps falling, what would credit spreads on heavily indebted data center builders probably do?",
+    "options": [
+      "Up",
+      "Down"
+    ],
+    "answer": 0,
+    "items": [],
+    "explain": "Spreads widen when lenders want more extra interest for risk. The St. Louis Fed found that data center builders lean more on debt than the giants do, so they would feel the strain first.",
+    "date": "2026-11-24"
+  },
+  {
+    "type": "tf",
+    "topic": "stocks",
+    "q": "The St. Louis Fed found that big tech firms' debt compared with assets rose above the 34% level of other firms as they funded AI.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "items": [],
+    "explain": "Hyperscalers' ratio fell from nearly 30% in 2023 to roughly 25% in early 2026, below the other firms' 34%. They are funding the boom mostly with their own profits.",
+    "date": "2026-11-24"
+  },
+  {
+    "type": "mc",
+    "topic": "stocks",
+    "q": "Why does the BNP Paribas memory chip warning feed the wider AI worry?",
+    "options": [
+      "Chipmakers would have to raise prices to cover higher borrowing",
+      "Weak memory demand shows consumers cutting spending on phones",
+      "Falling chip prices would cut profits at a core AI group",
+      "Micron's drop raised the 10-year yield and hit tech valuations"
+    ],
+    "answer": 2,
+    "items": [],
+    "explain": "If too many chips are built, prices fall and chipmakers earn less. Chip stocks are a core part of the AI trade, and the semiconductor index had already fallen about 36%.",
+    "date": "2026-11-24"
+  },
+  {
+    "type": "mc",
+    "topic": "fx",
+    "q": "Goldman expects the dollar rally to continue in coming months but calls the dollar overbought. How does that fit today's move?",
+    "options": [
+      "Fed hike bets have vanished, so the dollar has lost its support",
+      "The dollar must rise every day until it reaches the next big level",
+      "The rally is over and the dollar will fall all through 2027",
+      "A short pause like the 0.47% dip is normal while the trend stays up"
+    ],
+    "answer": 3,
+    "items": [],
+    "explain": "Overbought means a rally has run fast and may pause, not that it is finished. J.P. Morgan and Goldman both still see dollar strength if the Fed keeps leaning toward hikes.",
+    "date": "2026-11-24"
   }
 ]
