@@ -2,229 +2,227 @@
   {
     "type": "mc",
     "topic": "stocks",
-    "q": "The Nasdaq rose 6.51% while the Dow rose 3.01% after Huang's return. What best explains the gap?",
+    "q": "The Dow rose 3.01% while the Nasdaq rose 6.51%. What best explains the gap?",
     "options": [
-      "The Dow holds more energy firms, which fell as crude lost 4.29%",
-      "The Nasdaq holds more AI-linked tech, which reacted most to Huang's return",
-      "The Dow holds more tech firms, which reacted most to Huang's return",
-      "The Nasdaq holds more food makers, which gained as oil got cheaper"
-    ],
-    "answer": 1,
-    "items": [],
-    "explain": "The Nasdaq is packed with AI-linked tech, so the Nvidia news hit it hardest. The Dow has much less of that exposure, so it rose by less.",
-    "date": "2026-11-23"
-  },
-  {
-    "type": "mc",
-    "topic": "rates",
-    "q": "Last week AI worries pulled Treasury yields lower. Why did the 10-year edge up 1 bp to 4.92% today?",
-    "options": [
-      "Oil's drop to 80.38 stirred up fresh inflation worries for bond buyers",
-      "Fear-driven buying of safe Treasuries faded as stocks bounced back",
-      "Japan sold Treasuries to raise dollars for buying yen in the market",
-      "Williams announced a rate hike for the Dec 8 and 9 meeting"
-    ],
-    "answer": 1,
-    "items": [],
-    "explain": "Worried investors had bought safe Treasuries last week, which pushed yields down. When stocks recovered that safe-haven demand cooled, so yields stopped falling.",
-    "date": "2026-11-23"
-  },
-  {
-    "type": "tf",
-    "topic": "stocks",
-    "q": "The VIX fell 25.83% to 26.62, so the debrief calls the market fully calm again.",
-    "options": [
-      "True",
-      "False"
-    ],
-    "answer": 1,
-    "items": [],
-    "explain": "The VIX fell a lot, but 26.62 is still a fairly nervous level. Fear eased without disappearing.",
-    "date": "2026-11-23"
-  },
-  {
-    "type": "updown",
-    "topic": "rates",
-    "q": "The 10-year yield is 4.92% and the 2-year is 4.63%, a +29 bp gap. If inflation stays supply-driven and hawkish Fed talk lifts the 2-year more than the 10-year, what happens to that gap?",
-    "options": [
-      "Up",
-      "Down"
-    ],
-    "answer": 1,
-    "items": [],
-    "explain": "Supply-driven inflation passes less into long-term yields, so the 2-year would catch up to the 10-year. That narrows the gap, which is called flattening, even though both yields might rise.",
-    "date": "2026-11-23"
-  },
-  {
-    "type": "updown",
-    "topic": "stocks",
-    "q": "Kroger and Tyson were among the S&P 500's biggest losers as money chased growth. If the AI rally stalls on Nvidia scrutiny, what would these safer stocks probably do?",
-    "options": [
-      "Up",
-      "Down"
-    ],
-    "answer": 0,
-    "items": [],
-    "explain": "They had been a hiding place amid cracks in the AI trade, so they sold off when the mood flipped. If the rally stalls, investors would likely drift back into them.",
-    "date": "2026-11-23"
-  },
-  {
-    "type": "updown",
-    "topic": "fx",
-    "q": "Goldman's technical read says the dollar index at 104.32 is overbought. If traders suddenly doubt the Fed will keep leaning hawkish, what would the dollar index probably do?",
-    "options": [
-      "Up",
-      "Down"
-    ],
-    "answer": 1,
-    "items": [],
-    "explain": "Headlines credit the rally to hawkish Fed bets, not the election. If those bets cool, the extra yield from holding dollars shrinks, and an overbought dollar can fall quickly.",
-    "date": "2026-11-23"
-  },
-  {
-    "type": "order",
-    "topic": "map",
-    "q": "Put today's AI chain in order, from cause to effect.",
-    "options": [],
-    "answer": 0,
-    "items": [
-      "Nvidia's board approves Huang's return after Trump's pressure",
-      "AI-linked stocks like Nvidia and Oracle jump",
-      "Nasdaq gains 6.51% and S&P 500 gains 4.73%",
-      "VIX falls 25.83% as fear eases"
-    ],
-    "explain": "The CEO news restored confidence, which lifted AI stocks, which lifted the indexes. Lower fear then showed up in the VIX.",
-    "date": "2026-11-23"
-  },
-  {
-    "type": "order",
-    "topic": "map",
-    "q": "Put the Fed-to-dollar chain in order, from cause to effect.",
-    "options": [],
-    "answer": 0,
-    "items": [
-      "Williams says higher rates are likely over time",
-      "Markets price some hikes, with the 2-year at 4.63%",
-      "Dollars look more attractive to hold",
-      "Dollar index rises 0.49% to 104.32"
-    ],
-    "explain": "The hawkish message raised hike expectations, which made dollar assets pay more than other currencies. That pulled money into the dollar and lifted the index.",
-    "date": "2026-11-23"
-  },
-  {
-    "type": "tf",
-    "topic": "fx",
-    "q": "Headlines credit the dollar index's 0.49% rise to the Democratic midterm rout.",
-    "options": [
-      "True",
-      "False"
-    ],
-    "answer": 1,
-    "items": [],
-    "explain": "Headlines credit hawkish Fed bets, not the election. The midterms started the dollar story, but today's move came from rate expectations.",
-    "date": "2026-11-23"
-  },
-  {
-    "type": "tf",
-    "topic": "storylines",
-    "q": "The St. Louis Fed found hyperscalers' debt relative to assets fell to roughly 25% by early 2026, below other US firms near 34%.",
-    "options": [
-      "True",
-      "False"
-    ],
-    "answer": 0,
-    "items": [],
-    "explain": "The ratio fell from nearly 30% in 2023 to roughly 25%, while other firms stayed near 34%. So the AI buildout is mostly funded by profits and not by extra borrowing.",
-    "date": "2026-11-23"
-  },
-  {
-    "type": "mc",
-    "topic": "central_banks",
-    "q": "How should a trader read Lagarde's 'Acting in time' speech, her last at the Frankfurt banking congress?",
-    "options": [
-      "She said the ECB will cut rates to cushion Europe from energy costs",
-      "She told banks the ECB will hike its 2.5% rate at the next meeting",
-      "She urged acting early on problems, with no hint of an imminent move",
-      "She argued Europe should wait for problems to be obvious before acting"
+      "The Dow was dragged down by a jump in the 10-year yield",
+      "The Nasdaq holds more consumer stocks that investors rushed into",
+      "The Nasdaq holds more AI-linked giants that Huang's return lifted most",
+      "The Dow holds more energy producers that fell with crude prices"
     ],
     "answer": 2,
     "items": [],
-    "explain": "Her theme was acting before a problem is obvious, but nothing in the headlines says the ECB is about to move. It's a theme and not a rate signal.",
+    "explain": "Nvidia and the companies that depend on its spending carry heavy weight in the Nasdaq, so the AI relief rally showed up there most. The 10-year yield rose only 1 basis point, so it wasn't a drag.",
     "date": "2026-11-23"
   },
   {
     "type": "mc",
-    "topic": "central_banks",
-    "q": "The 2-year yield is 4.63% while the Fed's rate is 3.875%. What does that gap tell you?",
+    "topic": "storylines",
+    "q": "Kroger and Tyson Foods were among the S&P 500's biggest losers while Nvidia soared. What best explains that?",
     "options": [
-      "The Fed has already lifted its rate up to 4.63%",
-      "Markets already expect the Fed to raise rates over time",
-      "Bond buyers think Williams' 2027 inflation view is wrong",
-      "Investors expect the Fed to cut rates before 2027"
+      "A jump in bond yields made grocery stocks less appealing",
+      "Investors sold steady defensive names to buy growth as fear faded",
+      "Higher oil prices raised their costs and hurt their profit outlook",
+      "Lawmakers started targeting food companies after Huang's return"
     ],
     "answer": 1,
     "items": [],
-    "explain": "The 2-year tracks expected Fed policy closely. Sitting well above the current rate means traders already price in some hikes.",
+    "explain": "Investors had been hiding in safe stocks during the AI scare, so when fear faded they sold those shelters to buy tech. Oil actually fell 4.23% and the 10-year yield barely moved.",
+    "date": "2026-11-23"
+  },
+  {
+    "type": "updown",
+    "topic": "fx",
+    "q": "The BOJ chief has signaled a near-term hike. If the BOJ raises rates and narrows its gap with the Fed's 3.875%, what would USD/JPY, now 158.93, probably do?",
+    "options": [
+      "Up",
+      "Down"
+    ],
+    "answer": 1,
+    "items": [],
+    "explain": "A higher Japanese rate makes holding yen more rewarding, so fewer traders sell yen for dollars and the yen strengthens. That pushes USD/JPY down.",
+    "date": "2026-11-23"
+  },
+  {
+    "type": "updown",
+    "topic": "rates",
+    "q": "Fed officials sound more hawkish about oil-driven inflation than traders expected. What would the 2-year yield, now 4.63%, probably do?",
+    "options": [
+      "Up",
+      "Down"
+    ],
+    "answer": 0,
+    "items": [],
+    "explain": "The 2-year yield tracks expected Fed rates over the next two years, so tougher talk pushes it up. The San Francisco Fed research says the 10-year would react less because the inflation is supply-driven.",
+    "date": "2026-11-23"
+  },
+  {
+    "type": "updown",
+    "topic": "stocks",
+    "q": "Reports of a formal SEC action against Nvidia hit while the VIX sits at 26.62. What would the VIX probably do?",
+    "options": [
+      "Up",
+      "Down"
+    ],
+    "answer": 0,
+    "items": [],
+    "explain": "The rebound rests on the AI trade feeling safe again, so legal trouble at Nvidia would bring nerves back. Traders then pay more for protection and the VIX rises.",
+    "date": "2026-11-23"
+  },
+  {
+    "type": "order",
+    "topic": "map",
+    "q": "Put today's AI stock chain in the right cause-and-effect order.",
+    "options": [],
+    "answer": 0,
+    "items": [
+      "Nvidia's board approves Huang's return",
+      "Nvidia, Oracle and CoreWeave jump",
+      "S&P 500 posts its best day in over a year",
+      "VIX falls 25.83%"
+    ],
+    "explain": "The personnel news came first, the AI-linked stocks reacted, their weight lifted the index, and the calmer market drained fear from the VIX.",
+    "date": "2026-11-23"
+  },
+  {
+    "type": "order",
+    "topic": "commodities",
+    "q": "Put today's oil chain in the right cause-and-effect order.",
+    "options": [],
+    "answer": 0,
+    "items": [
+      "Gulf crude keeps flowing despite tanker attacks",
+      "WTI closes at its lowest since August",
+      "Gas prices and inflation pressure ease",
+      "Fed has less reason to hike"
+    ],
+    "explain": "Steady supply came first, so crude got cheaper, which eases inflation worries and gives the Fed a bit more room to wait.",
+    "date": "2026-11-23"
+  },
+  {
+    "type": "tf",
+    "topic": "fx",
+    "q": "The dollar index rose 0.49% to 104.32 mainly because investors reacted to the Democratic midterm rout.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "items": [],
+    "explain": "The midterms started the dollar conversation, but headlines credit hawkish Fed bets for today's gain.",
+    "date": "2026-11-23"
+  },
+  {
+    "type": "tf",
+    "topic": "rates",
+    "q": "The 2-year yield at 4.63% sitting well above the Fed's 3.875% rate suggests traders expect the Fed's next move to be a hike.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "items": [],
+    "explain": "Short-term yields follow expected policy rates, so a 2-year yield about 75 basis points above the Fed's rate means traders are betting on higher rates.",
+    "date": "2026-11-23"
+  },
+  {
+    "type": "tf",
+    "topic": "stocks",
+    "q": "The St. Louis Fed found that the big AI spenders' debt compared with assets rose from about 25% in 2023 to nearly 30% in early 2026.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "items": [],
+    "explain": "The direction is backwards. Their ratio fell from nearly 30% to roughly 25%, so the spending has been funded mostly from profits.",
     "date": "2026-11-23"
   },
   {
     "type": "mc",
     "topic": "rates",
-    "q": "A San Francisco Fed paper says Fed surprises pass less into long yields when inflation is supply-driven. Why does that matter now?",
+    "q": "Fed officials talked about higher rates over time, yet the 10-year yield rose only 1 basis point to 4.92%. Which explanation fits best?",
     "options": [
-      "Stock gains of 4.73% mean longer yields will now fall sharply this week",
-      "Oil-driven inflation means hawkish talk may lift the 2-year more than the 10-year",
-      "The Fed can fix oil shortages by raising short-term rates more quickly",
-      "Falling oil at 80.38 means inflation is now purely demand-driven again"
+      "Bond traders ignored the Fed because the stock rally absorbed all the buying",
+      "Williams said inflation will near 2% in 2027, which erased every hike bet",
+      "The 2-year yield fell enough to cancel out the rise in long-term yields",
+      "Oil-driven inflation is a supply problem, so Fed surprises reach long-term yields less"
+    ],
+    "answer": 3,
+    "items": [],
+    "explain": "The San Francisco Fed letter found Fed surprises pass through to longer yields mainly when inflation is demand-driven. Hike bets haven't disappeared, since the 2-year still sits well above the Fed's rate.",
+    "date": "2026-11-23"
+  },
+  {
+    "type": "mc",
+    "topic": "central_banks",
+    "q": "Cook warned that damaged infrastructure and low inventories could keep oil prices high for a long time. Why does that matter after WTI's 4.23% drop?",
+    "options": [
+      "It means oil company stocks should fall more than crude itself",
+      "It suggests the relief could fade, so inflation worries might return",
+      "It shows Gulf tankers have stopped moving, which explains the drop",
+      "It means the Fed will cut rates now that oil is cheaper"
     ],
     "answer": 1,
     "items": [],
-    "explain": "Inflation is partly driven by oil supply, so hawkish Fed news should show up mostly in short yields. That could flatten the +29 bp curve.",
+    "explain": "Today's drop came from steady flows, but Cook's point is that the underlying supply is still fragile. That means cheaper oil may not last, and neither would the relief for inflation.",
+    "date": "2026-11-23"
+  },
+  {
+    "type": "mc",
+    "topic": "terms",
+    "q": "The VIX fell 25.83% to 26.62. What does that say about the mood in the market?",
+    "options": [
+      "Traders are buying more protection because the index rose so far",
+      "Traders expect smaller swings than before, but nerves are still high",
+      "Traders expect the S&P 500 to keep rising after such a big jump",
+      "Traders see volatility as gone now that the index has bounced back"
+    ],
+    "answer": 1,
+    "items": [],
+    "explain": "A falling VIX means traders expect calmer markets, so fear drained out. The level is still elevated, so the market hasn't fully relaxed.",
     "date": "2026-11-23"
   },
   {
     "type": "mc",
     "topic": "fx",
-    "q": "The dollar index rose 0.49% but USD/JPY slipped 0.49% to 158.93. What does the debrief say about the yen's move?",
+    "q": "Why does the gap between the Fed's 3.875% and the BOJ's 1.25% keep pressure on the yen?",
     "options": [
-      "Japan stepped in again with a record intervention today",
-      "The BOJ raised its 1.25% rate to match the Fed's move",
-      "Weak Japanese inflation data cut the dollar's appeal",
-      "The reason isn't clear, since the dollar was broadly stronger"
+      "Low Japanese rates push foreign investors to buy yen as a haven",
+      "Japan prints extra yen to buy dollars whenever rates diverge",
+      "Japan sells dollars each day until the rate gap closes by itself",
+      "Holding dollars pays more than holding yen, so traders sell yen"
     ],
     "answer": 3,
     "items": [],
-    "explain": "The yen gained a little even though the dollar was stronger against most currencies, and the headlines don't explain why. So the honest answer is that the cause is unclear.",
+    "explain": "A 2.625 percentage point gap rewards traders for holding dollars instead of yen, so they sell yen. Japan's intervention goes the other way, since it sells dollars to buy yen.",
     "date": "2026-11-23"
   },
   {
     "type": "mc",
-    "topic": "stocks",
-    "q": "Kroger and Tyson Foods were among the S&P 500's biggest losers as Nvidia surged. What does that suggest?",
+    "topic": "storylines",
+    "q": "A New York Fed note says U.S. labor supply may soon shrink. Why does that matter for the Fed's energy inflation worry?",
     "options": [
-      "Rising 10-year yields made staples too costly for investors to hold",
-      "Money left hiding places and went back into growth stocks",
-      "Cheaper oil at 80.38 squeezed food companies' profit margins",
-      "Consumers cut spending as the Fed hinted at higher interest rates"
+      "Fewer workers lets wages rise, so energy inflation could spread to services",
+      "Fewer workers means higher company profits, so stocks would rise",
+      "Fewer workers lowers growth, so the Fed would cut rates sooner",
+      "Fewer workers means less oil demand, so inflation would cool faster"
     ],
-    "answer": 1,
+    "answer": 0,
     "items": [],
-    "explain": "Consumer stocks had been a safe bet amid cracks in the AI trade. When AI confidence returned, investors sold them to buy growth, so the move shows how fast the mood flipped.",
+    "explain": "When employers compete for fewer workers, wages can rise, which can keep service prices climbing. That's exactly the leak into wages and services that central banks fear from the oil shock.",
     "date": "2026-11-23"
   },
   {
-    "type": "mc",
-    "topic": "commodities",
-    "q": "WTI fell 4.29% to 80.38, its lowest settle since August. What drove the drop, according to the debrief?",
+    "type": "tf",
+    "topic": "central_banks",
+    "q": "The ECB said it expects to publish the details of its new collateral requirements for tokenised assets in spring 2027, with implementation planned for June 2027.",
     "options": [
-      "China becoming the top oil buyer cut worldwide demand for crude",
-      "Crude kept flowing out of the Persian Gulf despite tanker attacks",
-      "Tanker attacks stopped and Gulf shipping returned to normal",
-      "Trump's remark about a giant hoax calmed worried oil traders"
+      "True",
+      "False"
     ],
-    "answer": 1,
+    "answer": 0,
     "items": [],
-    "explain": "Attacks on shipping continue, but oil kept leaving the Gulf anyway, so supply fear faded and prices fell. The other options blame events that don't explain today's move.",
+    "explain": "That's right, which is why the decision is slow plumbing news rather than something that moves rates or the euro today.",
     "date": "2026-11-23"
   }
 ]

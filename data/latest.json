@@ -45,15 +45,15 @@
     },
     {
       "label": "WTI crude",
-      "value": 80.38,
-      "change": -4.29,
+      "value": 80.43,
+      "change": -4.23,
       "unit": "%",
       "dir": "down"
     },
     {
       "label": "Gold",
-      "value": 3636.3,
-      "change": 3.44,
+      "value": 3643.8,
+      "change": 3.65,
       "unit": "%",
       "dir": "up"
     },
