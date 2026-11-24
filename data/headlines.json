@@ -88,14 +88,6 @@
     "summary": "The influential central banker expressed confidence that inflation will get closer to the Fed's 2% target in 2027."
   },
   {
-    "source": "CNBC Top News",
-    "category": "news",
-    "title": "An options strategy for making even more of your money back in Nvidia",
-    "link": "https://www.cnbc.com/2026/11/23/an-options-strategy-for-making-even-more-of-your-money-back-in-nvidia-.html",
-    "published": "2026-11-23T18:52:46+00:00",
-    "summary": "Nvidia shareholders can look to the options market to recoup lost money"
-  },
-  {
     "source": "CNBC Economy",
     "category": "news",
     "title": "Tech outages are fueling a new doomsday economy",
@@ -192,36 +184,20 @@
     "summary": "Turney Duff, Wall Street Veteran and \"The Buy Side\" author, and his group of experts weigh in on whether the market sell-off is over. Today's panel includes SHAKTI Partner Liz Harrow, Yahoo Finance's Julie Hyman, 42 Macro founder and CEO Darius Dale, CAZ Investments Chairman and chief investment off"
   },
   {
-    "source": "Yahoo (stocks)",
-    "category": "news",
-    "title": "Jensen Huang back at Nvidia after staff reported humiliating threats, insults \u2014 'thinks he can get away with anything'",
-    "link": "https://finance.yahoo.com/markets/stocks/articles/jensen-huang-back-nvidia-staff-223000688.html",
-    "published": "2026-11-23T22:30:00+00:00",
-    "summary": "Huang\u2019s return won Wall Street\u2019s approval. But allegations of workplace abuse raise questions about the cost of his comeback."
-  },
-  {
-    "source": "Yahoo (stocks)",
-    "category": "news",
-    "title": "Update: US Equity Indexes Soar as Nvidia's Unexpected Move to Reinstate Jensen Huang as CEO Energizes AI Trade",
-    "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-soar-nvidia-222851998.html",
-    "published": "2026-11-23T22:28:51+00:00",
-    "summary": "(Updates with index/price moves, macroeconomic data, and company news from the first paragraph.)"
-  },
-  {
-    "source": "Yahoo (stocks)",
-    "category": "news",
-    "title": "How Good Was Monday\u2019s Stock Rally? Here\u2019s Where It Ranks in History",
-    "link": "https://www.investopedia.com/how-good-was-monday-stock-rally-here-where-it-ranks-in-history-nvda-nasdaq-s-and-p-500-dow-jones-12275212",
-    "published": "2026-11-23T22:26:30+00:00",
-    "summary": "Stocks had their best day since April 2025 after Nvidia rehired Jensen Huang. Here\u2019s where Monday ranks in market history."
-  },
-  {
     "source": "Yahoo (rates)",
     "category": "news",
     "title": "UK Stock Market Today: FTSE 100 Futures Slip On Hawkish Fed And Pound Weakness",
     "link": "https://finance.yahoo.com/markets/stocks/articles/uk-stock-market-today-ftse-071207416.html",
     "published": "2026-11-20T07:12:07+00:00",
     "summary": "The Morning Bull - UK Market Morning Update Friday, 20 Nov 2026 UK equities look set for a weaker open, with FTSE 100 futures pointing lower as the dominant force today is a hawkish read of US interest rate policy. Sentiment leans risk off rather than opportunistic buying. US 10 year Treasury yields"
+  },
+  {
+    "source": "Yahoo (dollar)",
+    "category": "news",
+    "title": "The WSJ Dollar Index Rises 0.27% to 99.02",
+    "link": "https://www.wsj.com/finance/currencies/yen-may-strengthen-vs-dollar-on-diminished-risk-appetite-6434fe7e?siteid=yhoof2&yptr=yahoo",
+    "published": "2026-11-23T22:34:00+00:00",
+    "summary": "The WSJ Dollar Index rose 0.27% to its highest closing value since April 2025."
   },
   {
     "source": "Yahoo (dollar)",
@@ -272,22 +248,6 @@
     "summary": "U.S. stocks climbed, mostly thanks to Nvidia\u2019s rally following Jensen Huang\u2019s return as chief executive. The Nasdaq added more than 6%."
   },
   {
-    "source": "Yahoo (dollar)",
-    "category": "news",
-    "title": "Goldman Sachs sees US dollar rally continuing before a pullback in 2027",
-    "link": "https://finance.yahoo.com/markets/currencies/articles/goldman-sachs-sees-us-dollar-183336171.html",
-    "published": "2026-11-23T18:33:36+00:00",
-    "summary": "Investing.com -- The US dollar rally will continue in the coming months before weakening in 2027, according to Goldman Sachs Group Inc. (NYSE:GS)."
-  },
-  {
-    "source": "Yahoo (dollar)",
-    "category": "news",
-    "title": "AI Productivity Gains, Geopolitical Risks to Shape 2027 Market Outlook, Deutsche Bank Says",
-    "link": "https://finance.yahoo.com/markets/stocks/articles/ai-productivity-gains-geopolitical-risks-165436906.html",
-    "published": "2026-11-23T16:54:36+00:00",
-    "summary": "Deutsche Bank (DB) said in a research note Monday that it expects a positive market backdrop despite"
-  },
-  {
     "source": "Yahoo (oil)",
     "category": "news",
     "title": "'A Giant Hoax': Trump suggests recent gas price drops are linked to the election",
@@ -333,14 +293,6 @@
     "title": "Own Gold As A Hedge? BND Rose More Often",
     "link": "https://www.trefis.com/stock/bnd/articles/627661/own-gold-as-a-hedge-bnd-rose-more-often/2026-11-23",
     "published": "2026-11-23T22:38:05+00:00",
-    "summary": "Today's big story: Reported SEC Probe: Could Nvidia Stock Fall To $92."
-  },
-  {
-    "source": "Yahoo (gold)",
-    "category": "news",
-    "title": "Retiring On $2 Million? Sell BND Before SCHD",
-    "link": "https://www.trefis.com/stock/voo/articles/627666/retiring-on-2-million-sell-bnd-before-schd/2026-11-23",
-    "published": "2026-11-23T22:14:27+00:00",
     "summary": "Today's big story: Reported SEC Probe: Could Nvidia Stock Fall To $92."
   },
   {
