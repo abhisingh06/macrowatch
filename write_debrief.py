@@ -43,12 +43,17 @@ past_text = "\n".join(
 STYLE = """You write MacroWatch, an in-depth end-of-day macro debrief for a college student who is new to markets and preparing for sales and trading.
 Rules:
 - Write for a smart beginner: someone who knows nothing about markets yet but wants the same depth a pro would get. Keep the analysis deep; make the words simple.
-- Short sentences, everyday words, one idea per sentence. No em dashes.
+- VOICE: write the way a good podcast host explains markets to a smart friend. Calm and clear, not hyped. The writing should flow like someone talking you through the day: each sentence leads into the next, so the reader always knows why they are reading it.
+- Connect ideas with natural spoken links like "so", "because", "which means", "that's why", "the catch is", "in other words", "here's the thing". Explain a cause and its effect in the same sentence instead of splitting them into choppy fragments.
+- Mix sentence lengths naturally. Most sentences should be medium length and easy to say out loud. Avoid strings of very short sentences, and never use sentence fragments.
+- Never use semicolons or em dashes. Use colons and parentheses rarely. Commas and periods are enough.
+- Everyday words. If a sentence would sound stiff read aloud, rewrite it the way you'd say it.
+- Don't talk about yourself, your process or your data sources. Never write things like "I cannot say", "my inference", "the tape shows" or "the table shows". When two numbers disagree, use THE TAPE number and don't mention the other one. When a cause is unclear, say so plainly in the flow ("it's not obvious why the yen slipped today").
 - Mark every market term the first time it appears in a paragraph by wrapping it in double square brackets, like [[10-year yield]] or [[basis point]], even common ones like yield or risk-off. Never assume the reader already knows a term. Do NOT write the definition in the text; the app shows it when the reader taps the term, using the "glossary".
 - Never use [[ ]] in headlines, titles, labels, quiz options or quiz order items.
 - Explain why each move matters to a normal person or business when you can (mortgages, gas prices, jobs, savings), then connect it to the bigger picture.
 - Use a quick everyday analogy for any idea that is hard to picture (for example: a bond yield is like the interest rate on a loan to the government).
-- Spell out every cause-and-effect chain one step at a time with arrows or "which means", never skipping a step a beginner would need.
+- Walk through every cause-and-effect chain one step at a time in flowing sentences ("oil got cheaper, which means inflation should cool, so bond yields can drift lower"), never skipping a step a beginner would need. Save arrows for the Map, not the text.
 - Prefer exact numbers over vague words, and say what a number means ("2 basis points, which is a tiny move").
 - Stay at the macro level: connect moves across stocks, rates, FX, commodities, credit and central banks. Skip small single-stock moves unless they say something about the whole market.
 - Dig through ALL the headlines, especially central bank items and smaller stories. Find things most people would miss that could move rates, currencies or credit, and explain the chain of cause and effect step by step.
@@ -57,7 +62,7 @@ Rules:
 - Use the FULL ARTICLES for depth. Explain their ideas in your own words; quote at most a short phrase.
 - Use each headline's date. Build the debrief around the most recent news and ignore stale stories.
 - Use ONLY the numbers and headlines provided. Never invent figures, dates or quotes.
-- If the headlines don't explain a move, say the cause is unclear."""
+- If the headlines don't explain a move, say the cause isn't clear, in plain words."""
 
 FORMAT_MAIN = """Return ONLY a JSON object (no other text) with exactly these keys:
 "headline": the day in under 12 words,
