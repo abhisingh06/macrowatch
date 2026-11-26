@@ -452,5 +452,231 @@
     "items": [],
     "explain": "Overbought means a rally has run fast and may pause, not that it is finished. J.P. Morgan and Goldman both still see dollar strength if the Fed keeps leaning toward hikes.",
     "date": "2026-11-24"
+  },
+  {
+    "type": "mc",
+    "topic": "stocks",
+    "q": "The Dow rose 0.33% while the Nasdaq fell 0.62%. What best explains the gap between them?",
+    "options": [
+      "Oil's 2.21% jump hurt tech profits more than it hurt industrial companies",
+      "AI-linked tech stocks sold off hard while the rest of the market held up",
+      "Falling yields cut the value of every tech stock but left others alone",
+      "The tariff plan applied only to Nasdaq-listed firms and spared the Dow"
+    ],
+    "answer": 1,
+    "items": [],
+    "explain": "The AI giants carry so much weight in the Nasdaq that their selloff dragged it down, while the Dow holds fewer of them. Falling yields would normally help tech, not hurt it.",
+    "date": "2026-11-25"
+  },
+  {
+    "type": "mc",
+    "topic": "rates",
+    "q": "The 10-year yield fell 6 bp to 4.85% on the day PCE inflation matched a hot 3.8%. What best explains the drop?",
+    "options": [
+      "Investors expected the Fed to cut rates in December after seeing the data",
+      "Third quarter growth was revised lower, which cooled the economic outlook",
+      "Heavy selling in bonds pushed their prices up, which pulled yields lower",
+      "Nervous stock investors and tariff worries sent money into Treasuries"
+    ],
+    "answer": 3,
+    "items": [],
+    "explain": "The AI selloff and the tariff plan pushed investors toward safety, and buying Treasuries lifts their price and lowers the yield. Growth was actually revised up to 4.3%, and a December cut looks like a long shot.",
+    "date": "2026-11-25"
+  },
+  {
+    "type": "tf",
+    "topic": "rates",
+    "q": "PCE inflation matched forecasts at 3.8% and yields still fell, which suggests the inflation data was not the main driver of bonds today.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "items": [],
+    "explain": "A number that matches forecasts holds no surprise, so it can't explain a 6 bp move. Fear in stocks and tariff worries fit the move better.",
+    "date": "2026-11-25"
+  },
+  {
+    "type": "tf",
+    "topic": "central_banks",
+    "q": "The Fed's 3.875% rate sits far above 3.8% inflation, so policy is clearly holding prices back.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "items": [],
+    "explain": "The rate is only about a tenth of a point above inflation, so policy is barely restrictive in real terms. That is why the Fed has little room to cut.",
+    "date": "2026-11-25"
+  },
+  {
+    "type": "tf",
+    "topic": "fx",
+    "q": "The dollar index rose to a fresh 20-month high after the US announced its new tariff plan.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "items": [],
+    "explain": "The dollar index slipped 0.07% to 103.74 after giving up early gains, and the 20-month high came earlier in the week. Tariffs and falling yields pulled it back.",
+    "date": "2026-11-25"
+  },
+  {
+    "type": "tf",
+    "topic": "stocks",
+    "q": "The VIX climbed 7.32% to 28.29 even though the S&P 500 fell only 0.25%, so investors were still paying up for protection.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "items": [],
+    "explain": "A VIX near 28 on a quiet-looking index day shows nervousness stayed high after the early tech selloff. The index recovering did not make people relax.",
+    "date": "2026-11-25"
+  },
+  {
+    "type": "updown",
+    "topic": "rates",
+    "q": "Nvidia drops sharply again and the VIX jumps. If the pattern of today repeats, what would the 10-year yield probably do?",
+    "options": [
+      "Up",
+      "Down"
+    ],
+    "answer": 1,
+    "items": [],
+    "explain": "Many beginners expect yields to follow stocks, but fear sends money into Treasuries instead. More buying lifts bond prices and pushes yields lower, as the 6 bp drop showed today.",
+    "date": "2026-11-25"
+  },
+  {
+    "type": "updown",
+    "topic": "fx",
+    "q": "The Bank of Japan hikes its 1.25% rate while the Fed stays at 3.875%. What would USD/JPY probably do from 159.26?",
+    "options": [
+      "Up",
+      "Down"
+    ],
+    "answer": 1,
+    "items": [],
+    "explain": "A hike narrows the 2.625 point gap, so holding yen becomes more rewarding and the dollar buys fewer yen. USD/JPY down means a stronger yen.",
+    "date": "2026-11-25"
+  },
+  {
+    "type": "updown",
+    "topic": "commodities",
+    "q": "Middle East tension pushes WTI well above 83.86 while inflation stays near 3.8%. What would happen to market bets on a Fed hike?",
+    "options": [
+      "Up",
+      "Down"
+    ],
+    "answer": 0,
+    "items": [],
+    "explain": "Pricier oil feeds headline inflation, and the Fed is already boxed in with its rate barely above inflation. That makes hike bets stronger and cut hopes weaker.",
+    "date": "2026-11-25"
+  },
+  {
+    "type": "order",
+    "topic": "map",
+    "q": "Put today's fear chain in cause-to-effect order.",
+    "options": [],
+    "answer": 0,
+    "items": [
+      "Nvidia gives back much of Monday's rally",
+      "The VIX rises 7.32% to 28.29",
+      "Investors buy Treasuries for safety",
+      "The 10-year yield falls 6 bp to 4.85%"
+    ],
+    "explain": "The AI selloff creates the fear, the VIX measures it, and the move into Treasuries pushes bond prices up and yields down.",
+    "date": "2026-11-25"
+  },
+  {
+    "type": "order",
+    "topic": "storylines",
+    "q": "Put the energy inflation chain in cause-to-effect order.",
+    "options": [],
+    "answer": 0,
+    "items": [
+      "Middle East tension lifts WTI 2.21% to 83.86",
+      "Energy costs feed into headline inflation",
+      "The Fed has little room to cut in December",
+      "Stocks priced for easier 2027 money get exposed"
+    ],
+    "explain": "Oil is the starting link, inflation is the middle, and the Fed's lack of room to cut is what puts stocks at risk.",
+    "date": "2026-11-25"
+  },
+  {
+    "type": "mc",
+    "topic": "central_banks",
+    "q": "The SF Fed paper says supply-driven inflation like energy has grown since the pandemic. What does that imply about Fed surprises?",
+    "options": [
+      "They will move long-term yields less than they used to in the past",
+      "They will matter only for the dollar and not for Treasury markets",
+      "They will move long-term yields more because energy costs hit everyone",
+      "They will stop moving short-term interest rates altogether from now on"
+    ],
+    "answer": 0,
+    "items": [],
+    "explain": "The paper finds surprises pass through to longer-term forward rates mainly when inflation is demand-driven. With more supply pressure, long-term yields should react less, so the front end does more of the work.",
+    "date": "2026-11-25"
+  },
+  {
+    "type": "mc",
+    "topic": "storylines",
+    "q": "Vanda Research says retail investors who bought Nvidia on the dip last week have nearly lost their gains. What does that mean for the AI trade?",
+    "options": [
+      "Retail buyers sold early, so the AI rally has more room to run",
+      "The cushion under AI stocks is thin, so another drop could trigger selling",
+      "Huang's return was reversed, which undid the bounce all by itself",
+      "Nvidia's earnings fell short, which wiped out last week's gains"
+    ],
+    "answer": 1,
+    "items": [],
+    "explain": "When recent buyers are back near breakeven, a further drop puts them at a loss, and some may sell. That makes the market more fragile.",
+    "date": "2026-11-25"
+  },
+  {
+    "type": "mc",
+    "topic": "fx",
+    "q": "The BOJ's rate is 2.625 points below the Fed's, and USD/JPY ended at 159.26. Why does that gap keep pressure on the yen?",
+    "options": [
+      "The gap forces Japan to intervene in the market every single day",
+      "A higher Fed rate makes Japanese bonds riskier than US Treasuries",
+      "Holding dollars pays far more than holding yen, so investors sell yen",
+      "Japan's trade surplus is growing, so there are too many yen around"
+    ],
+    "answer": 2,
+    "items": [],
+    "explain": "Higher US rates reward people for holding dollars, which encourages selling yen, and the same logic makes yen borrowing like Berkshire's attractive. Japan actually posted a sixth straight trade deficit, not a surplus.",
+    "date": "2026-11-25"
+  },
+  {
+    "type": "mc",
+    "topic": "commodities",
+    "q": "Gold rose 1.85% to 3,627.8 while yields and the dollar slipped. Which link fits today best?",
+    "options": [
+      "Hot PCE data raised hike bets, which usually helps gold the most",
+      "Money left stocks after Nvidia recovered, so gold became the new trade",
+      "Gold pays no interest, so lower yields make it cheaper to hold",
+      "A stronger dollar made gold cheaper for buyers using other currencies"
+    ],
+    "answer": 2,
+    "items": [],
+    "explain": "With yields falling, the income given up by owning gold shrinks, and a softer dollar plus a nervous mood added support. Higher hike bets would normally weigh on gold, and the dollar was slightly lower.",
+    "date": "2026-11-25"
+  },
+  {
+    "type": "mc",
+    "topic": "map",
+    "q": "The US proposed tariffs on 14 partners, and the dollar gave up early gains while yields fell. Which reading fits best?",
+    "options": [
+      "The proposal was ignored, and the dollar's slide came from the PCE data",
+      "Investors expected tariffs to lift prices, so they priced in more Fed hikes",
+      "China and the EU cut their rates, which weakened the dollar's appeal",
+      "Worries about growth and trade outweighed worries about higher prices"
+    ],
+    "answer": 3,
+    "items": [],
+    "explain": "Tariffs can push inflation up or growth down, and today the market leaned toward the growth worry. That shows in falling yields and a softer dollar, while the PCE number simply matched forecasts.",
+    "date": "2026-11-25"
   }
 ]

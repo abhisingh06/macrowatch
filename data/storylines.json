@@ -1,31 +1,31 @@
 [
   {
-    "name": "AI trade jitters",
-    "backstory": "The biggest AI-linked tech firms hold up so much of the [[S&P 500]] that doubts about AI hit the whole market. Nvidia's CEO left on Nov 12, a selloff followed, official papers warned that AI [[valuation]]s look stretched, and the index fell four straight weeks. Then Nvidia's board approved Huang's return, the Nasdaq jumped 6.51% on Monday, and the S&P 500 had its best day in more than a year.",
-    "today": "Tuesday gave back a good part of that bounce, with Nvidia and Anthropic ending sharply lower. Anthropic fell 6.5% to $81.91, below its $83 IPO price, and it has been sliding since it opened at $111.50 on Nov 19. Dell reported sales that more than doubled on AI server demand and announced a $25 billion buyback, yet the group still fell, which suggests good news was already expected. Meanwhile Huang's return leaves open regulatory questions and an investigation, Republicans worry about his reported ties to a suspected Chinese spy, and BNP Paribas warned that a glut of memory chips could hurt Micron.",
+    "name": "Central banks vs energy inflation",
+    "backstory": "The Iran war cut oil supply and pushed up [[headline inflation]], so central banks have been trying to decide whether the price jump fades on its own or leaks into wages and services. Euro area inflation reached 4%, the Bank of England hiked to 4%, and the Fed sits at 3.875%. Fed officials such as Williams, Waller and Cook have all framed the debate around rates possibly rising and oil staying high.",
+    "today": "The Fed's preferred gauge, the [[PCE price index]], rose 3.8% from a year earlier in October, matching forecasts, and third quarter [[GDP]] was revised up to 4.3%. That leaves the Fed's 3.875% rate barely above inflation, so policy is hardly tight, which is why commentary now says Wall Street's 2027 earnings hopes need an easing that inflation makes unlikely. A CNBC commentary argues that Kevin Warsh should hike instead of betting on a productivity boom the way Greenspan did, and households are already scaling back holiday plans because toys, food and travel cost more. In Europe, the Bank of France governor still expects growth despite recession talk, pointing to defense, aerospace and electricity.",
     "first_seen": "2026-11-09",
-    "last_seen": "2026-11-24"
+    "last_seen": "2026-11-25"
   },
   {
-    "name": "Central banks vs energy inflation",
-    "backstory": "The Iran war cut oil supply and pushed up [[headline inflation]], so central banks must decide whether the price jump fades or leaks into wages and services. Euro area inflation hit 4%, the Bank of England hiked to 4%, and the Fed sits at 3.875%.",
-    "today": "Headlines argued that Wall Street's 2027 earnings hopes depend on the Fed easing in December, while inflation makes that unlikely, a bit like 2018 without a Fed rescue. CIBC said the Bank of Canada could [[rate hike]] again in December because Governor Macklem keeps stressing inflation risks. In France, the central bank governor still expects growth even though recession risk is in the news, pointing to defense, aerospace and electricity. Recent Fed talk (Williams on higher rates 'over time', Waller on the Dec 8 and 9 meeting, Cook on oil staying high) still frames the debate.",
+    "name": "AI trade jitters",
+    "backstory": "The biggest AI-linked tech firms hold up so much of the S&P 500 that doubts about AI hit the whole market. Nvidia's CEO left on Nov 12, a selloff followed, official papers warned that AI [[valuation]]s look stretched, and the index fell four straight weeks. Then Nvidia's board approved Huang's return and the Nasdaq jumped 6.51% on Monday.",
+    "today": "Nvidia gave back a big chunk of Monday's rally, and according to Vanda Research the gains of retail investors who bought the dip last week are now nearly all gone. Oracle and CoreWeave sank early and then bounced as the selloff eased before the close, so the day was volatile but ended less ugly than it began. Vance said he was assured Huang was not under a DOJ investigation, while a CNBC column says Treasury Secretary Bessent's about-face on Huang shows how unsettled the administration's stance on Nvidia and China is.",
     "first_seen": "2026-11-09",
-    "last_seen": "2026-11-24"
+    "last_seen": "2026-11-25"
   },
   {
     "name": "US midterms and the dollar",
-    "backstory": "The midterms produced what headlines call a Democratic rout, and markets asked how divided government might change tariffs, spending and the dollar. The dollar then had its biggest rally since 2024, with headlines crediting hawkish Fed bets and not the election.",
-    "today": "The dollar index slipped 0.47% to 103.83 after hitting a 20-month high, strongest since March 2025, and Reuters said it gave back much of Monday's gains as the Nvidia-fueled AI rally faded. The Canadian dollar bounced from a 19-month low as the greenback retreated. J.P. Morgan said the dollar could rise further in 2027 if the Fed lifts rates, and consumer confidence jumped to 103.3 after the Democratic wins, although inflation worries persist.",
+    "backstory": "The midterms produced what headlines call a Democratic rout, and markets asked how divided government might change tariffs, spending and the dollar. The dollar then had its biggest rally since 2024, with headlines crediting hawkish Fed bets and not the election. It hit a 20-month high, its strongest since March 2025.",
+    "today": "The dollar index slipped 0.07% to 103.74 after early strength faded. The dollar turned lower after the US announced plans for new tariffs on 14 trading partners, including China and the EU, and as Treasury yields fell. Commentary now suggests the dollar may be peaking, and the Swiss franc gained as a safe haven. On Tuesday, consumer confidence jumped to 103.3 after the Democratic wins, though inflation worries persist.",
     "first_seen": "2026-11-09",
-    "last_seen": "2026-11-24"
+    "last_seen": "2026-11-25"
   },
   {
     "name": "Iran war and oil",
-    "backstory": "The conflict began in early 2026 and cut global oil output by 12 mb/d in March, but prices stayed below records because stored oil filled the gap. The IEA says the Hormuz shock lifted the world's oil and gas import bill 25% to $1.6 trillion.",
-    "today": "WTI crude rose 1.67% to 81.51 after Monday's drop to a low not seen since August, and energy stocks advanced late in the day. The headlines don't explain the bounce clearly, so it may simply be a pause after a sharp fall. Pump prices dropped to their lowest level since March, which is welcome news before Thanksgiving, and Trump has suggested the recent decline in gas prices has political motives, with one headline using the phrase 'a giant hoax'.",
+    "backstory": "The conflict began in early 2026 and cut global oil output by 12 mb/d in March, but prices stayed below records because stored oil filled the gap. The IEA says the Hormuz shock lifted the world's oil and gas import bill 25% to $1.6 trillion. Pump prices recently fell to their lowest level since March.",
+    "today": "WTI crude rose 2.21% to 83.86, its second straight gain, because tension in the Middle East offset expectations for a global supply surplus. Energy and base metals stocks helped the Canadian TSX rebound. Meanwhile, Americans are cutting back on holiday plans as food, travel and gifts get more expensive, partly because of the war's energy shock.",
     "first_seen": "2026-11-09",
-    "last_seen": "2026-11-24"
+    "last_seen": "2026-11-25"
   },
   {
     "name": "Yen defense",
