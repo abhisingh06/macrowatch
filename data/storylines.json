@@ -1,29 +1,29 @@
 [
   {
     "name": "Central banks vs energy inflation",
-    "backstory": "The Iran war cut oil supply and pushed up [[headline inflation]], so central banks have been trying to decide whether the price jump fades on its own or leaks into wages and services. Euro area inflation reached 4%, the Bank of England hiked to 4%, and the Fed sits at 3.875%. Fed officials such as Williams, Waller and Cook have all framed the debate around rates possibly rising and oil staying high.",
-    "today": "The Fed's preferred gauge, the [[PCE price index]], rose 3.8% from a year earlier in October, matching forecasts, and third quarter [[GDP]] was revised up to 4.3%. That leaves the Fed's 3.875% rate barely above inflation, so policy is hardly tight, which is why commentary now says Wall Street's 2027 earnings hopes need an easing that inflation makes unlikely. A CNBC commentary argues that Kevin Warsh should hike instead of betting on a productivity boom the way Greenspan did, and households are already scaling back holiday plans because toys, food and travel cost more. In Europe, the Bank of France governor still expects growth despite recession talk, pointing to defense, aerospace and electricity.",
+    "backstory": "The Iran war cut oil supply and pushed up [[headline inflation]], so central banks have been trying to decide whether the price jump fades on its own or leaks into wages and services. Euro area inflation reached 4%, the Bank of England hiked to 4%, and the Fed sits at 3.875%.",
+    "today": "The PCE price index rose 3.8% from a year earlier in October, matching forecasts, and third quarter [[GDP]] was revised up to 4.3%, so the economy is strong while prices are hot. That leaves the Fed's rate barely above inflation, and a CNBC commentary argues that Kevin Warsh should hike instead of betting on a productivity boom the way Greenspan did. The ECB's account of its October meeting adds that energy prices pushed oil and gas above its own adverse scenario, and markets at one point priced in more than four extra hikes before settling on just under three. Households are feeling it too, with even toys getting pricier and holiday budgets shrinking.",
+    "first_seen": "2026-11-09",
+    "last_seen": "2026-11-25"
+  },
+  {
+    "name": "Iran war and oil",
+    "backstory": "The conflict began in early 2026 and cut global oil output by 12 million barrels a day in March, but prices stayed below records because stored oil filled the gap. The IEA says the Hormuz shock lifted the world's oil and gas import bill 25% to $1.6 trillion, and pump prices recently fell to their lowest level since March.",
+    "today": "WTI crude rose 1.99% to 83.68, its second straight gain, because tension in the Middle East outweighed expectations for a global supply surplus. The ECB's account of its October meeting says freight rates from the Gulf to Europe hit record highs, diesel [[crack spreads]] sit above the levels after Russia's 2022 invasion, and the odds of a US-Iran peace deal by the end of 2026 were the lowest since the war began. Meanwhile the UAE says it expects 7% to 8% growth next year as the IMF lifts its forecast, which shows that the Gulf is coping better than the headlines might suggest.",
     "first_seen": "2026-11-09",
     "last_seen": "2026-11-25"
   },
   {
     "name": "AI trade jitters",
     "backstory": "The biggest AI-linked tech firms hold up so much of the S&P 500 that doubts about AI hit the whole market. Nvidia's CEO left on Nov 12, a selloff followed, official papers warned that AI [[valuation]]s look stretched, and the index fell four straight weeks. Then Nvidia's board approved Huang's return and the Nasdaq jumped 6.51% on Monday.",
-    "today": "Nvidia gave back a big chunk of Monday's rally, and according to Vanda Research the gains of retail investors who bought the dip last week are now nearly all gone. Oracle and CoreWeave sank early and then bounced as the selloff eased before the close, so the day was volatile but ended less ugly than it began. Vance said he was assured Huang was not under a DOJ investigation, while a CNBC column says Treasury Secretary Bessent's about-face on Huang shows how unsettled the administration's stance on Nvidia and China is.",
+    "today": "Nvidia gave back a big chunk of Monday's rally, and according to Vanda Research the gains of retail investors who bought the dip last week are now nearly all gone. Oracle and CoreWeave sank early and then bounced, so the day ended less ugly than it began. Vance said he was assured Huang was not under a DOJ investigation, while a CNBC column says Treasury Secretary Bessent's about-face on Huang shows how unsettled the administration's stance on Nvidia and China is. The ECB's account of its October meeting also lists worries about the increasingly debt-financed AI investment cycle.",
     "first_seen": "2026-11-09",
     "last_seen": "2026-11-25"
   },
   {
     "name": "US midterms and the dollar",
-    "backstory": "The midterms produced what headlines call a Democratic rout, and markets asked how divided government might change tariffs, spending and the dollar. The dollar then had its biggest rally since 2024, with headlines crediting hawkish Fed bets and not the election. It hit a 20-month high, its strongest since March 2025.",
-    "today": "The dollar index slipped 0.07% to 103.74 after early strength faded. The dollar turned lower after the US announced plans for new tariffs on 14 trading partners, including China and the EU, and as Treasury yields fell. Commentary now suggests the dollar may be peaking, and the Swiss franc gained as a safe haven. On Tuesday, consumer confidence jumped to 103.3 after the Democratic wins, though inflation worries persist.",
-    "first_seen": "2026-11-09",
-    "last_seen": "2026-11-25"
-  },
-  {
-    "name": "Iran war and oil",
-    "backstory": "The conflict began in early 2026 and cut global oil output by 12 mb/d in March, but prices stayed below records because stored oil filled the gap. The IEA says the Hormuz shock lifted the world's oil and gas import bill 25% to $1.6 trillion. Pump prices recently fell to their lowest level since March.",
-    "today": "WTI crude rose 2.21% to 83.86, its second straight gain, because tension in the Middle East offset expectations for a global supply surplus. Energy and base metals stocks helped the Canadian TSX rebound. Meanwhile, Americans are cutting back on holiday plans as food, travel and gifts get more expensive, partly because of the war's energy shock.",
+    "backstory": "The midterms produced what headlines call a Democratic rout, and markets asked how divided government might change tariffs, spending and the dollar. The dollar then had its biggest rally since 2024, with headlines crediting hawkish Fed bets and not the election, and it hit a 20-month high, its strongest since March 2025.",
+    "today": "The dollar index slipped 0.13% to 103.67 as Treasury yields fell, and commentary now suggests the dollar may be peaking. The US also announced plans for new tariffs on 14 trading partners, including China and the EU, and the Swiss franc gained as a safe haven. Tuesday's consumer confidence reading jumped to 103.3 after the Democratic wins, though inflation worries persist.",
     "first_seen": "2026-11-09",
     "last_seen": "2026-11-25"
   },

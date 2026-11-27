@@ -456,227 +456,227 @@
   {
     "type": "mc",
     "topic": "stocks",
-    "q": "The Dow rose 0.33% while the Nasdaq fell 0.62%. What best explains the gap between them?",
+    "q": "The Dow rose 0.33% while the Nasdaq fell 0.62%. What best explains the gap?",
     "options": [
-      "Oil's 2.21% jump hurt tech profits more than it hurt industrial companies",
-      "AI-linked tech stocks sold off hard while the rest of the market held up",
-      "Falling yields cut the value of every tech stock but left others alone",
-      "The tariff plan applied only to Nasdaq-listed firms and spared the Dow"
+      "Nvidia gave back much of Monday's rally, and tech weighs more",
+      "Consumer confidence jumped, which pulled money out of tech",
+      "Oil fell, which helped industrial firms in the Dow more",
+      "The 10-year yield rose, which hurt tech stocks the most"
     ],
-    "answer": 1,
+    "answer": 0,
     "items": [],
-    "explain": "The AI giants carry so much weight in the Nasdaq that their selloff dragged it down, while the Dow holds fewer of them. Falling yields would normally help tech, not hurt it.",
-    "date": "2026-11-25"
-  },
-  {
-    "type": "mc",
-    "topic": "rates",
-    "q": "The 10-year yield fell 6 bp to 4.85% on the day PCE inflation matched a hot 3.8%. What best explains the drop?",
-    "options": [
-      "Investors expected the Fed to cut rates in December after seeing the data",
-      "Third quarter growth was revised lower, which cooled the economic outlook",
-      "Heavy selling in bonds pushed their prices up, which pulled yields lower",
-      "Nervous stock investors and tariff worries sent money into Treasuries"
-    ],
-    "answer": 3,
-    "items": [],
-    "explain": "The AI selloff and the tariff plan pushed investors toward safety, and buying Treasuries lifts their price and lowers the yield. Growth was actually revised up to 4.3%, and a December cut looks like a long shot.",
+    "explain": "Nvidia surrendered a large part of Monday's gains and AI-linked firms are a big share of the Nasdaq. Oil actually rose and the 10-year yield fell, so those two options get the facts backwards.",
     "date": "2026-11-25"
   },
   {
     "type": "tf",
-    "topic": "rates",
-    "q": "PCE inflation matched forecasts at 3.8% and yields still fell, which suggests the inflation data was not the main driver of bonds today.",
+    "topic": "terms",
+    "q": "The VIX rose 7.32% to 28.29, which means traders kept paying up for protection even though the S&P 500 slipped only 0.25%.",
     "options": [
       "True",
       "False"
     ],
     "answer": 0,
     "items": [],
-    "explain": "A number that matches forecasts holds no surprise, so it can't explain a 6 bp move. Fear in stocks and tariff worries fit the move better.",
+    "explain": "A rising VIX shows demand for protection. The calm-looking index hides nerves underneath, mostly tied to the AI selloff.",
     "date": "2026-11-25"
   },
   {
     "type": "tf",
-    "topic": "central_banks",
-    "q": "The Fed's 3.875% rate sits far above 3.8% inflation, so policy is clearly holding prices back.",
-    "options": [
-      "True",
-      "False"
-    ],
-    "answer": 1,
-    "items": [],
-    "explain": "The rate is only about a tenth of a point above inflation, so policy is barely restrictive in real terms. That is why the Fed has little room to cut.",
-    "date": "2026-11-25"
-  },
-  {
-    "type": "tf",
-    "topic": "fx",
-    "q": "The dollar index rose to a fresh 20-month high after the US announced its new tariff plan.",
-    "options": [
-      "True",
-      "False"
-    ],
-    "answer": 1,
-    "items": [],
-    "explain": "The dollar index slipped 0.07% to 103.74 after giving up early gains, and the 20-month high came earlier in the week. Tariffs and falling yields pulled it back.",
-    "date": "2026-11-25"
-  },
-  {
-    "type": "tf",
-    "topic": "stocks",
-    "q": "The VIX climbed 7.32% to 28.29 even though the S&P 500 fell only 0.25%, so investors were still paying up for protection.",
-    "options": [
-      "True",
-      "False"
-    ],
-    "answer": 0,
-    "items": [],
-    "explain": "A VIX near 28 on a quiet-looking index day shows nervousness stayed high after the early tech selloff. The index recovering did not make people relax.",
-    "date": "2026-11-25"
-  },
-  {
-    "type": "updown",
     "topic": "rates",
-    "q": "Nvidia drops sharply again and the VIX jumps. If the pattern of today repeats, what would the 10-year yield probably do?",
+    "q": "The 10-year yield fell 6 basis points to 4.85%, and the headlines clearly credit safe-haven buying for the drop.",
     "options": [
-      "Up",
-      "Down"
+      "True",
+      "False"
     ],
     "answer": 1,
     "items": [],
-    "explain": "Many beginners expect yields to follow stocks, but fear sends money into Treasuries instead. More buying lifts bond prices and pushes yields lower, as the 6 bp drop showed today.",
-    "date": "2026-11-25"
-  },
-  {
-    "type": "updown",
-    "topic": "fx",
-    "q": "The Bank of Japan hikes its 1.25% rate while the Fed stays at 3.875%. What would USD/JPY probably do from 159.26?",
-    "options": [
-      "Up",
-      "Down"
-    ],
-    "answer": 1,
-    "items": [],
-    "explain": "A hike narrows the 2.625 point gap, so holding yen becomes more rewarding and the dollar buys fewer yen. USD/JPY down means a stronger yen.",
+    "explain": "The headlines don't explain the drop. Safe-haven buying would fit while tech wobbled, but it isn't confirmed.",
     "date": "2026-11-25"
   },
   {
     "type": "updown",
     "topic": "commodities",
-    "q": "Middle East tension pushes WTI well above 83.86 while inflation stays near 3.8%. What would happen to market bets on a Fed hike?",
+    "q": "A US-Iran peace deal is signed, and Gulf shipping risk fades. What would WTI crude probably do?",
+    "options": [
+      "Up",
+      "Down"
+    ],
+    "answer": 1,
+    "items": [],
+    "explain": "Odds of a deal are the lowest since the war began, so a deal would remove much of the supply worry that lifted WTI to 83.68. Prices would likely drop quickly.",
+    "date": "2026-11-25"
+  },
+  {
+    "type": "updown",
+    "topic": "fx",
+    "q": "The Bank of Japan hikes soon, as its chief signaled, and the rate gap with the Fed narrows. What would USD/JPY probably do from 159.26?",
+    "options": [
+      "Up",
+      "Down"
+    ],
+    "answer": 1,
+    "items": [],
+    "explain": "The yen is weak because Japan's 1.25% rate sits 2.625 points under the Fed's 3.875%. A smaller gap makes holding yen less costly, so USD/JPY would likely fall.",
+    "date": "2026-11-25"
+  },
+  {
+    "type": "updown",
+    "topic": "rates",
+    "q": "Diesel and Gulf freight costs jump further, so inflation worries grow. What would the 10-year yield probably do from 4.85%?",
     "options": [
       "Up",
       "Down"
     ],
     "answer": 0,
     "items": [],
-    "explain": "Pricier oil feeds headline inflation, and the Fed is already boxed in with its rate barely above inflation. That makes hike bets stronger and cut hopes weaker.",
+    "explain": "Many assume a scare means bond buying and lower yields. But with inflation already at 3.8%, bond buyers demand more yield and the Fed has less room to cut, so yields would likely rise.",
     "date": "2026-11-25"
   },
   {
     "type": "order",
     "topic": "map",
-    "q": "Put today's fear chain in cause-to-effect order.",
+    "q": "Put today's oil chain in the right order, from cause to effect.",
     "options": [],
     "answer": 0,
     "items": [
-      "Nvidia gives back much of Monday's rally",
-      "The VIX rises 7.32% to 28.29",
-      "Investors buy Treasuries for safety",
-      "The 10-year yield falls 6 bp to 4.85%"
+      "Middle East tension lifts WTI crude",
+      "Fuel and shipping costs rise for businesses",
+      "Inflation stays near 3.8%",
+      "The Fed has less room to cut rates"
     ],
-    "explain": "The AI selloff creates the fear, the VIX measures it, and the move into Treasuries pushes bond prices up and yields down.",
+    "explain": "Oil moves first, then business costs, then inflation, and only then does the central bank's room to cut shrink.",
     "date": "2026-11-25"
   },
   {
     "type": "order",
-    "topic": "storylines",
-    "q": "Put the energy inflation chain in cause-to-effect order.",
+    "topic": "central_banks",
+    "q": "Order the steps that put a Fed hike on the table.",
     "options": [],
     "answer": 0,
     "items": [
-      "Middle East tension lifts WTI 2.21% to 83.86",
-      "Energy costs feed into headline inflation",
-      "The Fed has little room to cut in December",
-      "Stocks priced for easier 2027 money get exposed"
+      "PCE inflation holds at 3.8%",
+      "Fed rate of 3.875% is barely above it",
+      "Policy looks only mildly restrictive",
+      "Commentators argue the Fed may need to hike"
     ],
-    "explain": "Oil is the starting link, inflation is the middle, and the Fed's lack of room to cut is what puts stocks at risk.",
+    "explain": "The gap between inflation and the policy rate is what makes policy look loose, and that is the basis for the hike argument.",
     "date": "2026-11-25"
   },
   {
     "type": "mc",
     "topic": "central_banks",
-    "q": "The SF Fed paper says supply-driven inflation like energy has grown since the pandemic. What does that imply about Fed surprises?",
+    "q": "The PCE price index is 3.8% and the Fed's rate is 3.875%. Why does that matter?",
     "options": [
-      "They will move long-term yields less than they used to in the past",
-      "They will matter only for the dollar and not for Treasury markets",
-      "They will move long-term yields more because energy costs hit everyone",
-      "They will stop moving short-term interest rates altogether from now on"
+      "Policy is very tight, so cuts are likely to start soon",
+      "Policy is very loose, so the Fed has to cut right away",
+      "Inflation is below the rate, so bond yields must now fall",
+      "Policy is barely tight, so a hike becomes a real debate"
     ],
-    "answer": 0,
+    "answer": 3,
     "items": [],
-    "explain": "The paper finds surprises pass through to longer-term forward rates mainly when inflation is demand-driven. With more supply pressure, long-term yields should react less, so the front end does more of the work.",
-    "date": "2026-11-25"
-  },
-  {
-    "type": "mc",
-    "topic": "storylines",
-    "q": "Vanda Research says retail investors who bought Nvidia on the dip last week have nearly lost their gains. What does that mean for the AI trade?",
-    "options": [
-      "Retail buyers sold early, so the AI rally has more room to run",
-      "The cushion under AI stocks is thin, so another drop could trigger selling",
-      "Huang's return was reversed, which undid the bounce all by itself",
-      "Nvidia's earnings fell short, which wiped out last week's gains"
-    ],
-    "answer": 1,
-    "items": [],
-    "explain": "When recent buyers are back near breakeven, a further drop puts them at a loss, and some may sell. That makes the market more fragile.",
+    "explain": "A rate only slightly above inflation leaves a real rate near zero. That makes hiking a live option and makes cuts look unlikely.",
     "date": "2026-11-25"
   },
   {
     "type": "mc",
     "topic": "fx",
-    "q": "The BOJ's rate is 2.625 points below the Fed's, and USD/JPY ended at 159.26. Why does that gap keep pressure on the yen?",
+    "q": "USD/JPY rose 0.16% to 159.26 even after Japan's record $50 billion intervention. What best explains the weak yen?",
     "options": [
-      "The gap forces Japan to intervene in the market every single day",
-      "A higher Fed rate makes Japanese bonds riskier than US Treasuries",
-      "Holding dollars pays far more than holding yen, so investors sell yen",
-      "Japan's trade surplus is growing, so there are too many yen around"
+      "The BOJ chief ruled out any hike, so yen traders gave up",
+      "Japan's rate is far below the Fed's, so holding yen pays less",
+      "Japan's economy grew in Q3, so investors bought more yen",
+      "Japan ran a trade surplus again, so demand for yen stayed firm"
     ],
-    "answer": 2,
+    "answer": 1,
     "items": [],
-    "explain": "Higher US rates reward people for holding dollars, which encourages selling yen, and the same logic makes yen borrowing like Berkshire's attractive. Japan actually posted a sixth straight trade deficit, not a surplus.",
+    "explain": "Japan's economy actually shrank in Q3, it ran a sixth straight trade deficit, and the BOJ chief signaled a near-term hike. The rate gap with the Fed is what keeps pushing investors toward dollars.",
     "date": "2026-11-25"
   },
   {
     "type": "mc",
     "topic": "commodities",
-    "q": "Gold rose 1.85% to 3,627.8 while yields and the dollar slipped. Which link fits today best?",
+    "q": "Gold fell 0.73% while the 10-year yield fell and the dollar slipped. Which reading fits?",
     "options": [
-      "Hot PCE data raised hike bets, which usually helps gold the most",
-      "Money left stocks after Nvidia recovered, so gold became the new trade",
-      "Gold pays no interest, so lower yields make it cheaper to hold",
-      "A stronger dollar made gold cheaper for buyers using other currencies"
+      "Surprising, because oil rose and gold always follows oil up",
+      "Normal, because higher oil always pushes gold lower",
+      "Normal, because lower yields and a softer dollar hurt gold",
+      "Surprising, because lower yields and a softer dollar help gold"
     ],
-    "answer": 2,
+    "answer": 3,
     "items": [],
-    "explain": "With yields falling, the income given up by owning gold shrinks, and a softer dollar plus a nervous mood added support. Higher hike bets would normally weigh on gold, and the dollar was slightly lower.",
+    "explain": "Lower yields and a weaker dollar usually help gold, so the drop is odd and the cause isn't clear. Gold doesn't mechanically follow oil in either direction.",
     "date": "2026-11-25"
   },
   {
     "type": "mc",
-    "topic": "map",
-    "q": "The US proposed tariffs on 14 partners, and the dollar gave up early gains while yields fell. Which reading fits best?",
+    "topic": "storylines",
+    "q": "The dollar index slipped 0.13% to 103.67. What best explains the move?",
     "options": [
-      "The proposal was ignored, and the dollar's slide came from the PCE data",
-      "Investors expected tariffs to lift prices, so they priced in more Fed hikes",
-      "China and the EU cut their rates, which weakened the dollar's appeal",
-      "Worries about growth and trade outweighed worries about higher prices"
+      "Hawkish Fed bets surged, which cut demand for dollars",
+      "The midterm wins weakened the currency right away",
+      "Lower Treasury yields made holding dollars pay a bit less",
+      "Consumer confidence jumped, which reduced demand for dollars"
     ],
-    "answer": 3,
+    "answer": 2,
     "items": [],
-    "explain": "Tariffs can push inflation up or growth down, and today the market leaned toward the growth worry. That shows in falling yields and a softer dollar, while the PCE number simply matched forecasts.",
+    "explain": "The dollar's earlier rally came from hawkish Fed bets, not from the election. With yields falling, its main support weakened and commentary now suggests the dollar may be peaking.",
+    "date": "2026-11-25"
+  },
+  {
+    "type": "tf",
+    "topic": "central_banks",
+    "q": "The San Francisco Fed letter finds the Fed reacts more strongly to supply-driven inflation than to demand-driven inflation.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "items": [],
+    "explain": "It's the reverse. The Fed tends to respond more aggressively to demand-driven inflation, so surprises pass through to long yields less when inflation comes from supply shocks like oil.",
+    "date": "2026-11-25"
+  },
+  {
+    "type": "mc",
+    "topic": "storylines",
+    "q": "Why does the New York Fed's note on a shrinking US labor supply matter for the inflation debate?",
+    "options": [
+      "Immigration only matters for stocks, not for central banks",
+      "Fewer workers lowers wages, so services inflation cools",
+      "Fewer workers could lift wages, so the oil shock sticks",
+      "More workers could lift wages, so the oil shock fades"
+    ],
+    "answer": 2,
+    "items": [],
+    "explain": "Central banks worry that energy costs leak into wages and services. A tight labor market is exactly what would let that happen and keep inflation high even if oil calms.",
+    "date": "2026-11-25"
+  },
+  {
+    "type": "tf",
+    "topic": "central_banks",
+    "q": "Fed Vice Chair Bowman said supervisors spotted Silicon Valley Bank's main weaknesses but failed to act on them in time.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "items": [],
+    "explain": "Her point was that the failure was not a lack of information, since interest rate risk, uninsured deposits and weak liquidity were visible. The failure was not turning that into timely action.",
+    "date": "2026-11-25"
+  },
+  {
+    "type": "mc",
+    "topic": "rates",
+    "q": "The ECB's account says euro area 10-year rates rose mainly because of what?",
+    "options": [
+      "Central banks promised hikes each time oil prices rose",
+      "Higher real term premia from uncertainty and growing debt supply",
+      "Higher expected inflation alone, which explains nearly all of it",
+      "Investors piled into bonds as AI stocks wobbled"
+    ],
+    "answer": 1,
+    "items": [],
+    "explain": "The ECB said higher real term premia drove most of the rise, while higher expected short-term rates and inflation explained only about a third. That's why long yields can climb even when central banks hold still.",
     "date": "2026-11-25"
   }
 ]
