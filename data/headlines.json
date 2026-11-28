@@ -1,11 +1,131 @@
 [
   {
-    "source": "CNBC Economy",
+    "source": "MarketWatch",
+    "category": "news",
+    "title": "These stocks soared the most during a wild week highlighted by Huang\u2019s return to Nvidia",
+    "link": "https://www.marketwatch.com/story/these-stocks-soared-the-most-during-a-wild-week-highlighted-by-huangs-return-to-nvidia-578b3f9a?mod=mw_rss_topstories",
+    "published": "2026-11-27T20:16:00+00:00",
+    "summary": "Nvidia\u2019s stock soared this week, but was still down nearly 28% for November and 21% for 2026."
+  },
+  {
+    "source": "MarketWatch",
+    "category": "news",
+    "title": "Coming next year: Medicare Advantage plans without drug coverage for almost 640,000 people and fewer choices for the rest",
+    "link": "https://www.marketwatch.com/story/coming-next-year-medicare-advantage-plans-without-drug-coverage-for-almost-640-000-people-and-fewer-choices-for-the-rest-25242d69?mod=mw_rss_topstories",
+    "published": "2026-11-27T19:55:00+00:00",
+    "summary": "Medicare Advantage is starting to lose its all-in-one benefit."
+  },
+  {
+    "source": "MarketWatch",
+    "category": "news",
+    "title": "The warnings behind this week\u2019s stock-market rally",
+    "link": "https://www.marketwatch.com/story/the-warnings-behind-this-weeks-stock-market-rally-86e5319c?mod=mw_rss_topstories",
+    "published": "2026-11-27T18:40:00+00:00",
+    "summary": "Also in Weekend Reads: Important tips for Medicare enrollment, how to spot online shopping scams and marital advice from The Moneyist."
+  },
+  {
+    "source": "MarketWatch",
+    "category": "news",
+    "title": "12 days of sardines and Croc charms: Are Advent calendars getting out of control?",
+    "link": "https://www.marketwatch.com/story/12-days-of-sardines-and-croc-charms-are-advent-calendars-getting-out-of-control-81f24548?mod=mw_rss_topstories",
+    "published": "2026-11-27T17:04:00+00:00",
+    "summary": "Luxury Advent calendars in particular \u2014 which can run hundreds of dollars \u2014 have seen a spike in sales. Here\u2019s why."
+  },
+  {
+    "source": "MarketWatch",
+    "category": "news",
+    "title": "A 66-year-old nurse is facing down retirement with just $500 saved. Who\u2019s to blame?",
+    "link": "https://www.marketwatch.com/story/a-66-year-old-nurse-faces-retirement-with-just-500-saved-whos-to-blame-4249a0fd?mod=mw_rss_topstories",
+    "published": "2026-11-27T16:00:00+00:00",
+    "summary": "\u201cRetirement is a financial status, not an age.\u201d"
+  },
+  {
+    "source": "CNBC Top News",
+    "category": "news",
+    "title": "Inflation has shoppers hunting for value. That bodes well for Black Friday",
+    "link": "https://www.cnbc.com/2026/11/27/black-friday-2026-inflation-value-deals.html",
+    "published": "2026-11-27T22:00:57+00:00",
+    "summary": "Even as consumers face macroeconomic headwinds, retailers are expecting robust holiday spending through Black Friday and beyond."
+  },
+  {
+    "source": "CNBC Top News",
+    "category": "news",
+    "title": "Trump demands probe into 'record setting error' after third-quarter GDP data gets massive revision higher",
+    "link": "https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html",
+    "published": "2026-11-27T15:52:00+00:00",
+    "summary": "President Donald Trump on Thursday deemed the latest gross domestic product revision a mistake, claiming that it should be \"immediately investigated.\""
+  },
+  {
+    "source": "CNBC Top News",
+    "category": "news",
+    "title": "The S&P 500 is in a correction. Bear markets and recessions don't always follow",
+    "link": "https://www.cnbc.com/2026/11/27/the-sp-500-is-in-a-correction-bear-markets-and-recessions-dont-always-follow.html",
+    "published": "2026-11-27T13:21:56+00:00",
+    "summary": "The November sell-off has so far pushed the S&amp;P 500 into a correction. History shows that a correction doesn't always lead to a bear market, or a recession."
+  },
+  {
+    "source": "CNBC Top News",
+    "category": "news",
+    "title": "Budget airline Norse Atlantic files for bankruptcy in Europe after failing to secure funding",
+    "link": "https://www.cnbc.com/2026/11/27/norse-atlantic-bankruptcy-fuel-costs.html",
+    "published": "2026-11-27T18:20:32+00:00",
+    "summary": "Budget carrier Norse Atlantic filed for bankruptcy Friday, saying it failed to secure funding after soaring fuel costs strained the company's operations."
+  },
+  {
+    "source": "CNBC Top News",
+    "category": "news",
+    "title": "Chinese chip stocks notch biggest ever one-day gains as Beijing signals broader market support",
+    "link": "https://www.cnbc.com/2026/11/27/china-chip-stocks-beijing-market-support.html",
+    "published": "2026-11-27T10:13:44+00:00",
+    "summary": "Chinese stocks rebounded sharply after a rare intraday state media readout cheered investors as top policymakers pledged market liquidity support."
+  },
+  {
+    "source": "CNBC Top News",
     "category": "news",
     "title": "Liesman: Why Greenspan could bet on productivity \u2014 and Warsh needs to hike",
     "link": "https://www.cnbc.com/2026/11/25/kevin-warsh-greenspan-fed-rates-ai-inflation.html",
     "published": "2026-11-25T21:56:43+00:00",
     "summary": "Alan Greenspan famously held the line on interest rates because he believed in the productivity promise of the internet boom. Why can't Kevin Warsh do the same?"
+  },
+  {
+    "source": "CNBC Top News",
+    "category": "news",
+    "title": "New car prices are at a record high. Here's where to look for deals",
+    "link": "https://www.cnbc.com/2026/11/27/new-car-buying-deals-buying-tips.html",
+    "published": "2026-11-27T13:15:01+00:00",
+    "summary": "While the average price of a new car hit $51,109 in October, according to Kelley Blue Book, many buyers are spending far less on their purchase. Here's how."
+  },
+  {
+    "source": "CNBC Top News",
+    "category": "news",
+    "title": "SpaceX shares jump over 4% amid tech rally and after Musk says he will expand on Trump Account share donations",
+    "link": "https://www.cnbc.com/2026/11/27/spacex-shares-musk-donations.html",
+    "published": "2026-11-27T18:24:06+00:00",
+    "summary": "SpaceX shares jumped in trading Friday after Elon Musk said on X that he would donate shares to American children every year."
+  },
+  {
+    "source": "CNBC Economy",
+    "category": "news",
+    "title": "China\u2019s factories are growing profits again, but the AI boom is picking the winners",
+    "link": "https://www.cnbc.com/2026/11/27/china-industrial-profits-october.html",
+    "published": "2026-11-27T06:09:51+00:00",
+    "summary": "China's economy has been running at two speeds, with AI-related manufacturing and exports powering growth while consumption, real estate investment lag."
+  },
+  {
+    "source": "CNBC Economy",
+    "category": "news",
+    "title": "Spain\u2019s Pablo Hern\u00e1ndez de Cos set to lead European Central Bank",
+    "link": "https://www.cnbc.com/2026/11/26/pablo-hernandez-de-cos-ecb-president.html",
+    "published": "2026-11-27T06:50:38+00:00",
+    "summary": "De Cos will lead the ECB into a period of political uncertainty and choppy growth, after winning the backing needed to succeed Christine Lagarde next year."
+  },
+  {
+    "source": "CNBC Economy",
+    "category": "news",
+    "title": "U.S. tariff-hike threats pile pressure on partners to sign trade deals",
+    "link": "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html",
+    "published": "2026-11-26T12:46:55+00:00",
+    "summary": "The U.S. planned a fresh tariff salvo on 14 trading partners, while offering some countries lower rates if they secure trade deals with Washington."
   },
   {
     "source": "CNBC Economy",
@@ -20,7 +140,7 @@
     "category": "news",
     "title": "Even the price of toys is on the rise. How Americans are scaling back holiday plans",
     "link": "https://www.cnbc.com/2026/11/25/holiday-inflation-thanksgiving-travel-food-gifts.html",
-    "published": "2026-11-25T16:17:13+00:00",
+    "published": "2026-11-27T21:45:41+00:00",
     "summary": "U.S. consumers face higher food, travel and gift costs in 2026 as inflation and Iran-war energy shocks pressure holiday budgets."
   },
   {
@@ -28,7 +148,7 @@
     "category": "news",
     "title": "\u2018Ready for any storm\u2019: UAE minister optimistic on economy as IMF lifts forecast",
     "link": "https://www.cnbc.com/2026/11/25/uae-iran-war-economy-oil.html",
-    "published": "2026-11-25T04:06:01+00:00",
+    "published": "2026-11-27T08:47:36+00:00",
     "summary": "The UAE is optimistic about achieving 7%-8% economic growth next year, banking on a \"different\" economic model."
   },
   {
@@ -40,36 +160,36 @@
     "summary": "The Conference Board survey released Tuesday showed improvement across the board, with the headline confidence index jumping to 103.3."
   },
   {
-    "source": "Federal Reserve",
-    "category": "central bank",
-    "title": "Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions",
-    "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125b.htm",
-    "published": "2026-11-25T20:00:00+00:00",
-    "summary": "Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions"
-  },
-  {
-    "source": "Federal Reserve",
-    "category": "central bank",
-    "title": "Agencies announce dollar thresholds for smaller loan exemption from appraisal requirements for higher-priced mortgage loans",
-    "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125a.htm",
-    "published": "2026-11-25T20:00:00+00:00",
-    "summary": "Agencies announce dollar thresholds for smaller loan exemption from appraisal requirements for higher-priced mortgage loans"
-  },
-  {
-    "source": "Federal Reserve",
-    "category": "central bank",
-    "title": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
-    "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261124a.htm",
-    "published": "2026-11-24T19:00:00+00:00",
-    "summary": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026"
-  },
-  {
     "source": "Fed speeches",
     "category": "central bank",
     "title": "Bowman, Modernizing Banking Supervision: A Shared Agenda for the Americas",
     "link": "https://www.federalreserve.gov/newsevents/speech/bowman20261125a.htm",
     "published": "2026-11-25T12:25:00+00:00",
     "summary": "Speech At the ASBA\u2013BCBS\u2013FSI High-Level Meeting for the Americas on Banking Supervision, Bras&iacute;lia, Brazil (via pre-recorded video)"
+  },
+  {
+    "source": "ECB",
+    "category": "central bank",
+    "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+    "link": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261127~13ecadc0f2.en.html",
+    "published": "2026-11-27T14:00:00+00:00",
+    "summary": ""
+  },
+  {
+    "source": "ECB",
+    "category": "central bank",
+    "title": "ECB Consumer Expectations Survey results \u2013 October 2026",
+    "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261127~2e53af695e.en.html",
+    "published": "2026-11-27T09:00:00+00:00",
+    "summary": ""
+  },
+  {
+    "source": "ECB",
+    "category": "central bank",
+    "title": "Meeting of 28-29 October 2026",
+    "link": "https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg261126~ccf28c8071.en.html",
+    "published": "2026-11-26T12:30:00+00:00",
+    "summary": ""
   },
   {
     "source": "ECB",
@@ -96,20 +216,28 @@
     "summary": ""
   },
   {
-    "source": "ECB",
+    "source": "Bank of England",
     "category": "central bank",
-    "title": "Philip R. Lane: Climate change and monetary policy",
-    "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261123~b5816801a0.en.pdf",
-    "published": "2026-11-23T14:30:00+00:00",
-    "summary": ""
+    "title": "Payments systems Memorandum of Understanding",
+    "link": "https://www.bankofengland.co.uk/news/2024/march/payment-systems-memorandum-of-understanding",
+    "published": "2026-11-26T15:00:00+00:00",
+    "summary": "Bank of England, PRA, FCA and PSR review Memorandum of Understanding in relation to payment systems in the UK"
   },
   {
-    "source": "ECB",
+    "source": "Bank of England",
     "category": "central bank",
-    "title": "ECB expands acceptance of DLT-based assets as eligible Eurosystem collateral",
-    "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261123~76b6f57b74.en.html",
-    "published": "2026-11-23T10:00:00+00:00",
-    "summary": ""
+    "title": "Statistical Notice 2026/09 - Update to the classification of accounts guide",
+    "link": "https://www.bankofengland.co.uk/statistics/notice/2026/statistical-notice-2026-09",
+    "published": "2026-11-26T12:33:57+00:00",
+    "summary": "Statistical Notices update the definitions and guidance contained in the Banking Statistics Yellow Folder"
+  },
+  {
+    "source": "Bank of England",
+    "category": "central bank",
+    "title": "Financial Policy Committee Record \u2013 November 2026",
+    "link": "https://www.bankofengland.co.uk/financial-policy-committee-record/2026/november-2026",
+    "published": "2026-11-26T10:30:00+00:00",
+    "summary": "Our Financial Policy Committee (FPC) meets to identify risks to financial stability and agree policy actions aimed at safeguarding the resilience of the UK financial system."
   },
   {
     "source": "Bank of England",
@@ -128,11 +256,251 @@
     "summary": "Daniel E. Pinto has been appointed as an external member of the Financial Policy Committee."
   },
   {
-    "source": "Bank of England",
-    "category": "central bank",
-    "title": "General insurance stress test highlights value of rehearsing crisis response and recovery",
-    "link": "https://www.bankofengland.co.uk/news/2026/november/general-insurance-stress-test-highlights-value-of-rehearsing-crisis-response-and-recovery",
-    "published": "2026-11-23T10:00:00+00:00",
-    "summary": "The Prudential Regulation Authority (PRA) has today published the results of its 2026 Dynamic General Insurance Stress Test (DyGIST)"
+    "source": "Yahoo (stocks)",
+    "category": "news",
+    "title": "S&P 500, Nasdaq End Best Week In Over A Year As AI Optimism Makes Comeback \u2014 VZ, ANT, ADBE, TSLA In Focus",
+    "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-end-best-week-in-over-a-year-as-ai-optimism-makes-comeback/cNb6EtcR9VK",
+    "published": "2026-11-27T21:29:46+00:00",
+    "summary": "Meanwhile, the Dow Jones index recorded its best week since October 2022."
+  },
+  {
+    "source": "Yahoo (stocks)",
+    "category": "news",
+    "title": "Tech Stocks Jump as Investors Take a Break From AI Jitters",
+    "link": "https://www.wsj.com/finance/stocks/stocks-poised-to-end-week-strong-as-investors-take-break-from-ai-jitters-ce6b2846?siteid=yhoof2&yptr=yahoo",
+    "published": "2026-11-27T21:16:00+00:00",
+    "summary": "The Nasdaq composite finished its best week since April, while the Dow and S&P 500 also ended the week strong."
+  },
+  {
+    "source": "Yahoo (stocks)",
+    "category": "news",
+    "title": "Review & Preview: Gratitude Trade",
+    "link": "https://www.barrons.com/articles/stocks-today-review-preview-560b235d?siteid=yhoof2&yptr=yahoo",
+    "published": "2026-11-27T21:00:00+00:00",
+    "summary": "Stocks rallied on Friday, giving indexes their best week since 2008."
+  },
+  {
+    "source": "Yahoo (stocks)",
+    "category": "news",
+    "title": "Dow Jones Futures: Stock Market Makes Bullish Move, Tesla Leads 7 New Buys; Nvidia's Jensen Huang Heads To Capitol Hill",
+    "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-bullish-move-tesla-new-buys-nvidia-ceo-jensen-huang-congress/?src=A00220&yptr=yahoo",
+    "published": "2026-11-27T19:54:29+00:00",
+    "summary": "In a wild, powerful market week, Tesla stock leads new buys. Nvidia's Jensen Huang is heading to Capitol Hill."
+  },
+  {
+    "source": "Yahoo (stocks)",
+    "category": "news",
+    "title": "Nasdaq Leads Market Rebound as Treasury Yields Hit 5.29% at the Long End",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-leads-market-rebound-treasury-195242969.html",
+    "published": "2026-11-27T19:52:42+00:00",
+    "summary": "Stocks Push Higher Despite Rising Bond Yields. Dow and S&P 500 Gain 0.5%"
+  },
+  {
+    "source": "Yahoo (dollar)",
+    "category": "news",
+    "title": "Dollar Moves Higher With T-Note Yields",
+    "link": "https://www.barchart.com/story/news/9036638/dollar-moves-higher-with-t-note-yields",
+    "published": "2026-11-27T19:27:55+00:00",
+    "summary": "The dollar index (DXY00 ) rose by +0.37% on Friday. The dollar rose Friday amid higher T-note yields, which strengthened the dollar\u2019s interest-rate differentials. Also, expectations for the Fed to raise interest rates by +25 bp at next month\u2019s FOMC meeting are supporting the dollar. Friday\u2019s trade n"
+  },
+  {
+    "source": "Yahoo (dollar)",
+    "category": "news",
+    "title": "Dollar set for weekly gain as risk appetite returns",
+    "link": "https://finance.yahoo.com/markets/currencies/articles/dollar-lingers-near-22-month-053645025.html",
+    "published": "2026-11-27T19:25:33+00:00",
+    "summary": "By Karen Brettell NEW YORK, Nov 27 (Reuters) - Improving risk appetite on Friday bolstered risk-sensitive currencies including the Australian dollar, while the US dollar was on track for a modest"
+  },
+  {
+    "source": "Yahoo (dollar)",
+    "category": "news",
+    "title": "Basic Materials Roundup: Market Talk",
+    "link": "https://www.wsj.com/business/basic-materials-roundup-market-talk-171c3d6d?siteid=yhoof2&yptr=yahoo",
+    "published": "2026-11-27T17:58:00+00:00",
+    "summary": "Find insight on Canadian mining stocks, palm oil and more in the latest Market Talks covering basic materials."
+  },
+  {
+    "source": "Yahoo (dollar)",
+    "category": "news",
+    "title": "What's Next for the Dollar Rally? ETFs Investors Should Watch",
+    "link": "https://finance.yahoo.com/markets/currencies/articles/whats-next-dollar-rally-etfs-154500717.html",
+    "published": "2026-11-27T15:45:00+00:00",
+    "summary": "The U.S. dollar is gaining momentum amid hawkish Fed expectations and AI-related uncertainty. Here are the ETFs investors can consider to play the dollar's next move."
+  },
+  {
+    "source": "Yahoo (dollar)",
+    "category": "news",
+    "title": "JPMorgan Says Bitcoin \u2018Capitulation\u2019 Has Been Reached",
+    "link": "https://www.cryptoprowl.com/releases/jpmorgan-says-bitcoin-capitulation-has-been-reached-8098",
+    "published": "2026-11-27T15:01:00+00:00",
+    "summary": "JPMorgan Chase (NYSE: $JPM), the largest U.S. bank, says that Bitcoin (CRYPTO: $BTC) \u201ccapitulation\u201d has..."
+  },
+  {
+    "source": "Yahoo (dollar)",
+    "category": "news",
+    "title": "US stock selloffs trigger a new kind of dollar bounce",
+    "link": "https://finance.yahoo.com/markets/currencies/articles/us-stock-selloffs-trigger-kind-131650853.html",
+    "published": "2026-11-27T13:16:50+00:00",
+    "summary": "By Alun John LONDON, Nov 27 (Reuters) - An unusual appreciation in the dollar on days after a sharp Wall Street selloff can be explained by shifts in how foreign investors in US stocks protect their"
+  },
+  {
+    "source": "Yahoo (dollar)",
+    "category": "news",
+    "title": "US Dollar Mixed Early Friday Ahead of Advance Trade, St. Louis GDPNow",
+    "link": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-mixed-early-friday-122715199.html",
+    "published": "2026-11-27T12:27:15+00:00",
+    "summary": "The US dollar was mixed against its major trading partners early Friday -- up versus the euro and ye"
+  },
+  {
+    "source": "Yahoo (oil)",
+    "category": "news",
+    "title": "Stock market today: Dow, S&P 500, Nasdaq end holiday week with gains as AI stocks rebound",
+    "link": "https://finance.yahoo.com/markets/live/stock-market-today-firday-november-27-dow-sp-500-nasdaq-black-friday-holiday-091152065.html",
+    "published": "2026-11-27T09:11:52+00:00",
+    "summary": "Markets steadied going into a holiday-shortened trading day."
+  },
+  {
+    "source": "Yahoo (oil)",
+    "category": "news",
+    "title": "Oil prices are back on the rise. Could things get out of hand again?",
+    "link": "https://finance.yahoo.com/video/oil-prices-are-back-on-the-rise-could-things-get-out-of-hand-again-145752747.html",
+    "published": "2026-11-27T14:57:52+00:00",
+    "summary": "Washington Crossing Advisors senior portfolio manager Chad Morganlander sits down with \"The 8:30\" hosts Julie Hyman and Jake Conley to discuss the latest developments on oil (CL=F, BZ=F) prices."
+  },
+  {
+    "source": "Yahoo (oil)",
+    "category": "news",
+    "title": "Treasury Yields Gain As U.S. Equities Rally",
+    "link": "https://www.wsj.com/finance/investing/short-term-jgb-yields-rise-on-elevated-tokyo-inflation-data-713a900b?siteid=yhoof2&yptr=yahoo",
+    "published": "2026-11-27T21:10:00+00:00",
+    "summary": "U.S. Treasury yields recovered from their pre-Thanksgiving retreat and moved higher as equities posted Black Friday gains and the U.S. dollar strengthened."
+  },
+  {
+    "source": "Yahoo (oil)",
+    "category": "news",
+    "title": "Oil Futures Settle Lower Ahead of OPEC+ Policy Meeting",
+    "link": "https://www.wsj.com/finance/commodities-futures/oil-mixed-as-markets-track-mideast-developments-u-s-inventories-6daf3fb1?siteid=yhoof2&yptr=yahoo",
+    "published": "2026-11-27T20:47:00+00:00",
+    "summary": "Oil futures ended the session lower with the market awaiting the weekend meeting of OPEC and its allies to discuss output policy for 2027."
+  },
+  {
+    "source": "Yahoo (oil)",
+    "category": "news",
+    "title": "Market Swings Spooked Retail Traders\u2014And Lifted CME Group Up 18%",
+    "link": "https://finance.yahoo.com/markets/options/articles/market-swings-spooked-retail-traders-204136574.html",
+    "published": "2026-11-27T20:41:36+00:00",
+    "summary": "Investing.com and Yahoo Finance LLC may earn commission or revenue on some items through the links below."
+  },
+  {
+    "source": "Yahoo (oil)",
+    "category": "news",
+    "title": "Oil notches first weekly gain in November on supply fears",
+    "link": "https://finance.yahoo.com/energy/articles/oil-track-snap-3-week-082519990.html",
+    "published": "2026-11-27T20:12:39+00:00",
+    "summary": "By Arathy Somasekhar HOUSTON, Nov 27 (Reuters) - Brent crude edged down on Friday, but snapped a three-week losing streak to notch its first weekly gain in November, as attacks on tankers in the"
+  },
+  {
+    "source": "Yahoo (oil)",
+    "category": "news",
+    "title": "Crude Prices Retreat on Possible Increase in OPEC Crude Output",
+    "link": "https://www.barchart.com/story/news/9036917/crude-prices-retreat-on-possible-increase-in-opec-crude-output",
+    "published": "2026-11-27T20:11:14+00:00",
+    "summary": "January WTI crude oil (CLF27 ) closed down -0.60 (-0.72%) on Friday, and January RBOB gasoline (RBF27 ) closed up +0.0066 (+0.27%). Crude oil and gasoline prices gave up an early advance on Friday and settled mixed. Dollar strength on Friday weighed on energy prices. Also, the outlook for higher..."
+  },
+  {
+    "source": "Yahoo (gold)",
+    "category": "news",
+    "title": "Precious Metals Rally as AI Trade Revives Risk Appetite",
+    "link": "https://www.wsj.com/finance/commodities-futures/precious-metals-rally-as-ai-trade-revives-risk-appetite-86477a98?siteid=yhoof2&yptr=yahoo",
+    "published": "2026-11-27T20:20:00+00:00",
+    "summary": "Precious-metal prices surged as investors returned to the artificial-intelligence trade and global stocks rebounded, boosting risk appetite and easing pressure on assets that had been sold to meet liquidity needs."
+  },
+  {
+    "source": "Yahoo (gold)",
+    "category": "news",
+    "title": "Ora Banda Mining And 2 Australian Growth Stocks To Watch",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/ora-banda-mining-2-australian-191024613.html",
+    "published": "2026-11-27T19:10:24+00:00",
+    "summary": "Fresh expectations of higher US interest rates have reset the mood for growth investing, putting a spotlight on balance sheets that can handle tougher funding conditions. That is where a group of high potential Australian growth stocks becomes interesting. Analysts see strong revenue and earnings ex"
+  },
+  {
+    "source": "Yahoo (gold)",
+    "category": "news",
+    "title": "Stock Market Midday, Nov. 27: Tech Stocks Recover and Amazon Posts Black Friday Gains",
+    "link": "https://www.fool.com/coverage/stock-market-today/2026/11/27/stock-market-midday-nov-27-tech-stocks-recover-and-amazon-posts-black-friday-gains/",
+    "published": "2026-11-27T17:31:17+00:00",
+    "summary": "Investors are weighing strong Black Friday data and AI optimism as stocks trade higher, today, Nov. 27, 2026."
+  },
+  {
+    "source": "Yahoo (gold)",
+    "category": "news",
+    "title": "Gold mining stocks hit oversold levels as fear grips markets",
+    "link": "https://investorshub.advfn.com/market-news/article/40827/gold-mining-stocks-oversold-market-fear",
+    "published": "2026-11-27T17:30:40+00:00",
+    "summary": "Key TakeawaysInvestor sentiment has deteriorated, with the CNN Fear and Greed Index reaching extreme fear territory. A gold miners ETF has registered a relative strength index reading close to 10, suggesting exceptionally oversold conditions."
+  },
+  {
+    "source": "Yahoo (gold)",
+    "category": "news",
+    "title": "Billionaire Paul Tudor Jones\u2019 Firm Nearly Doubled Its Bitcoin ETF Shares to 1.36 Million",
+    "link": "https://247wallst.com/investing/2026/11/27/billionaire-paul-tudor-jones-firm-nearly-doubled-its-bitcoin-etf-shares-to-1-36-million/",
+    "published": "2026-11-27T17:02:38+00:00",
+    "summary": "Tudor's Bitcoin ETF stake jumped last quarter, but the headline number hides a quirk in how 13F filings work. Before copying a billionaire's trade, check what the filing can't reveal about his options and his timing."
+  },
+  {
+    "source": "Yahoo (gold)",
+    "category": "news",
+    "title": "Before the bell: Wall Street goes Black Friday shopping. Is Bitcoin on the list?",
+    "link": "https://www.thestreet.com/crypto/markets/before-the-bell-wall-street-goes-black-friday-shopping-is-bitcoin-on-the-list",
+    "published": "2026-11-27T16:00:00+00:00",
+    "summary": "Wall Street shops for half a day. Bitcoin heads into the weekend carrying a death cross."
+  },
+  {
+    "source": "Yahoo (yen)",
+    "category": "news",
+    "title": "3 Japanese Consumer Stocks With Pricing Power As Inflation Tests Household Spending",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/3-japanese-consumer-stocks-pricing-171450855.html",
+    "published": "2026-11-27T17:14:50+00:00",
+    "summary": "Tokyo inflation is heating up again, and the weak yen plus talk of another BOJ rate hike are reshaping the playing field for Japan\u2019s domestic consumer stocks. Some businesses are facing a squeeze from higher energy and funding costs. Others with real pricing power are finding room to grow nominal sa"
+  },
+  {
+    "source": "Yahoo (yen)",
+    "category": "news",
+    "title": "BC-US-Foreign Exchange",
+    "link": "https://finance.yahoo.com/markets/currencies/articles/bc-us-foreign-exchange-150025046.html",
+    "published": "2026-11-27T15:00:25+00:00",
+    "summary": "NEW YORK (AP) \u2014 Foreign Exchange, New York prices.Rates for trades of $1 million minimum."
+  },
+  {
+    "source": "Yahoo (yen)",
+    "category": "news",
+    "title": "Kaneka (TSE:4118) Stock Looks Reasonable Following Its 90% Five Year Run",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/kaneka-tse-4118-stock-looks-121411927.html",
+    "published": "2026-11-27T12:14:11+00:00",
+    "summary": "Kaneka has delivered a strong multi year share price run. The immediate question for anyone looking at the stock today is whether that move is aligned with the cash flows the business is expected to generate. With a Discounted Cash Flow (DCF) view available, the focus naturally shifts to what the cu"
+  },
+  {
+    "source": "Yahoo (yen)",
+    "category": "news",
+    "title": "Denka (TSE:4061) Stock May Be A Bargain As Cash Flow Recovers",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/denka-tse-4061-stock-may-021723150.html",
+    "published": "2026-11-27T02:17:23+00:00",
+    "summary": "Denka shares have slipped in recent weeks, which puts fresh focus on a simple question for investors who care about cash flows. Is the current price still aligned with what the business can realistically generate in hard yen over time, or has the market moved further than the underlying cash stream "
+  },
+  {
+    "source": "Yahoo (yen)",
+    "category": "news",
+    "title": "3 Japanese Consumer Staples Stocks to Watch as Inflation Reshapes Daily Spending",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/3-japanese-consumer-staples-stocks-021630675.html",
+    "published": "2026-11-27T02:16:30+00:00",
+    "summary": "Japanese inflation picking up speed again has pushed the Bank of Japan back into the spotlight, and that shift in policy thinking is starting to redraw the map for local consumer staples. Higher rates and a stronger yen can reshuffle winners and losers, yet everyday goods still sit close to the fron"
+  },
+  {
+    "source": "Yahoo (yen)",
+    "category": "news",
+    "title": "AI Risk Puts Dollar on Track for Longest Winning Run Since 2024",
+    "link": "https://finance.yahoo.com/markets/currencies/articles/ai-risk-puts-dollar-track-234427296.html",
+    "published": "2026-11-26T23:44:27+00:00",
+    "summary": "The dollar is poised for its longest monthly winning streak in two years as a rupture in the artificial intelligence trade and rising interest rates spur demand for safe-haven assets."
   }
 ]

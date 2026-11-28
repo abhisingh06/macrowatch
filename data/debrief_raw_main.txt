@@ -1,249 +1,254 @@
 {
-  "headline": "Oil climbs, bond yields fall, and the fear gauge rises",
-  "mood": "mixed",
-  "summary": "US stocks ended mixed, with the [[Dow]] up 0.33% while the [[Nasdaq]] fell 0.62%, which fits a day when investors kept giving back some of Monday's big AI rally. Nvidia surrendered a large chunk of its gains, and the [[VIX]] rose 7.32% to 28.29, so traders were still paying up for protection even though the S&P 500 only slipped 0.25%. The [[10-year yield]] fell 6 [[basis points]] to 4.85% and the dollar index slipped 0.13%, though it's not obvious why yields dropped. Oil moved the other way, with WTI crude up 1.99% to 83.68 because Middle East tension keeps supply worries alive, and that matters because the Fed's favorite inflation gauge, the [[PCE price index]], already sits at 3.8%. Put together, the market is juggling two worries at once, an AI trade that has lost its footing and an energy-driven inflation problem that makes it hard for central banks to help.",
-  "one_thing": "Inflation is running at 3.8% while the Fed's rate is only 3.875%, so the [[real interest rate]] is close to zero and policy is hardly tight. That means the 2027 rate cuts that stock investors are counting on look shaky as long as oil keeps climbing.",
+  "headline": "Stocks rip higher on AI relief while yields and dollar climb",
+  "mood": "risk-on",
+  "summary": "Stocks bounced hard on Friday, with the S&P 500 up 1.6% to 7297.49 and the Nasdaq up 2.31%, because investors took a break from worrying about AI and bought back the big tech names that had been beaten up in November. What made the day unusual is that bonds did not join the party, since the [[10-year yield]] rose 9 [[basis point]]s to 4.94%, which means traders are leaning toward the Fed raising rates by 25 basis points at its next meeting with inflation still running at 3.8%. That is also why the [[dollar index]] rose 0.33% to 104.01 instead of falling when fear faded, because higher US yields make holding dollars more rewarding. Gold jumped 3.75% to 3668.5 as the pressure to sell it for cash eased, and the [[VIX]] fell 11.16% to 23.81, so fear cooled even though it has not gone away. Oil slipped 0.72% to $83.08 while the market waited for a weekend OPEC+ meeting on 2027 output.",
+  "one_thing": "Stocks rallied hard on AI relief, but the 10-year yield jumped to 4.94% because traders now expect the Fed to hike again. The real test for this rebound is whether stocks can keep rising while borrowing costs climb.",
   "cross_asset": {
-    "stocks": "The S&P 500 slipped 0.25%, the Nasdaq fell 0.62% and the Dow rose 0.33%, so money tilted away from big tech and toward the rest of the market. The reason is the AI jitters, because Nvidia gave back a big piece of Monday's rally and so much of the index rides on a handful of AI-linked firms. Oracle and CoreWeave sank early and then bounced, so the day was bumpy but ended less ugly than it began.",
-    "rates": "The 10-year yield fell 6 basis points to 4.85%, which is a decent one-day move (6 basis points is 0.06 percentage points). The headlines don't say why, though a bit of safe-haven buying while tech wobbled would fit. The catch is that inflation at 3.8% leaves little room for yields to fall much further, because bond buyers want to be paid more than inflation.",
-    "fx": "The dollar index slipped 0.13% to 103.67, which continues the fade from its 20-month high, and lower Treasury yields make holding dollars a little less rewarding. USD/JPY rose 0.16% to 159.26, so the yen stayed weak because Japan's 1.25% rate sits 2.625 percentage points below the Fed's 3.875%. Japan has already stepped in to buy yen with a record $50 billion in one day, so traders keep a close eye on any further push toward higher USD/JPY.",
-    "commodities": "WTI crude rose 1.99% to 83.68, its second straight gain, because Middle East tension is outweighing expectations for a global supply surplus. Gold fell 0.73% to 3535.8, which is a little odd since lower yields and a softer dollar usually help gold, and the cause isn't clear. Higher oil is the bigger story for the broad market, because it feeds straight into inflation."
+    "stocks": "The Nasdaq led with a 2.31% gain, the S&P 500 rose 1.6% and the Dow rose 1.18%, because the AI trade that fell apart in November got some relief and these giant tech names carry so much weight in the indexes. Nvidia soared this week but is still down nearly 28% for November, so the bounce looks more like a pause in the selling than a full repair. The VIX falling 11.16% to 23.81 tells you investors paid less for protection, and strong Black Friday shopping data helped the mood in a holiday-shortened session.",
+    "rates": "The 10-year Treasury yield rose 9 basis points to 4.94%, and yields at the long end reached 5.29%, which means the government now pays more to borrow and mortgage rates tend to follow upward. Yields recovered from their pre-Thanksgiving dip because stocks rallied and traders are betting on a 25 basis point Fed hike next month. The catch is that the economy looks strong (third-quarter GDP was revised up to 4.3%) while prices are hot, so there is little reason for bond buyers to expect rate cuts soon.",
+    "fx": "The dollar index rose 0.33% to 104.01, helped by higher US yields and hike expectations, and it is heading for its longest monthly winning streak in two years. Risk-sensitive currencies like the Australian dollar also gained as appetite for risk returned, so the dollar and risk assets rose together, which is not the usual pattern. USD/JPY barely moved at 159.28 (up 0.04%) even with higher US yields, and it's not obvious why, though talk of a near-term BOJ hike and Japan's history of stepping in to support the yen may be holding the pair back.",
+    "commodities": "WTI crude fell 0.72% to $83.08 as a stronger dollar weighed on prices and traders worried that OPEC+ could raise output, but the market is still carrying a weekly gain in Brent because of attacks on tankers. Gold surged 3.75% to 3668.5 as the AI rebound revived risk appetite and eased the pressure on assets that had been sold to raise cash. Gold mining stocks had reached very oversold levels, so some of the jump is probably a snap back after heavy selling."
   },
   "storylines": [
     {
       "name": "Central banks vs energy inflation",
       "status": "developing",
-      "backstory": "The Iran war cut oil supply and pushed up [[headline inflation]], so central banks have been trying to decide whether the price jump fades on its own or leaks into wages and services. Euro area inflation reached 4%, the Bank of England hiked to 4%, and the Fed sits at 3.875%.",
-      "today": "The PCE price index rose 3.8% from a year earlier in October, matching forecasts, and third quarter [[GDP]] was revised up to 4.3%, so the economy is strong while prices are hot. That leaves the Fed's rate barely above inflation, and a CNBC commentary argues that Kevin Warsh should hike instead of betting on a productivity boom the way Greenspan did. The ECB's account of its October meeting adds that energy prices pushed oil and gas above its own adverse scenario, and markets at one point priced in more than four extra hikes before settling on just under three. Households are feeling it too, with even toys getting pricier and holiday budgets shrinking.",
-      "headline_ids": [0, 1, 2],
-      "doc_ids": [5, 7, 9, 10],
-      "market_link": "Oil stays high, which keeps headline inflation near 3.8%, so central banks can't promise cuts and may even have to hike. Because rate cuts are what investors hoped would lift 2027 company earnings, that hope fades, and stocks that are expensive relative to earnings come under pressure. At the same time, strong growth and sticky inflation keep bond yields high, which makes mortgages and business loans cost more.",
-      "next_chapter": "A hotter inflation report, a hawkish speech from a Fed official, or a clearer signal from Warsh about hiking would push the story forward. A fall in oil would do the opposite and let central banks relax.",
+      "backstory": "The Iran war cut oil supply and pushed up [[headline inflation]], so central banks have been trying to work out whether the price jump fades by itself or leaks into wages and services. Euro area inflation reached 4%, the Bank of England hiked to 4%, and the Fed sits at 3.875%, which is barely above US inflation.",
+      "today": "Traders are now leaning toward a 25 basis point Fed hike next month, because the Fed's preferred inflation gauge rose 3.8% in October and third-quarter GDP was revised up to 4.3%, which means the economy is strong while prices are hot. President Trump called the GDP revision a record setting error that should be investigated, which shows how politically sensitive strong data has become when it argues for higher rates. In Europe, the ECB's consumer survey showed people perceive inflation at 4.1%, the highest since July 2024, and Spain's Pablo Hernández de Cos won the backing needed to succeed Christine Lagarde next year. At home, shoppers are hunting for value, toys are getting pricier, and the average new car hit a record $51,109 in October.",
+      "headline_ids": [5, 6, 10, 11, 14, 16, 17, 22, 23, 36, 37, 46],
+      "doc_ids": [5, 8],
+      "market_link": "Strong growth and 3.8% inflation make a Fed hike look sensible, so short-term yields rise. That lifts the 10-year yield, which raises mortgage and business borrowing costs and makes the dollar more attractive because it pays more than other currencies. Higher yields then put pressure on stocks that are priced for lots of future growth, which is why the AI rebound has to prove it can live with 4.94% on the 10-year.",
+      "next_chapter": "The December FOMC meeting is the big test of whether the Fed hikes, and the next inflation prints will show whether energy costs are leaking into wages and services. OPEC+ decisions and Gulf shipping news will also matter, because oil is the source of the price jump.",
       "note": [
-        "The big idea is that the Fed's preferred inflation gauge is 3.8% and its rate is 3.875%, so after inflation the Fed is barely charging anything for money.",
-        "The cause is the Iran war pushing up energy costs, and the worry is that those costs leak into wages and services, which would make inflation last.",
-        "The so-what is that stock investors counting on rate cuts in 2027 may be disappointed, and the next debate is whether the Fed hikes instead.",
-        "Interview line: inflation is a supply problem on top of strong demand, so the Fed has almost no room to ease."
-      ]
-    },
-    {
-      "name": "Iran war and oil",
-      "status": "developing",
-      "backstory": "The conflict began in early 2026 and cut global oil output by 12 million barrels a day in March, but prices stayed below records because stored oil filled the gap. The IEA says the Hormuz shock lifted the world's oil and gas import bill 25% to $1.6 trillion, and pump prices recently fell to their lowest level since March.",
-      "today": "WTI crude rose 1.99% to 83.68, its second straight gain, because tension in the Middle East outweighed expectations for a global supply surplus. The ECB's account of its October meeting says freight rates from the Gulf to Europe hit record highs, diesel [[crack spreads]] sit above the levels after Russia's 2022 invasion, and the odds of a US-Iran peace deal by the end of 2026 were the lowest since the war began. Meanwhile the UAE says it expects 7% to 8% growth next year as the IMF lifts its forecast, which shows that the Gulf is coping better than the headlines might suggest.",
-      "headline_ids": [2, 3],
-      "doc_ids": [7],
-      "market_link": "Oil gets more expensive, which raises the cost of fuel and shipping, so businesses pay more and pass some of it on to shoppers. That pushes inflation up, which keeps central banks from cutting rates, so bond yields stay high and stock valuations feel pressure. Households then cut back on gifts, travel and food, which slows spending.",
-      "next_chapter": "Any sign of a US-Iran peace deal would likely pull oil down quickly, while a worse Gulf shipping disruption would send prices higher. A real global supply surplus showing up would also cap the rally.",
-      "note": [
-        "The big idea is that oil is rising again because the war keeps supply fragile, even though prices are well below record highs.",
-        "Stored oil filled the gap earlier, but that cushion doesn't last forever, which is why tension can still push WTI up about 2% in a day.",
-        "Diesel and shipping costs are rising even faster than crude, which means businesses feel the pain before drivers do.",
-        "Interview line: oil is the first domino, because it moves inflation, then central banks, then bond yields."
+        "Big idea: oil-driven inflation is forcing central banks to consider hiking even though growth could slow, and today markets leaned toward a Fed hike.",
+        "Why: US inflation is 3.8% and the Fed's rate is 3.875%, so the real return on short-term money is almost zero, and a hot GDP revision makes waiting harder to defend.",
+        "So what: hike bets push up Treasury yields and the dollar, and they pressure stocks that depend on cheap financing.",
+        "Interview line: the Fed is deciding whether an oil supply shock is temporary or sticky, and the data this month says sticky enough to worry about."
       ]
     },
     {
       "name": "AI trade jitters",
       "status": "developing",
-      "backstory": "The biggest AI-linked tech firms hold up so much of the S&P 500 that doubts about AI hit the whole market. Nvidia's CEO left on Nov 12, a selloff followed, official papers warned that AI [[valuation]]s look stretched, and the index fell four straight weeks. Then Nvidia's board approved Huang's return and the Nasdaq jumped 6.51% on Monday.",
-      "today": "Nvidia gave back a big chunk of Monday's rally, and according to Vanda Research the gains of retail investors who bought the dip last week are now nearly all gone. Oracle and CoreWeave sank early and then bounced, so the day ended less ugly than it began. Vance said he was assured Huang was not under a DOJ investigation, while a CNBC column says Treasury Secretary Bessent's about-face on Huang shows how unsettled the administration's stance on Nvidia and China is. The ECB's account of its October meeting also lists worries about the increasingly debt-financed AI investment cycle.",
-      "headline_ids": [],
+      "backstory": "The biggest AI-linked tech firms make up so much of the S&P 500 that doubts about AI hit the whole market. After Nvidia's CEO left on Nov 12, stocks sold off, official papers warned that AI [[valuation]]s look stretched, and the index fell four straight weeks before Nvidia's board approved Jensen Huang's return and the Nasdaq jumped 6.51% on Monday.",
+      "today": "Tech led a broad rebound, with the Nasdaq up 2.31%, and headlines described the best week in over a year for the S&P 500 and Nasdaq, as investors took a break from AI jitters. Even so, Nvidia is still down nearly 28% for November and 21% for 2026, so the week's gains only repaired part of the damage. Huang is also heading to Capitol Hill, which shows how political the company's China and chip story has become. The ECB's latest financial stability review also lists AI adoption and the way AI spending is increasingly paid for with debt as things to watch.",
+      "headline_ids": [0, 7, 12, 32, 33, 34, 35, 44, 53],
       "doc_ids": [7],
-      "market_link": "Nvidia and its AI peers are such a large slice of the index that when they fall, the S&P 500 and Nasdaq fall with them. Falling tech prices make investors nervous, which lifts the VIX and can push money toward safer assets like Treasuries. If AI spending is being paid for with borrowed money, higher yields make that borrowing more expensive, which adds another source of stress.",
-      "next_chapter": "Clearer news on Huang, the administration's stance on Nvidia and China, or a fresh AI earnings surprise would move the story. Another jump in yields would also hurt, because expensive tech stocks are the most sensitive to higher rates.",
+      "market_link": "A handful of AI firms carry a huge share of index value, so when worries ease they pull the whole market up, the VIX falls, and investors feel safe buying risky assets again. That is why gold and currencies like the Australian dollar also rose today, because the same risk appetite spreads across markets. The weak spot is that a rebound after a drop this big can fade quickly if AI spending or valuations get questioned again.",
+      "next_chapter": "Watch what Huang says in Washington, any fresh news on US policy toward Nvidia and China, and whether the AI-linked stocks hold these gains when yields keep climbing.",
       "note": [
-        "The big idea is that the market has become so dependent on a few AI firms that one wobbly stock can drag down the entire index.",
-        "The Monday rally faded quickly, which suggests the relief came from a headline and not from a real change in the AI outlook.",
-        "The so-what is that when AI stocks and inflation worries hit at once, investors get hit from both sides, because rates stay high and the biggest stocks get cheaper.",
-        "Interview line: the Dow held up better than the Nasdaq today, which shows how much of the pain sits in tech."
+        "Big idea: AI doubts caused the November selloff and AI relief caused this week's rally, because so few stocks hold so much of the index.",
+        "Why: the rebound happened as investors paused their worries, not because anything about AI profits changed, so it can reverse easily.",
+        "So what: when AI fear fades, the VIX drops and risk assets from tech to gold to the Australian dollar tend to rise together.",
+        "Interview line: the S&P 500 is now partly an AI bet, so a headline about one chip company can move the whole market."
       ]
     },
     {
       "name": "US midterms and the dollar",
-      "status": "fading",
-      "backstory": "The midterms produced what headlines call a Democratic rout, and markets asked how divided government might change tariffs, spending and the dollar. The dollar then had its biggest rally since 2024, with headlines crediting hawkish Fed bets and not the election, and it hit a 20-month high, its strongest since March 2025.",
-      "today": "The dollar index slipped 0.13% to 103.67 as Treasury yields fell, and commentary now suggests the dollar may be peaking. The US also announced plans for new tariffs on 14 trading partners, including China and the EU, and the Swiss franc gained as a safe haven. Tuesday's consumer confidence reading jumped to 103.3 after the Democratic wins, though inflation worries persist.",
-      "headline_ids": [4],
-      "doc_ids": [6],
-      "market_link": "A dollar rises when US yields are higher than elsewhere, because investors want to hold the currency that pays more. When yields fall, that reason weakens, so the dollar slips, and a weaker dollar makes imports pricier for Americans but helps US exporters. Safe-haven buying of the Swiss franc shows some investors are choosing safety over return.",
-      "next_chapter": "A move higher in Treasury yields would give the dollar new support, while more tariff news or a dovish turn at the Fed would add to the case that the peak is behind us.",
+      "status": "developing",
+      "backstory": "After the midterms produced what headlines call a Democratic rout, investors asked how divided government might change tariffs, spending and the dollar. The dollar then had its biggest rally since 2024 and hit a 20-month high, though headlines credited hawkish Fed bets and not the election.",
+      "today": "The dollar index rose 0.33% to 104.01 as Treasury yields climbed and traders priced in a possible 25 basis point Fed hike next month, and it is on track for its longest monthly winning streak in two years. Washington also planned a fresh round of tariffs on 14 trading partners while offering lower rates to countries that sign trade deals, which keeps pressure on those partners. There is also a newer explanation going around for why the dollar tends to bounce after sharp stock selloffs, tied to how foreign owners of US stocks protect themselves against currency swings.",
+      "headline_ids": [15, 37, 38, 40, 42, 62],
+      "doc_ids": [],
+      "market_link": "A higher US yield means dollar deposits and Treasuries pay more than those in other currencies, so global investors buy dollars to get that return. A stronger dollar then makes oil and other commodities more expensive for the rest of the world, which tends to weigh on those prices, and it makes US exports pricier abroad. Tariffs add another layer because they can push inflation higher at home, which supports the case for a hike.",
+      "next_chapter": "The December FOMC meeting and the tariff deadlines for the 14 partners are the next catalysts. A calmer stock market or weaker US data could take the wind out of the dollar's run.",
       "note": [
-        "The big idea is that the dollar's post-election rally looks tired, with the index down at 103.67 after hitting a 20-month high.",
-        "The reason is that the rally came from hawkish Fed bets and not from the election itself, so when yields fall the dollar loses its main support.",
-        "The so-what is that a fading dollar eases pressure on emerging markets and commodities priced in dollars, while the yen still struggles against a Fed rate far above Japan's.",
-        "Consumer confidence jumping is a nice headline, but the St. Louis Fed says it predicts spending only weakly."
+        "Big idea: the dollar is rising mostly because the Fed might hike, not because of the election that started this storyline.",
+        "Why: higher US yields widen the gap with other countries, and money flows toward the higher return.",
+        "So what: a strong dollar usually weighs on oil and gold, though gold jumped today, so the AI rebound and forced-selling relief outweighed that.",
+        "Interview line: the dollar is trading as a rate story first and a political story second."
+      ]
+    },
+    {
+      "name": "Iran war and oil",
+      "status": "developing",
+      "backstory": "The conflict began in early 2026 and cut global oil output by 12 million barrels a day in March, but prices stayed below records because stored oil filled the gap. The IEA says the Hormuz shock lifted the world's oil and gas import bill 25% to $1.6 trillion.",
+      "today": "WTI fell 0.72% to $83.08 as a stronger dollar and the possibility of more OPEC+ output offset worries about supply, with the market waiting for the weekend OPEC+ meeting on 2027 policy. Brent still notched its first weekly gain in November after attacks on tankers, so the supply risk has not gone away. Fuel costs are hurting businesses too, as budget airline Norse Atlantic filed for bankruptcy after failing to secure funding while fuel costs soared.",
+      "headline_ids": [8, 45, 47, 49, 50],
+      "doc_ids": [],
+      "market_link": "Cheaper oil would ease inflation worries, which could slow the Fed and let bond yields drift lower, while pricier oil does the opposite and keeps central banks on edge. Fuel is also a major cost for airlines and shippers, so a sustained spike squeezes their profits and eventually shows up in ticket and shipping prices.",
+      "next_chapter": "The OPEC+ meeting this weekend will show whether producers add supply for 2027, and any further tanker attacks or peace-deal news would shift the odds quickly.",
+      "note": [
+        "Big idea: oil is caught between supply fears from the Gulf and the chance that OPEC+ pumps more.",
+        "Why: a strong dollar and possible extra output pushed WTI down 0.72% today, but tanker attacks gave Brent a weekly gain.",
+        "So what: oil is the starting point for the inflation story, so its direction feeds into Fed and ECB decisions.",
+        "Interview line: oil is both a price and a policy variable, because OPEC+ decisions can change the inflation path that central banks respond to."
       ]
     }
   ],
   "stories": [
     {
-      "tag": "Inflation -> Fed",
-      "title": "The Fed's favorite inflation gauge leaves it little room",
-      "what": "The PCE price index rose 3.8% from a year earlier in October, exactly what forecasters expected, and third quarter GDP was revised up to 4.3%. The Fed's rate is 3.875%, so it sits only slightly above inflation.",
-      "why": "When growth is strong and inflation is high, a central bank can't cut rates without risking even higher prices. Because a rate that is barely above inflation isn't very restrictive, hiking becomes a real option, which is what the CNBC commentary on Warsh argues.",
-      "watch": "Any Fed comment about rates possibly rising, and whether the next inflation reports come in hotter or cooler than 3.8%."
+      "tag": "Stocks vs yields",
+      "title": "Stocks rally even as bond yields jump",
+      "what": "The S&P 500 rose 1.6% and the Nasdaq rose 2.31% while the 10-year Treasury yield rose 9 basis points to 4.94%, with yields at the long end reaching 5.29%.",
+      "why": "Usually higher yields hurt stocks because they make safe bonds more attractive and raise financing costs, so stocks rising alongside them means investors cared more about relief on AI fears than about the rate risk. In other words, the rally is running on mood, and mood can change faster than interest rates.",
+      "watch": "Whether the 10-year can keep climbing without stocks cracking, especially if the Fed hike gets priced in more firmly."
+    },
+    {
+      "tag": "AI relief",
+      "title": "Tech leads as AI worries take a break",
+      "what": "Nvidia soared this week and headlines called it the best week in over a year for the S&P 500 and Nasdaq, but Nvidia is still down nearly 28% for November.",
+      "why": "Because a few giant AI-linked companies dominate the index, their swings decide the market's direction, and the VIX dropping to 23.81 shows investors paying less for protection.",
+      "watch": "Huang's trip to Capitol Hill and whether tech holds the gains if yields keep rising."
+    },
+    {
+      "tag": "Dollar and Fed bets",
+      "title": "Dollar rises as traders bet on a Fed hike",
+      "what": "The dollar index rose 0.33% to 104.01, supported by higher Treasury yields and expectations for a 25 basis point hike at the next FOMC meeting.",
+      "why": "The dollar is behaving as a rate trade, which means it rises when US yields rise, even on a day when fear was falling. That tightens conditions for countries and companies that borrow in dollars.",
+      "watch": "The December FOMC meeting and whether the monthly winning streak can continue."
+    },
+    {
+      "tag": "Gold rebound",
+      "title": "Gold jumps 3.75% as forced selling fades",
+      "what": "Gold rose to 3668.5, helped by the AI rebound and by less pressure on assets that had been sold to raise cash, while gold miners had been sitting at very oversold levels.",
+      "why": "When investors lose money in one place they sometimes sell winners like gold to cover it, so a calmer market can bring gold back even with a stronger dollar and higher yields working against it.",
+      "watch": "Whether gold keeps rising if the dollar and yields keep climbing, which would show real demand and not just a bounce."
     },
     {
       "tag": "Oil -> inflation",
-      "title": "Oil rises again on Middle East tension",
-      "what": "WTI crude gained 1.99% to 83.68, its second straight gain. Tension in the Middle East outweighed expectations for a supply surplus.",
-      "why": "Higher oil raises costs for fuel, shipping and food, which feeds into the inflation numbers central banks watch. It also hits households directly, with CNBC noting that toys, food and travel are all getting more expensive as people scale back holiday plans.",
-      "watch": "News on US-Iran peace talks, since the ECB's account says the odds of a deal by the end of 2026 are the lowest since the war began."
-    },
-    {
-      "tag": "AI -> stocks",
-      "title": "Tech slips and the VIX climbs",
-      "what": "The Nasdaq fell 0.62% and the VIX rose 7.32% to 28.29, while the Dow gained 0.33%. Nvidia gave back a large part of Monday's rally.",
-      "why": "A VIX near 28 means traders expect large swings and are paying more for protection. Because AI-linked firms are so large in the index, any doubt about them spreads to the whole market.",
-      "watch": "Whether Nvidia stabilizes, and any news about Huang and the administration's stance on Nvidia and China."
-    },
-    {
-      "tag": "Yen -> Japan policy",
-      "title": "The yen stays weak near 159 per dollar",
-      "what": "USD/JPY rose 0.16% to 159.26. The BOJ chief played down soft consumption data and signaled a near-term rate hike, while Japan's inflation accelerated and its economy unexpectedly shrank in the third quarter.",
-      "why": "The BOJ's 1.25% rate is 2.625 percentage points below the Fed's 3.875%, so investors earn more by selling yen and holding dollars. Japan's energy costs rise with oil, which hurts its trade balance and adds more pressure on the yen.",
-      "watch": "Whether the BOJ actually hikes, and whether Japan steps in again to buy yen after its record $50 billion intervention."
-    },
-    {
-      "tag": "Confidence -> spending",
-      "title": "Consumers feel better but are still cutting back",
-      "what": "Consumer confidence jumped to 103.3 after the Democratic midterm wins, while CNBC reports that Americans are scaling back holiday plans because of higher prices.",
-      "why": "A St. Louis Fed piece finds that consumer confidence has only a small ability to predict spending, and that the change in unemployment has roughly 10 times the effect. So a good survey result doesn't guarantee that people will actually spend more.",
-      "watch": "Actual holiday spending and the jobs data, which matter more than surveys."
+      "title": "Oil slips as OPEC+ meeting looms",
+      "what": "WTI fell 0.72% to $83.08 as the dollar strengthened and traders weighed a possible OPEC+ output increase, although Brent still posted a weekly gain on tanker attacks.",
+      "why": "Oil feeds directly into inflation, so more OPEC+ supply could cool prices and ease pressure on central banks, while another supply scare would push in the other direction.",
+      "watch": "The weekend OPEC+ decision on 2027 output policy."
     }
   ],
   "under_the_radar": [
     {
-      "title": "America's shrinking labor supply",
-      "what": "A New York Fed post says growth in the US working-age population has fallen to near zero after a sharp drop in net immigration, and the available labor supply could soon begin to shrink. Other advanced economies have already been through this, and many of them kept their labor forces growing by getting more women and people aged 65 to 74 into work.",
-      "chain": "Fewer available workers makes hiring harder, so companies may need to pay more to keep staff. Higher wages push up the cost of services, which means inflation can stay high even if oil prices calm down, so central banks would have to keep rates higher for longer and bond yields would stay elevated.",
-      "watch": "Wage growth in the jobs reports and whether the share of people in the labor force keeps rising.",
+      "title": "Euro area consumers expect higher inflation and lower income",
+      "what": "The ECB's October survey showed perceived inflation over the past year rising to 4.1% and expected inflation over the next year rising to 3.5%, while five-year expectations held at 2.5%, the highest level since the series began in August 2022. At the same time people expect their income to grow just 0.6%, down from 1.1%. Spain's Pablo Hernández de Cos is also set to succeed Christine Lagarde next year.",
+      "chain": "If people expect prices to keep rising, they ask for bigger raises and businesses raise prices faster, which can turn a one-time oil shock into lasting inflation. That would push the ECB toward more hikes, so euro area yields rise and the euro can strengthen. Meanwhile, expected income growth of 0.6% against 3.5% expected inflation means households feel squeezed, which can slow spending and growth.",
+      "watch": "Whether five-year inflation expectations rise above 2.5% in the next survey, which would signal that the shock is becoming sticky.",
       "note": [
-        "The big idea is that the US is running out of new workers, because immigration has dropped and the native-born working-age group is shrinking.",
-        "This matters because central banks are asking whether the oil price jump leaks into wages, and a tight labor market is exactly what would make that happen.",
-        "Other rich countries kept their workforces growing by raising participation, so the US may be able to do the same, but that takes time.",
-        "Interview line: the labor supply story is how an energy shock turns into lasting inflation."
+        "Big idea: euro area households expect higher prices and weak income growth at the same time, which is a bad mix for the ECB.",
+        "Why: the ECB cares about expectations because people who expect inflation act in ways that cause it.",
+        "So what: the squeeze on household spending could slow growth just as central banks are being pushed to hike.",
+        "Interview line: the ECB's long-run expectations are at a record 2.5% for the series, so they are anchored but not comfortably."
       ]
     },
     {
-      "title": "Companies lean harder on bond markets",
-      "what": "A New York Fed post says US nonfinancial corporate bonds were 29% of US GDP at the end of 2024, and that growth in bond markets can come either from firms borrowing more in general or from firms shifting away from banks. The distinction matters because credit conditions in the bond market and at banks can be disconnected.",
-      "chain": "If firms depend more on bonds, then moves in bond yields and [[credit spreads]] matter more for their funding costs. With the 10-year yield at 4.85%, refinancing is expensive, and if stocks keep wobbling investors may demand more extra yield from riskier companies, which would make borrowing harder and could slow hiring and investment.",
-      "watch": "A widening in credit spreads or a pause in new bond sales by companies.",
+      "title": "Why the dollar can bounce after stock selloffs",
+      "what": "An unusual pattern has shown up where the dollar rises right after sharp Wall Street selloffs, and one explanation is tied to how foreign investors in US stocks protect themselves against currency swings.",
+      "chain": "Foreign investors who own US stocks face two risks, stock prices and the dollar, so many hedge the currency part. When US stocks drop, the adjustments they make to those hedges can end up creating demand for dollars. That means a stock selloff can strengthen the dollar even without any change in US interest rates, which then tightens conditions for the rest of the world.",
+      "watch": "Whether the dollar jumps again after the next stock drop, which would confirm the pattern.",
       "note": [
-        "The big idea is that companies borrow from two places, banks and bond investors, and the mix matters for how fast stress spreads.",
-        "If firms simply borrow more of everything, they are exposed to both markets, and if they swap bank loans for bonds, they are more exposed to market mood.",
-        "The so-what is that a nervous market can tighten funding for companies even if banks are still lending.",
-        "Interview line: I'd watch credit spreads, because they show whether stock volatility is leaking into corporate funding."
+        "Big idea: the dollar can rise on stock selloffs for plumbing reasons, not only because investors flee to safety.",
+        "Why: foreign owners of US stocks manage currency risk, and their hedging adjustments can create dollar demand.",
+        "So what: in a selloff the dollar may act as a cushion for US assets from the viewpoint of a foreign buyer but a headwind for the rest of the world.",
+        "Interview line: the dollar's moves are partly driven by hedging flows, which is why it can rise when stocks fall."
       ]
     },
     {
-      "title": "Bowman says supervisors must act on what they know",
-      "what": "Fed Vice Chair for Supervision Michelle Bowman, speaking by video to a Brazil meeting of bank supervisors, said the Silicon Valley Bank failure was not about missing information, because supervisors saw its interest rate risk, concentrated uninsured deposits and weak liquidity planning. The failure, she said, came from not turning that information into timely action.",
-      "chain": "Interest rate risk is the danger of losing money on bonds when yields rise, and with the 10-year yield at 4.85% that risk is still very real. A supervision push for earlier action could make weaker banks hold more safety cushions, which could tighten lending a bit and matter for credit conditions.",
-      "watch": "Any follow-up from the Fed's independent review of SVB and any sign of stress at banks with large uninsured deposits.",
+      "title": "Beijing steps in to support Chinese markets",
+      "what": "Chinese chip stocks had their biggest ever one-day gains after state media signaled that top policymakers pledged liquidity support for markets. Separately, China's factories are growing profits again, but the gains are concentrated in AI-related manufacturing and exports while consumption and real estate investment lag.",
+      "chain": "If Beijing backs up the pledge with real liquidity, Chinese stocks can steady, which helps global risk appetite and the AI hardware trade. The two-speed economy matters because weak domestic demand means China relies on exports, which can add to trade tensions, and that links back to US tariff plans.",
+      "watch": "Whether the promised support turns into actual measures, and whether weak consumption and real estate data keep dragging on the broader economy.",
       "note": [
-        "The big idea is that the Fed's top bank supervisor wants regulators to act faster, not just collect more data.",
-        "The SVB lesson is that a bank with long bonds, uninsured deposits and thin liquidity is fragile when yields rise.",
-        "The so-what is that high yields today keep these old risks relevant, and stricter supervision could slow bank lending.",
-        "Interview line: SVB was a failure to act on known risks, not a failure to see them."
+        "Big idea: China is propping up its markets while its economy runs at two speeds, strong in AI-linked industry and weak at home.",
+        "Why: a state media signal can move stocks sharply because investors expect the government to back it up.",
+        "So what: Chinese chip stocks are part of the global AI trade, so their rebound adds to risk appetite elsewhere.",
+        "Interview line: China's growth leans on exports and AI manufacturing, so it's exposed to the tariff story."
       ]
     }
   ],
   "deep_dive": [
     {
-      "doc": 7,
-      "why_now": "The ECB's account of its October meeting shows how a central bank is reacting to the same energy shock hitting the US, and it explains why European rates matter for global markets.",
+      "doc": 8,
+      "why_now": "The ECB's October consumer survey is the freshest read on whether the oil shock is changing how euro area households think about prices, which is exactly what the ECB is trying to judge before its next decisions.",
       "key_points": [
-        "Energy pressures intensified after the September meeting, with oil and gas prices moving above the ECB staff's adverse scenario, and diesel refining margins and Gulf freight rates reaching historic highs.",
-        "Inflation fixings, which are market bets on future inflation, peaked at 4.5% for January 2027 and stayed above 2.5% until the first quarter of 2028.",
-        "Even so, expectations for ECB rates stayed near September levels, because markets understood that rates would not move in lockstep with energy costs. Pricing implied a peak deposit rate around 3%, which is higher than the one more hike that surveyed analysts expected.",
-        "Longer euro area rates rose mainly because of higher real term premia, which reflect uncertainty and a growing supply of public and private debt, and stocks and bonds have started moving together more often, so bonds protect portfolios less.",
-        "Markets are also worried about fiscal dynamics and the increasingly debt-financed AI investment cycle."
+        "Perceived inflation over the past 12 months rose to 4.1% from 3.6%, the highest since July 2024.",
+        "Expected inflation over the next 12 months rose to 3.5% from 3.1%, though that is still below the 4.0% reached when the conflict began in March.",
+        "Expectations for inflation five years ahead stayed at 2.5% for a third month, the highest level since the series started in August 2022.",
+        "Expected income growth fell to 0.6% from 1.1%, so households see prices rising faster than their pay.",
+        "People in the bottom income group report higher inflation perceptions than those in the top group, which means the shock hits poorer households hardest."
       ],
-      "market_angle": "Euro area short-term rates are sensitive to oil and gas news, so higher energy prices push them up and a peace deal would pull them down. Long yields on both sides of the Atlantic are being driven by debt supply and uncertainty, which means they can rise even when central banks hold still. Stocks and bonds falling together would hurt balanced portfolios.",
-      "trade_idea": "A desk might receive euro short-term swap rates, betting that markets price more ECB hikes than the one that surveyed analysts expect. The main risk is that oil and gas keep rising, which would force the ECB to turn more hawkish and make the trade lose money.",
+      "market_angle": "Sticky inflation expectations support higher euro area yields because the ECB may need to keep policy tighter, which can lift the euro, while weak income expectations point to softer consumer spending and could pressure euro area stocks that depend on households.",
+      "trade_idea": "A desk might short euro area government bond futures, betting yields rise if expectations keep climbing. The main risk is that oil falls or a US-Iran peace deal emerges, which would cool inflation expectations quickly and send yields lower.",
       "note": [
-        "The big idea is that the ECB sees the energy shock as serious, but it has signaled it won't automatically hike every time energy prices rise.",
-        "Markets are pricing about three more hikes at one point, while analysts only expect one, so there is a gap between traders and forecasters.",
-        "Long yields are rising for reasons beyond central banks, namely uncertainty and a growing pile of debt to be sold.",
-        "Interview line: when stocks and bonds fall together, bonds stop being a safe hedge, which is a big problem for portfolios."
+        "Big idea: euro area households expect inflation of 3.5% next year but only 0.6% income growth, so they feel squeezed.",
+        "Why: the ECB watches expectations closely, because they can make inflation self-reinforcing through wage demands and price setting.",
+        "So what: the five-year figure staying at a record 2.5% means the ECB can't treat this as a one-off.",
+        "Interview line: the ECB is trying to keep the energy shock from becoming a wage-price spiral, and expectations data is how it checks."
       ]
     },
     {
       "doc": 5,
-      "why_now": "With oil driving inflation higher, this San Francisco Fed letter helps explain why Fed moves may not push long-term yields the way many people expect.",
+      "why_now": "Markets are pricing a Fed hike while inflation is driven by oil supply, and this San Francisco Fed note explains why Fed moves may have a smaller effect on long-term yields in that setting.",
       "key_points": [
-        "The Fed tends to react more aggressively to demand-driven inflation, where prices and quantities rise together, than to supply-driven inflation, where prices rise while quantities fall.",
-        "The authors look at policy surprises, meaning the unexpected part of Fed announcements, and how they change forward rates, which are what the market expects interest rates to be in the future.",
-        "Surprises mostly pass through to longer-horizon forward rates when inflation is demand-driven.",
-        "Supply-driven inflation tends to follow food and energy prices, so with supply pressures back, Fed surprises are likely to have a smaller effect on longer-horizon yields."
+        "The Fed tends to respond more aggressively to inflation driven by demand than to inflation driven by supply, because supply shocks pit its jobs goal against its price goal.",
+        "The research finds that Fed surprises mainly pass through to longer-term interest rate expectations during demand-driven inflation periods.",
+        "Inflation is labeled demand-driven when prices and quantities move the same way, and supply-driven when they move in opposite directions.",
+        "Because supply-driven inflation has become more common recently, Fed surprises are likely to have a smaller effect on longer-term yields."
       ],
-      "market_angle": "Short-term Treasury yields should still react to Fed news, but 10-year yields may respond less and instead follow term premium, debt supply and inflation worries. So a hawkish Fed surprise could lift 2-year yields more than 10-year yields, which flattens the curve.",
-      "trade_idea": "A desk might position for 2-year yields to move more than 10-year yields around Fed news, which is a curve flattener if the Fed turns hawkish. The main risk is that rising debt supply or inflation fears push long yields higher on their own and steepen the curve instead.",
+      "market_angle": "If the Fed hikes into a supply shock, short-term yields should react more than long-term yields, which flattens the curve. Long-term yields may be driven more by inflation worries and government borrowing, as the 5.29% reading at the long end suggests.",
+      "trade_idea": "A desk might consider a curve flattener, betting that short-term yields rise more than long-term yields if the Fed hikes. The main risk is that long-term yields keep rising on inflation and borrowing worries, which would make the long end move as much as the short end.",
       "note": [
-        "The big idea is that where inflation comes from changes how much the Fed's moves matter for long-term interest rates.",
-        "Demand inflation means too much spending, and the Fed's response travels through the whole yield curve, while supply inflation like an oil shock gives the Fed a messier choice and a weaker effect on long yields.",
-        "The so-what is that mortgage rates, which follow long yields, may not move as much as people expect even if the Fed acts.",
-        "Interview line: this oil shock is a supply shock, so I'd expect the front end of the curve to react more to the Fed than the 10-year does."
+        "Big idea: the same Fed move can have different effects on long-term yields depending on whether inflation comes from demand or supply.",
+        "Why: markets expect the Fed to be less aggressive against supply shocks, so a surprise matters less for the long-run path of rates.",
+        "So what: today's inflation is partly an oil supply story, so a Fed hike may lift the front end more than the long end.",
+        "Interview line: not all inflation is the same, and the cause changes how markets expect the Fed to respond."
       ]
     }
   ],
   "watch_next": [
     {
-      "when": "Next Fed meeting",
-      "event": "The Fed's rate decision and the debate over whether to hike",
-      "why": "Inflation at 3.8% against a 3.875% policy rate has people, including a CNBC commentator writing about Warsh, asking whether the next move should be up."
+      "when": "This weekend",
+      "event": "OPEC+ policy meeting on 2027 output",
+      "why": "A decision to add supply could pull oil lower and ease inflation worries, while holding back supply would support prices."
+    },
+    {
+      "when": "December",
+      "event": "FOMC meeting, with traders expecting a 25 basis point hike",
+      "why": "The Fed's decision will show whether it treats the oil shock as temporary or something it must fight, which drives yields and the dollar."
+    },
+    {
+      "when": "Coming days",
+      "event": "Nvidia's Jensen Huang heads to Capitol Hill",
+      "why": "Clarity on US policy toward Nvidia and China could decide whether the AI rebound holds."
     },
     {
       "when": "Coming weeks",
-      "event": "Bank of Japan rate hike signal",
-      "why": "The BOJ chief signaled a near-term hike, and a hike could help the yen, which is weak at 159.26 per dollar."
+      "event": "New US tariffs on 14 trading partners",
+      "why": "Tariffs can push prices higher and pressure trade partners to sign deals, which affects both inflation and the dollar."
     },
     {
-      "when": "Ongoing",
-      "event": "US-Iran peace talks",
-      "why": "The ECB's account says the odds of a deal by the end of 2026 are the lowest since the war began, and a deal would likely pull oil down quickly."
-    },
-    {
-      "when": "Ongoing",
-      "event": "Nvidia, Huang and the administration's stance on China",
-      "why": "Nvidia is a huge weight in the index, and unclear news about the DOJ and China keeps AI stocks volatile."
+      "when": "Near term",
+      "event": "Bank of Japan rate hike signaled by its chief",
+      "why": "A hike would narrow the gap with US rates and could finally ease pressure on the yen, which has been hovering near 159 per dollar."
     }
   ],
   "terms": [
     {
-      "term": "PCE price index",
-      "def": "It's the Fed's favorite inflation gauge, like a grocery receipt that tracks how much the typical family's basket of spending costs compared with a year ago."
-    },
-    {
-      "term": "Real interest rate",
-      "def": "It's the interest rate minus inflation, like a savings account paying 4% when prices rise 3.8%, which leaves you with almost no real gain."
+      "term": "Correction",
+      "def": "A drop of about 10% from a recent high in a market, like a sharp but normal cooling off after a long run uphill."
     },
     {
       "term": "VIX",
-      "def": "It's a fear gauge that shows how much traders expect stocks to swing, like an insurance price that rises when storm clouds gather."
+      "def": "A gauge of how much investors expect stocks to swing, like the price of insurance that rises when people feel nervous."
     },
     {
-      "term": "Term premium",
-      "def": "It's the extra yield investors ask for to lock money in a long bond, like a bonus you want for lending to someone for ten years instead of one."
+      "term": "Interest-rate differential",
+      "def": "The gap between rates in two countries, which pulls money toward the higher one like water flowing downhill."
     },
     {
-      "term": "Supply shock",
-      "def": "It's a sudden drop in how much of something is available, like a flood that wipes out a harvest and pushes up the price of bread."
+      "term": "Inflation expectations",
+      "def": "What people believe prices will do in the future, which matters because it shapes the raises workers ask for and the prices firms set."
     },
     {
-      "term": "Credit spread",
-      "def": "It's the extra yield a riskier borrower pays over the government, like the higher rate a friend with a shaky job would pay on a car loan."
+      "term": "Supply-driven inflation",
+      "def": "Price increases caused by something limiting supply, like a storm shutting a bakery and making bread pricier, which is harder for a central bank to fix than too much demand."
+    },
+    {
+      "term": "Capitulation",
+      "def": "A moment when frustrated investors finally give up and sell, like fans leaving a stadium in the last minutes, which some traders see as a sign the selling is nearly done."
     }
   ],
   "cross_asset_notes": [
-    "The big idea of the day is that markets are caught between an AI trade that is wobbling and an energy-driven inflation problem that won't go away.",
-    "Oil rose 1.99% to 83.68, which keeps inflation high, so the Fed can't promise cuts, and that is why the hope for 2027 earnings looks fragile.",
-    "The 10-year yield fell 6 basis points to 4.85% and the dollar slipped, but the headlines don't explain why, so it would be a mistake to read it as a clear sign that inflation fears are easing.",
-    "The VIX rose 7.32% to 28.29 even though the S&P 500 only fell 0.25%, which shows that traders are nervous beneath a calm-looking index.",
-    "Interview line: oil is pushing inflation up while AI doubts hit stocks, so rates stay high and the biggest stocks have less cushion."
+    "Big idea: stocks, gold and risk-sensitive currencies rose because AI fears eased, but bond yields and the dollar rose too because traders expect a Fed hike, so the day was risk-on and hawkish at the same time.",
+    "Why the 10-year yield rose 9 basis points to 4.94%: inflation is 3.8%, the economy is strong after a GDP revision to 4.3%, and traders are leaning toward a 25 basis point hike next month.",
+    "Why the dollar index rose 0.33% to 104.01: higher US yields make dollars more rewarding to hold, and that outweighed the usual pattern where the dollar falls when fear fades.",
+    "Why gold jumped 3.75% despite a stronger dollar: investors had been selling it to raise cash during the selloff, and as that pressure eased it bounced back, though the move could fade if it was mostly a snap back.",
+    "So what: the rally has to survive higher borrowing costs, so the key line to say in a conversation is that this week was AI relief, but the 10-year yield near 4.94% is what could end it."
   ],
-  "take": "Inflation is 3.8%, the Fed's rate is 3.875%, oil is climbing and the 10-year Treasury yield sits at 4.85%. Would you buy or sell the 10-year Treasury here, and what would prove you wrong?",
-  "read_ids": [1, 0, 2, 4]
+  "take": "The 10-year Treasury yield rose 9 basis points to 4.94% while stocks rallied. Would you buy or sell the 10-year here, and what single piece of data or event in the next few weeks would prove you wrong?",
+  "read_ids": [16, 37, 42, 51]
 }

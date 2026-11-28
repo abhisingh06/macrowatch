@@ -678,5 +678,233 @@
     "items": [],
     "explain": "The ECB said higher real term premia drove most of the rise, while higher expected short-term rates and inflation explained only about a third. That's why long yields can climb even when central banks hold still.",
     "date": "2026-11-25"
+  },
+  {
+    "type": "mc",
+    "topic": "rates",
+    "q": "The S&P 500 rose 1.6% while the 10-year yield rose 9 basis points to 4.94%. What best explains the rise in the yield?",
+    "options": [
+      "Traders leaned toward a 25 basis point Fed hike next month",
+      "Investors sold bonds to raise cash for buying AI stocks",
+      "Foreign buyers stepped away from Treasuries after the GDP news",
+      "Oil prices jumped and pushed expected inflation sharply higher"
+    ],
+    "answer": 0,
+    "items": [],
+    "explain": "Inflation is 3.8% and GDP was revised up to 4.3%, so traders expect a Fed hike. Oil actually fell 0.72% on the day.",
+    "date": "2026-11-27"
+  },
+  {
+    "type": "mc",
+    "topic": "fx",
+    "q": "The dollar index rose 0.33% to 104.01 even though fear in markets fell. What best explains that?",
+    "options": [
+      "The yen collapsed against the dollar and dragged the index higher",
+      "Strong Black Friday sales drew in foreign money to US retailers",
+      "Investors rushed to the dollar as a safe haven after the AI selloff",
+      "Higher US yields and hike bets made dollars more rewarding to hold"
+    ],
+    "answer": 3,
+    "items": [],
+    "explain": "Fear was falling, so a safe-haven bid doesn't fit. The yen barely moved, with USD/JPY up only 0.04%, so rate differentials were the driver.",
+    "date": "2026-11-27"
+  },
+  {
+    "type": "tf",
+    "topic": "commodities",
+    "q": "Gold jumped 3.75% mainly because a stronger dollar and higher yields made it more attractive to hold.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "items": [],
+    "explain": "A stronger dollar and higher yields normally hurt gold. It rose because forced selling to raise cash eased and the AI rebound brought risk appetite back.",
+    "date": "2026-11-27"
+  },
+  {
+    "type": "updown",
+    "topic": "fx",
+    "q": "Based on the hedging story in today's debrief, if Wall Street has another sharp selloff, what would the dollar probably do?",
+    "options": [
+      "Up",
+      "Down"
+    ],
+    "answer": 0,
+    "items": [],
+    "explain": "The obvious guess is that the dollar falls with stocks, but foreign owners of US stocks adjust their currency hedges when stocks drop, which can create demand for dollars.",
+    "date": "2026-11-27"
+  },
+  {
+    "type": "updown",
+    "topic": "fx",
+    "q": "The BOJ chief signaled a near-term rate hike, and USD/JPY sits at 159.28. If the BOJ hikes, what would USD/JPY probably do?",
+    "options": [
+      "Up",
+      "Down"
+    ],
+    "answer": 1,
+    "items": [],
+    "explain": "A hike narrows the gap between Japanese and US rates, so holding yen becomes more attractive and the pair tends to fall.",
+    "date": "2026-11-27"
+  },
+  {
+    "type": "updown",
+    "topic": "rates",
+    "q": "Suppose the Fed hikes 25 basis points into an oil-driven inflation shock. What would the gap between the 10-year and 2-year yield probably do?",
+    "options": [
+      "Up",
+      "Down"
+    ],
+    "answer": 1,
+    "items": [],
+    "explain": "The SF Fed research says policy surprises move long-term yields less when inflation is supply-driven, so short-term yields rise more and the gap narrows, which is a flatter curve.",
+    "date": "2026-11-27"
+  },
+  {
+    "type": "order",
+    "topic": "rates",
+    "q": "Put today's rate chain in order, from the starting cause to the final effect.",
+    "options": [],
+    "answer": 0,
+    "items": [
+      "Oil shock keeps inflation at 3.8%",
+      "Strong GDP makes a Fed hike look affordable",
+      "Traders price a 25 basis point hike",
+      "10-year yield rises 9 basis points to 4.94%"
+    ],
+    "explain": "Hot prices and strong growth shape hike bets, and those bets push up what bond buyers demand for lending to the government.",
+    "date": "2026-11-27"
+  },
+  {
+    "type": "order",
+    "topic": "central_banks",
+    "q": "Put the ECB's worry about expectations in order, from first step to last.",
+    "options": [],
+    "answer": 0,
+    "items": [
+      "Households perceive inflation at 4.1%",
+      "Workers ask for bigger raises",
+      "Firms raise prices to cover higher pay",
+      "ECB feels pressure to keep policy tighter"
+    ],
+    "explain": "The ECB watches expectations because people who expect inflation act in ways that make it stick, which could turn an oil shock into lasting inflation.",
+    "date": "2026-11-27"
+  },
+  {
+    "type": "tf",
+    "topic": "central_banks",
+    "q": "In the ECB's October survey, five-year inflation expectations rose to a new high of 2.5%.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "items": [],
+    "explain": "The 2.5% reading was unchanged for the third month in a row. It is the highest since the series began, but it did not rise in October.",
+    "date": "2026-11-27"
+  },
+  {
+    "type": "tf",
+    "topic": "stocks",
+    "q": "Even after a strong week, Nvidia is still down nearly 28% for November, so the rebound repaired only part of the damage.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "items": [],
+    "explain": "Nvidia soared this week but is still down nearly 28% for November and 21% for 2026, so the bounce looks more like a pause in selling than a full repair.",
+    "date": "2026-11-27"
+  },
+  {
+    "type": "mc",
+    "topic": "storylines",
+    "q": "The VIX fell 11.16% to 23.81 and stocks surged. Why does that not prove the AI trade jitters are over?",
+    "options": [
+      "The VIX only measures bond market fear and not stock market fear",
+      "AI companies reported weaker profits that same day than expected",
+      "Rising yields always erase a stock rally within a single week",
+      "The rally came from a shift in mood while Nvidia is still down 28%"
+    ],
+    "answer": 3,
+    "items": [],
+    "explain": "Nothing about AI profits changed. The rebound happened as worries paused, so it can reverse if doubts about spending or valuations return.",
+    "date": "2026-11-27"
+  },
+  {
+    "type": "mc",
+    "topic": "central_banks",
+    "q": "Why does the San Francisco Fed research matter for a Fed hike during this oil-driven inflation?",
+    "options": [
+      "Hikes in supply shocks tend to move long-term yields much less",
+      "The research shows oil prices cannot affect headline inflation at all",
+      "The Fed ignores supply shocks so a hike is very unlikely to happen",
+      "Hikes in supply shocks always push long-term yields up even more"
+    ],
+    "answer": 0,
+    "items": [],
+    "explain": "The finding is that Fed surprises mainly pass through to long-term yields in demand-driven episodes. With supply-driven inflation more common, long-term yields may be driven more by inflation and borrowing worries.",
+    "date": "2026-11-27"
+  },
+  {
+    "type": "mc",
+    "topic": "commodities",
+    "q": "WTI fell 0.72% to $83.08 on Friday, yet Brent still posted its first weekly gain in November. What fits both facts?",
+    "options": [
+      "Gold's jump pulled money out of oil on Friday and the week's gain came from stocks",
+      "A strong dollar and OPEC+ output hopes weighed on Friday while tanker attacks lifted the week",
+      "Tanker attacks ended on Friday and OPEC+ had already cut supply for 2027 earlier",
+      "Weaker US growth cut oil demand on Friday while a peace deal lifted prices all week"
+    ],
+    "answer": 1,
+    "items": [],
+    "explain": "Dollar strength and the chance of higher OPEC+ output pulled prices down on the day, but supply fears from tanker attacks had lifted them earlier in the week.",
+    "date": "2026-11-27"
+  },
+  {
+    "type": "mc",
+    "topic": "terms",
+    "q": "The VIX fell 11.16% to 23.81. What does that move tell you?",
+    "options": [
+      "Investors paid less for protection but fear stayed above calm levels",
+      "Investors saw the S&P 500 fall and bought insurance against it",
+      "Investors expect almost no stock swings at all over the next month",
+      "Investors paid more for protection as bond yields climbed higher"
+    ],
+    "answer": 0,
+    "items": [],
+    "explain": "The VIX is the price of protection, so a drop means less fear. At 23.81 it still shows some nervousness, and the S&P 500 rose on the day.",
+    "date": "2026-11-27"
+  },
+  {
+    "type": "mc",
+    "topic": "map",
+    "q": "Washington planned new tariffs on 14 trading partners. How does that connect to the Fed hike story?",
+    "options": [
+      "Tariffs can push prices up at home, which strengthens the hike case",
+      "Tariffs cut prices at home, which weakens the case for hiking",
+      "Tariffs lower US yields because partners sell fewer goods to America",
+      "Tariffs matter only for China and have no link to US inflation"
+    ],
+    "answer": 0,
+    "items": [],
+    "explain": "Tariffs raise the cost of imported goods, which can add to inflation that is already 3.8%, and that supports the argument for the Fed to hike.",
+    "date": "2026-11-27"
+  },
+  {
+    "type": "mc",
+    "topic": "stocks",
+    "q": "The Nasdaq rose 2.31% while the Dow rose 1.18%. What best explains the gap?",
+    "options": [
+      "The Dow holds more oil firms and oil rose strongly on the day",
+      "Higher yields help growth stocks more than they help industrial firms",
+      "Black Friday sales lifted the Nasdaq while hurting every Dow company",
+      "AI-linked giants carry heavy weight and led the relief rebound"
+    ],
+    "answer": 3,
+    "items": [],
+    "explain": "The AI trade that broke down in November got relief, and these tech giants carry so much index weight that their rebound lifts the Nasdaq the most. Higher yields usually hurt growth stocks, and oil fell on the day.",
+    "date": "2026-11-27"
   }
 ]

@@ -1,31 +1,31 @@
 [
   {
     "name": "Central banks vs energy inflation",
-    "backstory": "The Iran war cut oil supply and pushed up [[headline inflation]], so central banks have been trying to decide whether the price jump fades on its own or leaks into wages and services. Euro area inflation reached 4%, the Bank of England hiked to 4%, and the Fed sits at 3.875%.",
-    "today": "The PCE price index rose 3.8% from a year earlier in October, matching forecasts, and third quarter [[GDP]] was revised up to 4.3%, so the economy is strong while prices are hot. That leaves the Fed's rate barely above inflation, and a CNBC commentary argues that Kevin Warsh should hike instead of betting on a productivity boom the way Greenspan did. The ECB's account of its October meeting adds that energy prices pushed oil and gas above its own adverse scenario, and markets at one point priced in more than four extra hikes before settling on just under three. Households are feeling it too, with even toys getting pricier and holiday budgets shrinking.",
+    "backstory": "The Iran war cut oil supply and pushed up [[headline inflation]], so central banks have been trying to work out whether the price jump fades by itself or leaks into wages and services. Euro area inflation reached 4%, the Bank of England hiked to 4%, and the Fed sits at 3.875%, which is barely above US inflation.",
+    "today": "Traders are now leaning toward a 25 basis point Fed hike next month, because the Fed's preferred inflation gauge rose 3.8% in October and third-quarter GDP was revised up to 4.3%, which means the economy is strong while prices are hot. President Trump called the GDP revision a record setting error that should be investigated, which shows how politically sensitive strong data has become when it argues for higher rates. In Europe, the ECB's consumer survey showed people perceive inflation at 4.1%, the highest since July 2024, and Spain's Pablo Hern\u00e1ndez de Cos won the backing needed to succeed Christine Lagarde next year. At home, shoppers are hunting for value, toys are getting pricier, and the average new car hit a record $51,109 in October.",
     "first_seen": "2026-11-09",
-    "last_seen": "2026-11-25"
-  },
-  {
-    "name": "Iran war and oil",
-    "backstory": "The conflict began in early 2026 and cut global oil output by 12 million barrels a day in March, but prices stayed below records because stored oil filled the gap. The IEA says the Hormuz shock lifted the world's oil and gas import bill 25% to $1.6 trillion, and pump prices recently fell to their lowest level since March.",
-    "today": "WTI crude rose 1.99% to 83.68, its second straight gain, because tension in the Middle East outweighed expectations for a global supply surplus. The ECB's account of its October meeting says freight rates from the Gulf to Europe hit record highs, diesel [[crack spreads]] sit above the levels after Russia's 2022 invasion, and the odds of a US-Iran peace deal by the end of 2026 were the lowest since the war began. Meanwhile the UAE says it expects 7% to 8% growth next year as the IMF lifts its forecast, which shows that the Gulf is coping better than the headlines might suggest.",
-    "first_seen": "2026-11-09",
-    "last_seen": "2026-11-25"
+    "last_seen": "2026-11-27"
   },
   {
     "name": "AI trade jitters",
-    "backstory": "The biggest AI-linked tech firms hold up so much of the S&P 500 that doubts about AI hit the whole market. Nvidia's CEO left on Nov 12, a selloff followed, official papers warned that AI [[valuation]]s look stretched, and the index fell four straight weeks. Then Nvidia's board approved Huang's return and the Nasdaq jumped 6.51% on Monday.",
-    "today": "Nvidia gave back a big chunk of Monday's rally, and according to Vanda Research the gains of retail investors who bought the dip last week are now nearly all gone. Oracle and CoreWeave sank early and then bounced, so the day ended less ugly than it began. Vance said he was assured Huang was not under a DOJ investigation, while a CNBC column says Treasury Secretary Bessent's about-face on Huang shows how unsettled the administration's stance on Nvidia and China is. The ECB's account of its October meeting also lists worries about the increasingly debt-financed AI investment cycle.",
+    "backstory": "The biggest AI-linked tech firms make up so much of the S&P 500 that doubts about AI hit the whole market. After Nvidia's CEO left on Nov 12, stocks sold off, official papers warned that AI [[valuation]]s look stretched, and the index fell four straight weeks before Nvidia's board approved Jensen Huang's return and the Nasdaq jumped 6.51% on Monday.",
+    "today": "Tech led a broad rebound, with the Nasdaq up 2.31%, and headlines described the best week in over a year for the S&P 500 and Nasdaq, as investors took a break from AI jitters. Even so, Nvidia is still down nearly 28% for November and 21% for 2026, so the week's gains only repaired part of the damage. Huang is also heading to Capitol Hill, which shows how political the company's China and chip story has become. The ECB's latest financial stability review also lists AI adoption and the way AI spending is increasingly paid for with debt as things to watch.",
     "first_seen": "2026-11-09",
-    "last_seen": "2026-11-25"
+    "last_seen": "2026-11-27"
   },
   {
     "name": "US midterms and the dollar",
-    "backstory": "The midterms produced what headlines call a Democratic rout, and markets asked how divided government might change tariffs, spending and the dollar. The dollar then had its biggest rally since 2024, with headlines crediting hawkish Fed bets and not the election, and it hit a 20-month high, its strongest since March 2025.",
-    "today": "The dollar index slipped 0.13% to 103.67 as Treasury yields fell, and commentary now suggests the dollar may be peaking. The US also announced plans for new tariffs on 14 trading partners, including China and the EU, and the Swiss franc gained as a safe haven. Tuesday's consumer confidence reading jumped to 103.3 after the Democratic wins, though inflation worries persist.",
+    "backstory": "After the midterms produced what headlines call a Democratic rout, investors asked how divided government might change tariffs, spending and the dollar. The dollar then had its biggest rally since 2024 and hit a 20-month high, though headlines credited hawkish Fed bets and not the election.",
+    "today": "The dollar index rose 0.33% to 104.01 as Treasury yields climbed and traders priced in a possible 25 basis point Fed hike next month, and it is on track for its longest monthly winning streak in two years. Washington also planned a fresh round of tariffs on 14 trading partners while offering lower rates to countries that sign trade deals, which keeps pressure on those partners. There is also a newer explanation going around for why the dollar tends to bounce after sharp stock selloffs, tied to how foreign owners of US stocks protect themselves against currency swings.",
     "first_seen": "2026-11-09",
-    "last_seen": "2026-11-25"
+    "last_seen": "2026-11-27"
+  },
+  {
+    "name": "Iran war and oil",
+    "backstory": "The conflict began in early 2026 and cut global oil output by 12 million barrels a day in March, but prices stayed below records because stored oil filled the gap. The IEA says the Hormuz shock lifted the world's oil and gas import bill 25% to $1.6 trillion.",
+    "today": "WTI fell 0.72% to $83.08 as a stronger dollar and the possibility of more OPEC+ output offset worries about supply, with the market waiting for the weekend OPEC+ meeting on 2027 policy. Brent still notched its first weekly gain in November after attacks on tankers, so the supply risk has not gone away. Fuel costs are hurting businesses too, as budget airline Norse Atlantic filed for bankruptcy after failing to secure funding while fuel costs soared.",
+    "first_seen": "2026-11-09",
+    "last_seen": "2026-11-27"
   },
   {
     "name": "Yen defense",
